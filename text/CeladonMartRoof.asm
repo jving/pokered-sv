@@ -1,21 +1,21 @@
 _CeladonMartRoofLittleGirlGiveHerWhichDrinkText::
-	text "Give her which"
-	line "drink?"
+	text "Ge henne vilken"
+	line "dryck?"
 	done
 
 _CeladonMartRoofLittleGirlYayFreshWaterText::
-	text "Yay!"
+	text "Jippie!"
 
-	para "FRESH WATER!"
+	para "FÄRSKVATTEN!"
 
-	para "Thank you!"
+	para "Tack så mycket!"
 
-	para "You can have this"
-	line "from me!@"
+	para "Du kan få den"
+	line "här av mig!@"
 	text_end
 
 _CeladonMartRoofLittleGirlReceivedTM13Text::
-	text "<PLAYER> received"
+	text "<PLAYER> mottog"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
@@ -26,26 +26,26 @@ _CeladonMartRoofLittleGirlTM13ExplanationText::
 
 	para "@"
 	text_ram wStringBuffer
-	text " contains"
-	line "ICE BEAM!"
+	text " innehåller"
+	line "ISSTRÅLE!"
 
-	para "It can freeze the"
-	line "target sometimes!@"
+	para "Den kan frysa"
+	line "målet ibland!@"
 	text_end
 
 _CeladonMartRoofLittleGirlYaySodaPopText::
-	text "Yay!"
+	text "Jippie!"
 
-	para "SODA POP!"
+	para "LÄSK!"
 
-	para "Thank you!"
+	para "Tack så mycket!"
 
-	para "You can have this"
-	line "from me!@"
+	para "Du kan få den"
+	line "här av mig!@"
 	text_end
 
 _CeladonMartRoofLittleGirlReceivedTM48Text::
-	text "<PLAYER> received"
+	text "<PLAYER> mottog"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
@@ -56,97 +56,98 @@ _CeladonMartRoofLittleGirlTM48ExplanationText::
 
 	para "@"
 	text_ram wStringBuffer
-	text " contains"
-	line "ROCK SLIDE!"
+	text " innehåller"
+	line "STENSKRED!"
 
-	para "It can spook the"
-	line "target sometimes!@"
+	para "Den kan skrämma"
+	line "målet ibland!@"
 	text_end
 
 _CeladonMartRoofLittleGirlYayLemonadeText::
-	text "Yay!"
+	text "Jippie!"
 
-	para "LEMONADE!"
+	para "LEMONAD!"
 
-	para "Thank you!"
+	para "Tack så mycket!"
 
-	para "You can have this"
-	line "from me!@"
+	para "Du kan få den"
+	line "här av mig!@"
 	text_end
 
 _CeladonMartRoofLittleGirlReceivedTM49Text::
-	text "<PLAYER> received"
+	text "<PLAYER> mottog"
 	line "TM49!@"
 	text_end
 
 _CeladonMartRoofLittleGirlTM49ExplanationText::
 	text_start
 
-	para "TM49 contains"
-	line "TRI ATTACK!@"
+	para "TM49 innehåller"
+	line "TRI-ATTACK!@"
 	text_end
 
 _CeladonMartRoofLittleGirlNoRoomText::
-	text "You don't have"
-	line "space for this!@"
+	text "Du har inte plats"
+	line "för den här!@"
 	text_end
 
 _CeladonMartRoofLittleGirlImNotThirstyText::
-	text "No thank you!"
-	line "I'm not thirsty"
-	cont "after all!@"
+	text "Nej tack! Jag är"
+	line "inte törstig"
+	cont "trots allt!@"
 	text_end
 
 _CeladonMartRoofSuperNerdText::
-	text "My sister is a"
-	line "trainer, believe"
-	cont "it or not."
+	text "Min syster är en"
+	line "tränare, tro det"
+	cont "eller ej."
 
-	para "But, she's so"
-	line "immature, she"
-	cont "drives me nuts!"
+	para "Men, hon är så"
+	line "omogen att hon"
+	cont "gör mig galen!"
 	done
 
 _CeladonMartRoofLittleGirlImThirstyText::
-	text "I'm thirsty!"
-	line "I want something"
-	cont "to drink!"
+	text "Jag är törstig!"
+	line "Jag vill ha något"
+	cont "att dricka!"
 	done
 
 _CeladonMartRoofLittleGirlGiveHerADrinkText::
-	text "I'm thirsty!"
-	line "I want something"
-	cont "to drink!"
+	text "Jag är törstig!"
+	line "Jag vill ha något"
+	cont "att dricka!"
 
-	para "Give her a drink?"
+	para "Ge henne en dryck?"
 	done
 
 _CeladonMartRoofCurrentFloorSignText::
-	text "ROOFTOP SQUARE:"
-	line "VENDING MACHINES"
+	text "TAKPLAZA:"
+	line "VARUAUTOMATER"
 	done
 
 _VendingMachineText1::
-	text "A vending machine!"
-	line "Here's the menu!"
+	text "En varuautomat!"
+	line "Här är menyn!"
 	prompt
 
 _VendingMachineText4::
-	text "Oops, not enough"
-	line "money!"
+	text "Hoppsan, inte"
+	line "tillräckligt med"
+	cont "pengar!"
 	done
 
 _VendingMachineText5::
 	text_ram wStringBuffer
 	text_start
-	line "popped out!"
+	line "kom ut!"
 	done
 
 _VendingMachineText6::
-	text "There's no more"
-	line "room for stuff!"
+	text "Det finns inte mer"
+	line "plats för saker!"
 	done
 
 _VendingMachineText7::
-	text "Not thirsty!"
+	text "Inte törstig!"
 	done

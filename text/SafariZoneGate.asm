@@ -1,97 +1,99 @@
 _SafariZoneGateSafariZoneWorker1Text::
-	text "Welcome to the"
+	text "Välkommen till"
 	line "SAFARI ZONE!"
 	done
 
 _SafariZoneGateSafariZoneWorker1WouldYouLikeToJoinText::
-	text "For just ¥500,"
-	line "you can catch all"
-	cont "the #MON you"
-	cont "want in the park!"
+	text "För bara ¥500 kan"
+	line "du fånga alla"
+	cont "#MON du vill i"
+	cont "parken!"
 
-	para "Would you like to"
-	line "join the hunt?@"
+	para "Vill du delta i"
+	line "jakten?@"
 	text_end
 
 _SafariZoneGateSafariZoneWorker1ThatllBe500PleaseText::
-	text "That'll be ¥500"
-	line "please!"
+	text "Det blir ¥500,"
+	line "tack!"
 
-	para "We only use a"
-	line "special # BALL"
-	cont "here."
+	para "Vi använder bara en"
+	line "speciell # BALL"
+	cont "här."
 
-	para "<PLAYER> received"
-	line "30 SAFARI BALLs!@"
+	para "<PLAYER> mottog"
+	line "30 SAFARI BALLS!@"
 	text_end
 
 _SafariZoneGateSafariZoneWorker1CallYouOnThePAText::
 	text_start
 
-	para "We'll call you on"
-	line "the PA when you"
-	cont "run out of time"
-	cont "or SAFARI BALLs!"
+	para "Vi ropar upp dig"
+	line "i högtalarna när"
+	cont "din tid eller dina"
+	cont "SAFARI BALLS är"
+	cont "slut!"
 	done
 
 _SafariZoneGateSafariZoneWorker1PleaseComeAgainText::
-	text "OK! Please come"
-	line "again!"
+	text "OK! Välkommen åter!"
 	done
 
 _SafariZoneGateSafariZoneWorker1NotEnoughMoneyText::
-	text "Oops! Not enough"
-	line "money!"
+	text "Hoppsan! Inte"
+	line "tillräckligt med"
+	cont "pengar!"
 	done
 
 _SafariZoneGateSafariZoneWorker1LeavingEarlyText::
-	text "Leaving early?@"
+	text "Går du tidigt?@"
 	text_end
 
 _SafariZoneGateSafariZoneWorker1ReturnSafariBallsText::
-	text "Please return any"
-	line "SAFARI BALLs you"
-	cont "have left."
+	text "Vänligen lämna"
+	line "tillbaka eventuella"
+	cont "SAFARI BALLS du"
+	cont "har kvar."
 	done
 
 _SafariZoneGateSafariZoneWorker1GoodLuckText::
-	text "Good Luck!"
+	text "Lycka till!"
 	done
 
 _SafariZoneGateSafariZoneWorker1GoodHaulComeAgainText::
-	text "Did you get a"
-	line "good haul?"
-	cont "Come again!"
+	text "Fick du en bra"
+	line "fångst?"
+	cont "Välkommen åter!"
 	done
 
 _SafariZoneGateSafariZoneWorker2FirstTimeHereText::
-	text "Hi! Is it your"
-	line "first time here?"
+	text "Hej! Är det din"
+	line "första gång här?"
 	done
 
 _SafariZoneGateSafariZoneWorker2SafariZoneExplanationText::
-	text "SAFARI ZONE has 4"
-	line "zones in it."
+	text "SAFARI ZONE har 4"
+	line "zoner."
 
-	para "Each zone has"
-	line "different kinds"
-	cont "of #MON. Use"
-	cont "SAFARI BALLs to"
-	cont "catch them!"
+	para "Varje zon har"
+	line "olika sorters"
+	cont "#MON. Använd"
+	cont "SAFARI BALLS för"
+	cont "att fånga dem!"
 
-	para "When you run out"
-	line "of time or SAFARI"
-	cont "BALLs, it's game"
-	cont "over for you!"
+	para "När din tid eller"
+	line "dina SAFARI BALLS"
+	cont "är slut, är det"
+	cont "game over för dig!"
 
-	para "Before you go,"
-	line "open an unused"
-	cont "#MON BOX so"
-	cont "there's room for"
-	cont "new #MON!"
+	para "Innan du går,"
+	line "öppna en oanvänd"
+	cont "#MON-BOX så det"
+	cont "finns plats för"
+	cont "nya #MON!"
 	done
 
 _SafariZoneGateSafariZoneWorker2YoureARegularHereText::
-	text "Sorry, you're a"
-	line "regular here!"
+	text "Förlåt, du är en"
+	line "stammis här!"
 	done

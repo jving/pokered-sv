@@ -1,31 +1,31 @@
 _CeladonMart1FReceptionistText::
-	text "Hello! Welcome to"
-	line "CELADON DEPT."
-	cont "STORE."
+	text "Hej! Välkommen till"
+	line "CELADONS VARUHUS."
+	cont ""
 
-	para "The board on the"
-	line "right describes"
-	cont "the store layout."
+	para "Tavlan till höger"
+	line "beskriver butikens"
+	cont "layout."
 	done
 
 _CeladonMart1FDirectorySignText::
-	text "1F: SERVICE"
-	line "    COUNTER"
+	text "1F: KUNDTJÄNST"
+	line ""
 
-	para "2F: TRAINER'S"
-	line "    MARKET"
+	para "2F: TRÄNARBUTIKEN"
+	line ""
 
-	para "3F: TV GAME SHOP"
+	para "3F: TV-SPELSBUTIK"
 
-	para "4F: WISEMAN GIFTS"
+	para "4F: VISA MÄNS GÅVOR"
 
-	para "5F: DRUG STORE"
+	para "5F: APOTEKET"
 
-	para "ROOFTOP SQUARE:"
-	line "VENDING MACHINES"
+	para "TAKPLAZA:"
+	line "VARUAUTOMATER"
 	done
 
 _CeladonMart1FCurrentFloorSignText::
-	text "1F: SERVICE"
-	line "    COUNTER"
+	text "1F: KUNDTJÄNST"
+	line ""
 	done

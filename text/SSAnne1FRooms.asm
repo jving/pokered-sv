@@ -4,102 +4,106 @@ _SSAnne1FRoomsWigglytuffText::
 	text_end
 
 _SSAnne1FRoomsGentleman1BattleText::
-	text "I travel alone"
-	line "on my journeys!"
+	text "Jag reser ensam"
+	line "på mina färder!"
 
-	para "My #MON are my"
-	line "only friends!"
+	para "Mina #MON är mina"
+	line "enda vänner!"
 	done
 
 _SSAnne1FRoomsGentleman1EndBattleText::
-	text "My, my"
-	line "friends..."
+	text "Mina, mina"
+	line "vänner..."
 	prompt
 
 _SSAnne1FRoomsGentleman1AfterBattleText::
-	text "You should be"
-	line "nice to friends!"
+	text "Du borde vara"
+	line "snäll mot vänner!"
 	done
 
 _SSAnne1FRoomsGentleman2BattleText::
-	text "You pup! How dare"
-	line "you barge in!"
+	text "Din valp! Hur vågar"
+	line "du storma in!"
 	done
 
 _SSAnne1FRoomsGentleman2EndBattleText::
 	text "Humph!"
-	line "You rude child!"
+	line "Ditt oförskämda"
+	cont "barn!"
 	prompt
 
 _SSAnne1FRoomsGentleman2AfterBattleText::
-	text "I wish to be left"
-	line "alone! Get out!"
+	text "Jag vill bli"
+	line "lämnad ifred!"
+	cont "Gå ut!"
 	done
 
 _SSAnne1FRoomsYoungsterBattleText::
-	text "I love #MON!"
-	line "Do you?"
+	text "Jag älskar #MON!"
+	line "Gör du?"
 	done
 
 _SSAnne1FRoomsYoungsterEndBattleText::
-	text "Wow! "
-	line "You're great!"
+	text "Wow!"
+	line "Du är fantastisk!"
 	prompt
 
 _SSAnne1FRoomsYoungsterAfterBattleText::
-	text "Let me be your"
-	line "friend, OK?"
+	text "Låt mig vara din"
+	line "vän, OK?"
 
-	para "Then we can trade"
+	para "Då kan vi byta"
 	line "#MON!"
 	done
 
 _SSAnne1FRoomsCooltrainerFBattleText::
-	text "I collected these"
-	line "#MON from all"
-	cont "around the world!"
+	text "Jag har samlat"
+	line "dessa #MON från"
+	cont "hela världen!"
 	done
 
 _SSAnne1FRoomsCooltrainerFEndBattleText::
-	text "Oh no!"
-	line "I went around the"
-	cont "world for these!"
+	text "Åh nej!"
+	line "Jag reste runt"
+	cont "jorden för de här!"
 	prompt
 
 _SSAnne1FRoomsCooltrainerFAfterBattleText::
-	text "You hurt my poor"
-	line "worldly #MON!"
+	text "Du skadade mina"
+	line "stackars världsliga"
+	cont "#MON!"
 
-	para "I demand that you"
-	line "heal them at a"
+	para "Jag kräver att du"
+	line "helar dem på ett"
 	cont "#MON CENTER!"
 	done
 
 _SSAnne1FRoomsGirl1Text::
-	text "Waiter, I would"
-	line "like a cherry pie"
-	cont "please!"
+	text "Kypare, jag skulle"
+	line "vilja ha en körs-"
+	cont "bärspaj, tack!"
 	done
 
 _SSAnne1FRoomsMiddleAgedManText::
-	text "A cruise is so"
-	line "elegant yet cozy!"
+	text "En kryssning är"
+	line "så elegant men"
+	cont "ändå mysig!"
 	done
 
 _SSAnne1FRoomsLittleGirlText::
-	text "I always travel"
-	line "with WIGGLYTUFF!"
+	text "Jag reser alltid"
+	line "med WIGGLYTUFF!"
 	done
 
 _SSAnne1FRoomsGirl2Text::
-	text "We are cruising"
-	line "around the world."
+	text "Vi kryssar runt"
+	line "hela världen."
 	done
 
 _SSAnne1FRoomsGentleman3Text::
-	text "Ssh! I'm a GLOBAL"
-	line "POLICE agent!"
+	text "Ssh! Jag är en"
+	line "GLOBAL POLIS-agent!"
 
-	para "I'm on the trail"
-	line "of TEAM ROCKET!"
+	para "Jag är på spåren"
+	line "av TEAM ROCKET!"
 	done

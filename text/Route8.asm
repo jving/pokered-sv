@@ -1,154 +1,159 @@
 _Route8SuperNerd1BattleText::
-	text "You look good at"
-	line "#MON, but"
-	cont "how's your chem?"
+	text "Du verkar bra på"
+	line "#MON, men hur är"
+	cont "din kemi?"
 	done
 
 _Route8SuperNerd1EndBattleText::
-	text "Ow!"
-	line "Meltdown!"
+	text "Aj!"
+	line "Härdsmälta!"
 	prompt
 
 _Route8SuperNerd1AfterBattleText::
-	text "I am better at"
-	line "school than this!"
+	text "Jag är bättre i"
+	line "skolan än på det"
+	cont "här!"
 	done
 
 _Route8Gambler1BattleText::
-	text "All right! Let's"
-	line "roll the dice!"
+	text "Okej! Låt oss"
+	line "kasta tärningen!"
 	done
 
 _Route8Gambler1EndBattleText::
-	text "Drat!"
-	line "Came up short!"
+	text "Skit!"
+	line "Räckte inte till!"
 	prompt
 
 _Route8Gambler1AfterBattleText::
-	text "Lady Luck's not"
-	line "with me today!"
+	text "Fru Fortuna är"
+	line "inte med mig idag!"
 	done
 
 _Route8SuperNerd2BattleText::
-	text "You need strategy"
-	line "to win at this!"
+	text "Du behöver"
+	line "strategi för att"
+	cont "vinna det här!"
 	done
 
 _Route8SuperNerd2EndBattleText::
-	text "It's"
-	line "not logical!"
+	text "Det är"
+	line "inte logiskt!"
 	prompt
 
 _Route8SuperNerd2AfterBattleText::
-	text "Go with GRIMER"
-	line "first...and..."
-	cont "...and...then..."
+	text "Gå med GRIMER"
+	line "först... och..."
+	cont "...och... sen..."
 	done
 
 _Route8CooltrainerF1BattleText::
-	text "I like NIDORAN, so"
-	line "I collect them!"
+	text "Jag gillar NIDORAN,"
+	line "så jag samlar på"
+	cont "dem!"
 	done
 
 _Route8CooltrainerF1EndBattleText::
-	text "Why? Why??"
+	text "Varför? Varför??"
 	prompt
 
 _Route8CooltrainerF1AfterBattleText::
-	text "When #MON grow"
-	line "up they get ugly!"
-	cont "They shouldn't"
-	cont "evolve!"
+	text "När #MON växer"
+	line "upp blir de fula!"
+	cont "De borde inte"
+	cont "utvecklas!"
 	done
 
 _Route8SuperNerd3BattleText::
-	text "School is fun, but"
-	line "so are #MON."
+	text "Skolan är kul, men"
+	line "det är #MON också."
 	done
 
 _Route8SuperNerd3EndBattleText::
-	text "I'll"
-	line "stay with school."
+	text "Jag"
+	line "håller mig till"
+	cont "skolan."
 	prompt
 
 _Route8SuperNerd3AfterBattleText::
-	text "We're stuck here"
-	line "because of the"
-	cont "gates at SAFFRON."
+	text "Vi sitter fast här"
+	line "på grund av"
+	cont "grindarna vid"
+	cont "SAFFRON."
 	done
 
 _Route8CooltrainerF2BattleText::
-	text "MEOWTH is so cute,"
-	line "meow, meow, meow!"
+	text "MEOWTH är så söt,"
+	line "mjau, mjau, mjau!"
 	done
 
 _Route8CooltrainerF2EndBattleText::
-	text "Meow!"
+	text "Mjau!"
 	prompt
 
 _Route8CooltrainerF2AfterBattleText::
-	text "I think PIDGEY"
-	line "and RATTATA"
-	cont "are cute too!"
+	text "Jag tycker PIDGEY"
+	line "och RATTATA är"
+	cont "söta också!"
 	done
 
 _Route8CooltrainerF3BattleText::
-	text "We must look"
-	line "silly standing"
-	cont "here like this!"
+	text "Vi måste se dumma"
+	line "ut när vi står"
+	cont "här så här!"
 	done
 
 _Route8CooltrainerF3EndBattleText::
-	text "Look what"
-	line "you did!"
+	text "Titta vad"
+	line "du gjorde!"
 	prompt
 
 _Route8CooltrainerF3AfterBattleText::
-	text "SAFFRON's gate"
-	line "keeper won't let"
-	cont "us through."
-	cont "He's so mean!"
+	text "SAFFRONS grindvakt"
+	line "släpper inte igenom"
+	cont "oss. Han är så elak!"
 	done
 
 _Route8Gambler2BattleText::
-	text "I'm a rambling,"
-	line "gambling dude!"
+	text "Jag är en kring-"
+	line "vandrande, spelande"
+	cont "kille!"
 	done
 
 _Route8Gambler2EndBattleText::
-	text "Missed"
-	line "the big score!"
+	text "Missade"
+	line "storvinsten!"
 	prompt
 
 _Route8Gambler2AfterBattleText::
-	text "Gambling and"
-	line "#MON are like"
-	cont "eating peanuts!"
-	cont "Just can't stop!"
+	text "Spel och #MON"
+	line "är som att äta"
+	cont "jordnötter! Man"
+	cont "kan bara inte sluta!"
 	done
 
 _Route8CooltrainerF4BattleText::
-	text "What's a cute,"
-	line "round and fluffy"
+	text "Vad är en söt,"
+	line "rund och fluffig"
 	cont "#MON?"
 	done
 
 _Route8CooltrainerF4EndBattleText::
-	text "Stop!"
+	text "Sluta!"
 
-	para "Don't be so mean"
-	line "to my CLEFAIRY!"
+	para "Var inte så elak"
+	line "mot min CLEFAIRY!"
 	prompt
 
 _Route8CooltrainerF4AfterBattleText::
-	text "I heard that"
-	line "CLEFAIRY evolves"
-	cont "when it's exposed"
-	cont "to a MOON STONE."
+	text "Jag hörde att"
+	line "CLEFAIRY utvecklas"
+	cont "när den utsätts"
+	cont "för en MÅNSTEN."
 	done
 
 _Route8UndergroundSignText::
-	text "UNDERGROUND PATH"
+	text "UNDERJORDISK GÅNG"
 	line "CELADON CITY -"
 	cont "LAVENDER TOWN"
 	done

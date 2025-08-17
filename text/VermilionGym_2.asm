@@ -1,30 +1,31 @@
 _VermilionGymLTSurgePostBattleAdviceText::
-	text "A little word of"
-	line "advice, kid!"
+	text "Ett litet råd,"
+	line "grabben!"
 
-	para "Electricity is"
-	line "sure powerful!"
+	para "Elektricitet är"
+	line "verkligen"
+	cont "kraftfullt!"
 
-	para "But, it's useless"
-	line "against ground-"
-	cont "type #MON!"
+	para "Men, det är"
+	line "värdelöst mot"
+	cont "jordtyp-#MON!"
 	done
 
 _VermilionGymLTSurgeThunderBadgeInfoText::
-	text "The THUNDERBADGE"
-	line "cranks up your"
-	cont "#MON's SPEED!"
+	text "ÅSKORDEN ökar"
+	line "dina #MONs FART!"
 
-	para "It also lets your"
-	line "#MON FLY any"
-	cont "time, kid!"
+	para "Den låter också"
+	line "dina #MON FLYGA"
+	cont "när som helst,"
+	cont "grabben!"
 
-	para "You're special,"
-	line "kid! Take this!"
+	para "Du är speciell,"
+	line "grabben! Ta den här!"
 	done
 
 _VermilionGymLTSurgeReceivedTM24Text::
-	text "<PLAYER> received "
+	text "<PLAYER> mottog "
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
@@ -33,113 +34,111 @@ _VermilionGymLTSurgeReceivedTM24Text::
 _TM24ExplanationText::
 	text_start
 
-	para "TM24 contains"
-	line "THUNDERBOLT!"
+	para "TM24 innehåller"
+	line "ÅSKBLIXT!"
 
-	para "Teach it to an"
-	line "electric #MON!"
+	para "Lär ut den till en"
+	line "elektrisk #MON!"
 	done
 
 _VermilionGymLTSurgeTM24NoRoomText::
-	text "Yo kid, make room"
-	line "in your pack!"
+	text "Yo grabben, gör"
+	line "plats i din packning!"
 	done
 
 _VermilionGymLTSurgeReceivedThunderBadgeText::
 	text "Whoa!"
 
-	para "You're the real"
-	line "deal, kid!"
+	para "Du är the real"
+	line "deal, grabben!"
 
-	para "Fine then, take"
-	line "the THUNDERBADGE!"
+	para "Okej då, ta"
+	line "ÅSKORDEN!"
 	prompt
 
 _VermilionGymGentlemanBattleText::
-	text "When I was in the"
-	line "Army, LT.SURGE"
-	cont "was my strict CO!"
+	text "När jag var i"
+	line "armén var LT.SURGE"
+	cont "min stränga CO!"
 	done
 
 _VermilionGymGentlemanEndBattleText::
-	text "Stop!"
-	line "You're very good!"
+	text "Stopp!"
+	line "Du är mycket bra!"
 	prompt
 
 _VermilionGymGentlemanAfterBattleText::
-	text "The door won't"
-	line "open?"
+	text "Öppnas inte dörren?"
 
-	para "LT.SURGE always"
-	line "was cautious!"
+	para "LT.SURGE var alltid"
+	line "försiktig!"
 	done
 
 _VermilionGymSuperNerdBattleText::
-	text "I'm a lightweight,"
-	line "but I'm good with"
-	cont "electricity!"
+	text "Jag är en lätt-"
+	line "viktare, men jag"
+	cont "är bra med el!"
 	done
 
 _VermilionGymSuperNerdEndBattleText::
-	text "Fried!"
+	text "Stekt!"
 	prompt
 
 _VermilionGymSuperNerdAfterBattleText::
-	text "OK, I'll talk!"
+	text "OK, jag pratar!"
 
-	para "LT.SURGE said he"
-	line "hid door switches"
-	cont "inside something!"
+	para "LT.SURGE sa att han"
+	line "gömde dörrknappar"
+	cont "inuti något!"
 	done
 
 _VermilionGymSailorBattleText::
-	text "This is no place"
-	line "for kids!"
+	text "Det här är ingen"
+	line "plats för barn!"
 	done
 
 _VermilionGymSailorEndBattleText::
 	text "Wow!"
-	line "Surprised me!"
+	line "Överraskade mig!"
 	prompt
 
 _VermilionGymSailorAfterBattleText::
-	text "LT.SURGE set up"
-	line "double locks!"
-	cont "Here's a hint!"
+	text "LT.SURGE satte upp"
+	line "dubbla lås! Här"
+	cont "är ett tips!"
 
-	para "When you open the"
-	line "1st lock, the 2nd"
-	cont "lock is right"
-	cont "next to it!"
+	para "När du öppnar det"
+	line "första låset, är det"
+	cont "andra låset precis"
+	cont "bredvid!"
 	done
 
 _VermilionGymGymGuideChampInMakingText::
-	text "Yo! Champ in"
-	line "making!"
+	text "Yo! Blivande"
+	line "mästare!"
 
-	para "LT.SURGE has a"
-	line "nickname. People"
-	cont "refer to him as"
-	cont "the Lightning"
-	cont "American!"
+	para "LT.SURGE har ett"
+	line "smeknamn. Folk"
+	cont "kallar honom för"
+	cont "Blixt-Amerikanen!"
 
-	para "He's an expert on"
-	line "electric #MON!"
+	para "Han är expert på"
+	line "elektriska #MON!"
 
-	para "Birds and water"
-	line "#MON are at"
-	cont "risk! Beware of"
-	cont "paralysis too!"
+	para "Fåglar och vatten-"
+	line "#MON är i riskzonen!"
+	cont "Akta dig för"
+	cont "förlamning också!"
 
-	para "LT.SURGE is very"
-	line "cautious!"
+	para "LT.SURGE är mycket"
+	line "försiktig!"
 
-	para "You'll have to"
-	line "break a code to"
-	cont "get to him!"
+	para "Du måste knäcka"
+	line "en kod för att"
+	cont "nå honom!"
 	done
 
 _VermilionGymGymGuideBeatLTSurgeText::
-	text "Whew! That match"
-	line "was electric!"
+	text "Puh! Den matchen"
+	line "var elektrisk!"
 	done

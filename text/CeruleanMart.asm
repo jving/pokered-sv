@@ -1,19 +1,19 @@
 _CeruleanMartCooltrainerMText::
-	text "Use REPEL to keep"
-	line "bugs and weak"
-	cont "#MON away."
+	text "Använd REPEL för"
+	line "att hålla kryp och"
+	cont "svaga #MON borta."
 
-	para "Put your strongest"
-	line "#MON at the"
-	cont "top of the list"
-	cont "for best results!"
+	para "Sätt din starkaste"
+	line "#MON överst i"
+	cont "listan för bästa"
+	cont "resultat!"
 	done
 
 _CeruleanMartCooltrainerFText::
-	text "Have you seen any"
-	line "RARE CANDY?"
+	text "Har du sett något"
+	line "SÄLLSYNT GODIS?"
 
-	para "It's supposed to"
-	line "make #MON go"
-	cont "up one level!"
+	para "Det sägs få #MON"
+	line "att gå upp en"
+	cont "nivå!"
 	done

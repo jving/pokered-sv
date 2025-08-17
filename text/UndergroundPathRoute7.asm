@@ -1,5 +1,6 @@
 _UndergroundPathRoute7MiddleAgedManText::
-	text "I heard a sleepy"
-	line "#MON appeared"
-	cont "near CELADON CITY."
+	text "Jag hörde att en"
+	line "sömnig #MON dök"
+	cont "upp nära"
+	cont "CELADON CITY."
 	done

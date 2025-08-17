@@ -1,62 +1,64 @@
 _DaycareGentlemanIntroText::
-	text "I run a DAYCARE."
-	line "Would you like me"
-	cont "to raise one of"
-	cont "your #MON?"
+	text "Jag driver ett"
+	line "DAGIS. Vill du att"
+	cont "jag ska föda upp"
+	cont "en av dina #MON?"
 	done
 
 _DaycareGentlemanWhichMonText::
-	text "Which #MON"
-	line "should I raise?"
+	text "Vilken #MON"
+	line "ska jag föda upp?"
 	prompt
 
 _DaycareGentlemanWillLookAfterMonText::
-	text "Fine, I'll look"
-	line "after @"
+	text "Ok, jag tar hand"
+	line "om @"
 	text_ram wNameBuffer
 	text_start
-	cont "for a while."
+	cont "ett tag."
 	prompt
 
 _DaycareGentlemanComeSeeMeInAWhileText::
-	text "Come see me in"
-	line "a while."
+	text "Kom och hälsa på"
+	line "mig om ett tag."
 	done
 
 _DaycareGentlemanMonHasGrownText::
-	text "Your @"
+	text "Din @"
 	text_ram wNameBuffer
 	text_start
-	line "has grown a lot!"
+	line "har vuxit mycket!"
 
-	para "By level, it's"
-	line "grown by @"
+	para "Den har vuxit"
+	line "med @"
 	text_decimal wDayCareNumLevelsGrown, 1, 3
-	text "!"
+	text " nivåer!"
 
-	para "Aren't I great?"
+	para "Är jag inte bra?"
 	prompt
 
 _DaycareGentlemanOweMoneyText::
-	text "You owe me ¥@"
+	text "Du är skyldig mig"
+	line "¥@"
 	text_bcd wDayCareTotalCost, 2 | LEADING_ZEROES | LEFT_ALIGN
 	text_start
-	line "for the return"
-	cont "of this #MON."
+	cont "för att få"
+	cont "tillbaka denna"
+	cont "#MON."
 	done
 
 _DaycareGentlemanGotMonBackText::
-	text "<PLAYER> got"
-	line "@"
+	text "<PLAYER> fick"
+	line "tillbaka @"
 	text_ram wDayCareMonName
-	text " back!"
+	text "!"
 	done
 
 _DaycareGentlemanMonNeedsMoreTimeText::
-	text "Back already?"
-	line "Your @"
+	text "Tillbaka redan?"
+	line "Din @"
 	text_ram wNameBuffer
 	text_start
-	cont "needs some more"
-	cont "time with me."
+	cont "behöver lite mer"
+	cont "tid med mig."
 	prompt

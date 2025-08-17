@@ -1,0 +1,23 @@
+
+# För all dialog
+Översätt texten inom citattecken till svenska i koden nedanför, men behåll allt innanför <> som det är. #MON måste också lämnas orört, men ska hanteras som ett substantiv. Se till att meningar som slutar på @ fortfarande slutar på @. När översättningen är klar, splittra texten till rader som är maximalt 18 tecken. Meningar böjar alltid efter ett text-kommando eller para-kommando. Det fortsätter därefter först med line därefter med cont. Se till att outputen följer detta. Se till att det följer indenteringen och att hela outputen är i ett code-block formatterat för assembly.
+``` asm
+
+
+```
+
+
+
+# För pokedex-texterna
+Översätt texten inom citattecken till svenska i koden nedanför. Se till rader som är maximalt 18 tecken. Texten är uppdelad på 6 rader i två omgångar med tre rader vardera. Se till att outputen följer detta. Se till att det följer indenteringen ändra inte asm-kommandona och att hela outputen är i ett code-block formatterat för assembly.
+``` asm
+
+```
+
+
+# För övriga texter
+Översätt texten inom citattecken till svenska i asm-koden nedanför. Se till texten är maximalt 15 tecken, ta inte bort @. Se till att det följer indenteringen ändra inte asm-kommandona och att hela outputen är i ett code-block formatterat för assembly.
+``` asm
+
+```
+

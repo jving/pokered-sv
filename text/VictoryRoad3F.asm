@@ -1,63 +1,66 @@
 _VictoryRoad3FCooltrainerM1BattleText::
-	text "I heard rumors of"
-	line "a child prodigy!"
+	text "Jag hörde rykten"
+	line "om ett underbarn!"
 	done
 
 _VictoryRoad3FCooltrainerM1EndBattleText::
-	text "The"
-	line "rumors were true!"
+	text "Ryktena"
+	line "var sanna!"
 	prompt
 
 _VictoryRoad3FCooltrainerM1AfterBattleText::
-	text "You beat GIOVANNI"
-	line "of TEAM ROCKET?"
+	text "Du slog GIOVANNI"
+	line "från TEAM ROCKET?"
 	done
 
 _VictoryRoad3FCooltrainerF1BattleText::
-	text "I'll show you just"
-	line "how good you are!"
+	text "Jag ska visa dig"
+	line "precis hur bra"
+	cont "du är!"
 	done
 
 _VictoryRoad3FCooltrainerF1EndBattleText::
-	text "I'm"
-	line "furious!"
+	text "Jag är"
+	line "rasande!"
 	prompt
 
 _VictoryRoad3FCooltrainerF1AfterBattleText::
-	text "You showed me just"
-	line "how good I was!"
+	text "Du visade mig"
+	line "precis hur bra"
+	cont "jag var!"
 	done
 
 _VictoryRoad3FCooltrainerM2BattleText::
-	text "Only the chosen"
-	line "can pass here!"
+	text "Bara de utvalda"
+	line "får passera här!"
 	done
 
 _VictoryRoad3FCooltrainerM2EndBattleText::
-	text "I"
-	line "don't believe it!"
+	text "Jag"
+	line "tror inte det är"
+	cont "sant!"
 	prompt
 
 _VictoryRoad3FCooltrainerM2AfterBattleText::
-	text "All trainers here"
-	line "are headed to the"
+	text "Alla tränare här"
+	line "är på väg till"
 	cont "#MON LEAGUE!"
-	cont "Be careful!"
+	cont "Var försiktig!"
 	done
 
 _VictoryRoad3FCooltrainerF2BattleText::
-	text "Trainers live to"
-	line "seek stronger"
-	cont "opponents!"
+	text "Tränare lever för"
+	line "att söka starkare"
+	cont "motståndare!"
 	done
 
 _VictoryRoad3FCooltrainerF2EndBattleText::
-	text "Oh!"
-	line "So strong!"
+	text "Åh!"
+	line "Så stark!"
 	prompt
 
 _VictoryRoad3FCooltrainerF2AfterBattleText::
-	text "By fighting tough"
-	line "battles, you get"
-	cont "stronger!"
+	text "Genom att utkämpa"
+	line "tuffa strider blir"
+	cont "du starkare!"
 	done

@@ -1,157 +1,157 @@
 _Route9CooltrainerF1BattleText::
-	text "You have #MON"
-	line "with you!"
-	cont "You're mine!"
+	text "Du har #MON med"
+	line "dig! Du är min!"
 	done
 
 _Route9CooltrainerF1EndBattleText::
-	text "You"
-	line "deceived me!"
+	text "Du"
+	line "lurade mig!"
 	prompt
 
 _Route9CooltrainerF1AfterBattleText::
-	text "You need light to"
-	line "get through that"
-	cont "dark tunnel ahead."
+	text "Du behöver ljus"
+	line "för att ta dig"
+	cont "igenom den mörka"
+	cont "tunneln framför."
 	done
 
 _Route9CooltrainerM1BattleText::
-	text "Who's that walking"
-	line "with those good"
-	cont "looking #MON?"
+	text "Vem är det som"
+	line "går med de där"
+	cont "snygga #MON?"
 	done
 
 _Route9CooltrainerM1EndBattleText::
-	text "Out"
-	line "like a light!"
+	text "Släckt"
+	line "som ett ljus!"
 	prompt
 
 _Route9CooltrainerM1AfterBattleText::
-	text "Keep walking!"
+	text "Fortsätt gå!"
 	done
 
 _Route9CooltrainerM2BattleText::
-	text "I'm taking ROCK"
-	line "TUNNEL to go to"
-	cont "LAVENDER..."
+	text "Jag tar ROCK"
+	line "TUNNEL för att"
+	cont "åka till LAVENDER..."
 	done
 
 _Route9CooltrainerM2EndBattleText::
-	text "Can't"
-	line "measure up!"
+	text "Kan inte"
+	line "mäta mig!"
 	prompt
 
 _Route9CooltrainerM2AfterBattleText::
-	text "Are you off to"
-	line "ROCK TUNNEL too?"
+	text "Ska du också till"
+	line "ROCK TUNNEL?"
 	done
 
 _Route9CooltrainerF2BattleText::
-	text "Don't you dare"
-	line "condescend me!"
+	text "Våga inte se ner"
+	line "på mig!"
 	done
 
 _Route9CooltrainerF2EndBattleText::
-	text "No!"
-	line "You're too much!"
+	text "Nej!"
+	line "Du är för mycket!"
 	prompt
 
 _Route9CooltrainerF2AfterBattleText::
-	text "You're obviously"
-	line "talented! Good"
-	cont "luck to you!"
+	text "Du är uppenbart"
+	line "talangfull! Lycka"
+	cont "till!"
 	done
 
 _Route9Hiker1BattleText::
 	text "Bwahaha!"
-	line "Great! I was"
-	cont "bored, eh!"
+	line "Toppen! Jag hade"
+	cont "tråkigt, va!"
 	done
 
 _Route9Hiker1EndBattleText::
-	text "Keep it"
-	line "coming, eh!"
+	text "Fortsätt"
+	line "komma, va!"
 
-	para "Oh wait. I'm out"
-	line "of #MON!"
+	para "Åh vänta. Jag har"
+	line "inga #MON kvar!"
 	prompt
 
 _Route9Hiker1AfterBattleText::
-	text "You sure had guts"
-	line "standing up to me"
-	cont "there, eh?"
+	text "Du hade verkligen"
+	line "mod som stod upp"
+	cont "mot mig där, va?"
 	done
 
 _Route9Hiker2BattleText::
 	text "Hahaha!"
-	line "Aren't you a"
-	cont "little toughie!"
+	line "Är inte du en"
+	cont "liten tuffing!"
 	done
 
 _Route9Hiker2EndBattleText::
-	text "What's"
-	line "that?"
+	text "Vad är"
+	line "det där?"
 	prompt
 
 _Route9Hiker2AfterBattleText::
-	text "Hahaha! Kids"
-	line "should be tough!"
+	text "Hahaha! Barn"
+	line "ska vara tuffa!"
 	done
 
 _Route9Youngster1BattleText::
-	text "I got up early"
-	line "every day to"
-	cont "raise my #MON"
-	cont "from cocoons!"
+	text "Jag gick upp tidigt"
+	line "varje dag för att"
+	cont "föda upp mina"
+	cont "#MON från puppor!"
 	done
 
 _Route9Youngster1EndBattleText::
-	text "WHAT?"
+	text "VA?"
 
-	para "What a total"
-	line "waste of time!"
+	para "Vilket totalt"
+	line "slöseri med tid!"
 	prompt
 
 _Route9Youngster1AfterBattleText::
-	text "I have to collect"
-	line "more than bugs to"
-	cont "get stronger..."
+	text "Jag måste samla"
+	line "mer än insekter"
+	cont "för att bli starkare..."
 	done
 
 _Route9Hiker3BattleText::
 	text "Hahahaha!"
-	line "Come on, dude!"
+	line "Kom igen, kompis!"
 	done
 
 _Route9Hiker3EndBattleText::
 	text "Hahahaha!"
-	line "You beat me fair!"
+	line "Du slog mig ärligt!"
 	prompt
 
 _Route9Hiker3AfterBattleText::
 	text "Hahahaha!"
-	line "Us hearty guys"
-	cont "always laugh!"
+	line "Vi rejäla killar"
+	cont "skrattar alltid!"
 	done
 
 _Route9Youngster2BattleText::
-	text "Go, my super bug"
-	line "#MON!"
+	text "Kör, mina super-"
+	line "insekt-#MON!"
 	done
 
 _Route9Youngster2EndBattleText::
-	text "My"
-	line "bugs..."
+	text "Mina"
+	line "insekter..."
 	prompt
 
 _Route9Youngster2AfterBattleText::
-	text "If you don't like"
-	line "bug #MON, you"
-	cont "bug me!"
+	text "Om du inte gillar"
+	line "insekt-#MON,"
+	cont "irriterar du mig!"
 	done
 
 _Route9SignText::
-	text "ROUTE 9"
+	text "VÄG 9"
 	line "CERULEAN CITY-"
 	cont "ROCK TUNNEL"
 	done

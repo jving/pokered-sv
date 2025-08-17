@@ -1,231 +1,227 @@
 _SaffronGymSabrinaText::
-	text "I had a vision of"
-	line "your arrival!"
+	text "Jag hade en vision"
+	line "om din ankomst!"
 
-	para "I have had psychic"
-	line "powers since I"
-	cont "was a child."
+	para "Jag har haft"
+	line "psykiska krafter"
+	cont "sedan jag var barn."
 
-	para "I first learned"
-	line "to bend spoons"
-	cont "with my mind."
+	para "Jag lärde mig först"
+	line "att böja skedar"
+	cont "med tankekraft."
 
-	para "I dislike fight-"
-	line "ing, but if you"
-	cont "wish, I will show"
-	cont "you my powers!"
+	para "Jag ogillar att"
+	line "slåss, men om du"
+	cont "vill, ska jag visa"
+	cont "dig mina krafter!"
 	done
 
 _SaffronGymSabrinaReceivedMarshBadgeText::
-	text "I'm"
-	line "shocked!"
-	cont "But, a loss is a"
-	cont "loss."
+	text "Jag är"
+	line "chockad!"
+	cont "Men, en förlust"
+	cont "är en förlust."
 
-	para "I admit I didn't"
-	line "work hard enough"
-	cont "to win!"
+	para "Jag erkänner att"
+	line "jag inte jobbade"
+	cont "hårt nog för att"
+	cont "vinna!"
 
-	para "You earned the"
-	line "MARSHBADGE!@"
+	para "Du har förtjänat"
+	line "TRÄSKORDEN!@"
 	text_end
 
 _SaffronGymSabrinaPostBattleAdviceText::
-	text "Everyone has"
-	line "psychic power!"
-	cont "People just don't"
-	cont "realize it!"
+	text "Alla har psykisk"
+	line "kraft! Folk inser"
+	cont "det bara inte!"
 	done
 
 _SaffronGymSabrinaMarshBadgeInfoText::
-	text "The MARSHBADGE"
-	line "makes #MON up"
-	cont "to L70 obey you!"
+	text "TRÄSKORDEN gör att"
+	line "#MON upp till L70"
+	cont "lyder dig!"
 
-	para "Stronger #MON"
-	line "will become wild,"
-	cont "ignoring your"
-	cont "orders in battle!"
+	para "Starkare #MON blir"
+	line "vilda och ignorerar"
+	cont "dina order i strid!"
 
-	para "Just don't raise"
-	line "your #MON too"
-	cont "much!"
+	para "Träna bara inte"
+	line "dina #MON för"
+	cont "mycket!"
 
-	para "Wait, please take"
-	line "this TM with you!"
+	para "Vänta, var snäll"
+	line "och ta denna TM"
+	cont "med dig!"
 	done
 
 _SaffronGymSabrinaReceivedTM46Text::
-	text "<PLAYER> received"
+	text "<PLAYER> mottog"
 	line "TM46!@"
 	text_end
 
 _TM46ExplanationText::
 	text_start
 
-	para "TM46 is PSYWAVE!"
-	line "It uses powerful"
-	cont "psychic waves to"
-	cont "inflict damage!"
+	para "TM46 innehåller"
+	line "PSYVÅG! Den"
+	cont "använder kraftfulla"
+	cont "psykiska vågor för"
+	cont "att göra skada!"
 	done
 
 _SaffronGymSabrinaTM46NoRoomText::
-	text "Your pack is full"
-	line "of other items!"
+	text "Din väska är full"
+	line "av andra föremål!"
 	done
 
 _SaffronGymGuideChampInMakingText::
-	text "Yo! Champ in"
-	line "making!"
+	text "Yo! Blivande"
+	line "mästare!"
 
-	para "SABRINA's #MON"
-	line "use psychic power"
-	cont "instead of force!"
+	para "SABRINAs #MON"
+	line "använder psykisk"
+	cont "kraft istället för"
+	cont "styrka!"
 
-	para "Fighting #MON"
-	line "are weak against"
-	cont "psychic #MON!"
+	para "Kamp-#MON är svaga"
+	line "mot psykiska #MON!"
 
-	para "They get creamed"
-	line "before they can"
-	cont "even aim a punch!"
+	para "De krossas innan"
+	line "de ens hinner"
+	cont "sikta ett slag!"
 	done
 
 _SaffronGymGuideBeatSabrinaText::
-	text "Psychic power,"
-	line "huh?"
+	text "Psykisk kraft, va?"
 
-	para "If I had that,"
-	line "I'd make a bundle"
-	cont "at the slots!"
+	para "Om jag hade det,"
+	line "skulle jag vinna"
+	cont "stort på spel-"
+	cont "automaterna!"
 	done
 
 _SaffronGymChanneler1BattleText::
-	text "SABRINA is younger"
-	line "than I, but I"
-	cont "respect her!"
+	text "SABRINA är yngre"
+	line "än jag, men jag"
+	cont "respekterar henne!"
 	done
 
 _SaffronGymChanneler1EndBattleText::
-	text "Not"
-	line "good enough!"
+	text "Inte"
+	line "bra nog!"
 	prompt
 
 _SaffronGymChanneler1AfterBattleText::
-	text "In a battle of"
-	line "equals, the one"
-	cont "with the stronger"
-	cont "will wins!"
+	text "I en strid mellan"
+	line "jämlikar vinner"
+	cont "den med starkast"
+	cont "vilja!"
 
-	para "If you wish"
-	line "to beat SABRINA,"
-	cont "focus on winning!"
+	para "Om du vill slå"
+	line "SABRINA, fokusera"
+	cont "på att vinna!"
 	done
 
 _SaffronGymYoungster1BattleText::
-	text "Does our unseen"
-	line "power scare you?"
+	text "Skrämmer vår"
+	line "osynliga kraft dig?"
 	done
 
 _SaffronGymYoungster1EndBattleText::
-	text "I never"
-	line "foresaw this!"
+	text "Jag förutsåg"
+	line "aldrig detta!"
 	prompt
 
 _SaffronGymYoungster1AfterBattleText::
-	text "Psychic #MON"
-	line "fear only ghosts"
-	cont "and bugs!"
+	text "Psykiska #MON fruktar"
+	line "bara spöken och"
+	cont "insekter!"
 	done
 
 _SaffronGymChanneler2BattleText::
-	text "#MON take on"
-	line "the appearance of"
-	cont "their trainers."
+	text "#MON antar sina"
+	line "tränares utseende."
 
-	para "Your #MON must"
-	line "be tough, then!"
+	para "Dina #MON måste"
+	line "vara tuffa, då!"
 	done
 
 _SaffronGymChanneler2EndBattleText::
-	text "I knew"
-	line "it!"
+	text "Jag visste"
+	line "det!"
 	prompt
 
 _SaffronGymChanneler2AfterBattleText::
-	text "I must teach"
-	line "better techniques"
-	cont "to my #MON!"
+	text "Jag måste lära"
+	line "mina #MON bättre"
+	cont "tekniker!"
 	done
 
 _SaffronGymYoungster2BattleText::
-	text "You know that"
-	line "power alone isn't"
-	cont "enough!"
+	text "Du vet att kraft"
+	line "ensamt inte räcker!"
 	done
 
 _SaffronGymYoungster2EndBattleText::
-	text "I don't"
-	line "believe this!"
+	text "Jag tror"
+	line "inte det är sant!"
 	prompt
 
 _SaffronGymYoungster2AfterBattleText::
-	text "SABRINA just wiped"
-	line "out the KARATE"
-	cont "MASTER next door!"
+	text "SABRINA krossade"
+	line "just KARATE-"
+	cont "MÄSTAREN intill!"
 	done
 
 _SaffronGymChanneler3BattleText::
-	text "You and I, our"
-	line "#MON shall"
-	cont "fight!"
+	text "Du och jag, våra"
+	line "#MON ska strida!"
 	done
 
 _SaffronGymChanneler3EndBattleText::
-	text "I lost"
-	line "after all!"
+	text "Jag förlorade"
+	line "trots allt!"
 	prompt
 
 _SaffronGymChanneler3AfterBattleText::
-	text "I knew that this"
-	line "was going to take"
-	cont "place."
+	text "Jag visste att det"
+	line "här skulle hända."
 	done
 
 _SaffronGymYoungster3BattleText::
-	text "SABRINA is young,"
-	line "but she's also"
-	cont "our LEADER!"
+	text "SABRINA är ung,"
+	line "men hon är också"
+	cont "vår LEDARE!"
 
-	para "You won't reach"
-	line "her easily!"
+	para "Du når henne inte"
+	line "så lätt!"
 	done
 
 _SaffronGymYoungster3EndBattleText::
-	text "I lost"
-	line "my concentration!"
+	text "Jag tappade"
+	line "koncentrationen!"
 	prompt
 
 _SaffronGymYoungster3AfterBattleText::
-	text "There used to be"
-	line "2 #MON GYMs in"
+	text "Det fanns förut"
+	line "2 #MON-GYM i"
 	cont "SAFFRON."
 
-	para "The FIGHTING DOJO"
-	line "next door lost"
-	cont "its GYM status"
-	cont "when we went and"
-	cont "creamed them!"
+	para "FIGHTING DOJO"
+	line "intill förlorade"
+	cont "sin GYM-status"
+	cont "när vi krossade"
+	cont "dem!"
 	done
 
 _SaffronGymYoungster4BattleText::
-	text "SAFFRON #MON"
-	line "GYM is famous for"
-	cont "its psychics!"
+	text "SAFFRONS #MON-GYM"
+	line "är känt för sina"
+	cont "psykiska krafter!"
 
-	para "You want to see"
-	line "SABRINA!"
-	cont "I can tell!"
+	para "Du vill se SABRINA!"
+	line "Jag kan se det!"
 	done
 
 _SaffronGymYoungster4EndBattleText::
@@ -233,7 +229,8 @@ _SaffronGymYoungster4EndBattleText::
 	prompt
 
 _SaffronGymYoungster4AfterBattleText::
-	text "That's right! I"
-	line "used telepathy to"
-	cont "read your mind!"
+	text "Just det! Jag"
+	line "använde telepati"
+	cont "för att läsa dina"
+	cont "tankar!"
 	done

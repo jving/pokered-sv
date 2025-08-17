@@ -1,63 +1,64 @@
 _SSAnne2FWaiterText::
-	text "This ship, she is"
-	line "a luxury liner"
-	cont "for trainers!"
+	text "Det här skeppet,"
+	line "hon är en lyx-"
+	cont "kryssare för tränare!"
 
-	para "At every port, we"
-	line "hold parties with"
-	cont "invited trainers!"
+	para "I varje hamn håller"
+	line "vi fester med"
+	cont "inbjudna tränare!"
 	done
 
 _SSAnne2FRivalText::
 	text "<RIVAL>: Bonjour!"
 	line "<PLAYER>!"
 
-	para "Imagine seeing"
-	line "you here!"
+	para "Tänk att se dig här!"
 
-	para "<PLAYER>, were you"
-	line "really invited?"
+	para "<PLAYER>, var du"
+	line "verkligen inbjuden?"
 
-	para "So how's your"
-	line "#DEX coming?"
+	para "Så hur går det med"
+	line "din #DEX?"
 
-	para "I already caught"
-	line "40 kinds, pal!"
+	para "Jag har redan"
+	line "fångat 40 sorter,"
+	cont "kompis!"
 
-	para "Different kinds"
-	line "are everywhere!"
+	para "Olika sorter"
+	line "finns överallt!"
 
-	para "Crawl around in"
-	line "grassy areas!"
+	para "Kryp runt i"
+	line "gräsområden!"
 	done
 
 _SSAnne2FRivalDefeatedText::
 	text "Humph!"
 
-	para "At least you're"
-	line "raising your"
-	cont "#MON!"
+	para "Åtminstone tränar"
+	line "du dina #MON!"
 	prompt
 
 _SSAnne2FRivalVictoryText::
-	text "<PLAYER>! What are"
-	line "you, seasick?"
+	text "<PLAYER>! Vad är"
+	line "det, är du sjösjuk?"
 
-	para "You should shape"
-	line "up, pal!"
+	para "Du borde skärpa"
+	line "dig, kompis!"
 	prompt
 
 _SSAnne2FRivalCutMasterText::
-	text "<RIVAL>: I heard"
-	line "there was a CUT"
-	cont "master on board."
+	text "<RIVAL>: Jag hörde"
+	line "att det fanns en"
+	cont "HUGG-mästare ombord."
 
-	para "But, he was just a"
-	line "seasick, old man!"
+	para "Men, han var bara"
+	line "en sjösjuk, gammal"
+	cont "man!"
 
-	para "But, CUT itself is"
-	line "really useful!"
+	para "Men, HUGG i sig är"
+	line "riktigt användbart!"
 
-	para "You should go see"
-	line "him! Smell ya!"
+	para "Du borde gå och"
+	line "träffa honom!"
+	cont "Vi hörs!"
 	done

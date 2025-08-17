@@ -1,29 +1,30 @@
 _PokemonTower6FGhostWasCubonesMotherText::
-	text "The GHOST was the"
-	line "restless soul of"
-	cont "CUBONE's mother!"
+	text "SPÖKET var den"
+	line "oroliga själen av"
+	cont "CUBONEs mamma!"
 	done
 
 _PokemonTower6FSoulWasCalmedText::
-	text "The mother's soul"
-	line "was calmed."
+	text "Moderns själ"
+	line "lugnades."
 
-	para "It departed to"
-	line "the afterlife!"
+	para "Den färdades till"
+	line "livet efter detta!"
 	done
 
 _PokemonTower6FChanneler1BattleText::
-	text "Give...me..."
-	line "blood..."
+	text "Ge...mig..."
+	line "blod..."
 	done
 
 _PokemonTower6FChanneler1EndBattleText::
-	text "Groan!"
+	text "Stön!"
 	prompt
 
 _PokemonTower6FChanneler1AfterBattleText::
-	text "I feel anemic and"
-	line "weak..."
+	text "Jag känner mig"
+	line "blodfattig och"
+	cont "svag..."
 	done
 
 _PokemonTower6FChanneler2BattleText::
@@ -31,14 +32,14 @@ _PokemonTower6FChanneler2BattleText::
 	done
 
 _PokemonTower6FChanneler2EndBattleText::
-	text "Some-"
-	line "thing fell out!"
+	text "Något"
+	line "föll ut!"
 	prompt
 
 _PokemonTower6FChanneler2AfterBattleText::
-	text "Hair didn't fall"
-	line "out! It was an"
-	cont "evil spirit!"
+	text "Hår föll inte ut!"
+	line "Det var en ond"
+	cont "ande!"
 	done
 
 _PokemonTower6FChanneler3BattleText::
@@ -51,11 +52,11 @@ _PokemonTower6FChanneler3EndBattleText::
 	prompt
 
 _PokemonTower6FChanneler3AfterBattleText::
-	text "What's going on"
-	line "here?"
+	text "Vad är det som"
+	line "händer här?"
 	done
 
 _PokemonTower6FBeGoneText::
-	text "Be gone..."
-	line "Intruders..."
+	text "Försvinn..."
+	line "Inkräktare..."
 	done

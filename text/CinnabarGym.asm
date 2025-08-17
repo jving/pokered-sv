@@ -1,49 +1,48 @@
 _CinnabarGymBlainePreBattleText::
 	text "Hah!"
 
-	para "I am BLAINE! I"
-	line "am the LEADER of"
+	para "Jag är BLAINE! Jag"
+	line "är LEDAREN för"
 	cont "CINNABAR GYM!"
 
-	para "My fiery #MON"
-	line "will incinerate"
-	cont "all challengers!"
+	para "Mina eldiga #MON"
+	line "kommer att bränna"
+	cont "upp alla utmanare!"
 
-	para "Hah! You better"
-	line "have BURN HEAL!"
+	para "Hah! Bäst du har"
+	line "med BRÄNNKUR!"
 	done
 
 _CinnabarGymBlaineReceivedVolcanoBadgeText::
-	text "I have"
-	line "burnt out!"
+	text "Jag har brunnit"
+	line "ut!"
 
-	para "You have earned"
-	line "the VOLCANOBADGE!@"
+	para "Du har förtjänat"
+	line "VULKANORDEN!@"
 	text_end
 
 _CinnabarGymBlainePostBattleAdviceText::
-	text "FIRE BLAST is the"
-	line "ultimate fire"
-	cont "technique!"
+	text "ELDSTORM är den"
+	line "ultimata eld-"
+	cont "tekniken!"
 
-	para "Don't waste it on"
-	line "water #MON!"
+	para "Slösa den inte på"
+	line "vatten-#MON!"
 	done
 
 _CinnabarGymBlaineVolcanoBadgeInfoText::
 	text "Hah!"
 
-	para "The VOLCANOBADGE"
-	line "heightens the"
-	cont "SPECIAL abilities"
-	cont "of your #MON!"
+	para "VULKANORDEN höjer"
+	line "SPECIAL-förmågan"
+	cont "hos dina #MON!"
 
-	para "Here, you can"
-	line "have this too!"
+	para "Här, du kan få"
+	line "den här också!"
 	done
 
 _CinnabarGymBlaineReceivedTM38Text::
-	text "<PLAYER> received"
+	text "<PLAYER> mottog"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
@@ -52,161 +51,165 @@ _CinnabarGymBlaineReceivedTM38Text::
 _CinnabarGymBlaineTM38ExplanationText::
 	text_start
 
-	para "TM38 contains"
-	line "FIRE BLAST!"
+	para "TM38 innehåller"
+	line "ELDSTORM!"
 
-	para "Teach it to fire-"
-	line "type #MON!"
+	para "Lär ut den till"
+	line "eldtyp-#MON!"
 
-	para "CHARMELEON or"
-	line "PONYTA would be"
-	cont "good bets!"
+	para "CHARMELEON eller"
+	line "PONYTA vore bra"
+	cont "val!"
 	done
 
 _CinnabarGymBlaineTM38NoRoomText::
-	text "Make room for my"
-	line "gift!"
+	text "Gör plats för"
+	line "min gåva!"
 	done
 
 _CinnabarGymSuperNerd1BattleText::
-	text "Do you know how"
-	line "hot #MON fire"
-	cont "breath can get?"
+	text "Vet du hur het"
+	line "en #MONs eld-"
+	cont "andedräkt kan bli?"
 	done
 
 _CinnabarGymSuperNerd1EndBattleText::
-	text "Yow!"
-	line "Hot, hot, hot!"
+	text "Aj!"
+	line "Hett, hett, hett!"
 	prompt
 
 _CinnabarGymSuperNerd1AfterBattleText::
-	text "Fire, or to be"
-	line "more precise,"
-	cont "combustion..."
+	text "Eld, eller för"
+	line "att vara mer"
+	cont "exakt, förbränning..."
 
-	para "Blah, blah, blah,"
-	line "blah..."
+	para "Bla, bla, bla,"
+	line "bla..."
 	done
 
 _CinnabarGymSuperNerd2BattleText::
-	text "I was a thief, but"
-	line "I became straight"
-	cont "as a trainer!"
+	text "Jag var en tjuv,"
+	line "men blev hederlig"
+	cont "som tränare!"
 	done
 
 _CinnabarGymSuperNerd2EndBattleText::
-	text "I"
-	line "surrender!"
+	text "Jag"
+	line "ger upp!"
 	prompt
 
 _CinnabarGymSuperNerd2AfterBattleText::
-	text "I can't help"
-	line "stealing other"
-	cont "people's #MON!"
+	text "Jag kan inte låta"
+	line "bli att stjäla"
+	cont "andras #MON!"
 	done
 
 _CinnabarGymSuperNerd3BattleText::
-	text "You can't win!"
-	line "I have studied"
-	cont "#MON totally!"
+	text "Du kan inte vinna!"
+	line "Jag har studerat"
+	cont "#MON ingående!"
 	done
 
 _CinnabarGymSuperNerd3EndBattleText::
-	text "Waah!"
-	line "My studies!"
+	text "Wääh!"
+	line "Mina studier!"
 	prompt
 
 _CinnabarGymSuperNerd3AfterBattleText::
-	text "My theories are"
-	line "too complicated"
-	cont "for you!"
+	text "Mina teorier är"
+	line "för komplicerade"
+	cont "för dig!"
 	done
 
 _CinnabarGymSuperNerd4BattleText::
-	text "I just like using"
-	line "fire #MON!"
+	text "Jag gillar bara"
+	line "att använda"
+	cont "eld-#MON!"
 	done
 
 _CinnabarGymSuperNerd4EndBattleText::
-	text "Too hot"
-	line "to handle!"
+	text "För het"
+	line "att hantera!"
 	prompt
 
 _CinnabarGymSuperNerd4AfterBattleText::
-	text "I wish there was"
-	line "a thief #MON!"
-	cont "I'd use that!"
+	text "Jag önskar det"
+	line "fanns en tjuv-"
+	cont "#MON! Den skulle"
+	cont "jag använda!"
 	done
 
 _CinnabarGymSuperNerd5BattleText::
-	text "I know why BLAINE"
-	line "became a trainer!"
+	text "Jag vet varför"
+	line "BLAINE blev en"
+	cont "tränare!"
 	done
 
 _CinnabarGymSuperNerd5EndBattleText::
-	text "Ow!"
+	text "Aj!"
 	prompt
 
 _CinnabarGymSuperNerd5AfterBattleText::
-	text "BLAINE was lost"
-	line "in the mountains"
-	cont "when a fiery bird"
-	cont "#MON appeared."
+	text "BLAINE var vilse"
+	line "i bergen när en"
+	cont "eldig fågel-#MON"
+	cont "dök upp."
 
-	para "Its light enabled"
-	line "BLAINE to find"
-	cont "his way down!"
+	para "Dess ljus hjälpte"
+	line "BLAINE att hitta"
+	cont "ner!"
 	done
 
 _CinnabarGymSuperNerd6BattleText::
-	text "I've been to many"
-	line "GYMs, but this is"
-	cont "my favorite!"
+	text "Jag har besökt"
+	line "många GYM, men"
+	cont "detta är min"
+	cont "favorit!"
 	done
 
 _CinnabarGymSuperNerd6EndBattleText::
-	text "Yowza!"
-	line "Too hot!"
+	text "Jösses!"
+	line "För hett!"
 	prompt
 
 _CinnabarGymSuperNerd6AfterBattleText::
-	text "Us fire #MON"
-	line "fans like PONYTA"
-	cont "and NINETALES!"
+	text "Vi eld-#MON-fans"
+	line "gillar PONYTA"
+	cont "och NINETALES!"
 	done
 
 _CinnabarGymSuperNerd7BattleText::
-	text "Fire is weak"
-	line "against H2O!"
+	text "Eld är svagt mot"
+	line "H2O!"
 	done
 
 _CinnabarGymSuperNerd7EndBattleText::
-	text "Oh!"
-	line "Snuffed out!"
+	text "Åh!"
+	line "Släckt!"
 	prompt
 
 _CinnabarGymSuperNerd7AfterBattleText::
-	text "Water beats fire!"
-	line "But, fire melts"
-	cont "ice #MON!"
+	text "Vatten slår eld!"
+	line "Men, eld smälter"
+	cont "is-#MON!"
 	done
 
 _CinnabarGymGymGuideChampInMakingText::
-	text "Yo! Champ in"
-	line "making!"
+	text "Yo! Blivande"
+	line "mästare!"
 
-	para "The hot-headed"
-	line "BLAINE is a fire"
-	cont "#MON pro!"
+	para "Den hetlevrade"
+	line "BLAINE är ett"
+	cont "eld-#MON-proffs!"
 
-	para "Douse his spirits"
-	line "with water!"
+	para "Släck hans glöd"
+	line "med vatten!"
 
-	para "You better take"
-	line "some BURN HEALs!"
+	para "Bäst du tar med"
+	line "några BRÄNNKURER!"
 	done
 
 _CinnabarGymGymGuideBeatBlaineText::
-	text "<PLAYER>! You beat"
-	line "that fire brand!"
+	text "<PLAYER>! Du slog"
+	line "den där eldsjälen!"
 	done

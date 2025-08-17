@@ -1,22 +1,22 @@
 _Route22GateGuardNoBoulderbadgeText::
-	text "Only truly skilled"
-	line "trainers are"
-	cont "allowed through."
+	text "Endast riktigt"
+	line "skickliga tränare"
+	cont "får passera."
 
-	para "You don't have the"
-	line "BOULDERBADGE yet!@"
+	para "Du har inte"
+	line "STENORDEN än!@"
 	text_end
 
 _Route22GateGuardICantLetYouPassText::
 	text_start
 
-	para "The rules are"
-	line "rules. I can't"
-	cont "let you pass."
+	para "Regler är regler."
+	line "Jag kan inte"
+	cont "släppa förbi dig."
 	done
 
 _Route22GateGuardGoRightAheadText::
-	text "Oh! That is the"
-	line "BOULDERBADGE!"
-	cont "Go right ahead!@"
+	text "Åh! Det där är"
+	line "STENORDEN! Gå"
+	cont "rakt fram du bara!@"
 	text_end

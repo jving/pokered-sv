@@ -1,10 +1,10 @@
 _SaffronPidgeyHouseBrunetteGirlText::
-	text "Thank you for"
-	line "writing. I hope"
-	cont "to see you soon!"
+	text "Tack för att du"
+	line "skrev. Jag hoppas"
+	cont "vi ses snart!"
 
-	para "Hey! Don't look"
-	line "at my letter!"
+	para "Hallå! Titta inte"
+	line "på mitt brev!"
 	done
 
 _SaffronPidgeyHousePidgeyText::
@@ -12,16 +12,16 @@ _SaffronPidgeyHousePidgeyText::
 	text_end
 
 _SaffronPidgeyHouseYoungsterText::
-	text "The COPYCAT is"
-	line "cute! I'm getting"
-	cont "her a # DOLL!"
+	text "COPYCAT är söt!"
+	line "Jag ska ge henne"
+	cont "en #-DOCKA!"
 	done
 
 _SaffronPidgeyHousePaperText::
-	text "I was given a PP"
-	line "UP as a gift."
+	text "Jag fick en PP UPP"
+	line "som present."
 
-	para "It's used for"
-	line "increasing the PP"
-	cont "of techniques!"
+	para "Den används för"
+	line "att öka PP för"
+	cont "tekniker!"
 	done

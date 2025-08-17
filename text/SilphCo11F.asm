@@ -1,135 +1,136 @@
 _SilphCo11FSilphPresidentText::
-	text "PRESIDENT: Thank"
-	line "you for saving"
+	text "DIREKTÖREN: Tack"
+	line "för att du räddade"
 	cont "SILPH!"
 
-	para "I will never"
-	line "forget you saved"
-	cont "us in our moment"
-	cont "of peril!"
+	para "Jag kommer aldrig"
+	line "glömma att du"
+	cont "räddade oss i vår"
+	cont "stund av nöd!"
 
-	para "I have to thank"
-	line "you in some way!"
+	para "Jag måste tacka dig"
+	line "på något sätt!"
 
-	para "Because I am rich,"
-	line "I can give you"
-	cont "anything!"
+	para "Eftersom jag är"
+	line "rik kan jag ge dig"
+	cont "vad som helst!"
 
-	para "Here, maybe this"
-	line "will do!"
+	para "Här, den här duger"
+	line "kanske!"
 	prompt
 
 _SilphCo11FSilphPresidentReceivedMasterBallText::
-	text "<PLAYER> got a"
+	text "<PLAYER> fick en"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _SilphCo11FSilphPresidentMasterBallDescriptionText::
-	text "PRESIDENT: You"
-	line "can't buy that"
-	cont "anywhere!"
+	text "DIREKTÖREN: Du kan"
+	line "inte köpa den"
+	cont "någonstans!"
 
-	para "It's our secret"
-	line "prototype MASTER"
-	cont "BALL!"
+	para "Det är vår hemliga"
+	line "prototyp MÄSTAR-"
+	cont "BOLL!"
 
-	para "It will catch any"
-	line "#MON without"
-	cont "fail!"
+	para "Den fångar vilken"
+	line "#MON som helst"
+	cont "utan att misslyckas!"
 
-	para "You should be"
-	line "quiet about using"
-	cont "it, though."
+	para "Du bör dock vara"
+	line "tyst om att du"
+	cont "använder den."
 	done
 
 _SilphCo11FSilphPresidentNoRoomText::
-	text "You have no"
-	line "room for this."
+	text "Du har ingen"
+	line "plats för den här."
 	done
 
 _SilphCo11FBeautyText::
-	text "SECRETARY: Thank"
-	line "you for rescuing"
-	cont "all of us!"
+	text "SEKRETERARE: Tack"
+	line "för att du räddade"
+	cont "oss alla!"
 
-	para "We admire your"
-	line "courage."
+	para "Vi beundrar ditt"
+	line "mod."
 	done
 
 _SilphCo11FGiovanniText::
 	text "Ah <PLAYER>!"
-	line "So we meet again!"
+	line "Så vi möts igen!"
 
-	para "The PRESIDENT and"
-	line "I are discussing"
-	cont "a vital business"
-	cont "proposition."
+	para "DIREKTÖREN och jag"
+	line "diskuterar ett"
+	cont "viktigt affärs-"
+	cont "förslag."
 
-	para "Keep your nose"
-	line "out of grown-up"
-	cont "matters..."
+	para "Håll näsan borta"
+	line "från vuxnas"
+	cont "angelägenheter..."
 
-	para "Or, experience a"
-	line "world of pain!"
+	para "Eller upplev en"
+	line "värld av smärta!"
 	done
 
 _SilphCo10FGiovanniILostAgainText::
 	text "Arrgh!!"
-	line "I lost again!?"
+	line "Jag förlorade igen!?"
 	prompt
 
 _SilphCo11FGiovanniYouRuinedOurPlansText::
-	text "Blast it all!"
-	line "You ruined our"
-	cont "plans for SILPH!"
+	text "Skit också!"
+	line "Du förstörde våra"
+	cont "planer för SILPH!"
 
-	para "But, TEAM ROCKET"
-	line "will never fall!"
+	para "Men, TEAM ROCKET"
+	line "kommer aldrig att"
+	cont "falla!"
 
-	para "<PLAYER>! Never"
-	line "forget that all"
-	cont "#MON exist"
-	cont "for TEAM ROCKET!"
+	para "<PLAYER>! Glöm"
+	line "aldrig att alla"
+	cont "#MON existerar"
+	cont "för TEAM ROCKET!"
 
-	para "I must go, but I"
-	line "shall return!"
+	para "Jag måste gå, men"
+	line "jag ska återvända!"
 	done
 
 _SilphCo11FRocket1BattleText::
-	text "Stop right there!"
-	line "Don't you move!"
+	text "Stopp där!"
+	line "Rör dig inte!"
 	done
 
 _SilphCo11FRocket1EndBattleText::
-	text "Don't..."
-	line "Please!"
+	text "Snälla..."
+	line "Gör det inte!"
 	prompt
 
 _SilphCo11FRocket1AfterBattleText::
-	text "So, you want to"
-	line "see my BOSS?"
+	text "Så, du vill träffa"
+	line "min BOSS?"
 	done
 
 _SilphCo11FRocket2BattleText::
-	text "Halt! Do you have"
-	line "an appointment"
-	cont "with my BOSS?"
+	text "Stopp! Har du en"
+	line "tid bokad med"
+	cont "min BOSS?"
 	done
 
 _SilphCo11FRocket2EndBattleText::
 	text "Gaah!"
-	line "Demolished!"
+	line "Krossad!"
 	prompt
 
 _SilphCo11FRocket2AfterBattleText::
-	text "Watch your step,"
-	line "my BOSS likes his"
-	cont "#MON tough!"
+	text "Se dig för, min"
+	line "BOSS gillar sina"
+	cont "#MON tuffa!"
 	done
 
 _SilphCo10FPorygonText::
-	text "The monitor has"
-	line "#MON on it!"
+	text "Skärmen har #MON"
+	line "på sig!"
 	done

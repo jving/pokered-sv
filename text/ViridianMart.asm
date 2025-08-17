@@ -1,31 +1,35 @@
 _ViridianMartClerkSayHiToOakText::
-	text "Okay! Say hi to"
-	line "PROF.OAK for me!"
+	text "Okej! Hälsa"
+	line "PROF.OAK från"
+	cont "mig!"
 	done
 
 _ViridianMartClerkYouCameFromPalletTownText::
-	text "Hey! You came from"
-	line "PALLET TOWN?"
+	text "Hallå! Kommer du"
+	line "från PALLET"
+	cont "TOWN?"
 	done
 
 _ViridianMartClerkParcelQuestText::
-	text "You know PROF."
-	line "OAK, right?"
+	text "Du känner PROF."
+	line "OAK, eller hur?"
 
-	para "His order came in."
-	line "Will you take it"
-	cont "to him?"
+	para "Hans order kom."
+	line "Vill du ta den"
+	cont "till honom?"
 
-	para "<PLAYER> got"
-	line "OAK's PARCEL!@"
+	para "<PLAYER> fick"
+	line "OAKs PAKET!@"
 	text_end
 
 _ViridianMartYoungsterText::
-	text "This shop sells"
-	line "many ANTIDOTEs."
+	text "Den här butiken"
+	line "säljer många"
+	cont "MOTGIFT."
 	done
 
 _ViridianMartCooltrainerMText::
-	text "No! POTIONs are"
-	line "all sold out."
+	text "Nej! POTIONs"
+	line "är helt slut-"
+	cont "sålda."
 	done

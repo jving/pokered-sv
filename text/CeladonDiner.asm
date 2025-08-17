@@ -1,60 +1,62 @@
 _CeladonDinerCookText::
-	text "Hi!"
+	text "Hej!"
 
-	para "We're taking a"
-	line "break now."
+	para "Vi tar en paus"
+	line "nu."
 	done
 
 _CeladonDinerMiddleAgedWomanText::
-	text "My #MON are"
-	line "weak, so I often"
-	cont "have to go to the"
-	cont "DRUG STORE."
+	text "Mina #MON är"
+	line "svaga, så jag"
+	cont "måste ofta gå"
+	cont "till APOTEKET."
 	done
 
 _CeladonDinerMiddleAgedManText::
-	text "Psst! There's a"
-	line "basement under"
-	cont "the GAME CORNER."
+	text "Psst! Det finns"
+	line "en källare under"
+	cont "GAME CORNER."
 	done
 
 _CeladonDinerFisherText::
-	text "Munch..."
+	text "Mums..."
 
-	para "The man at that"
-	line "table lost it all"
-	cont "at the slots."
+	para "Mannen vid det"
+	line "där bordet förlo-"
+	cont "rade allt på"
+	cont "spelautomaterna."
 	done
 
 _CeladonDinerGymGuideImFlatOutBustedText::
-	text "Go ahead! Laugh!"
+	text "Varsågod!"
+	line "Skratta!"
 
-	para "I'm flat out"
-	line "busted!"
+	para "Jag är helt pank!"
 
-	para "No more slots for"
-	line "me! I'm going"
-	cont "straight!"
+	para "Slut med automater"
+	line "för mig! Jag ska"
+	cont "bli hederlig!"
 
-	para "Here! I won't be"
-	line "needing this any-"
-	cont "more!"
+	para "Här! Jag behöver"
+	line "inte den här"
+	cont "längre!"
 	prompt
 
 _CeladonDinerGymGuideReceivedCoinCaseText::
-	text "<PLAYER> received"
-	line "a @"
+	text "<PLAYER> mottog en"
+	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _CeladonDinerGymGuideCoinCaseNoRoomText::
-	text "Make room for"
-	line "this!"
+	text "Gör plats för den"
+	line "här!"
 	done
 
 _CeladonDinerGymGuideWinItBackText::
-	text "I always thought"
-	line "I was going to"
-	cont "win it back..."
+	text "Jag trodde alltid"
+	line "att jag skulle"
+	cont "vinna tillbaka"
+	cont "det..."
 	done

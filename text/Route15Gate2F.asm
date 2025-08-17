@@ -1,24 +1,22 @@
 _Route15Gate2FOaksAideExpAllText::
-	text "EXP.ALL gives"
-	line "EXP points to all"
-	cont "the #MON with"
-	cont "you, even if they"
-	cont "don't fight."
+	text "EXP.ALLA ger EXP-"
+	line "poäng till alla"
+	cont "#MON du har med"
+	cont "dig, även om de"
+	cont "inte slåss."
 
-	para "It does, however,"
-	line "reduce the amount"
-	cont "of EXP for each"
-	cont "#MON."
+	para "Det minskar dock"
+	line "mängden EXP för"
+	cont "varje #MON."
 
-	para "If you don't need"
-	line "it, you should "
-	cont "store it via PC."
+	para "Om du inte behöver"
+	line "den, bör du lagra"
+	cont "den via PC."
 	done
 
 _Route15Gate2FBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Tittade i kikaren."
 
-	para "It looks like a"
-	line "small island!"
+	para "Det ser ut som"
+	line "en liten ö!"
 	done

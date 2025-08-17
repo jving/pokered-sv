@@ -1,117 +1,114 @@
 _DexCompletionText::
-	text "#DEX comp-"
-	line "letion is:"
+	text "#DEX-status är:"
 
 	para "@"
 	text_decimal hDexRatingNumMonsSeen, 1, 3
-	text " #MON seen"
+	text " #MON sedda"
 	line "@"
 	text_decimal hDexRatingNumMonsOwned, 1, 3
-	text " #MON owned"
+	text " #MON ägda"
 
-	para "PROF.OAK's"
-	line "Rating:"
+	para "PROF.OAKs"
+	line "Betyg:"
 	prompt
 
 _DexRatingText_Own0To9::
-	text "You still have"
-	line "lots to do."
-	cont "Look for #MON"
-	cont "in grassy areas!"
+	text "Du har mycket kvar"
+	line "att göra. Leta"
+	cont "efter #MON i"
+	cont "gräsområden!"
 	done
 
 _DexRatingText_Own10To19::
-	text "You're on the"
-	line "right track! "
-	cont "Get a FLASH HM"
-	cont "from my AIDE!"
+	text "Du är på rätt spår!"
+	line "Få en BLIXT HM"
+	cont "av min assistent!"
 	done
 
 _DexRatingText_Own20To29::
-	text "You still need"
-	line "more #MON!"
-	cont "Try to catch"
-	cont "other species!"
+	text "Du behöver fort-"
+	line "farande fler #MON!"
+	cont "Försök att fånga"
+	cont "andra!"
 	done
 
 _DexRatingText_Own30To39::
-	text "Good, you're"
-	line "trying hard!"
-	cont "Get an ITEMFINDER"
-	cont "from my AIDE!"
+	text "Bra, du kämpar på!"
+	line "Få en SAKLETARE"
+	cont "av min assistent!"
 	done
 
 _DexRatingText_Own40To49::
-	text "Looking good!"
-	line "Go find my AIDE"
-	cont "when you get 50!"
+	text "Ser bra ut! Hitta"
+	line "min assistent när"
+	cont "du har 50!"
 	done
 
 _DexRatingText_Own50To59::
-	text "You finally got at"
-	line "least 50 species!"
-	cont "Be sure to get"
-	cont "EXP.ALL from my"
-	cont "AIDE!"
+	text "Du fick äntligen"
+	line "minst 50 arter!"
+	cont "Se till att få"
+	cont "EXP.ALLA från"
+	cont "min assistent!"
 	done
 
 _DexRatingText_Own60To69::
-	text "Ho! This is geting"
-	line "even better!"
+	text "Ho! Det här blir"
+	line "ju allt bättre!"
 	done
 
 _DexRatingText_Own70To79::
-	text "Very good!"
-	line "Go fish for some"
-	cont "marine #MON!"
+	text "Mycket bra! Gå och"
+	line "fiska efter några"
+	cont "marina #MON!"
 	done
 
 _DexRatingText_Own80To89::
-	text "Wonderful!"
-	line "Do you like to"
-	cont "collect things?"
+	text "Underbart! Gillar"
+	line "du att samla på"
+	cont "saker?"
 	done
 
 _DexRatingText_Own90To99::
-	text "I'm impressed!"
-	line "It must have been"
-	cont "difficult to do!"
+	text "Imponerande! Det"
+	line "måste ha varit"
+	cont "svårt att göra!"
 	done
 
 _DexRatingText_Own100To109::
-	text "You finally got at"
-	line "least 100 species!"
-	cont "I can't believe"
-	cont "how good you are!"
+	text "Du fick äntligen"
+	line "minst 100 arter!"
+	cont "Jag tror inte det"
+	cont "är sant hur bra"
+	cont "du är!"
 	done
 
 _DexRatingText_Own110To119::
-	text "You even have the"
-	line "evolved forms of"
-	cont "#MON! Super!"
+	text "Du har till och"
+	line "med de utvecklade"
+	cont "formerna av #MON!"
+	cont "Super!"
 	done
 
 _DexRatingText_Own120To129::
-	text "Excellent! Trade"
-	line "with friends to"
-	cont "get some more!"
+	text "Utmärkt! Byt med"
+	line "vänner för att få"
+	cont "några fler!"
 	done
 
 _DexRatingText_Own130To139::
-	text "Outstanding!"
-	line "You've become a"
-	cont "real pro at this!"
+	text "Enastående! Du har"
+	line "blivit ett riktigt"
+	cont "proffs på det här!"
 	done
 
 _DexRatingText_Own140To149::
-	text "I have nothing"
-	line "left to say!"
-	cont "You're the"
-	cont "authority now!"
+	text "Jag har inget kvar"
+	line "att säga! Du är"
+	cont "auktoriteten nu!"
 	done
 
 _DexRatingText_Own150To151::
-	text "Your #DEX is"
-	line "entirely complete!"
-	cont "Congratulations!"
+	text "Din #DEX är helt"
+	line "komplett! Grattis!"
 	done

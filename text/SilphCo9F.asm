@@ -1,21 +1,20 @@
 SilphCo9FNurseYouLookTiredText::
-	text "You look tired!"
-	line "You should take a"
-	cont "quick nap!"
+	text "Du ser trött ut!"
+	line "Du borde ta en"
+	cont "snabb tupplur!"
 	prompt
 
 SilphCo9FNurseDontGiveUpText::
-	text "Don't give up!"
+	text "Ge inte upp!"
 	done
 
 SilphCo9FNurseThankYouText::
-	text "Thank you so"
-	line "much!"
+	text "Tack så mycket!"
 	done
 
 _SilphCo9FRocket1BattleText::
-	text "Your #MON seem"
-	line "to adore you, kid!"
+	text "Dina #MON verkar"
+	line "avguda dig, grabben!"
 	done
 
 _SilphCo9FRocket1EndBattleText::
@@ -23,40 +22,40 @@ _SilphCo9FRocket1EndBattleText::
 	prompt
 
 _SilphCo9FRocket1AfterBattleText::
-	text "If I had started"
-	line "as a trainer at"
-	cont "your age..."
+	text "Om jag hade börjat"
+	line "som tränare i din"
+	cont "ålder..."
 	done
 
 _SilphCo9FScientistBattleText::
-	text "Your #MON have"
-	line "weak points! I"
-	cont "can nail them!"
+	text "Dina #MON har"
+	line "svaga punkter! Jag"
+	cont "kan sätta dit dem!"
 	done
 
 _SilphCo9FScientistEndBattleText::
-	text "You"
-	line "hammered me!"
+	text "Du"
+	line "krossade mig!"
 	prompt
 
 _SilphCo9FScientistAfterBattleText::
-	text "Exploiting weak"
-	line "spots does work!"
-	cont "Think about"
-	cont "element types!"
+	text "Att utnyttja svaga"
+	line "punkter fungerar!"
+	cont "Tänk på element-"
+	cont "typer!"
 	done
 
 _SilphCo9FRocket2BattleText::
-	text "I am one of the 4"
-	line "ROCKET BROTHERS!"
+	text "Jag är en av de 4"
+	line "ROCKET-BRÖDERNA!"
 	done
 
 _SilphCo9FRocket2EndBattleText::
 	text "Warg!"
-	line "Brothers, I lost!"
+	line "Bröder, jag förlorade!"
 	prompt
 
 _SilphCo9FRocket2AfterBattleText::
-	text "My brothers will"
-	line "avenge me!"
+	text "Mina bröder kommer"
+	line "att hämnas mig!"
 	done

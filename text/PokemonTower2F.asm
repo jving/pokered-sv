@@ -1,57 +1,59 @@
 _PokemonTower2FRivalWhatBringsYouHereText::
-	text "<RIVAL>: Hey,"
-	line "<PLAYER>! What"
-	cont "brings you here?"
-	cont "Your #MON"
-	cont "don't look dead!"
+	text "<RIVAL>: Hallå,"
+	line "<PLAYER>! Vad gör"
+	cont "du här? Dina"
+	cont "#MON ser inte"
+	cont "döda ut!"
 
-	para "I can at least"
-	line "make them faint!"
-	cont "Let's go, pal!"
+	para "Jag kan åtminstone"
+	line "få dem att svimma!"
+	cont "Kör vi, kompis!"
 	done
 
 _PokemonTower2FRivalDefeatedText::
-	text "What?"
-	line "You stinker!"
+	text "Va?"
+	line "Din skitstövel!"
 
-	para "I took it easy on"
-	line "you too!"
+	para "Jag tog det lugnt"
+	line "med dig också!"
 	prompt
 
 _PokemonTower2FRivalVictoryText::
-	text "<RIVAL>: Well,"
-	line "look at all your"
-	cont "wimpy #MON!"
+	text "<RIVAL>: Tja, titta"
+	line "på alla dina"
+	cont "mesiga #MON!"
 
-	para "Toughen them up a"
-	line "bit more!"
+	para "Härda dem lite"
+	line "mer!"
 	prompt
 
 _PokemonTower2FRivalHowsYourDexText::
-	text "How's your #DEX"
-	line "coming, pal?"
-	cont "I just caught a"
-	cont "CUBONE!"
+	text "Hur går det med"
+	line "din #DEX, kompis?"
+	cont "Jag fångade just"
+	cont "en CUBONE!"
 
-	para "I can't find the"
-	line "grown-up MAROWAK"
-	cont "yet!"
+	para "Jag kan inte hitta"
+	line "den vuxna MAROWAK"
+	cont "än!"
 
-	para "I doubt there are"
-	line "any left! Well, I"
-	cont "better get going!"
-	cont "I've got a lot to"
-	cont "accomplish, pal!"
+	para "Jag tvivlar på att"
+	line "det finns några"
+	cont "kvar! Nåväl, bäst"
+	cont "jag drar! Jag har"
+	cont "mycket att göra,"
+	cont "kompis!"
 
-	para "Smell ya later!"
+	para "Vi hörs senare!"
 	done
 
 _PokemonTower2FChannelerText::
-	text "Even we could not"
-	line "identify the"
-	cont "wayward GHOSTs!"
+	text "Inte ens vi kunde"
+	line "identifiera de"
+	cont "vilseledda"
+	cont "SPÖKENA!"
 
-	para "A SILPH SCOPE"
-	line "might be able to"
-	cont "unmask them."
+	para "En SILPH SCOPE"
+	line "kanske kan avslöja"
+	cont "dem."
 	done

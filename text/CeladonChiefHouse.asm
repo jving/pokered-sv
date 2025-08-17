@@ -1,22 +1,24 @@
 _CeladonChiefHouseChiefText::
-	text "Hehehe! The slots"
-	line "just reel in the"
-	cont "dough, big time!"
+	text "Hehehe! Maskin-"
+	line "erna drar in"
+	cont "storkovan!"
 	done
 
 _CeladonChiefHouseRocketText::
-	text "CHIEF!"
+	text "CHEFEN!"
 
-	para "We just shipped"
-	line "2000 #MON as"
-	cont "slot prizes!"
+	para "Vi har just"
+	line "skickat 2000"
+	cont "#MON som"
+	cont "spelpriser!"
 	done
 
 _CeladonChiefHouseSailorText::
-	text "Don't touch the"
-	line "poster at the"
+	text "Rör inte"
+	line "affischen i"
 	cont "GAME CORNER!"
 
-	para "There's no secret"
-	line "switch behind it!"
+	para "Det finns ingen"
+	line "hemlig knapp"
+	cont "bakom den!"
 	done

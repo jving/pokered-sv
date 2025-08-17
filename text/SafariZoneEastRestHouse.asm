@@ -1,18 +1,19 @@
 _SafariZoneEastRestHouseScientistText::
-	text "How many did you"
-	line "catch? I'm bushed"
-	cont "from the work!"
+	text "Hur många har du"
+	line "fångat? Jag är"
+	cont "slut av allt jobb!"
 	done
 
 _SafariZoneEastRestHouseRockerText::
-	text "I caught a"
+	text "Jag fångade en"
 	line "CHANSEY!"
 
-	para "That makes this"
-	line "all worthwhile!"
+	para "Det gör allt det"
+	line "här mödan värt!"
 	done
 
 _SafariZoneEastRestHouseSilphWorkerMText::
-	text "Whew! I'm tired"
-	line "from all the fun!"
+	text "Puh! Jag är trött"
+	line "efter allt det"
+	cont "roliga!"
 	done

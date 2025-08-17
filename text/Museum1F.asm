@@ -1,108 +1,112 @@
 _Museum1FScientist1ComeAgainText::
-	text "Come again!"
+	text "Välkommen åter!"
 	done
 
 _Museum1FScientist1WouldYouLikeToComeInText::
-	text "It's ¥50 for a"
-	line "child's ticket."
+	text "Det kostar ¥50"
+	line "för en barn-"
+	cont "biljett."
 
-	para "Would you like to"
-	line "come in?"
+	para "Vill du komma in?"
 	done
 
 _Museum1FScientist1ThankYouText::
-	text "Right, ¥50!"
-	line "Thank you!"
+	text "Javisst, ¥50!"
+	line "Tack så mycket!"
 	done
 
 _Museum1FScientist1DontHaveEnoughMoneyText::
-	text "You don't have"
-	line "enough money."
+	text "Du har inte"
+	line "tillräckligt med"
+	cont "pengar."
 	prompt
 
 _Museum1FScientist1DoYouKnowWhatAmberIsText::
-	text "You can't sneak"
-	line "in the back way!"
+	text "Du kan inte smita"
+	line "in bakvägen!"
 
-	para "Oh, whatever!"
-	line "Do you know what"
-	cont "AMBER is?"
+	para "Äh, strunt samma!"
+	line "Vet du vad"
+	cont "BÄRNSTEN är?"
 	done
 
 _Museum1FScientist1TheresALabSomewhereText::
-	text "There's a lab"
-	line "somewhere trying"
-	cont "to resurrect"
-	cont "ancient #MON"
-	cont "from AMBER."
+	text "Det finns ett labb"
+	line "någonstans som"
+	cont "försöker åter-"
+	cont "uppliva uråldriga"
+	cont "#MON från"
+	cont "BÄRNSTEN."
 	done
 
 _Museum1FScientist1AmberIsFossilizedTreeSapText::
-	text "AMBER is fossil-"
-	line "ized tree sap."
+	text "BÄRNSTEN är"
+	line "fossiliserad"
+	cont "trädsav."
 	done
 
 _Museum1FScientist1GoToOtherSideText::
-	text "Please go to the"
-	line "other side!"
+	text "Var god gå till"
+	line "andra sidan!"
 	done
 
 _Museum1FScientist1TakePlentyOfTimeText::
-	text "Take plenty of"
-	line "time to look!"
+	text "Ta god tid på"
+	line "dig att titta!"
 	done
 
 _Museum1FGamblerText::
-	text "That is one"
-	line "magnificent"
-	cont "fossil!"
+	text "Det där är ett"
+	line "magnifikt fossil!"
 	done
 
 _Museum1FScientist2TakeThisToAPokemonLabText::
-	text "Ssh! I think that"
-	line "this chunk of"
-	cont "AMBER contains"
-	cont "#MON DNA!"
+	text "Ssh! Jag tror att"
+	line "den här biten"
+	cont "BÄRNSTEN inne-"
+	cont "håller #MON-DNA!"
 
-	para "It would be great"
-	line "if #MON could"
-	cont "be resurrected"
-	cont "from it!"
+	para "Det vore toppen"
+	line "om #MON kunde"
+	cont "återupplivas"
+	cont "från den!"
 
-	para "But, my colleagues"
-	line "just ignore me!"
+	para "Men mina kollegor"
+	line "ignorerar mig bara!"
 
-	para "So I have a favor"
-	line "to ask!"
+	para "Så jag har en"
+	line "tjänst att be om!"
 
-	para "Take this to a"
-	line "#MON LAB and"
-	cont "get it examined!"
+	para "Ta den här till ett"
+	line "#MON-LABB och"
+	cont "låt den under-"
+	cont "sökas!"
 	prompt
 
 _Museum1FScientist2ReceivedOldAmberText::
-	text "<PLAYER> received"
-	line "OLD AMBER!@"
+	text "<PLAYER> mottog"
+	line "URBÄRNSTEN!@"
 	text_end
 
 _Museum1FScientist2GetTheOldAmberCheckText::
-	text "Ssh! Get the OLD"
-	line "AMBER checked!"
+	text "Ssh! Låt under-"
+	line "söka URBÄRNSTENEN!"
 	done
 
 _Museum1FScientist2YouDontHaveSpaceText::
-	text "You don't have"
-	line "space for this!"
+	text "Du har inte plats"
+	line "för den här!"
 	done
 
 _Museum1FScientist3Text::
-	text "We are proud of 2"
-	line "fossils of very"
-	cont "rare, prehistoric"
+	text "Vi är stolta över"
+	line "2 fossil av"
+	cont "mycket sällsynta,"
+	cont "förhistoriska"
 	cont "#MON!"
 	done
 
 _Museum1FOldAmberText::
-	text "The AMBER is"
-	line "clear and gold!"
+	text "BÄRNSTENEN är klar"
+	line "och guldfärgad!"
 	done

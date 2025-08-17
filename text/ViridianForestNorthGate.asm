@@ -1,19 +1,22 @@
 _ViridianForestNorthGateSuperNerdText::
-	text "Many #MON live"
-	line "only in forests "
-	cont "and caves."
+	text "Många #MON lever"
+	line "bara i skogar"
+	cont "och grottor."
 
-	para "You need to look"
-	line "everywhere to get"
-	cont "different kinds!"
+	para "Du måste leta"
+	line "överallt för"
+	cont "att hitta"
+	cont "olika sorter!"
 	done
 
 _ViridianForestNorthGateGrampsText::
-	text "Have you noticed"
-	line "the bushes on the"
-	cont "roadside?"
+	text "Har du lagt"
+	line "märke till"
+	cont "buskarna vid"
+	cont "vägkanten?"
 
-	para "They can be cut"
-	line "down by a special"
-	cont "#MON move."
+	para "De kan huggas"
+	line "ner med en"
+	cont "speciell #MON-"
+	cont "attack."
 	done

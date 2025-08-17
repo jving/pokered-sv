@@ -1,33 +1,35 @@
 _SafariZoneNorthRestHouseSignText::
-	text "REST HOUSE"
+	text "VILOHUS"
 	done
 
 _SafariZoneNorthTrainerTips1Text::
-	text "TRAINER TIPS"
+	text "TRÄNARTIPS"
 
-	para "The SECRET HOUSE"
-	line "is still ahead!"
+	para "DET HEMLIGA HUSET"
+	line "ligger fortfarande"
+	cont "framför!"
 	done
 
 _SafariZoneNorthSignText::
-	text "AREA 2"
+	text "OMRÅDE 2"
 	done
 
 _SafariZoneNorthTrainerTips2Text::
-	text "TRAINER TIPS"
+	text "TRÄNARTIPS"
 
-	para "#MON hide in"
-	line "tall grass!"
+	para "#MON gömmer sig"
+	line "i högt gräs!"
 
-	para "Zigzag through"
-	line "grassy areas to"
-	cont "flush them out."
+	para "Sicksacka genom"
+	line "gräsområden för"
+	cont "att skrämma fram"
+	cont "dem."
 	done
 
 _SafariZoneNorthTrainerTips3Text::
-	text "TRAINER TIPS"
+	text "TRÄNARTIPS"
 
-	para "Win a free HM for"
-	line "finding the"
-	cont "SECRET HOUSE!"
+	para "Vinn en gratis HM"
+	line "för att hitta"
+	cont "DET HEMLIGA HUSET!"
 	done

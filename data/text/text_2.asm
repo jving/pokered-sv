@@ -1,7 +1,8 @@
+
 _AIBattleWithdrawText::
 	text_ram wTrainerName
-	text " with-"
-	line "drew @"
+	text " kallade"
+	line "tillbaka @"
 	text_ram wEnemyMonNick
 	text "!"
 	prompt
@@ -9,24 +10,24 @@ _AIBattleWithdrawText::
 _AIBattleUseItemText::
 	text_ram wTrainerName
 	text_start
-	line "used @"
+	line "använde @"
 	text_ram wNameBuffer
 	text_start
-	cont "on @"
+	cont "på @"
 	text_ram wEnemyMonNick
 	text "!"
 	prompt
 
 _TradeWentToText::
 	text_ram wStringBuffer
-	text " went"
-	line "to @"
+	text " skickades"
+	line "till @"
 	text_ram wLinkEnemyTrainerName
 	text "."
 	done
 
 _TradeForText::
-	text "For <PLAYER>'s"
+	text "För <PLAYER>s"
 	line "@"
 	text_ram wStringBuffer
 	text ","
@@ -34,7 +35,7 @@ _TradeForText::
 
 _TradeSendsText::
 	text_ram wLinkEnemyTrainerName
-	text " sends"
+	text " skickar"
 	line "@"
 	text_ram wNameBuffer
 	text "."
@@ -42,18 +43,18 @@ _TradeSendsText::
 
 _TradeWavesFarewellText::
 	text_ram wLinkEnemyTrainerName
-	text " waves"
-	line "farewell as"
+	text " vinkar"
+	line "farväl när"
 	done
 
 _TradeTransferredText::
 	text_ram wNameBuffer
-	text " is"
-	line "transferred."
+	text " över-"
+	line "förs."
 	done
 
 _TradeTakeCareText::
-	text "Take good care of"
+	text "Ta väl hand om"
 	line "@"
 	text_ram wNameBuffer
 	text "."
@@ -61,57 +62,58 @@ _TradeTakeCareText::
 
 _TradeWillTradeText::
 	text_ram wLinkEnemyTrainerName
-	text " will"
-	line "trade @"
+	text " vill"
+	line "byta @"
 	text_ram wNameBuffer
 	text_start
 	done
 
 _TradeforText::
-	text "for <PLAYER>'s"
+	text "mot <PLAYER>s"
 	line "@"
 	text_ram wStringBuffer
 	text "."
 	done
 
 _PlaySlotMachineText::
-	text "A slot machine!"
-	line "Want to play?"
+	text "En spelautomat!"
+	line "Vill du spela?"
 	done
 
 _OutOfCoinsSlotMachineText::
-	text "Darn!"
-	line "Ran out of coins!"
+	text "Skit!"
+	line "Fick slut på"
+	cont "mynt!"
 	done
 
 _BetHowManySlotMachineText::
-	text "Bet how many"
-	line "coins?"
+	text "Satsa hur många"
+	line "mynt?"
 	done
 
 _StartSlotMachineText::
-	text "Start!"
+	text "Starta!"
 	done
 
 _NotEnoughCoinsSlotMachineText::
-	text "Not enough"
-	line "coins!"
+	text "Inte tillräck-"
+	line "ligt med mynt!"
 	prompt
 
 _OneMoreGoSlotMachineText::
-	text "One more "
-	line "go?"
+	text "En gång till?"
 	done
 
 _LinedUpText::
-	text " lined up!"
-	line "Scored @"
+	text " i rad!"
+	line "Fick @"
 	text_ram wStringBuffer
-	text " coins!"
+	text " mynt!"
 	done
 
 _NotThisTimeText::
-	text "Not this time!"
+	text "Inte den här"
+	line "gången!"
 	prompt
 
 _YeahText::
@@ -119,450 +121,478 @@ _YeahText::
 	text_end
 
 _DexSeenOwnedText::
-	text "#DEX   Seen:@"
+	text "#DEX   Sedda:@"
 	text_decimal wDexRatingNumMonsSeen, 1, 3
 	text_start
-	line "         Owned:@"
+	line "         Ägda:@"
 	text_decimal wDexRatingNumMonsOwned, 1, 3
 	text_end
 
 _DexRatingText::
-	text "#DEX Rating<COLON>"
+	text "#DEX-Betyg<COLON>"
 	done
 
 _GymStatueText1::
 	text_ram wGymCityName
 	text_start
-	line "#MON GYM"
-	cont "LEADER: @"
+	line "#MON-GYM"
+	cont "LEDARE: @"
 	text_ram wGymLeaderName
 	text_start
 
-	para "WINNING TRAINERS:"
+	para "VINNARE:"
 	line "<RIVAL>"
 	done
 
 _GymStatueText2::
 	text_ram wGymCityName
 	text_start
-	line "#MON GYM"
-	cont "LEADER: @"
+	line "#MON-GYM"
+	cont "LEDARE: @"
 	text_ram wGymLeaderName
 	text_start
 
-	para "WINNING TRAINERS:"
+	para "VINNARE:"
 	line "<RIVAL>"
 	cont "<PLAYER>"
 	done
 
 _ViridianCityPokecenterGuyText::
-	text "#MON CENTERs"
-	line "heal your tired,"
-	cont "hurt or fainted"
-	cont "#MON!"
+	text "#MON CENTER"
+	line "helar dina"
+	cont "trötta, skadade"
+	cont "eller svim-"
+	cont "made #MON!"
 	done
 
 _PewterCityPokecenterGuyText::
-	text "Yawn!"
+	text "Gäsp!"
 
-	para "When JIGGLYPUFF"
-	line "sings, #MON"
-	cont "get drowsy..."
+	para "När JIGGLYPUFF"
+	line "sjunger, blir"
+	cont "#MON sömniga..."
 
-	para "...Me too..."
-	line "Snore..."
+	para "...Jag också..."
+	line "Zzz..."
 	done
 
 _CeruleanPokecenterGuyText::
-	text "BILL has lots of"
+	text "BILL har många"
 	line "#MON!"
 
-	para "He collects rare"
-	line "ones too!"
+	para "Han samlar på"
+	line "sällsynta också!"
 	done
 
 _LavenderPokecenterGuyText::
-	text "CUBONEs wear"
-	line "skulls, right?"
+	text "CUBONEs bär"
+	line "skallar, eller"
+	cont "hur?"
 
-	para "People will pay a"
-	line "lot for one!"
+	para "Folk betalar"
+	line "mycket för en!"
 	done
 
 _MtMoonPokecenterBenchGuyText::
-	text "If you have too"
-	line "many #MON, you"
-	cont "should store them"
+	text "Om du har för"
+	line "många #MON,"
+	cont "borde du"
+	cont "förvara dem"
 	cont "via PC!"
 	done
 
 _RockTunnelPokecenterGuyText::
-	text "I heard that"
-	line "GHOSTs haunt"
+	text "Jag hörde att"
+	line "spöken hemsöker"
 	cont "LAVENDER TOWN!"
 	done
 
 _UnusedBenchGuyText1::
-	text "I wish I could"
-	line "catch #MON."
+	text "Jag önskar jag"
+	line "kunde fånga"
+	cont "#MON."
 	done
 
 _UnusedBenchGuyText2::
-	text "I'm tired from"
-	line "all the fun..."
+	text "Jag är trött"
+	line "efter allt kul..."
 	done
 
 _UnusedBenchGuyText3::
-	text "SILPH's manager"
-	line "is hiding in the"
+	text "SILPHs chef"
+	line "gömmer sig i"
 	cont "SAFARI ZONE."
 	done
 
 _VermilionPokecenterGuyText::
-	text "It is true that a"
-	line "higher level"
-	cont "#MON will be"
-	cont "more powerful..."
+	text "Det är sant att"
+	line "en #MON på hög"
+	cont "nivå är"
+	cont "starkare..."
 
-	para "But, all #MON"
-	line "will have weak"
-	cont "points against"
-	cont "specific types."
+	para "Men, alla #MON"
+	line "har svagheter"
+	cont "mot specifika"
+	cont "typer."
 
-	para "So, there is no"
-	line "universally"
-	cont "strong #MON."
+	para "Så det finns"
+	line "ingen"
+	cont "universellt"
+	cont "stark #MON."
 	done
 
 _CeladonCityPokecenterGuyText::
-	text "If I had a BIKE,"
-	line "I would go to"
-	cont "CYCLING ROAD!"
+	text "Om jag hade en"
+	line "CYKEL skulle"
+	cont "jag åka till"
+	cont "CYKELVÄGEN!"
 	done
 
 _FuchsiaCityPokecenterGuyText::
-	text "If you're studying "
-	line "#MON, visit"
-	cont "the SAFARI ZONE."
+	text "Om du studerar"
+	line "#MON, besök"
+	cont "SAFARI ZONE."
 
-	para "It has all sorts"
-	line "of rare #MON."
+	para "Den har alla"
+	line "sorters säll-"
+	cont "synta #MON."
 	done
 
 _CinnabarPokecenterGuyText::
-	text "#MON can still"
-	line "learn techniques"
-	cont "after canceling"
-	cont "evolution."
+	text "#MON kan fort-"
+	line "farande lära"
+	cont "sig attacker"
+	cont "efter att ha"
+	cont "avbrutit"
+	cont "utveckling."
 
-	para "Evolution can wait"
-	line "until new moves"
-	cont "have been learned."
+	para "Utveckling kan"
+	line "vänta tills"
+	cont "nya attacker"
+	cont "lärts in."
 	done
 
 _SaffronCityPokecenterGuyText1::
-	text "It would be great"
-	line "if the ELITE FOUR"
-	cont "came and stomped"
-	cont "TEAM ROCKET!"
+	text "Det vore toppen"
+	line "om ELITE FOUR"
+	cont "kom och kros-"
+	cont "sade TEAM"
+	cont "ROCKET!"
 	done
 
 _SaffronCityPokecenterGuyText2::
-	text "TEAM ROCKET took"
-	line "off! We can go"
-	cont "out safely again!"
-	cont "That's great!"
+	text "TEAM ROCKET"
+	line "stack! Nu kan"
+	cont "vi gå ut säkert"
+	cont "igen! Toppen!"
 	done
 
 _CeladonCityHotelText::
-	text "My sis brought me"
-	line "on this vacation!"
+	text "Min syrra tog"
+	line "med mig på den"
+	cont "här semestern!"
 	done
 
 _BookcaseText::
-	text "Crammed full of"
-	line "#MON books!"
+	text "Fullproppad med"
+	line "#MON-böcker!"
 	done
 
 _NewBicycleText::
-	text "A shiny new"
-	line "BICYCLE!"
+	text "En skinande ny"
+	line "CYKEL!"
 	done
 
 _PushStartText::
-	text "Push START to"
-	line "open the MENU!"
+	text "Tryck på START"
+	line "för att öppna"
+	cont "MENYN!"
 	done
 
 _SaveOptionText::
-	text "The SAVE option is"
-	line "on the MENU"
-	cont "screen."
+	text "SPARA-alterna-"
+	line "tivet finns på"
+	cont "MENY-skärmen."
 	done
 
 _StrengthsAndWeaknessesText::
-	text "All #MON types"
-	line "have strong and"
-	cont "weak points"
-	cont "against others."
+	text "Alla #MON-typer"
+	line "har styrkor"
+	cont "och svagheter"
+	cont "mot andra."
 	done
 
 _TimesUpText::
 	text "PA: Ding-dong!"
 
-	para "Time's up!"
+	para "Tiden är ute!"
 	prompt
 
 _GameOverText::
-	text "PA: Your SAFARI"
-	line "GAME is over!"
+	text "PA: Ditt SAFARI"
+	line "GAME är över!"
 	done
 
 _CinnabarGymQuizIntroText::
-	text "#MON Quiz!"
+	text "#MON-Quiz!"
 
-	para "Get it right and"
-	line "the door opens to"
-	cont "the next room!"
+	para "Svara rätt så"
+	line "öppnas dörren"
+	cont "till nästa rum!"
 
-	para "Get it wrong and"
-	line "face a trainer!"
+	para "Svara fel så"
+	line "möter du en"
+	cont "tränare!"
 
-	para "If you want to"
-	line "conserve your"
-	cont "#MON for the"
-	cont "GYM LEADER..."
+	para "Om du vill"
+	line "spara dina"
+	cont "#MON till"
+	cont "GYM-LEDAREN..."
 
-	para "Then get it right!"
-	line "Here we go!"
+	para "Svara då rätt!"
+	line "Nu kör vi!"
 	prompt
 
 _CinnabarQuizQuestionsText1::
-	text "CATERPIE evolves"
-	line "into BUTTERFREE?"
+	text "Utvecklas"
+	line "CATERPIE till"
+	cont "BUTTERFREE?"
 	done
 
 _CinnabarQuizQuestionsText2::
-	text "There are 9"
-	line "certified #MON"
-	cont "LEAGUE BADGEs?"
+	text "Finns det 9"
+	line "certifierade"
+	cont "#MON LIGAN-"
+	cont "Ordnar?"
 	done
 
 _CinnabarQuizQuestionsText3::
-	text "POLIWAG evolves 3"
-	line "times?"
+	text "Utvecklas"
+	line "POLIWAG 3"
+	cont "gånger?"
 	done
 
 _CinnabarQuizQuestionsText4::
-	text "Are thunder moves"
-	line "effective against"
-	cont "ground element-"
-	cont "type #MON?"
+	text "Är blixt-"
+	line "attacker effek-"
+	cont "tiva mot jord-"
+	cont "typs-#MON?"
 	done
 
 _CinnabarQuizQuestionsText5::
-	text "#MON of the"
-	line "same kind and"
-	cont "level are not"
-	cont "identical?"
+	text "#MON av samma"
+	line "sort och nivå"
+	cont "är inte"
+	cont "identiska?"
 	done
 
 _CinnabarQuizQuestionsText6::
-	text "TM28 contains"
+	text "Innehåller TM28"
 	line "TOMBSTONER?"
 	done
 
 _CinnabarGymQuizCorrectText::
-	text "You're absolutely"
-	line "correct!"
+	text "Du har helt"
+	line "rätt!"
 
-	para "Go on through!@"
+	para "Gå vidare!@"
 	text_end
 
 _CinnabarGymQuizIncorrectText::
-	text "Sorry! Bad call!"
+	text "Ledsen! Fel svar!"
 	prompt
 
 _MagazinesText::
-	text "#MON magazines!"
+	text "#MON-tidningar!"
 
-	para "#MON notebooks!"
+	para "#MON-antecknings-"
+	line "block!"
 
-	para "#MON graphs!"
+	para "#MON-grafer!"
 	done
 
 _BillsHouseMonitorText::
-	text "TELEPORTER is"
-	line "displayed on the"
-	cont "PC monitor."
+	text "TELEPORTER visas"
+	line "på PC-skärmen."
 	done
 
 _BillsHouseInitiatedText::
-	text "<PLAYER> initiated"
-	line "TELEPORTER's Cell"
-	cont "Separator!@"
+	text "<PLAYER> startade"
+	line "TELEPORTERNS"
+	cont "Cellseparator!@"
 	text_end
 
 _BillsHousePokemonListText1::
-	text "BILL's favorite"
-	line "#MON list!"
+	text "BILLs favorit-"
+	line "#MON-lista!"
 	prompt
 
 _BillsHousePokemonListText2::
-	text "Which #MON do"
-	line "you want to see?"
+	text "Vilken #MON vill"
+	line "du se?"
 	done
 
 _OakLabEmailText::
-	text "There's an e-mail"
-	line "message here!"
+	text "Det finns ett"
+	line "e-postmeddelan-"
+	cont "de här!"
 
 	para "..."
 
-	para "Calling all"
-	line "#MON trainers!"
+	para "Till alla #MON-"
+	line "tränare!"
 
-	para "The elite trainers"
-	line "of #MON LEAGUE"
-	cont "are ready to take"
-	cont "on all comers!"
+	para "Elittränarna i"
+	line "#MON Ligan"
+	cont "är redo att möta"
+	cont "alla utmanare!"
 
-	para "Bring your best"
-	line "#MON and see"
-	cont "how you rate as a"
-	cont "trainer!"
+	para "Ta med dina"
+	line "bästa #MON och"
+	cont "se hur du"
+	cont "mäter dig som"
+	cont "tränare!"
 
-	para "#MON LEAGUE HQ"
-	line "INDIGO PLATEAU"
+	para "#MON Ligan HQ"
+	line "INDIGO PLATÅN"
 
 	para "PS: PROF.OAK,"
-	line "please visit us!"
+	line "besök oss!"
 	cont "..."
 	done
 
 _GameCornerCoinCaseText::
-	text "A COIN CASE is"
-	line "required!"
+	text "En MYNTVÄSKA"
+	line "krävs!"
 	done
 
 _GameCornerNoCoinsText::
-	text "You don't have"
-	line "any coins!"
+	text "Du har inga"
+	line "mynt!"
 	done
 
 _GameCornerOutOfOrderText::
-	text "OUT OF ORDER"
-	line "This is broken."
+	text "UR FUNKTION"
+	line "Denna är trasig."
 	done
 
 _GameCornerOutToLunchText::
-	text "OUT TO LUNCH"
-	line "This is reserved."
+	text "UTE PÅ LUNCH"
+	line "Denna är"
+	cont "reserverad."
 	done
 
 _GameCornerSomeonesKeysText::
-	text "Someone's keys!"
-	line "They'll be back."
+	text "Någons nycklar!"
+	line "De kommer nog"
+	cont "tillbaka."
 	done
 
 _JustAMomentText::
-	text "Just a moment."
+	text "Ett ögonblick."
 	done
 
 TMNotebookText::
-	text "It's a pamphlet"
-	line "on TMs."
+	text "Det är en"
+	line "broschyr om TM."
 
 	para "..."
 
-	para "There are 50 TMs"
-	line "in all."
+	para "Det finns 50 TM"
+	line "totalt."
 
-	para "There are also 5"
-	line "HMs that can be"
-	cont "used repeatedly."
+	para "Det finns också"
+	line "5 HM som kan"
+	cont "användas om och"
+	cont "om igen."
 
 	para "SILPH CO.@"
 	text_end
 
 _TurnPageText::
-	text "Turn the page?"
+	text "Vända sida?"
 	done
 
 _ViridianSchoolNotebookText5::
-	text "GIRL: Hey! Don't"
-	line "look at my notes!@"
+	text "FLICKA: Hallå!"
+	line "Titta inte i"
+	cont "mina anteck-"
+	cont "ningar!@"
 	text_end
 
 _ViridianSchoolNotebookText1::
-	text "Looked at the"
-	line "notebook!"
+	text "Tittade i anteck-"
+	line "ningsblocket!"
 
-	para "First page..."
+	para "Första sidan..."
 
-	para "# BALLs are"
-	line "used to catch"
+	para "# BALLs används"
+	line "för att fånga"
 	cont "#MON."
 
-	para "Up to 6 #MON"
-	line "can be carried."
+	para "Upp till 6 #MON"
+	line "kan bäras."
 
-	para "People who raise"
-	line "and make #MON"
-	cont "fight are called"
-	cont "#MON trainers."
+	para "Folk som föder"
+	line "upp och låter"
+	cont "#MON strida"
+	cont "kallas #MON-"
+	cont "tränare."
 	prompt
 
 _ViridianSchoolNotebookText2::
-	text "Second page..."
+	text "Andra sidan..."
 
-	para "A healthy #MON"
-	line "may be hard to"
-	cont "catch, so weaken"
-	cont "it first!"
+	para "En frisk #MON"
+	line "kan vara svår"
+	cont "att fånga, så"
+	cont "försvaga den"
+	cont "först!"
 
-	para "Poison, burns and"
-	line "other damage are"
-	cont "effective!"
+	para "Gift, brännska-"
+	line "dor och annan"
+	cont "skada är"
+	cont "effektivt!"
 	prompt
 
 _ViridianSchoolNotebookText3::
-	text "Third page..."
+	text "Tredje sidan..."
 
-	para "#MON trainers"
-	line "seek others to"
-	cont "engage in #MON"
-	cont "fights."
+	para "#MON-tränare"
+	line "söker andra att"
+	cont "delta i #MON-"
+	cont "strider med."
 
-	para "Battles are"
-	line "constantly fought"
-	cont "at #MON GYMs."
+	para "Strider utkämpas"
+	line "ständigt på"
+	cont "#MON-GYM."
 	prompt
 
 _ViridianSchoolNotebookText4::
-	text "Fourth page..."
+	text "Fjärde sidan..."
 
-	para "The goal for"
-	line "#MON trainers"
-	cont "is to beat the "
-	cont "top 8 #MON"
-	cont "GYM LEADERs."
+	para "Målet för #MON-"
+	line "tränare är att"
+	cont "besegra de 8"
+	cont "främsta #MON"
+	cont "GYM-LEDARNA."
 
-	para "Do so to earn the"
-	line "right to face..."
+	para "Gör så för att"
+	line "förtjäna rätten"
+	cont "att möta..."
 
-	para "The ELITE FOUR of"
-	line "#MON LEAGUE!"
+	para "ELITFYRAN i"
+	line "#MON LIGAN!"
 	prompt
 
 _EnemiesOnEverySideText::
-	text "Enemies on every"
-	line "side!"
+	text "Fiender från"
+	line "alla håll!"
 	done
 
 _WhatGoesAroundComesAroundText::
-	text "What goes around"
-	line "comes around!"
+	text "Som man sår"
+	line "får man skörda!"
 	done
 
 _FightingDojoText::
@@ -570,215 +600,226 @@ _FightingDojoText::
 	done
 
 _IndigoPlateauHQText::
-	text "INDIGO PLATEAU"
-	line "#MON LEAGUE HQ"
+	text "INDIGO PLATÅN"
+	line "#MON LIGAN HQ"
 	done
 
 _RedBedroomSNESText::
-	text "<PLAYER> is"
-	line "playing the SNES!"
-	cont "...Okay!"
-	cont "It's time to go!"
+	text "<PLAYER> spelar"
+	line "på SNES!"
+	cont "...Okej!"
+	cont "Dags att gå!"
 	done
 
 _Route15UpstairsBinocularsText::
-	text "Looked into the"
-	line "binoculars..."
+	text "Tittade i"
+	line "kikaren..."
 
-	para "A large, shining"
-	line "bird is flying"
-	cont "toward the sea."
+	para "En stor, skinan-"
+	line "de fågel flyger"
+	cont "mot havet."
 	done
 
 _AerodactylFossilText::
-	text "AERODACTYL Fossil"
-	line "A primitive and"
-	cont "rare #MON."
+	text "AERODACTYL-"
+	line "fossil. En"
+	cont "primitiv och"
+	cont "sällsynt #MON."
 	done
 
 _KabutopsFossilText::
-	text "KABUTOPS Fossil"
-	line "A primitive and"
-	cont "rare #MON."
+	text "KABUTOPS-fossil"
+	line "En primitiv och"
+	cont "sällsynt #MON."
 	done
 
 _LinkCableHelpText1::
-	text "TRAINER TIPS"
+	text "TRÄNARTIPS"
 
-	para "Using a Game Link"
-	line "Cable"
+	para "Använda en"
+	line "Game Link-kabel"
 	prompt
 
 _LinkCableHelpText2::
-	text "Which heading do"
-	line "you want to read?"
+	text "Vilken rubrik"
+	line "vill du läsa?"
 	done
 
 _LinkCableInfoText1::
-	text "When you have"
-	line "linked your GAME"
-	cont "BOY with another"
-	cont "GAME BOY, talk to"
-	cont "the attendant on"
-	cont "the right in any"
-	cont "#MON CENTER."
+	text "När du har"
+	line "länkat din GAME"
+	cont "BOY med en annan"
+	cont "GAME BOY, prata"
+	cont "med assistenten"
+	cont "till höger i"
+	cont "vilket #MON"
+	cont "CENTER som"
+	cont "helst."
 	prompt
 
 _LinkCableInfoText2::
-	text "COLOSSEUM lets"
-	line "you play against"
-	cont "a friend."
+	text "COLOSSEUM låter"
+	line "dig spela mot"
+	cont "en vän."
 	prompt
 
 _LinkCableInfoText3::
-	text "TRADE CENTER is"
-	line "used for trading"
-	cont "#MON."
+	text "TRADE CENTER"
+	line "används för att"
+	cont "byta #MON."
 	prompt
 
 _ViridianSchoolBlackboardText1::
-	text "The blackboard"
-	line "describes #MON"
-	cont "STATUS changes"
-	cont "during battles."
+	text "Svarta tavlan"
+	line "beskriver #MON-"
+	cont "STATUS-ändrin-"
+	cont "gar i strider."
 	prompt
 
 _ViridianSchoolBlackboardText2::
-	text "Which heading do"
-	line "you want to read?"
+	text "Vilken rubrik"
+	line "vill du läsa?"
 	done
 
 _ViridianBlackboardSleepText::
-	text "A #MON can't"
-	line "attack if it's"
-	cont "asleep!"
+	text "En #MON kan inte"
+	line "attackera om"
+	cont "den sover!"
 
-	para "#MON will stay"
-	line "asleep even after"
-	cont "battles."
+	para "#MON fortsätter"
+	line "sova även efter"
+	cont "strider."
 
-	para "Use AWAKENING to"
-	line "wake them up!"
+	para "Använd UPPVAK-"
+	line "NANDE för att"
+	cont "väcka dem!"
 	prompt
 
 _ViridianBlackboardPoisonText::
-	text "When poisoned, a"
-	line "#MON's health"
-	cont "steadily drops."
+	text "När en #MON är"
+	line "förgiftad, sjun-"
+	cont "ker dess hälsa."
 
-	para "Poison lingers"
-	line "after battles."
+	para "Giftet kvarstår"
+	line "efter strider."
 
-	para "Use an ANTIDOTE"
-	line "to cure poison!"
+	para "Använd MOTGIFT"
+	line "för att bota"
+	cont "gift!"
 	prompt
 
 _ViridianBlackboardPrlzText::
-	text "Paralysis could"
-	line "make #MON"
-	cont "moves misfire!"
+	text "Paralys kan få"
+	line "en #MON att"
+	cont "missa attacker!"
 
-	para "Paralysis remains"
-	line "after battles."
+	para "Paralys kvar-"
+	line "står efter"
+	cont "strider."
 
-	para "Use PARLYZ HEAL"
-	line "for treatment!"
+	para "Använd PARLYZ-"
+	line "HEAL för att"
+	cont "bota!"
 	prompt
 
 _ViridianBlackboardBurnText::
-	text "A burn reduces"
-	line "power and speed."
-	cont "It also causes"
-	cont "ongoing damage."
+	text "En brännskada"
+	line "minskar kraft"
+	cont "och snabbhet."
+	cont "Den orsakar"
+	cont "också skada."
 
-	para "Burns remain"
-	line "after battles."
+	para "Brännskador"
+	line "kvarstår efter"
+	cont "strider."
 
-	para "Use BURN HEAL to"
-	line "cure a burn!"
+	para "Använd BURN"
+	line "HEAL för att"
+	cont "bota!"
 	prompt
 
 _ViridianBlackboardFrozenText::
-	text "If frozen, a"
-	line "#MON becomes"
-	cont "totally immobile!"
+	text "Om den är frusen"
+	line "blir en #MON"
+	cont "helt orörlig!"
 
-	para "It stays frozen"
-	line "even after the"
-	cont "battle ends."
+	para "Den förblir"
+	line "frusen även"
+	cont "efter striden."
 
-	para "Use ICE HEAL to"
-	line "thaw out #MON!"
+	para "Använd ICE HEAL"
+	line "för att tina"
+	cont "upp #MON!"
 	prompt
 
 _VermilionGymTrashText::
-	text "Nope, there's"
-	line "only trash here."
+	text "Nej, bara skräp"
+	line "här."
 	done
 
 _VermilionGymTrashSuccessText1::
-	text "Hey! There's a"
-	line "switch under the"
-	cont "trash!"
-	cont "Turn it on!"
+	text "Hallå! Det finns"
+	line "en knapp under"
+	cont "skräpet!"
+	cont "Slå på den!"
 
-	para "The 1st electric"
-	line "lock opened!@"
+	para "Det första el-"
+	line "låset öppnades!@"
 	text_end
 
 _VermilionGymTrashSuccessText2::
-	text "Hey! There's"
-	line "another switch"
-	cont "under the trash!"
-	cont "Turn it on!"
+	text "Hallå! Det finns"
+	line "en till knapp"
+	cont "under skräpet!"
+	cont "Slå på den!"
 	prompt
 
 _VermilionGymTrashSuccessText3::
-	text "The 2nd electric"
-	line "lock opened!"
+	text "Det andra el-"
+	line "låset öppnades!"
 
-	para "The motorized door"
-	line "opened!@"
+	para "Den motoriserade"
+	line "dörren öppnades!@"
 	text_end
 
 _VermilionGymTrashFailText::
-	text "Nope! There's"
-	line "only trash here."
-	cont "Hey! The electric"
-	cont "locks were reset!@"
+	text "Nej! Bara skräp"
+	line "här. Hallå! El-"
+	cont "låsen åter-"
+	cont "ställdes!@"
 	text_end
 
 _FoundHiddenItemText::
-	text "<PLAYER> found"
+	text "<PLAYER> hittade"
 	line "@"
 	text_ram wNameBuffer
 	text "!@"
 	text_end
 
 _HiddenItemBagFullText::
-	text "But, <PLAYER> has"
-	line "no more room for"
-	cont "other items!"
+	text "Men, <PLAYER>"
+	line "har ingen plats"
+	cont "för fler saker!"
 	done
 
 _FoundHiddenCoinsText::
-	text "<PLAYER> found"
+	text "<PLAYER> hittade"
 	line "@"
 	text_bcd hCoins, 2 | LEADING_ZEROES | LEFT_ALIGN
-	text " coins!@"
+	text " mynt!@"
 	text_end
 
 _FoundHiddenCoins2Text::
-	text "<PLAYER> found"
+	text "<PLAYER> hittade"
 	line "@"
 	text_bcd hCoins, 2 | LEADING_ZEROES | LEFT_ALIGN
-	text " coins!@"
+	text " mynt!@"
 	text_end
 
 _DroppedHiddenCoinsText::
 	text_start
-	para "Oops! Dropped"
-	line "some coins!"
+	para "Hoppsan! Tappade"
+	line "några mynt!"
 	done
 
 _IndigoPlateauStatuesText1::
@@ -786,94 +827,97 @@ _IndigoPlateauStatuesText1::
 	prompt
 
 _IndigoPlateauStatuesText2::
-	text "The ultimate goal"
-	line "of trainers!"
-	cont "#MON LEAGUE HQ"
+	text "Tränares"
+	line "ultimata mål!"
+	cont "#MON LIGAN HQ"
 	done
 
 _IndigoPlateauStatuesText3::
-	text "The highest"
-	line "#MON authority"
-	cont "#MON LEAGUE HQ"
+	text "Den högsta"
+	line "#MON-"
+	cont "auktoriteten"
+	cont "#MON LIGAN HQ"
 	done
 
 _PokemonBooksText::
-	text "Crammed full of"
-	line "#MON books!"
+	text "Fullproppad med"
+	line "#MON-böcker!"
 	done
 
 _DiglettSculptureText::
-	text "It's a sculpture"
-	line "of DIGLETT."
+	text "Det är en"
+	line "skulptur av"
+	cont "DIGLETT."
 	done
 
 _ElevatorText::
-	text "This is an"
-	line "elevator."
+	text "Detta är en"
+	line "hiss."
 	done
 
 _TownMapText::
-	text "A TOWN MAP.@"
+	text "En STADSKARTA.@"
 	text_end
 
 _PokemonStuffText::
-	text "Wow! Tons of"
-	line "#MON stuff!"
+	text "Wow! Massor av"
+	line "#MON-saker!"
 	done
 
 _OutOfSafariBallsText::
 	text "PA: Ding-dong!"
 
-	para "You are out of"
-	line "SAFARI BALLs!"
+	para "Du har slut på"
+	line "SAFARI BALLS!"
 	prompt
 
 _WildRanText::
-	text "Wild @"
+	text "Vild @"
 	text_ram wEnemyMonNick
 	text_start
-	line "ran!"
+	line "flydde!"
 	prompt
 
 _EnemyRanText::
-	text "Enemy @"
+	text "Fiendens @"
 	text_ram wEnemyMonNick
 	text_start
-	line "ran!"
+	line "flydde!"
 	prompt
 
 _HurtByPoisonText::
-	text "<USER>'s"
-	line "hurt by poison!"
+	text "<USER>"
+	line "skadas av gift!"
 	prompt
 
 _HurtByBurnText::
-	text "<USER>'s"
-	line "hurt by the burn!"
+	text "<USER> skadas"
+	line "av brännskadan!"
 	prompt
 
 _HurtByLeechSeedText::
-	text "LEECH SEED saps"
-	line "<USER>!"
+	text "LEECH SEED"
+	line "suger liv ur"
+	cont "<USER>!"
 	prompt
 
 _EnemyMonFaintedText::
-	text "Enemy @"
+	text "Fiendens @"
 	text_ram wEnemyMonNick
 	text_start
-	line "fainted!"
+	line "svimmade!"
 	prompt
 
 _MoneyForWinningText::
-	text "<PLAYER> got ¥@"
+	text "<PLAYER> fick ¥@"
 	text_bcd wAmountMoneyWon, 3 | LEADING_ZEROES | LEFT_ALIGN
 	text_start
-	line "for winning!"
+	line "för vinsten!"
 	prompt
 
 _TrainerDefeatedText::
-	text "<PLAYER> defeated"
-	line "@"
+	text "<PLAYER> beseg-"
+	line "rade @"
 	text_ram wTrainerName
 	text "!"
 	prompt
@@ -881,198 +925,207 @@ _TrainerDefeatedText::
 _PlayerMonFaintedText::
 	text_ram wBattleMonNick
 	text_start
-	line "fainted!"
+	line "svimmade!"
 	prompt
 
 _UseNextMonText::
-	text "Use next #MON?"
+	text "Använd nästa"
+	line "#MON?"
 	done
 
 _Rival1WinText::
-	text "<RIVAL>: Yeah! Am"
-	line "I great or what?"
+	text "<RIVAL>: Yeah!"
+	line "Är jag inte"
+	cont "grym?"
 	prompt
 
 _PlayerBlackedOutText2::
-	text "<PLAYER> is out of"
-	line "useable #MON!"
+	text "<PLAYER> har"
+	line "inga #MON kvar"
+	cont "att strida med!"
 
-	para "<PLAYER> blacked"
-	line "out!"
+	para "<PLAYER>"
+	line "svimmade!"
 	prompt
 
 _LinkBattleLostText::
-	text "<PLAYER> lost to"
-	line "@"
+	text "<PLAYER>"
+	line "förlorade mot @"
 	text_ram wTrainerName
 	text "!"
 	prompt
 
 _TrainerAboutToUseText::
 	text_ram wTrainerName
-	text " is"
-	line "about to use"
+	text " ska"
+	line "strax använda"
 	cont "@"
 	text_ram wEnemyMonNick
 	text "!"
 
-	para "Will <PLAYER>"
-	line "change #MON?"
+	para "Ska <PLAYER>"
+	line "byta #MON?"
 	done
 
 _TrainerSentOutText::
 	text_ram wTrainerName
-	text " sent"
-	line "out @"
+	text " skickade"
+	line "ut @"
 	text_ram wEnemyMonNick
 	text "!"
 	done
 
 _NoWillText::
-	text "There's no will"
-	line "to fight!"
+	text "Det finns ingen"
+	line "kampvilja!"
 	prompt
 
 _CantEscapeText::
-	text "Can't escape!"
+	text "Kan inte fly!"
 	prompt
 
 _NoRunningText::
-	text "No! There's no"
-	line "running from a"
-	cont "trainer battle!"
+	text "Nej! Det går"
+	line "inte att fly"
+	cont "från en"
+	cont "tränarstrid!"
 	prompt
 
 _GotAwayText::
-	text "Got away safely!"
+	text "Kom undan"
+	line "säkert!"
 	prompt
 
 _ItemsCantBeUsedHereText::
-	text "Items can't be"
-	line "used here."
+	text "Föremål kan inte"
+	line "användas här."
 	prompt
 
 _AlreadyOutText::
 	text_ram wBattleMonNick
-	text " is"
-	line "already out!"
+	text " är"
+	line "redan ute!"
 	prompt
 
 _MoveNoPPText::
-	text "No PP left for"
-	line "this move!"
+	text "Ingen PP kvar"
+	line "för denna"
+	cont "attack!"
 	prompt
 
 _MoveDisabledText::
-	text "The move is"
-	line "disabled!"
+	text "Attacken är"
+	line "inaktiverad!"
 	prompt
 
 _NoMovesLeftText::
 	text_ram wBattleMonNick
-	text " has no"
-	line "moves left!"
+	text " har inga"
+	line "attacker kvar!"
 	done
 
 _MultiHitText::
-	text "Hit the enemy"
+	text "Träffade fienden"
 	line "@"
 	text_decimal wPlayerNumHits, 1, 1
-	text " times!"
+	text " gånger!"
 	prompt
 
 _ScaredText::
 	text_ram wBattleMonNick
-	text " is too"
-	line "scared to move!"
+	text " är för"
+	line "rädd för att"
+	cont "röra sig!"
 	prompt
 
 _GetOutText::
-	text "GHOST: Get out..."
-	line "Get out..."
+	text "SPÖKE: Försvinn..."
+	line "Försvinn..."
 	prompt
 
 _FastAsleepText::
 	text "<USER>"
-	line "is fast asleep!"
+	line "sover djupt!"
 	prompt
 
 _WokeUpText::
 	text "<USER>"
-	line "woke up!"
+	line "vaknade!"
 	prompt
 
 _IsFrozenText::
-	text "<USER>"
-	line "is frozen solid!"
+	text "<USER> är"
+	line "helt frusen!"
 	prompt
 
 _FullyParalyzedText::
-	text "<USER>'s"
-	line "fully paralyzed!"
+	text "<USER> är helt"
+	line "paralyserad!"
 	prompt
 
 _FlinchedText::
 	text "<USER>"
-	line "flinched!"
+	line "ryggade tillbaka!"
 	prompt
 
 _MustRechargeText::
-	text "<USER>"
-	line "must recharge!"
+	text "<USER> måste"
+	line "ladda om!"
 	prompt
 
 _DisabledNoMoreText::
-	text "<USER>'s"
-	line "disabled no more!"
+	text "<USER> är inte"
+	line "längre"
+	cont "inaktiverad!"
 	prompt
 
 _IsConfusedText::
-	text "<USER>"
-	line "is confused!"
+	text "<USER> är"
+	line "förvirrad!"
 	prompt
 
 _HurtItselfText::
-	text "It hurt itself in"
-	line "its confusion!"
+	text "Den skadade sig"
+	line "själv i sin"
+	cont "förvirring!"
 	prompt
 
 _ConfusedNoMoreText::
-	text "<USER>'s"
-	line "confused no more!"
+	text "<USER> är inte"
+	line "längre förvirrad!"
 	prompt
 
 _SavingEnergyText::
-	text "<USER>"
-	line "is saving energy!"
+	text "<USER> sparar"
+	line "energi!"
 	prompt
 
 _UnleashedEnergyText::
 	text "<USER>"
-	line "unleashed energy!"
+	line "släppte lös"
+	cont "energi!"
 	prompt
 
 _ThrashingAboutText::
-	text "<USER>'s"
-	line "thrashing about!"
+	text "<USER> härjar"
+	line "vilt!"
 	done
 
 _AttackContinuesText::
-	text "<USER>'s"
-	line "attack continues!"
+	text "<USER>s attack"
+	line "fortsätter!"
 	done
 
 _CantMoveText::
-	text "<USER>"
-	line "can't move!"
+	text "<USER> kan"
+	line "inte röra sig!"
 	prompt
 
 _MoveIsDisabledText::
-	text "<USER>'s"
-	line "@"
+	text "<USER>s @"
 	text_ram wNameBuffer
-	text " is"
-	cont "disabled!"
+	text " är"
+	cont "inaktiverad!"
 	prompt
 
 _MonName1Text::
@@ -1081,16 +1134,16 @@ _MonName1Text::
 
 _Used1Text::
 	text_start
-	line "used @"
+	line "använde @"
 	text_end
 
 _Used2Text::
 	text_start
-	line "used @"
+	line "använde @"
 	text_end
 
 _InsteadText::
-	text "instead,"
+	text "istället,"
 	cont "@"
 	text_end
 
@@ -1119,28 +1172,28 @@ _ExclamationPoint5Text::
 	done
 
 _AttackMissedText::
-	text "<USER>'s"
-	line "attack missed!"
+	text "<USER>s"
+	line "attack missade!"
 	prompt
 
 _KeptGoingAndCrashedText::
 	text "<USER>"
-	line "kept going and"
-	cont "crashed!"
+	line "fortsatte och"
+	cont "kraschade!"
 	prompt
 
 _UnaffectedText::
-	text "<TARGET>'s"
-	line "unaffected!"
+	text "<TARGET> är"
+	line "opåverkad!"
 	prompt
 
 _DoesntAffectMonText::
-	text "It doesn't affect"
-	line "<TARGET>!"
+	text "Det påverkar"
+	line "inte <TARGET>!"
 	prompt
 
 _CriticalHitText::
-	text "Critical hit!"
+	text "Kritisk träff!"
 	prompt
 
 _OHKOText::
@@ -1149,143 +1202,147 @@ _OHKOText::
 
 _LoafingAroundText::
 	text_ram wBattleMonNick
-	text " is"
-	line "loafing around."
+	text " latar"
+	line "sig."
 	prompt
 
 _BeganToNapText::
 	text_ram wBattleMonNick
-	text " began"
-	line "to nap!"
+	text " började"
+	line "sova!"
 	prompt
 
 _WontObeyText::
 	text_ram wBattleMonNick
-	text " won't"
-	line "obey!"
+	text " lyder"
+	line "inte!"
 	prompt
 
 _TurnedAwayText::
 	text_ram wBattleMonNick
-	text " turned"
-	line "away!"
+	text " vände"
+	line "sig bort!"
 	prompt
 
 _IgnoredOrdersText::
 	text_ram wBattleMonNick
 	text_start
-	line "ignored orders!"
+	line "ignorerade"
+	cont "order!"
 	prompt
 
 _SubstituteTookDamageText::
-	text "The SUBSTITUTE"
-	line "took damage for"
+	text "SUBSTITUTET tog"
+	line "skada för"
 	cont "<TARGET>!"
 	prompt
 
 _SubstituteBrokeText::
-	text "<TARGET>'s"
-	line "SUBSTITUTE broke!"
+	text "<TARGET>s"
+	line "SUBSTITUT gick"
+	cont "sönder!"
 	prompt
 
 _BuildingRageText::
-	text "<USER>'s"
-	line "RAGE is building!"
+	text "<USER>s RASERI"
+	line "byggs upp!"
 	prompt
 
 _MirrorMoveFailedText::
-	text "The MIRROR MOVE"
-	next "failed!"
+	text "SPEGELATTACKEN"
+	next "misslyckades!"
 	prompt
 
 _HitXTimesText::
-	text "Hit @"
+	text "Träffade @"
 	text_decimal wEnemyNumHits, 1, 1
-	text " times!"
+	text " gånger!"
 	prompt
 
 _GainedText::
 	text_ram wNameBuffer
-	text " gained"
+	text " fick"
 	line "@"
 	text_end
 
 _WithExpAllText::
-	text "with EXP.ALL,"
+	text "med EXP.ALL,"
 	cont "@"
 	text_end
 
 _BoostedText::
-	text "a boosted"
+	text "en boostad"
 	cont "@"
 	text_end
 
 _ExpPointsText::
 	text_decimal wExpAmountGained, 2, 4
-	text " EXP. Points!"
+	text " EXP. Poäng!"
 	prompt
 
 _GrewLevelText::
 	text_ram wNameBuffer
-	text " grew"
-	line "to level @"
+	text " växte"
+	line "till level @"
 	text_decimal wCurEnemyLevel, 1, 3
 	text "!@"
 	text_end
 
 _WildMonAppearedText::
-	text "Wild @"
+	text "En vild @"
 	text_ram wEnemyMonNick
 	text_start
-	line "appeared!"
+	line "dök upp!"
 	prompt
 
 _HookedMonAttackedText::
-	text "The hooked"
+	text "Den krokade"
 	line "@"
 	text_ram wEnemyMonNick
 	text_start
-	cont "attacked!"
+	cont "attackerade!"
 	prompt
 
 _EnemyAppearedText::
 	text_ram wEnemyMonNick
 	text_start
-	line "appeared!"
+	line "dök upp!"
 	prompt
 
 _TrainerWantsToFightText::
 	text_ram wTrainerName
-	text " wants"
-	line "to fight!"
+	text " vill"
+	line "strida!"
 	prompt
 
 _UnveiledGhostText::
 	text "SILPH SCOPE"
-	line "unveiled the"
-	cont "GHOST's identity!"
+	line "avslöjade"
+	cont "SPÖKETS"
+	cont "identitet!"
 	prompt
 
 _GhostCantBeIDdText::
-	text "Darn! The GHOST"
-	line "can't be ID'd!"
+	text "Skit! SPÖKET"
+	line "kan inte"
+	cont "identifieras!"
 	prompt
 
 _GoText::
-	text "Go! @"
+	text "Kör! @"
 	text_end
 
 _DoItText::
-	text "Do it! @"
+	text "Kör hårt! @"
 	text_end
 
 _GetmText::
-	text "Get'm! @"
+	text "Ta'rom! @"
 	text_end
 
 _EnemysWeakText::
-	text "The enemy's weak!"
-	line "Get'm! @"
+	text "Fienden är svag!"
+	line "Ta'rom! @"
 	text_end
 
 _PlayerMon1Text::
@@ -1299,7 +1356,7 @@ _PlayerMon2Text::
 	text_end
 
 _EnoughText::
-	text "enough!@"
+	text "nog!@"
 	text_end
 
 _OKExclamationText::
@@ -1307,482 +1364,498 @@ _OKExclamationText::
 	text_end
 
 _GoodText::
-	text "good!@"
+	text "bra!@"
 	text_end
 
 _ComeBackText::
 	text_start
-	line "Come back!"
+	line "Kom tillbaka!"
 	done
 
 _SuperEffectiveText::
-	text "It's super"
-	line "effective!"
+	text "Det är super-"
+	line "effektivt!"
 	prompt
 
 _NotVeryEffectiveText::
-	text "It's not very"
-	line "effective..."
+	text "Det är inte så"
+	line "effektivt..."
 	prompt
 
 _SafariZoneEatingText::
-	text "Wild @"
+	text "Vild @"
 	text_ram wEnemyMonNick
 	text_start
-	line "is eating!"
+	line "äter!"
 	prompt
 
 _SafariZoneAngryText::
-	text "Wild @"
+	text "Vild @"
 	text_ram wEnemyMonNick
 	text_start
-	line "is angry!"
+	line "är arg!"
 	prompt
 
 ; money related
 _PickUpPayDayMoneyText::
-	text "<PLAYER> picked up"
-	line "¥@"
+	text "<PLAYER> plockade"
+	line "upp ¥@"
 	text_bcd wTotalPayDayMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
 	text "!"
 	prompt
 
 _ClearSaveDataText::
-	text "Clear all saved"
-	line "data?"
+	text "Rensa all"
+	line "sparad data?"
 	done
 
 _WhichFloorText::
-	text "Which floor do"
-	line "you want? "
+	text "Vilken våning"
+	line "vill du till? "
 	done
 
 _PartyMenuNormalText::
-	text "Choose a #MON."
+	text "Välj en #MON."
 	done
 
 _PartyMenuItemUseText::
-	text "Use item on which"
-	line "#MON?"
+	text "Använd föremål"
+	line "på vilken #MON?"
 	done
 
 _PartyMenuBattleText::
-	text "Bring out which"
+	text "Ta fram vilken"
 	line "#MON?"
 	done
 
 _PartyMenuUseTMText::
-	text "Use TM on which"
-	line "#MON?"
+	text "Använd TM på"
+	line "vilken #MON?"
 	done
 
 _PartyMenuSwapMonText::
-	text "Move #MON"
-	line "where?"
+	text "Flytta #MON"
+	line "vart?"
 	done
 
 _PotionText::
 	text_ram wNameBuffer
 	text_start
-	line "recovered by @"
+	line "återhämtade @"
 	text_decimal wHPBarHPDifference, 2, 3
 	text "!"
 	done
 
 _AntidoteText::
 	text_ram wNameBuffer
-	text " was"
-	line "cured of poison!"
+	text " botades"
+	line "från gift!"
 	done
 
 _ParlyzHealText::
 	text_ram wNameBuffer
-	text "'s"
-	line "rid of paralysis!"
+	text "s"
+	line "paralys är borta!"
 	done
 
 _BurnHealText::
 	text_ram wNameBuffer
-	text "'s"
-	line "burn was healed!"
+	text "s"
+	line "brännskada"
+	cont "läktes!"
 	done
 
 _IceHealText::
 	text_ram wNameBuffer
-	text " was"
-	line "defrosted!"
+	text " tinades"
+	line "upp!"
 	done
 
 _AwakeningText::
 	text_ram wNameBuffer
 	text_start
-	line "woke up!"
+	line "vaknade!"
 	done
 
 _FullHealText::
 	text_ram wNameBuffer
-	text "'s"
-	line "health returned!"
+	text "s"
+	line "hälsa är åter-"
+	cont "ställd!"
 	done
 
 _ReviveText::
 	text_ram wNameBuffer
 	text_start
-	line "is revitalized!"
+	line "återupplivades!"
 	done
 
 _RareCandyText::
 	text_ram wNameBuffer
-	text " grew"
-	line "to level @"
+	text " växte"
+	line "till level @"
 	text_decimal wCurEnemyLevel, 1, 3
 	text "!@"
 	text_end
 
 _TurnedOnPC1Text::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> startade"
+	line "PC:n."
 	prompt
 
 _AccessedBillsPCText::
-	text "Accessed BILL's"
-	line "PC."
+	text "Anslöt till"
+	line "BILLs PC."
 
-	para "Accessed #MON"
-	line "Storage System."
+	para "Anslöt till"
+	line "#MON-lagrings-"
+	cont "systemet."
 	prompt
 
 _AccessedSomeonesPCText::
-	text "Accessed someone's"
-	line "PC."
+	text "Anslöt till"
+	line "någons PC."
 
-	para "Accessed #MON"
-	line "Storage System."
+	para "Anslöt till"
+	line "#MON-lagrings-"
+	cont "systemet."
 	prompt
 
 _AccessedMyPCText::
-	text "Accessed my PC."
+	text "Anslöt till"
+	line "min PC."
 
-	para "Accessed Item"
-	line "Storage System."
+	para "Anslöt till"
+	line "föremålslagrings-"
+	cont "systemet."
 	prompt
 
 _TurnedOnPC2Text::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> startade"
+	line "PC:n."
 	prompt
 
 _WhatDoYouWantText::
-	text "What do you want"
-	line "to do?"
+	text "Vad vill du göra?"
 	done
 
 _WhatToDepositText::
-	text "What do you want"
-	line "to deposit?"
+	text "Vad vill du"
+	line "deponera?"
 	done
 
 _DepositHowManyText::
-	text "How many?"
+	text "Hur många?"
 	done
 
 _ItemWasStoredText::
 	text_ram wNameBuffer
-	text " was"
-	line "stored via PC."
+	text " lades"
+	line "in via PC."
 	prompt
 
 _NothingToDepositText::
-	text "You have nothing"
-	line "to deposit."
+	text "Du har inget"
+	line "att deponera."
 	prompt
 
 _NoRoomToStoreText::
-	text "No room left to"
-	line "store items."
+	text "Ingen plats kvar"
+	line "för att förvara"
+	cont "föremål."
 	prompt
 
 _WhatToWithdrawText::
-	text "What do you want"
-	line "to withdraw?"
+	text "Vad vill du"
+	line "ta ut?"
 	done
 
 _WithdrawHowManyText::
-	text "How many?"
+	text "Hur många?"
 	done
 
 _WithdrewItemText::
-	text "Withdrew"
+	text "Tog ut"
 	line "@"
 	text_ram wNameBuffer
 	text "."
 	prompt
 
 _NothingStoredText::
-	text "There is nothing"
-	line "stored."
+	text "Det finns inget"
+	line "lagrat."
 	prompt
 
 _CantCarryMoreText::
-	text "You can't carry"
-	line "any more items."
+	text "Du kan inte bära"
+	line "fler föremål."
 	prompt
 
 _WhatToTossText::
-	text "What do you want"
-	line "to toss away?"
+	text "Vad vill du"
+	line "kasta bort?"
 	done
 
 _TossHowManyText::
-	text "How many?"
+	text "Hur många?"
 	done
 
 _AccessedHoFPCText::
-	text "Accessed #MON"
-	line "LEAGUE's site."
+	text "Anslöt till"
+	line "#MON LIGANs"
+	cont "sida."
 
-	para "Accessed the HALL"
-	line "OF FAME List."
+	para "Anslöt till"
+	line "HALL OF FAME-"
+	cont "listan."
 	prompt
 
 _SwitchOnText::
-	text "Switch on!"
+	text "Byt till!"
 	prompt
 
 _WhatText::
-	text "What?"
+	text "Vad?"
 	done
 
 _DepositWhichMonText::
-	text "Deposit which"
+	text "Deponera vilken"
 	line "#MON?"
 	done
 
 _MonWasStoredText::
 	text_ram wStringBuffer
-	text " was"
-	line "stored in Box @"
+	text " lagrades"
+	line "i Box @"
 	text_ram wBoxNumString
 	text "."
 	prompt
 
 _CantDepositLastMonText::
-	text "You can't deposit"
-	line "the last #MON!"
+	text "Du kan inte"
+	line "deponera din"
+	cont "sista #MON!"
 	prompt
 
 _BoxFullText::
-	text "Oops! This Box is"
-	line "full of #MON."
+	text "Hoppsan! Denna"
+	line "Box är full av"
+	cont "#MON."
 	prompt
 
 _MonIsTakenOutText::
 	text_ram wStringBuffer
-	text " is"
-	line "taken out."
-	cont "Got @"
+	text " tas"
+	line "ut. Fick @"
 	text_ram wStringBuffer
 	text "."
 	prompt
 
 _NoMonText::
-	text "What? There are"
-	line "no #MON here!"
+	text "Va? Det finns"
+	line "inga #MON här!"
 	prompt
 
 _CantTakeMonText::
-	text "You can't take"
-	line "any more #MON."
+	text "Du kan inte ta"
+	line "fler #MON."
 
-	para "Deposit #MON"
-	line "first."
+	para "Deponera en #MON"
+	line "först."
 	prompt
 
 _ReleaseWhichMonText::
-	text "Release which"
+	text "Släppa vilken"
 	line "#MON?"
 	done
 
 _OnceReleasedText::
-	text "Once released,"
-	line "@"
+	text "När @"
 	text_ram wStringBuffer
-	text " is"
-	cont "gone forever. OK?"
+	text " väl"
+	cont "är släppt, är"
+	cont "den borta för"
+	cont "alltid. OK?"
 	done
 
 _MonWasReleasedText::
 	text_ram wStringBuffer
-	text " was"
-	line "released outside."
-	cont "Bye @"
+	text " släpptes"
+	line "ut i det fria."
+	cont "Hejdå @"
 	text_ram wStringBuffer
 	text "!"
 	prompt
 
 _RequireCoinCaseText::
-	text "A COIN CASE is"
-	line "required!@"
+	text "En MYNTVÄSKA"
+	line "krävs!@"
 	text_end
 
 _ExchangeCoinsForPrizesText::
-	text "We exchange your"
-	line "coins for prizes."
+	text "Vi byter dina"
+	line "mynt mot priser."
 	prompt
 
 _WhichPrizeText::
-	text "Which prize do"
-	line "you want?"
+	text "Vilket pris vill"
+	line "du ha?"
 	done
 
 _HereYouGoText::
-	text "Here you go!@"
+	text "Varsågod!@"
 	text_end
 
 _SoYouWantPrizeText::
-	text "So, you want"
+	text "Så, du vill ha"
 	line "@"
 	text_ram wNameBuffer
 	text "?"
 	done
 
 _SorryNeedMoreCoinsText::
-	text "Sorry, you need"
-	line "more coins.@"
+	text "Ledsen, du"
+	line "behöver fler"
+	cont "mynt.@"
 	text_end
 
 _OopsYouDontHaveEnoughRoomText::
-	text "Oops! You don't"
-	line "have enough room.@"
+	text "Hoppsan! Du har"
+	line "inte tillräck-"
+	cont "ligt med plats.@"
 	text_end
 
 _OhFineThenText::
-	text "Oh, fine then.@"
+	text "Jaha, okej då.@"
 	text_end
 
 _GetDexRatedText::
-	text "Want to get your"
-	line "#DEX rated?"
+	text "Vill du få din"
+	line "#DEX bedömd?"
 	done
 
 _ClosedOaksPCText::
-	text "Closed link to"
-	line "PROF.OAK's PC.@"
+	text "Stängde länken"
+	line "till PROF.OAKs"
+	cont "PC.@"
 	text_end
 
 _AccessedOaksPCText::
-	text "Accessed PROF."
-	line "OAK's PC."
+	text "Anslöt till PROF."
+	line "OAKs PC."
 
-	para "Accessed #DEX"
-	line "Rating System."
+	para "Anslöt till"
+	line "#DEX-bedömnings-"
+	cont "systemet."
 	prompt
 
 _WhereWouldYouLikeText::
-	text "Where would you"
-	line "like to go?"
+	text "Vart vill du gå?"
 	done
 
 _PleaseWaitText::
-	text "OK, please wait"
-	line "just a moment."
+	text "OK, vänta ett"
+	line "ögonblick."
 	done
 
 _LinkCanceledText::
-	text "The link was"
-	line "canceled."
+	text "Länken avbröts."
 	done
 
 _OakSpeechText1::
-	text "Hello there!"
-	line "Welcome to the"
-	cont "world of #MON!"
+	text "Hallå där!"
+	line "Välkommen till"
+	cont "#MON-världen!"
 
-	para "My name is OAK!"
-	line "People call me"
-	cont "the #MON PROF!"
+	para "Mitt namn är OAK!"
+	line "Folk kallar mig"
+
+	para "#MON-"
+	line "PROFESSORN!"
 	prompt
 
 _OakSpeechText2A::
-	text "This world is"
-	line "inhabited by"
-	cont "creatures called"
-	cont "#MON!@"
+	text "Denna värld är"
+	line "befolkad av"
+	cont "varelser som"
+	cont "kallas #MON!@"
 	text_end
 
 _OakSpeechText2B::
 	text_start
 
-	para "For some people,"
-	line "#MON are"
-	cont "pets. Others use"
-	cont "them for fights."
+	para "För vissa är"
+	line "#MON husdjur."
+	cont "Andra använder"
+	cont "dem i strider."
 
-	para "Myself..."
+	para "Jag..."
 
-	para "I study #MON"
-	line "as a profession."
+	para "Jag studerar"
+	line "#MON som yrke."
 	prompt
 
 _IntroducePlayerText::
-	text "First, what is"
-	line "your name?"
+	text "Först, vad heter"
+	line "du?"
 	prompt
 
 _IntroduceRivalText::
-	text "This is my grand-"
-	line "son. He's been"
-	cont "your rival since"
-	cont "you were a baby."
+	text "Det här är mitt"
+	line "barnbarn. Han"
+	cont "har varit din"
+	cont "rival sedan ni"
+	cont "var små."
 
-	para "...Erm, what is"
-	line "his name again?"
+	para "...Öhm, vad var"
+	line "hans namn igen?"
 	prompt
 
 _OakSpeechText3::
 	text "<PLAYER>!"
 
-	para "Your very own"
-	line "#MON legend is"
-	cont "about to unfold!"
+	para "Din egna"
+	line "#MON-legend"
+	cont "ska just börja!"
 
-	para "A world of dreams"
-	line "and adventures"
-	cont "with #MON"
-	cont "awaits! Let's go!"
+	para "En värld av"
+	line "drömmar och"
+	cont "äventyr med"
+	cont "#MON väntar!"
+	cont "Nu går vi!"
 	done
 
 _DoYouWantToNicknameText::
-	text "Do you want to"
-	line "give a nickname"
-	cont "to @"
+	text "Vill du ge ett"
+	line "smeknamn till @"
 	text_ram wNameBuffer
 	text "?"
 	done
 
 _YourNameIsText::
-	text "Right! So your"
-	line "name is <PLAYER>!"
+	text "Just det! Så"
+	line "ditt namn är"
+	cont "<PLAYER>!"
 	prompt
 
 _HisNameIsText::
-	text "That's right! I"
-	line "remember now! His"
-	cont "name is <RIVAL>!"
+	text "Just det! Nu"
+	line "minns jag! Hans"
+	cont "namn är <RIVAL>!"
 	prompt
 
 _WillBeTradedText::
 	text_ram wNameOfPlayerMonToBeTraded
-	text " and"
+	text " och"
 	line "@"
 	text_ram wNameBuffer
-	text " will"
-	cont "be traded."
+	text " kommer"
+	cont "att bytas."
 	done
 
 _TextIDErrorText::
 	text_decimal hTextID, 1, 2
-	text " ERROR."
+	text " FEL."
 	done
 
 _ContCharText::

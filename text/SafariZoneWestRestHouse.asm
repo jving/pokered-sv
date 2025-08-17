@@ -1,19 +1,19 @@
 _SafariZoneWestRestHouseScientistText::
-	text "Tossing ROCKs at"
-	line "#MON might"
-	cont "make them run,"
-	cont "but they'll be"
-	cont "easier to catch."
+	text "Att kasta STENAR"
+	line "på #MON kan få"
+	cont "dem att fly, men"
+	cont "de blir lättare"
+	cont "att fånga."
 	done
 
 _SafariZoneWestRestHouseCooltrainerMText::
-	text "Using BAIT will"
-	line "make #MON"
-	cont "easier to catch."
+	text "Att använda BETE"
+	line "gör #MON lättare"
+	cont "att fånga."
 	done
 
 _SafariZoneWestRestHouseSilphWorkerFText::
-	text "I hiked a lot, but"
-	line "I didn't see any"
-	cont "#MON I wanted."
+	text "Jag vandrade mycket,"
+	line "men såg inga #MON"
+	cont "jag ville ha."
 	done

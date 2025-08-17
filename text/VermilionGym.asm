@@ -1,21 +1,22 @@
 _VermilionGymLTSurgePreBattleText::
-	text "Hey, kid! What do"
-	line "you think you're"
-	cont "doing here?"
+	text "Hallå, grabben! Vad"
+	line "tror du att du"
+	cont "gör här?"
 
-	para "You won't live"
-	line "long in combat!"
-	cont "That's for sure!"
+	para "Du kommer inte att"
+	line "överleva länge i"
+	cont "strid! Det kan du"
+	cont "vara säker på!"
 
-	para "I tell you kid,"
-	line "electric #MON"
-	cont "saved me during"
-	cont "the war!"
+	para "Jag säger dig,"
+	line "grabben, elektriska"
+	cont "#MON räddade mig"
+	cont "under kriget!"
 
-	para "They zapped my"
-	line "enemies into"
-	cont "paralysis!"
+	para "De chockade mina"
+	line "fiender till"
+	cont "förlamning!"
 
-	para "The same as I'll"
-	line "do to you!"
+	para "Samma sak ska jag"
+	line "göra med dig!"
 	done

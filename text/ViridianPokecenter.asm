@@ -1,16 +1,18 @@
 _ViridianPokecenterGentlemanText::
-	text "You can use that"
-	line "PC in the corner."
+	text "Du kan använda"
+	line "PC:n i hörnet."
 
-	para "The receptionist"
-	line "told me. So kind!"
+	para "Receptionisten"
+	line "sa det. Så"
+	cont "vänligt!"
 	done
 
 _ViridianPokecenterCooltrainerMText::
-	text "There's a #MON"
-	line "CENTER in every"
-	cont "town ahead."
+	text "Det finns ett"
+	line "#MON CENTER i"
+	cont "varje stad"
+	cont "framöver."
 
-	para "They don't charge"
-	line "any money either!"
+	para "Det kostar"
+	line "inget heller!"
 	done

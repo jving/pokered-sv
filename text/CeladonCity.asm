@@ -1,74 +1,86 @@
 _CeladonCityLittleGirlText::
-	text "I got my KOFFING"
-	line "in CINNABAR!"
+	text "Jag fick min"
+	line "KOFFING i"
+	cont "CINNABAR!"
 
-	para "It's nice, but it"
-	line "breathes poison"
-	cont "when it's angry!"
+	para "Den är snäll,"
+	line "men den andas"
+	cont "gift när den"
+	cont "är arg!"
 	done
 
 _CeladonCityGramps1Text::
-	text "Heheh! This GYM"
-	line "is great! It's"
-	cont "full of women!"
+	text "Heheh! Detta"
+	line "GYM är toppen!"
+	cont "Det är fullt"
+	cont "av kvinnor!"
 	done
 
 _CeladonCityGirlText::
-	text "The GAME CORNER"
-	line "is bad for our"
-	cont "city's image!"
+	text "GAME CORNER"
+	line "är dåligt för"
+	cont "vår stads"
+	cont "rykte!"
 	done
 
 _CeladonCityGramps2Text::
-	text "Moan! I blew it"
-	line "all at the slots!"
+	text "Stön! Jag"
+	line "förlorade allt"
+	cont "på maskinerna!"
 
-	para "I knew I should"
-	line "have cashed in my"
-	cont "coins for prizes!"
+	para "Jag visste att"
+	line "jag skulle ha"
+	cont "växlat in mina"
+	cont "mynt mot"
+	cont "priser!"
 	done
 
 _CeladonCityGramps3Text::
-	text "Hello, there!"
+	text "Hallå där!"
 
-	para "I've seen you,"
-	line "but I never had a"
-	cont "chance to talk!"
+	para "Jag har sett"
+	line "dig, men aldrig"
+	cont "haft chansen"
+	cont "att prata!"
 
-	para "Here's a gift for"
-	line "dropping by!"
+	para "Här är en gåva"
+	line "för att du kom"
+	cont "förbi!"
 	prompt
 
 _CeladonCityGramps3ReceivedTM41Text::
-	text "<PLAYER> received"
+	text "<PLAYER> mottog"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _CeladonCityGramps3TM41ExplanationText::
-	text "TM41 teaches"
-	line "SOFTBOILED!"
+	text "TM41 lär ut"
+	line "MJUKKOKT!"
 
-	para "Only one #MON"
-	line "can use it!"
+	para "Endast en #MON"
+	line "kan använda den!"
 
-	para "That #MON is"
+	para "Den #MON är"
 	line "CHANSEY!"
 	done
 
 _CeladonCityGramps3TM41NoRoomText::
-	text "Oh, your pack is"
-	line "full of items!"
+	text "Åh, din väska"
+	line "är full av"
+	cont "saker!"
 	done
 
 _CeladonCityFisherText::
-	text "This is my trusted"
-	line "pal, POLIWRATH!"
+	text "Detta är min"
+	line "trogna vän,"
+	cont "POLIWRATH!"
 
-	para "It evolved from"
-	line "POLIWHIRL when I"
-	cont "used WATER STONE!"
+	para "Den utvecklades"
+	line "från POLIWHIRL"
+	cont "när jag använde"
+	cont "VATTENSTEN!"
 	done
 
 _CeladonCityPoliwrathText::
@@ -77,44 +89,47 @@ _CeladonCityPoliwrathText::
 	text_end
 
 _CeladonCityRocket1Text::
-	text "What are you"
-	line "staring at?"
+	text "Vad glor du på?"
 	done
 
 _CeladonCityRocket2Text::
-	text "Keep out of TEAM"
-	line "ROCKET's way!"
+	text "Håll dig ur"
+	line "TEAM ROCKETs"
+	cont "väg!"
 	done
 
 _CeladonCityTrainerTips1Text::
-	text "TRAINER TIPS"
+	text "TRÄNARTIPS"
 
-	para "X ACCURACY boosts"
-	line "the accuracy of"
-	cont "techniques!"
+	para "X ACCURACY"
+	line "ökar precisionen"
+	cont "hos attacker!"
 
-	para "DIRE HIT jacks up"
-	line "the likelihood of"
-	cont "critical hits!"
+	para "DIRE HIT ökar"
+	line "chansen till"
+	cont "kritiska träffar!"
 
-	para "Get your items at"
-	line "CELADON DEPT."
-	cont "STORE!"
+	para "Hämta dina"
+	line "saker på"
+	cont "CELADONS VARU-"
+	cont "HUS!"
 	done
 
 _CeladonCitySignText::
 	text "CELADON CITY"
-	line "The City of"
-	cont "Rainbow Dreams"
+	line "Staden med"
+	cont "Regnbågens"
+	cont "Drömmar"
 	done
 
 _CeladonCityGymSignText::
 	text "CELADON CITY"
-	line "#MON GYM"
-	cont "LEADER: ERIKA"
+	line "#MON-GYM"
+	cont "LEDARE: ERIKA"
 
-	para "The Nature Loving"
-	line "Princess!"
+	para "Den Natur-"
+	line "älskande"
+	cont "Prinsessan!"
 	done
 
 _CeladonCityMansionSignText::
@@ -122,33 +137,35 @@ _CeladonCityMansionSignText::
 	done
 
 _CeladonCityDeptStoreSignText::
-	text "Find what you"
-	line "need at CELADON"
-	cont "DEPT. STORE!"
+	text "Hitta vad du"
+	line "behöver på"
+	cont "CELADONS"
+	cont "VARUHUS!"
 	done
 
 _CeladonCityTrainerTips2Text::
-	text "TRAINER TIPS"
+	text "TRÄNARTIPS"
 
 	para "GUARD SPEC."
-	line "protects #MON"
-	cont "against SPECIAL"
-	cont "attacks such as"
-	cont "fire and water!"
+	line "skyddar #MON"
+	cont "mot SPECIAL-"
+	cont "attacker som"
+	cont "eld och vatten!"
 
-	para "Get your items at"
-	line "CELADON DEPT."
-	cont "STORE!"
+	para "Hämta dina"
+	line "saker på"
+	cont "CELADONS VARU-"
+	cont "HUS!"
 	done
 
 _CeladonCityPrizeExchangeSignText::
-	text "Coins exchanged"
-	line "for prizes!"
-	cont "PRIZE EXCHANGE"
+	text "Mynt växlas mot"
+	line "priser!"
+	cont "PRISUTBYTE"
 	done
 
 _CeladonCityGameCornerSignText::
 	text "ROCKET GAME CORNER"
-	line "The playground"
-	cont "for grown-ups!"
+	line "Lekplatsen för"
+	cont "vuxna!"
 	done

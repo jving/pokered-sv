@@ -1,23 +1,22 @@
 _VermilionMartCooltrainerMText::
-	text "There are evil"
-	line "people who will"
-	cont "use #MON for"
-	cont "criminal acts."
+	text "Det finns onda"
+	line "människor som"
+	cont "använder #MON för"
+	cont "brottsliga"
+	cont "handlingar."
 
-	para "TEAM ROCKET"
-	line "traffics in rare"
-	cont "#MON."
+	para "TEAM ROCKET handlar"
+	line "med sällsynta #MON."
 
-	para "They also abandon"
-	line "#MON that they"
-	cont "consider not to"
-	cont "be popular or"
-	cont "useful."
+	para "De överger också"
+	line "#MON som de anser"
+	cont "inte vara populära"
+	cont "eller användbara."
 	done
 
 _VermilionMartCooltrainerFText::
-	text "I think #MON"
-	line "can be good or"
-	cont "evil. It depends"
-	cont "on the trainer."
+	text "Jag tror att #MON"
+	line "kan vara goda eller"
+	cont "onda. Det beror"
+	cont "på tränaren."
 	done

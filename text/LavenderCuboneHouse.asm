@@ -3,23 +3,22 @@ _LavenderCuboneHouseCuboneText::
 	text_end
 
 _LavenderCuboneHouseBrunetteGirlPoorCubonesMotherText::
-	text "I hate those"
-	line "horrible ROCKETs!"
+	text "Jag hatar de där"
+	line "hemska ROCKETS!"
 
-	para "That poor CUBONE's"
-	line "mother..."
+	para "Den stackars"
+	line "CUBONEs mamma..."
 
-	para "It was killed"
-	line "trying to escape"
-	cont "from TEAM ROCKET!"
+	para "Den dödades när"
+	line "den försökte fly"
+	cont "från TEAM ROCKET!"
 	done
 
 _LavenderCuboneHouseBrunetteGirlGhostIsGoneText::
-	text "The GHOST of"
-	line "#MON TOWER is"
-	cont "gone!"
+	text "SPÖKET i #MON"
+	line "TOWER är borta!"
 
-	para "Someone must have"
-	line "soothed its"
-	cont "restless soul!"
+	para "Någon måste ha"
+	line "lugnat dess"
+	cont "oroliga själ!"
 	done

@@ -1,99 +1,100 @@
 _CeladonMart3FClerkTM18PreReceiveText::
-	text "Oh, hi! I finally"
-	line "finished #MON!"
+	text "Åh, hej! Jag har"
+	line "äntligen klarat"
+	cont "#MON!"
 
-	para "Not done yet?"
-	line "This might be"
-	cont "useful!"
+	para "Inte klar än?"
+	line "Den här kan vara"
+	cont "till nytta!"
 	prompt
 
 _CeladonMart3FClerkReceivedTM18Text::
-	text "<PLAYER> received"
+	text "<PLAYER> mottog"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _CeladonMart3FClerkTM18ExplanationText::
-	text "TM18 is COUNTER!"
-	line "Not like the one"
-	cont "I'm leaning on,"
-	cont "mind you!"
+	text "TM18 är KONTRA!"
+	line "Inte som den jag"
+	cont "lutar mig mot,"
+	cont "förstår du!"
 	done
 
 _CeladonMart3FClerkTM18NoRoomText::
-	text "Your pack is full"
-	line "of items!"
+	text "Din väska är full"
+	line "av föremål!"
 	done
 
 _CeladonMart3FGameBoyKid1Text::
-	text "Captured #MON"
-	line "are registered"
-	cont "with an ID No."
-	cont "and OT, the name"
-	cont "of the Original"
-	cont "Trainer that"
-	cont "caught it!"
+	text "Fångade #MON"
+	line "registreras med"
+	cont "ett ID-nr och OT,"
+	cont "namnet på Origi-"
+	cont "nal-Tränaren som"
+	cont "fångade den!"
 	done
 
 _CeladonMart3FGameBoyKid2Text::
-	text "All right!"
+	text "Okej!"
 
-	para "My buddy's going"
-	line "to trade me his"
-	cont "KANGASKHAN for my"
-	cont "GRAVELER!"
+	para "Min kompis ska byta"
+	line "sin KANGASKHAN mot"
+	cont "min GRAVELER!"
 	done
 
 _CeladonMart3FGameBoyKid3Text::
-	text "Come on GRAVELER!"
+	text "Kom igen GRAVELER!"
 
-	para "I love GRAVELER!"
-	line "I collect them!"
+	para "Jag älskar GRAVELER!"
+	line "Jag samlar på dem!"
 
-	para "Huh?"
+	para "Va?"
 
-	para "GRAVELER turned"
-	line "into a different"
-	cont "#MON!"
+	para "GRAVELER förvand-"
+	line "lades till en"
+	cont "annan #MON!"
 	done
 
 _CeladonMart3FLittleBoyText::
-	text "You can identify"
-	line "#MON you got"
-	cont "in trades by"
-	cont "their ID Numbers!"
+	text "Du kan identi-"
+	line "fiera #MON du"
+	cont "fått i byten via"
+	cont "deras ID-nummer!"
 	done
 
 _CeladonMart3FSNESText::
-	text "It's an SNES!"
+	text "Det är ett SNES!"
 	done
 
 _CeladonMart3FRPGText::
-	text "An RPG! There's"
-	line "no time for that!"
+	text "Ett RPG! Ingen tid"
+	line "för det!"
 	done
 
 _CeladonMart3FSportsGameText::
-	text "A sports game!"
-	line "Dad'll like that!"
+	text "Ett sportspel!"
+	line "Pappa kommer"
+	cont "gilla det!"
 	done
 
 _CeladonMart3FPuzzleGameText::
-	text "A puzzle game!"
-	line "Looks addictive!"
+	text "Ett pusselspel!"
+	line "Verkar beroende-"
+	cont "framkallande!"
 	done
 
 _CeladonMart3FFightingGameText::
-	text "A fighting game!"
-	line "Looks tough!"
+	text "Ett fightingspel!"
+	line "Ser svårt ut!"
 	done
 
 _CeladonMart3FCurrentFloorSignText::
-	text "3F: TV GAME SHOP"
+	text "3F: TV-SPELSBUTIK"
 	done
 
 _CeladonMart3FPokemonPosterText::
-	text "Red and Blue!"
-	line "Both are #MON!"
+	text "Röd och Blå!"
+	line "Båda är #MON!"
 	done

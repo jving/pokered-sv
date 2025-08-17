@@ -1,15 +1,13 @@
 _Route18Gate2FLeftBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Tittade i kikaren."
 
-	para "PALLET TOWN is in"
-	line "the west!"
+	para "PALLET TOWN ligger"
+	line "i väster!"
 	done
 
 _Route18Gate2FRightBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Tittade i kikaren."
 
-	para "There are people"
-	line "swimming!"
+	para "Det finns folk"
+	line "som simmar!"
 	done

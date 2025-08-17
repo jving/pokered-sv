@@ -1,31 +1,32 @@
 _SafariZoneWestRestHouseSignText::
-	text "REST HOUSE"
+	text "VILOHUS"
 	done
 
 _SafariZoneWestFindWardensTeethSignText::
-	text "REQUEST NOTICE"
+	text "EFTERLYSNING"
 
-	para "Please find the"
-	line "SAFARI WARDEN's"
-	cont "lost GOLD TEETH."
-	cont "They're around"
-	cont "here somewhere."
+	para "Vänligen hitta"
+	line "SAFARI-VAKTENS"
+	cont "borttappade"
+	cont "GULDTÄNDER."
+	cont "De finns här"
+	cont "någonstans."
 
-	para "Reward offered!"
-	line "Contact: WARDEN"
+	para "Belöning utlovas!"
+	line "Kontakt: VAKTEN"
 	done
 
 _SafariZoneWestTrainerTipsText::
-	text "TRAINER TIPS"
+	text "TRÄNARTIPS"
 
-	para "Zone Exploration"
-	line "Campaign!"
+	para "Zonutforsknings-"
+	line "Kampanj!"
 
-	para "The Search for"
-	line "the SECRET HOUSE!"
+	para "Jakten på DET"
+	line "HEMLIGA HUSET!"
 	done
 
 _SafariZoneWestSignText::
-	text "AREA 3"
-	line "EAST: CENTER AREA"
+	text "OMRÅDE 3"
+	line "ÖSTER: MITTOMRÅDE"
 	done

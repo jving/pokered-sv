@@ -1,51 +1,51 @@
 _Route16Biker1BattleText::
-	text "What do you want?"
+	text "Vad vill du?"
 	done
 
 _Route16Biker1EndBattleText::
-	text "Don't you"
-	line "dare laugh!"
+	text "Våga inte"
+	line "skratta!"
 	prompt
 
 _Route16Biker1AfterBattleText::
-	text "We like just"
-	line "hanging here,"
-	cont "what's it to you?"
+	text "Vi gillar att bara"
+	line "hänga här, vad"
+	cont "rör det dig?"
 	done
 
 _Route16Biker2BattleText::
-	text "Nice BIKE!"
-	line "Hand it over!"
+	text "Snygg CYKEL!"
+	line "Ge hit den!"
 	done
 
 _Route16Biker2EndBattleText::
-	text "Knock"
+	text "Knock-"
 	line "out!"
 	prompt
 
 _Route16Biker2AfterBattleText::
-	text "Forget it, who"
-	line "needs your BIKE!"
+	text "Glöm det, vem"
+	line "behöver din CYKEL!"
 	done
 
 _Route16Biker3BattleText::
-	text "Come out and play,"
-	line "little mouse!"
+	text "Kom ut och lek,"
+	line "lilla mus!"
 	done
 
 _Route16Biker3EndBattleText::
-	text "You"
-	line "little rat!"
+	text "Din"
+	line "lilla råtta!"
 	prompt
 
 _Route16Biker3AfterBattleText::
-	text "I hate losing!"
-	line "Get away from me!"
+	text "Jag hatar att"
+	line "förlora! Stick!"
 	done
 
 _Route16biker4BattleText::
-	text "Hey, you just"
-	line "bumped me!"
+	text "Hallå, du knuffade"
+	line "just till mig!"
 	done
 
 _Route16Biker4EndBattleText::
@@ -53,68 +53,70 @@ _Route16Biker4EndBattleText::
 	prompt
 
 _Route16Biker4AfterBattleText::
-	text "You can also get"
-	line "to FUCHSIA from"
-	cont "VERMILION using a"
-	cont "coastal road."
+	text "Du kan också ta"
+	line "dig till FUCHSIA"
+	cont "från VERMILION"
+	cont "via en kustväg."
 	done
 
 _Route16Biker5BattleText::
-	text "I'm feeling"
-	line "hungry and mean!"
+	text "Jag känner mig"
+	line "hungrig och elak!"
 	done
 
 _Route16Biker5EndBattleText::
-	text "Bad,"
-	line "bad, bad!"
+	text "Elakt,"
+	line "elakt, elakt!"
 	prompt
 
 _Route16Biker5AfterBattleText::
-	text "I like my #MON"
-	line "ferocious! They"
-	cont "tear up enemies!"
+	text "Jag gillar mina"
+	line "#MON vildsinta!"
+	cont "De sliter sönder"
+	cont "fiender!"
 	done
 
 _Route16Biker6BattleText::
-	text "Sure, I'll go!"
+	text "Visst, jag kör!"
 	done
 
 _Route16Biker6EndBattleText::
-	text "Don't make"
-	line "me mad!"
+	text "Gör mig"
+	line "inte arg!"
 	prompt
 
 _Route16Biker6AfterBattleText::
-	text "I like harassing"
-	line "people with my"
-	cont "vicious #MON!"
+	text "Jag gillar att"
+	line "trakassera folk"
+	cont "med mina elaka"
+	cont "#MON!"
 	done
 
 _Route16Text7::
-	text "A sleeping #MON"
-	line "blocks the way!"
+	text "En sovande #MON"
+	line "blockerar vägen!"
 	done
 
 _Route16SnorlaxWokeUpText::
-	text "SNORLAX woke up!"
+	text "SNORLAX vaknade!"
 
-	para "It attacked in a"
-	line "grumpy rage!"
+	para "Den attackerade i"
+	line "ett surmulet raseri!"
 	done
 
 _Route16SnorlaxReturnedToMountainsText::
-	text "With a big yawn,"
-	line "SNORLAX returned"
-	cont "to the mountains!"
+	text "Med en stor gäspning"
+	line "återvände SNORLAX"
+	cont "till bergen!"
 	done
 
 _Route16CyclingRoadSignText::
-	text "Enjoy the slope!"
-	line "CYCLING ROAD"
+	text "Njut av backen!"
+	line "CYKELVÄGEN"
 	done
 
 _Route16SignText::
-	text "ROUTE 16"
+	text "VÄG 16"
 	line "CELADON CITY -"
 	cont "FUCHSIA CITY"
 	done

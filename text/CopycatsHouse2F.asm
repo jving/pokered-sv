@@ -1,33 +1,34 @@
 _CopycatsHouse2FCopycatDoYouLikePokemonText::
-	text "<PLAYER>: Hi! Do"
-	line "you like #MON?"
+	text "<PLAYER>: Hej! Gillar"
+	line "du #MON?"
 
-	para "<PLAYER>: Uh no, I"
-	line "just asked you."
+	para "<PLAYER>: Eh nej,"
+	line "jag frågade just"
+	cont "dig."
 
-	para "<PLAYER>: Huh?"
-	line "You're strange!"
+	para "<PLAYER>: Va? Du"
+	line "är konstig!"
 
 	para "COPYCAT: Hmm?"
-	line "Quit mimicking?"
+	line "Sluta härma?"
 
-	para "But, that's my"
-	line "favorite hobby!"
+	para "Men, det är min"
+	line "favorithobby!"
 	prompt
 
 _CopycatsHouse2FCopycatTM31PreReceiveText::
-	text "Oh wow!"
-	line "A # DOLL!"
+	text "Åh wow!"
+	line "En #-DOCKA!"
 
-	para "For me?"
-	line "Thank you!"
+	para "Till mig?"
+	line "Tack så mycket!"
 
-	para "You can have"
-	line "this, then!"
+	para "Då kan du få den"
+	line "här!"
 	prompt
 
 _CopycatsHouse2FCopycatReceivedTM31Text::
-	text "<PLAYER> received"
+	text "<PLAYER> mottog"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
@@ -36,65 +37,66 @@ _CopycatsHouse2FCopycatReceivedTM31Text::
 _CopycatsHouse2FCopycatTM31Explanation1Text::
 	text_start
 
-	para "TM31 contains my"
-	line "favorite, MIMIC!"
+	para "TM31 innehåller"
+	line "min favorit,"
+	cont "HÄRMNING!"
 
-	para "Use it on a good"
-	line "#MON!@"
+	para "Använd den på en"
+	line "bra #MON!@"
 	text_end
 
 _CopycatsHouse2FCopycatTM31Explanation2Text::
-	text "<PLAYER>: Hi!"
-	line "Thanks for TM31!"
+	text "<PLAYER>: Hej! Tack"
+	line "för TM31!"
 
-	para "<PLAYER>: Pardon?"
+	para "<PLAYER>: Ursäkta?"
 
-	para "<PLAYER>: Is it"
-	line "that fun to mimic"
-	cont "my every move?"
+	para "<PLAYER>: Är det"
+	line "så kul att härma"
+	cont "allt jag gör?"
 
-	para "COPYCAT: You bet!"
-	line "It's a scream!"
+	para "COPYCAT: Absolut!"
+	line "Det är jättekul!"
 	done
 
 _CopycatsHouse2FCopycatTM31NoRoomText::
-	text "Don't you want"
-	line "this?@"
+	text "Vill du inte ha"
+	line "den här?@"
 	text_end
 
 _CopycatsHouse2FDoduoText::
 	text "DODUO: Giiih!"
 
-	para "MIRROR MIRROR ON"
-	line "THE WALL, WHO IS"
-	cont "THE FAIREST ONE"
-	cont "OF ALL?"
+	para "SPEGEL SPEGEL PÅ"
+	line "VÄGGEN DÄR, SÄG"
+	cont "VEM SOM VACKRAST"
+	cont "I LANDET ÄR?"
 	done
 
 _CopycatsHouse2FRareDollText::
-	text "This is a rare"
-	line "#MON! Huh?"
-	cont "It's only a doll!"
+	text "Detta är en sällsynt"
+	line "#MON! Va? Det är"
+	cont "bara en docka!"
 	done
 
 _CopycatsHouse2FSNESText::
-	text "A game with MARIO"
-	line "wearing a bucket"
-	cont "on his head!"
+	text "Ett spel med MARIO"
+	line "som har en hink"
+	cont "på huvudet!"
 	done
 
 _CopycatsHouse2FPCMySecretsText::
 	text "..."
 
-	para "My Secrets!"
+	para "Mina Hemligheter!"
 
-	para "Skill: Mimicry!"
-	line "Hobby: Collecting"
-	cont "dolls!"
-	cont "Favorite #MON:"
+	para "Förmåga: Härmning!"
+	line "Hobby: Samla"
+	cont "dockor!"
+	cont "Favorit-#MON:"
 	cont "CLEFAIRY!"
 	done
 
 _CopycatsHouse2FPCCantSeeText::
-	text "Huh? Can't see!"
+	text "Va? Ser inget!"
 	done

@@ -1,26 +1,27 @@
 _MrPsychicsHouseMrPsychicYouWantedThisText::
-	text "...Wait! Don't"
-	line "say a word!"
+	text "...Vänta! Säg"
+	line "ingenting!"
 
-	para "You wanted this!"
+	para "Du ville ha den"
+	line "här!"
 	prompt
 
 _MrPsychicsHouseMrPsychicReceivedTM29Text::
-	text "<PLAYER> received"
+	text "<PLAYER> mottog"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _MrPsychicsHouseMrPsychicTM29ExplanationText::
-	text "TM29 is PSYCHIC!"
+	text "TM29 är PSYKISK!"
 
-	para "It can lower the"
-	line "target's SPECIAL"
-	cont "abilities."
+	para "Den kan sänka"
+	line "målets SPECIAL-"
+	cont "förmågor."
 	done
 
 _MrPsychicsHouseMrPsychicTM29NoRoomText::
-	text "Where do you plan"
-	line "to put this?"
+	text "Var har du tänkt"
+	line "lägga den här?"
 	done

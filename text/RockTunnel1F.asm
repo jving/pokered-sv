@@ -1,111 +1,111 @@
 _RockTunnel1FHiker1BattleText::
-	text "This tunnel goes"
-	line "a long way, kid!"
+	text "Den här tunneln är"
+	line "lång, grabben!"
 	done
 
 _RockTunnel1FHiker1EndBattleText::
 	text "Doh!"
-	line "You win!"
+	line "Du vinner!"
 	prompt
 
 _RockTunnel1FHiker1AfterBattleText::
-	text "Watch for ONIX!"
-	line "It can put the"
-	cont "squeeze on you!"
+	text "Se upp för ONIX!"
+	line "Den kan klämma"
+	cont "åt dig!"
 	done
 
 _RockTunnel1FHiker2BattleText::
-	text "Hmm. Maybe I'm"
-	line "lost in here..."
+	text "Hmm. Jag kanske"
+	line "är vilse här..."
 	done
 
 _RockTunnel1FHiker2EndBattleText::
-	text "Ease up!"
-	line "What am I doing?"
-	cont "Which way is out?"
+	text "Lugna dig! Vad"
+	line "gör jag? Vilket"
+	cont "håll är ut?"
 	prompt
 
 _RockTunnel1FHiker2AfterBattleText::
-	text "That sleeping"
-	line "#MON on ROUTE"
-	cont "12 forced me to"
-	cont "take this detour."
+	text "Den där sovande"
+	line "#MON på VÄG 12"
+	cont "tvingade mig att"
+	cont "ta den här omvägen."
 	done
 
 _RockTunnel1FHiker3BattleText::
-	text "Outsiders like"
-	line "you need to show"
-	cont "me some respect!"
+	text "Utomstående som"
+	line "du måste visa"
+	cont "mig respekt!"
 	done
 
 _RockTunnel1FHiker3EndBattleText::
-	text "I give!"
+	text "Jag ger mig!"
 	prompt
 
 _RockTunnel1FHiker3AfterBattleText::
-	text "You're talented"
-	line "enough to hike!"
+	text "Du är talangfull"
+	line "nog att vandra!"
 	done
 
 _RockTunnel1FSuperNerdBattleText::
-	text "#MON fight!"
-	line "Ready, go!"
+	text "#MON-strid!"
+	line "Klart, gå!"
 	done
 
 _RockTunnel1FSuperNerdEndBattleText::
-	text "Game"
-	line "over!"
+	text "Spelet"
+	line "slut!"
 	prompt
 
 _RockTunnel1FSuperNerdAfterBattleText::
-	text "Oh well, I'll get"
-	line "a ZUBAT as I go!"
+	text "Äsch, jag fångar"
+	line "en ZUBAT på vägen!"
 	done
 
 _RockTunnel1FCooltrainerF1BattleText::
-	text "Eek! Don't try"
-	line "anything funny in"
-	cont "the dark!"
+	text "Iih! Försök inte"
+	line "med något fuffens"
+	cont "i mörkret!"
 	done
 
 _RockTunnel1FCooltrainerF1EndBattleText::
-	text "It"
-	line "was too dark!"
+	text "Det"
+	line "var för mörkt!"
 	prompt
 
 _RockTunnel1FCooltrainerF1AfterBattleText::
-	text "I saw a MACHOP"
-	line "in this tunnel!"
+	text "Jag såg en MACHOP"
+	line "i den här tunneln!"
 	done
 
 _RockTunnel1FCooltrainerF2BattleText::
-	text "I came this far"
-	line "for #MON!"
+	text "Jag kom så här"
+	line "långt för #MON!"
 	done
 
 _RockTunnel1FCooltrainerF2EndBattleText::
-	text "I'm"
-	line "out of #MON!"
+	text "Jag har"
+	line "inga #MON kvar!"
 	prompt
 
 _RockTunnel1FCooltrainerF2AfterBattleText::
-	text "You looked cute"
-	line "and harmless!"
+	text "Du såg söt och"
+	line "ofarlig ut!"
 	done
 
 _RockTunnel1FCooltrainerF3BattleText::
-	text "You have #MON!"
-	line "Let's start!"
+	text "Du har #MON!"
+	line "Låt oss börja!"
 	done
 
 _RockTunnel1FCooltrainerF3EndBattleText::
-	text "You"
-	line "play hard!"
+	text "Du"
+	line "kör hårt!"
 	prompt
 
 _RockTunnel1FCooltrainerF3AfterBattleText::
-	text "Whew! I'm all"
-	line "sweaty now!"
+	text "Puh! Jag är helt"
+	line "svettig nu!"
 	done
 
 _RockTunnel1FSignText::

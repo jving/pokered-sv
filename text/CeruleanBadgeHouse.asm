@@ -1,97 +1,96 @@
 _CeruleanBadgeHouseMiddleAgedManText::
-	text "#MON BADGEs"
-	line "are owned only by"
-	cont "skilled trainers."
+	text "#MON-ORDNAR ägs"
+	line "bara av skickliga"
+	cont "tränare."
 
-	para "I see you have"
-	line "at least one."
+	para "Jag ser att du har"
+	line "minst en."
 
-	para "Those BADGEs have"
-	line "amazing secrets!"
+	para "Dessa ORDNAR har"
+	line "otroliga hemlig-"
+	cont "heter!"
 	prompt
 
 _CeruleanBadgeHouseMiddleAgedManWhichBadgeText::
-	text "Now then..."
+	text "Nåväl..."
 
-	para "Which of the 8"
-	line "BADGEs should I"
-	cont "describe?"
+	para "Vilken av de 8"
+	line "ORDNARNA ska jag"
+	cont "beskriva?"
 	done
 
 _CeruleanBadgeHouseMiddleAgedManVisitAnyTimeText::
-	text "Come visit me any"
-	line "time you wish."
+	text "Besök mig när som"
+	line "helst du vill."
 	done
 
 _CeruleanBadgeHouseBoulderBadgeText::
-	text "The ATTACK of all"
-	line "#MON increases"
-	cont "a little bit."
+	text "ATTACK för alla"
+	line "#MON ökar lite."
 
-	para "It also lets you"
-	line "use FLASH any"
-	cont "time you desire."
+	para "Den låter dig"
+	line "också använda"
+	cont "BLIXT när du vill."
 	prompt
 
 _CeruleanBadgeHouseCascadeBadgeText::
-	text "#MON up to L30"
-	line "will obey you."
+	text "#MON upp till L30"
+	line "lyder dig."
 
-	para "Any higher, they"
-	line "become unruly!"
+	para "Högre än så, och"
+	line "blir de olydiga!"
 
-	para "It also lets you"
-	line "use CUT outside"
-	cont "of battle."
+	para "Den låter dig"
+	line "också använda HUGG"
+	cont "utanför strid."
 	prompt
 
 _CeruleanBadgeHouseThunderBadgeText::
-	text "The SPEED of all"
-	line "#MON increases"
-	cont "a little bit."
+	text "FARTEN för alla"
+	line "#MON ökar lite."
 
-	para "It also lets you"
-	line "use FLY outside"
-	cont "of battle."
+	para "Den låter dig"
+	line "också använda FLYG"
+	cont "utanför strid."
 	prompt
 
 _CeruleanBadgeHouseRainbowBadgeText::
-	text "#MON up to L50"
-	line "will obey you."
+	text "#MON upp till L50"
+	line "lyder dig."
 
-	para "Any higher, they"
-	line "become unruly!"
+	para "Högre än så, och"
+	line "blir de olydiga!"
 
-	para "It also lets you"
-	line "use STRENGTH out-"
-	cont "side of battle."
+	para "Den låter dig"
+	line "också använda"
+	cont "STYRKA utanför"
+	cont "strid."
 	prompt
 
 _CeruleanBadgeHouseSoulBadgeText::
-	text "The DEFENSE of all"
-	line "#MON increases"
-	cont "a little bit."
+	text "FÖRSVAR för alla"
+	line "#MON ökar lite."
 
-	para "It also lets you"
-	line "use SURF outside"
-	cont "of battle."
+	para "Den låter dig"
+	line "också använda SURF"
+	cont "utanför strid."
 	prompt
 
 _CeruleanBadgeHouseMarshBadgeText::
-	text "#MON up to L70"
-	line "will obey you."
+	text "#MON upp till L70"
+	line "lyder dig."
 
-	para "Any higher, they"
-	line "become unruly!"
+	para "Högre än så, och"
+	line "blir de olydiga!"
 	prompt
 
 _CeruleanBadgeHouseVolcanoBadgeText::
-	text "Your #MON's"
-	line "SPECIAL abilities"
-	cont "increase a bit."
+	text "Dina #MONs"
+	line "SPECIAL-förmågor"
+	cont "ökar lite."
 	prompt
 
 _CeruleanBadgeHouseEarthBadgeText::
-	text "All #MON will"
-	line "obey you!"
+	text "Alla #MON kommer"
+	line "att lyda dig!"
 	prompt

@@ -1,69 +1,71 @@
 _SSAnneKitchenCook1Text::
-	text "You, mon petit!"
-	line "We're busy here!"
-	cont "Out of the way!"
+	text "Du, mon petit!"
+	line "Vi har fullt upp"
+	cont "här! Ur vägen!"
 	done
 
 _SSAnneKitchenCook2Text::
-	text "I saw an odd ball"
-	line "in the trash."
+	text "Jag såg en konstig"
+	line "boll i soporna."
 	done
 
 _SSAnneKitchenCook3Text::
-	text "I'm so busy I'm"
-	line "getting dizzy!"
+	text "Jag är så upptagen"
+	line "att jag blir yr!"
 	done
 
 _SSAnneKitchenCook4Text::
 	text "Hum-de-hum-de-"
 	line "ho..."
 
-	para "I peel spuds"
-	line "every day!"
+	para "Jag skalar potatis"
+	line "varje dag!"
 	cont "Hum-hum..."
 	done
 
 _SSAnneKitchenCook5Text::
-	text "Did you hear about"
+	text "Hörde du om"
 	line "SNORLAX?"
 
-	para "All it does is"
-	line "eat and sleep!"
+	para "Allt den gör är"
+	line "att äta och sova!"
 	done
 
 _SSAnneKitchenCook6Text::
-	text "Snivel...Sniff..."
+	text "Snyft... Sniff..."
 
-	para "I only get to"
-	line "peel onions..."
-	cont "Snivel..."
+	para "Jag får bara"
+	line "skala lök..."
+	cont "Snyft..."
 	done
 
 _SSAnneKitchenCook7MainCourseIsText::
-	text "Er-hem! Indeed I"
-	line "am le CHEF!"
+	text "Er-hem! Sannerligen"
+	line "är jag kocken!"
 
-	para "Le main course is"
+	para "Huvudrätten är"
 	prompt
 
 SSAnneKitchenCook7SalmonDuSaladText::
-	text "Salmon du Salad!"
+	text "Lax-sallad!"
 
-	para "Les guests may"
-	line "gripe it's fish"
-	cont "again, however!"
+	para "Gästerna kanske"
+	line "klagar över att"
+	cont "det är fisk igen,"
+	cont "dock!"
 	done
 
 SSAnneKitchenCook7EelsAuBarbecueText::
-	text "Eels au Barbecue!"
+	text "Grillad ål!"
 
-	para "Les guests will"
-	line "mutiny, I fear."
+	para "Gästerna kommer"
+	line "att göra myteri,"
+	cont "är jag rädd."
 	done
 
 SSAnneKitchenCook7PrimeBeefSteakText::
-	text "Prime Beef Steak!"
+	text "Förstklassig biff!"
 
-	para "But, have I enough"
-	line "fillets du beef?"
+	para "Men, har jag nog"
+	line "med biff-filéer?"
 	done

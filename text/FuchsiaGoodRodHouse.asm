@@ -1,44 +1,44 @@
 _FuchsiaGoodRodHouseFishingGuruText::
-	text "I'm the FISHING"
-	line "GURU's older"
-	cont "brother!"
+	text "Jag är FISKE-"
+	line "GURUNS äldre"
+	cont "bror!"
 
-	para "I simply Looove"
-	line "fishing!"
+	para "Jag Äääälskar helt"
+	line "enkelt att fiska!"
 
-	para "Do you like to"
-	line "fish?"
+	para "Gillar du att"
+	line "fiska?"
 	done
 
 _FuchsiaGoodRodHouseFishingGuruReceivedGoodRodText::
-	text "Grand! I like"
-	line "your style!"
+	text "Toppen! Jag gillar"
+	line "din stil!"
 
-	para "Take this and"
-	line "fish, young one!"
+	para "Ta det här och"
+	line "fiska, unge man!"
 
-	para "<PLAYER> received"
-	line "a @"
+	para "<PLAYER> mottog"
+	line "ett @"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _FuchsiaGoodRodHouseFishingGuruThatsSoDisappointingText::
-	text "Oh... That's so"
-	line "disappointing..."
+	text "Åh... Vilken"
+	line "besvikelse..."
 	done
 
 _FuchsiaGoodRodHouseFishingGuruHowAreTheFishText::
-	text "Hello there,"
+	text "Hallå där,"
 	line "<PLAYER>!"
 
-	para "How are the fish"
-	line "biting?"
+	para "Hur nappar"
+	line "fiskarna?"
 	done
 
 _FuchsiaGoodRodHouseFishingGuruNoRoomText::
-	text "Oh no!"
+	text "Åh nej!"
 
-	para "You have no room"
-	line "for my gift!"
+	para "Du har ingen plats"
+	line "för min gåva!"
 	done

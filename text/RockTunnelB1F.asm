@@ -1,108 +1,109 @@
 _RockTunnelB1FCooltrainerF1BattleText::
-	text "Hikers leave twigs"
-	line "as trail markers."
+	text "Vandrare lämnar"
+	line "kvistar som spår-"
+	cont "markörer."
 	done
 
 _RockTunnelB1FCooltrainerF1EndBattleText::
-	text "Ohhh!"
-	line "I did my best!"
+	text "Åhhh!"
+	line "Jag gjorde mitt"
+	cont "bästa!"
 	prompt
 
 _RockTunnelB1FCooltrainerF1AfterBattleText::
-	text "I want to go "
-	line "home!"
+	text "Jag vill åka hem!"
 	done
 
 _RockTunnelB1FHiker1BattleText::
-	text "Hahaha! Can you"
-	line "beat my power?"
+	text "Hahaha! Kan du"
+	line "slå min kraft?"
 	done
 
 _RockTunnelB1FHiker1EndBattleText::
-	text "Oops!"
-	line "Out-muscled!"
+	text "Hoppsan!"
+	line "Överträffad!"
 	prompt
 
 _RockTunnelB1FHiker1AfterBattleText::
-	text "I go for power"
-	line "because I hate"
-	cont "thinking!"
+	text "Jag kör på kraft"
+	line "för att jag hatar"
+	cont "att tänka!"
 	done
 
 _RockTunnelB1FSuperNerd1BattleText::
-	text "You have a"
-	line "#DEX?"
-	cont "I want one too!"
+	text "Du har en #DEX?"
+	line "Jag vill också"
+	cont "ha en!"
 	done
 
 _RockTunnelB1FSuperNerd1EndBattleText::
-	text "Shoot!"
-	line "I'm so jealous!"
+	text "Skit!"
+	line "Jag är så avundsjuk!"
 	prompt
 
 _RockTunnelB1FSuperNerd1AfterBattleText::
-	text "When you finish"
-	line "your #DEX, can"
-	cont "I have it?"
+	text "När du är klar med"
+	line "din #DEX, kan"
+	cont "jag få den?"
 	done
 
 _RockTunnelB1FSuperNerd2BattleText::
-	text "Do you know about"
-	line "costume players?"
+	text "Känner du till"
+	line "cosplayers?"
 	done
 
 _RockTunnelB1FSuperNerd2EndBattleText::
-	text "Well,"
-	line "that's that."
+	text "Tja,"
+	line "då var det klart."
 	prompt
 
 _RockTunnelB1FSuperNerd2AfterBattleText::
-	text "Costume players"
-	line "dress up as"
-	cont "#MON for fun."
+	text "Cosplayers klär"
+	line "ut sig till #MON"
+	cont "för skojs skull."
 	done
 
 _RockTunnelB1FHiker2BattleText::
-	text "My #MON"
-	line "techniques will"
-	cont "leave you crying!"
+	text "Mina #MON-"
+	line "tekniker kommer"
+	cont "att få dig att"
+	cont "gråta!"
 	done
 
 _RockTunnelB1FHiker2EndBattleText::
-	text "I give!"
-	line "You're a better"
-	cont "technician!"
+	text "Jag ger mig!"
+	line "Du är en bättre"
+	cont "tekniker!"
 	prompt
 
 _RockTunnelB1FHiker2AfterBattleText::
-	text "In mountains,"
-	line "you'll often find"
-	cont "rock-type #MON."
+	text "I bergen hittar"
+	line "du ofta sten-"
+	cont "typ-#MON."
 	done
 
 _RockTunnelB1FCooltrainerF2BattleText::
-	text "I don't often"
-	line "come here, but I"
-	cont "will fight you."
+	text "Jag kommer inte hit"
+	line "ofta, men jag"
+	cont "slåss mot dig."
 	done
 
 _RockTunnelB1FCooltrainerF2EndBattleText::
-	text "Oh!"
-	line "I lost!"
+	text "Åh!"
+	line "Jag förlorade!"
 	prompt
 
 _RockTunnelB1FCooltrainerF2AfterBattleText::
-	text "I like tiny"
-	line "#MON, big ones"
-	cont "are too scary!"
+	text "Jag gillar små"
+	line "#MON, stora är"
+	cont "för läskiga!"
 	done
 
 _RockTunnelB1FHiker3BattleText::
-	text "Hit me with your"
-	line "best shot!"
+	text "Ge mig ditt bästa"
+	line "skott!"
 	done
 
 _RockTunnelB1FHiker3EndBattleText::
-	text "Fired"
-	line "away!"
+	text "Avfyrat!"
 	prompt

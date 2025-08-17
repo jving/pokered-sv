@@ -1,64 +1,65 @@
 _LavenderTownLittleGirlDoYouBelieveInGhostsText::
-	text "Do you believe in"
-	line "GHOSTs?"
+	text "Tror du på"
+	line "SPÖKEN?"
 	done
 
 _LavenderTownLittleGirlSoThereAreBelieversText::
-	text "Really? So there"
-	line "are believers..."
+	text "Verkligen? Så det"
+	line "finns de som tror..."
 	done
 
 _LavenderTownLittleGirlHaHaGuessNotText::
-	text "Hahaha, I guess"
-	line "not."
+	text "Hahaha, jag antar"
+	line "väl inte det."
 
-	para "That white hand"
-	line "on your shoulder,"
-	cont "it's not real."
+	para "Den där vita"
+	line "handen på din"
+	cont "axel, den är inte"
+	cont "på riktigt."
 	done
 
 _LavenderTownCooltrainerMText::
-	text "This town is known"
-	line "as the grave site"
-	cont "of #MON."
+	text "Denna stad är känd"
+	line "som gravplatsen"
+	cont "för #MON."
 
-	para "Memorial services"
-	line "are held in"
+	para "Minnesgudstjänster"
+	line "hålls i"
 	cont "#MON TOWER."
 	done
 
 _LavenderTownSuperNerdText::
-	text "GHOSTs appeared"
-	line "in #MON TOWER."
+	text "SPÖKEN har dykt"
+	line "upp i #MON TOWER."
 
-	para "I think they're"
-	line "the spirits of"
-	cont "#MON that the"
-	cont "ROCKETs killed."
+	para "Jag tror att de är"
+	line "andarna från #MON"
+	cont "som ROCKETS"
+	cont "dödade."
 	done
 
 _LavenderTownSignText::
 	text "LAVENDER TOWN"
-	line "The Noble Purple"
-	cont "Town"
+	line "Den Ädla Lila"
+	cont "Staden"
 	done
 
 _LavenderTownSilphScopeSignText::
-	text "New SILPH SCOPE!"
+	text "Ny SILPH SCOPE!"
 
-	para "Make the Invisible"
-	line "Plain to See!"
+	para "Gör det Osynliga"
+	line "Tydligt att Se!"
 
 	para "SILPH CO."
 	done
 
 _LavenderTownPokemonHouseSignText::
-	text "LAVENDER VOLUNTEER"
-	line "#MON HOUSE"
+	text "LAVENDERS FRIVILLIGA"
+	line "#MON-HUS"
 	done
 
 _LavenderTownPokemonTowerSignText::
-	text "May the Souls of"
-	line "#MON Rest Easy"
+	text "Må #MONs Själar"
+	line "Vila i Frid"
 	cont "#MON TOWER"
 	done

@@ -1,107 +1,109 @@
 _SilphCo6FSilphWorkerM1TookOverTheBuildingText::
-	text "The ROCKETs came"
-	line "and took over the"
-	cont "building!"
+	text "ROCKETS kom och"
+	line "tog över"
+	cont "byggnaden!"
 	done
 
 _SilphCo6FSilphWorkerM1BackToWorkText::
-	text "Well, better get"
-	line "back to work!"
+	text "Nåväl, bäst att"
+	line "återgå till jobbet!"
 	done
 
 _SilphCo6FSilphWorkerMHelpMePleaseText::
-	text "Oh dear, oh dear."
-	line "Help me please!"
+	text "Åh, kära nån."
+	line "Hjälp mig, snälla!"
 	done
 
 _SilphCo6FSilphWorkerMWeGotEngagedText::
-	text "We got engaged!"
+	text "Vi förlovade oss!"
 	line "Heheh!"
 	done
 
 _SilphCo6FSilphWorkerF1SuchACowardText::
-	text "Look at him! He's"
-	line "such a coward!"
+	text "Titta på honom!"
+	line "Han är en sådan"
+	cont "fegis!"
 	done
 
 _SilphCo6FSilphWorkerF1HaveToMarryHimText::
-	text "I feel so sorry"
-	line "for him, I have"
-	cont "to marry him!"
+	text "Jag tycker så synd"
+	line "om honom att jag"
+	cont "måste gifta mig"
+	cont "med honom!"
 	done
 
 _SilphCo6FSilphWorkerF2TeamRocketConquerWorldText::
-	text "TEAM ROCKET is"
-	line "trying to conquer"
-	cont "the world with"
-	cont "#MON!"
+	text "TEAM ROCKET för-"
+	line "söker erövra"
+	cont "världen med #MON!"
 	done
 
 _SilphCo6FSilphWorkerF2TeamRocketRanText::
-	text "TEAM ROCKET ran"
-	line "because of you!"
+	text "TEAM ROCKET flydde"
+	line "på grund av dig!"
 	done
 
 _SilphCo6FSilphWorkerM3TargetedSilphText::
-	text "They must have"
-	line "targeted SILPH"
-	cont "for our #MON"
-	cont "products."
+	text "De måste ha siktat"
+	line "in sig på SILPH"
+	cont "för våra #MON-"
+	cont "produkter."
 	done
 
 _SilphCo6FSilphWorkerM3WorkForSilphText::
-	text "Come work for"
-	line "SILPH when you"
-	cont "get older!"
+	text "Kom och jobba för"
+	line "SILPH när du blir"
+	cont "äldre!"
 	done
 
 _SilphCo6FRocket1BattleText::
-	text "I am one of the 4"
-	line "ROCKET BROTHERS!"
+	text "Jag är en av de 4"
+	line "ROCKET-BRÖDERNA!"
 	done
 
 _SilphCo6FRocket1EndBattleText::
-	text "Flame"
-	line "out!"
+	text "Lågan"
+	line "slocknade!"
 	prompt
 
 _SilphCo6FRocket1AfterBattleText::
-	text "No matter!"
-	line "My brothers will"
-	cont "avenge me!"
+	text "Det spelar ingen"
+	line "roll! Mina bröder"
+	cont "kommer att hämnas"
+	cont "mig!"
 	done
 
 _SilphCo6FScientistBattleText::
-	text "That rotten"
-	line "PRESIDENT!"
+	text "Den där ruttna"
+	line "DIREKTÖREN!"
 
-	para "He shouldn't have"
-	line "sent me to the"
-	cont "TIKSI BRANCH!"
+	para "Han borde inte ha"
+	line "skickat mig till"
+	cont "TIKSI-FILIALEN!"
 	done
 
 _SilphCo6FScientistEndBattleText::
-	text "Shoot!"
+	text "Skit!"
 	prompt
 
 _SilphCo6FScientistAfterBattleText::
-	text "TIKSI BRANCH?"
-	line "It's in Russian"
-	cont "no man's land!"
+	text "TIKSI-FILIALEN?"
+	line "Den ligger i ryskt"
+	cont "ingenmansland!"
 	done
 
 _SilphCo6FRocket2BattleText::
-	text "You dare betray"
+	text "Vågar du förråda"
 	line "TEAM ROCKET?"
 	done
 
 _SilphCo6FRocket2EndBattleText::
-	text "You"
-	line "traitor!"
+	text "Din"
+	line "förrädare!"
 	prompt
 
 _SilphCo6FRocket2AfterBattleText::
-	text "If you stand for"
-	line "justice, you"
-	cont "betray evil!"
+	text "Om du står för"
+	line "rättvisa, förråder"
+	cont "du ondskan!"
 	done

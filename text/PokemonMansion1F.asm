@@ -1,29 +1,29 @@
 _PokemonMansion1FScientistBattleText::
-	text "Who are you? There"
-	line "shouldn't be"
-	cont "anyone here."
+	text "Vem är du? Det"
+	line "ska inte vara"
+	cont "någon här."
 	done
 
 _PokemonMansion1FScientistEndBattleText::
-	text "Ouch!"
+	text "Aj!"
 	prompt
 
 _PokemonMansion1FScientistAfterBattleText::
-	text "A key? I don't"
-	line "know what you're"
-	cont "talking about."
+	text "En nyckel? Jag vet"
+	line "inte vad du"
+	cont "pratar om."
 	done
 
 _PokemonMansion1FSwitchText::
-	text "A secret switch!"
+	text "En hemlig knapp!"
 
-	para "Press it?"
+	para "Trycka på den?"
 	done
 
 _PokemonMansion1FSwitchPressedText::
-	text "Who wouldn't?"
+	text "Vem skulle inte?"
 	prompt
 
 _PokemonMansion1FSwitchNotPressedText::
-	text "Not quite yet!"
+	text "Inte än!"
 	done

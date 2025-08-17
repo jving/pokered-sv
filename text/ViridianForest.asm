@@ -1,123 +1,132 @@
 _ViridianForestYoungster1Text::
-	text "I came here with"
-	line "some friends!"
+	text "Jag kom hit med"
+	line "några vänner!"
 
-	para "They're out for"
-	line "#MON fights!"
+	para "De letar efter"
+	line "#MON-strider!"
 	done
 
 _ViridianForestYoungster2BattleText::
-	text "Hey! You have"
-	line "#MON! Come on!"
-	cont "Let's battle'em!"
+	text "Hej! Du har"
+	line "#MON! Kom igen!"
+	cont "Låt oss strida!"
 	done
 
 _ViridianForestYoungster2EndBattleText::
-	text "No!"
-	line "CATERPIE can't"
-	cont "cut it!"
+	text "Nej!"
+	line "CATERPIE duger"
+	cont "inte!"
 	prompt
 
 _ViridianForestYoungster2AfterBattleText::
-	text "Ssh! You'll scare"
-	line "the bugs away!"
+	text "Ssh! Du"
+	line "skrämmer iväg"
+	cont "krypen!"
 	done
 
 _ViridianForestYoungster3BattleText::
-	text "Yo! You can't jam"
-	line "out if you're a"
-	cont "#MON trainer!"
+	text "Yo! Du kan"
+	line "inte chilla om"
+	cont "du är en #MON-"
+	cont "tränare!"
 	done
 
 _ViridianForestYoungster3EndBattleText::
-	text "Huh?"
-	line "I ran out of"
-	cont "#MON!"
+	text "Va?"
+	line "Jag har inga"
+	cont "#MON kvar!"
 	prompt
 
 _ViridianForestYoungster3AfterBattleText::
-	text "Darn! I'm going"
-	line "to catch some"
-	cont "stronger ones!"
+	text "Skit! Jag ska"
+	line "fånga några"
+	cont "starkare!"
 	done
 
 _ViridianForestYoungster4BattleText::
-	text "Hey, wait up!"
-	line "What's the hurry?"
+	text "Hallå, vänta!"
+	line "Varför har du"
+	cont "bråttom?"
 	done
 
 _ViridianForestYoungster4EndBattleText::
-	text "I"
-	line "give! You're good"
-	cont "at this!"
+	text "Jag"
+	line "ger mig! Du är"
+	cont "bra på det här!"
 	prompt
 
 _ViridianForestYoungster4AfterBattleText::
-	text "Sometimes, you"
-	line "can find stuff on"
-	cont "the ground!"
+	text "Ibland kan du"
+	line "hitta saker på"
+	cont "marken!"
 
-	para "I'm looking for"
-	line "the stuff I"
-	cont "dropped!"
+	para "Jag letar"
+	line "efter mina"
+	cont "tappade saker!"
 	done
 
 _ViridianForestYoungster5Text::
-	text "I ran out of #"
-	line "BALLs to catch"
-	cont "#MON with!"
+	text "Jag har inga"
+	line "# BALLs kvar"
+	cont "att fånga #MON"
+	cont "med!"
 
-	para "You should carry"
-	line "extras!"
+	para "Du borde ha"
+	line "med dig extra!"
 	done
 
 _ViridianForestTrainerTips1Text::
-	text "TRAINER TIPS"
+	text "TRÄNARTIPS"
 
-	para "If you want to"
-	line "avoid battles,"
-	cont "stay away from"
-	cont "grassy areas!"
+	para "Håll dig borta"
+	line "från gräs om du"
+	cont "vill undvika"
+	cont "strid!"
 	done
 
 _ViridianForestUseAntidoteSignText::
-	text "For poison, use"
-	line "ANTIDOTE! Get it"
-	cont "at #MON MARTs!"
+	text "Gift? Använd"
+	line "MOTGIFT! Finns"
+	cont "på #MON MARTs!"
 	done
 
 _ViridianForestTrainerTips2Text::
-	text "TRAINER TIPS"
+	text "TRÄNARTIPS"
 
-	para "Contact PROF.OAK"
-	line "via PC to get"
-	cont "your #DEX"
-	cont "evaluated!"
+	para "Kontakta"
+	line "PROF.OAK via"
+	cont "PC för att få"
+	cont "din #DEX"
+	cont "utvärderad!"
 	done
 
 _ViridianForestTrainerTips3Text::
-	text "TRAINER TIPS"
+	text "TRÄNARTIPS"
 
-	para "No stealing of"
-	line "#MON from"
-	cont "other trainers!"
-	cont "Catch only wild"
-	cont "#MON!"
+	para "Stjäl inga #MON"
+	line "från andra"
+	cont "tränare!"
+
+	para "Fånga bara"
+	line "vilda #MON!"
 	done
 
 _ViridianForestTrainerTips4Text::
-	text "TRAINER TIPS"
+	text "TRÄNARTIPS"
 
-	para "Weaken #MON"
-	line "before attempting"
-	cont "capture!"
+	para "Försvaga #MON"
+	line "innan du"
+	cont "försöker att"
+	cont "fånga dem!"
 
-	para "When healthy,"
-	line "they may escape!"
+	para "När de är"
+	line "friska, kan de"
+	cont "fly!"
 	done
 
 _ViridianForestLeavingSignText::
-	text "LEAVING"
-	line "VIRIDIAN FOREST"
-	cont "PEWTER CITY AHEAD"
+	text "LÄMNAR"
+	line "VIRIDIANSKOGEN"
+	cont "PEWTER CITY"
+	cont "FRAMFÖR"
 	done

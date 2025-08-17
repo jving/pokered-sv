@@ -1,133 +1,137 @@
 _CeruleanGymMistyPreBattleText::
-	text "Hi, you're a new"
-	line "face!"
+	text "Hej, du är ett"
+	line "nytt ansikte!"
 
-	para "Trainers who want"
-	line "to turn pro have"
-	cont "to have a policy"
-	cont "about #MON!"
+	para "Tränare som vill"
+	line "bli proffs måste"
+	cont "ha en policy för"
+	cont "#MON!"
 
-	para "What is your"
-	line "approach when you"
-	cont "catch #MON?"
+	para "Vilken är din"
+	line "strategi när du"
+	cont "fångar #MON?"
 
-	para "My policy is an"
-	line "all-out offensive"
-	cont "with water-type"
+	para "Min policy är en"
+	line "totaloffensiv"
+	cont "med vattentyp-"
 	cont "#MON!"
 	done
 
 _CeruleanGymMistyTM11ExplanationText::
-	text "TM11 teaches"
-	line "BUBBLEBEAM!"
+	text "TM11 lär ut"
+	line "BUBBELSTRÅLE!"
 
-	para "Use it on an"
-	line "aquatic #MON!"
+	para "Använd den på en"
+	line "vatten-#MON!"
 	done
 
 _CeruleanGymMistyCascadeBadgeInfoText::
-	text "The CASCADEBADGE"
-	line "makes all #MON"
-	cont "up to L30 obey!"
+	text "KASKADORDEN gör"
+	line "att alla #MON upp"
+	cont "till L30 lyder!"
 
-	para "That includes"
-	line "even outsiders!"
+	para "Det inkluderar"
+	line "även utomstående!"
 
-	para "There's more, you"
-	line "can now use CUT"
-	cont "any time!"
+	para "Dessutom kan du"
+	line "nu använda HUGG"
+	cont "när som helst!"
 
-	para "You can CUT down"
-	line "small bushes to"
-	cont "open new paths!"
+	para "Du kan HUGGA ner"
+	line "små buskar för att"
+	cont "öppna nya vägar!"
 
-	para "You can also have"
-	line "my favorite TM!"
+	para "Du kan också få"
+	line "min favorit-TM!"
 	done
 
 _CeruleanGymMistyReceivedTM11Text::
-	text "<PLAYER> received"
+	text "<PLAYER> mottog"
 	line "TM11!@"
 	text_end
 
 _CeruleanGymMistyTM11NoRoomText::
-	text "You better make"
-	line "room for this!"
+	text "Du borde göra"
+	line "plats för den här!"
 	done
 
 _CeruleanGymMistyReceivedCascadeBadgeText::
 	text "Wow!"
-	line "You're too much!"
+	line "Du är för bra!"
 
-	para "All right!"
+	para "Okej!"
 
-	para "You can have the"
-	line "CASCADEBADGE to"
-	cont "show you beat me!@"
+	para "Du kan få"
+	line "KASKADORDEN för"
+	cont "att visa att du"
+	cont "slog mig!@"
 	text_end
 
 _CeruleanGymBattleText1::
-	text "I'm more than good"
-	line "enough for you!"
+	text "Jag är mer än nog"
+	line "för dig!"
 
-	para "MISTY can wait!"
+	para "MISTY kan vänta!"
 	done
 
 _CeruleanGymEndBattleText1::
-	text "You"
-	line "overwhelmed me!"
+	text "Du"
+	line "överväldigade mig!"
 	prompt
 
 _CeruleanGymAfterBattleText1::
-	text "You have to face"
-	line "other trainers to"
-	cont "find out how good"
-	cont "you really are."
+	text "Du måste möta"
+	line "andra tränare för"
+	cont "att se hur bra"
+	cont "du verkligen är."
 	done
 
 _CeruleanGymBattleText2::
-	text "Splash!"
+	text "Plask!"
 
-	para "I'm first up!"
-	line "Let's do it!"
+	para "Jag är först ut!"
+	line "Nu kör vi!"
 	done
 
 _CeruleanGymEndBattleText2::
-	text "That"
-	line "can't be!"
+	text "Det"
+	line "kan inte vara sant!"
 	prompt
 
 _CeruleanGymAfterBattleText2::
-	text "MISTY is going to"
-	line "keep improving!"
+	text "MISTY kommer att"
+	line "fortsätta"
+	cont "förbättras!"
 
-	para "She won't lose to"
-	line "someone like you!"
+	para "Hon kommer inte"
+	line "förlora mot någon"
+	cont "som du!"
 	done
 
 _CeruleanGymGymGuideChampInMakingText::
-	text "Yo! Champ in"
-	line "making!"
+	text "Yo! Blivande"
+	line "mästare!"
 
-	para "Here's my advice!"
+	para "Här är mitt råd!"
 
-	para "The LEADER, MISTY,"
-	line "is a pro who uses"
-	cont "water #MON!"
+	para "LEDAREN, MISTY,"
+	line "är ett proffs som"
+	cont "använder vatten-"
+	cont "#MON!"
 
-	para "You can drain all"
-	line "their water with"
-	cont "plant #MON!"
+	para "Du kan dränera"
+	line "allt deras vatten"
+	cont "med växt-#MON!"
 
-	para "Or, zap them with"
-	line "electricity!"
+	para "Eller, chocka dem"
+	line "med elektricitet!"
 	done
 
 _CeruleanGymGymGuideBeatMistyText::
-	text "You beat MISTY!"
-	line "What'd I tell ya?"
+	text "Du slog MISTY!"
+	line "Vad sa jag?"
 
-	para "You and me kid,"
-	line "we make a pretty"
-	cont "darn good team!"
+	para "Du och jag, grabben,"
+	line "vi är ett riktigt"
+	cont "bra team!"
 	done

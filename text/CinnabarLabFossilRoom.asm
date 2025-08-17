@@ -1,78 +1,79 @@
 _CinnabarLabFossilRoomScientist1Text::
-	text "Hiya!"
+	text "Hallå!"
 
-	para "I am important"
-	line "doctor!"
+	para "Jag är viktig"
+	line "doktor!"
 
-	para "I study here rare"
-	line "#MON fossils!"
+	para "Jag studerar här"
+	line "sällsynta #MON-"
+	cont "fossil!"
 
-	para "You! Have you a"
-	line "fossil for me?"
+	para "Du! Har du ett"
+	line "fossil till mig?"
 	prompt
 
 _CinnabarLabFossilRoomScientist1NoFossilsText::
-	text "No! Is too bad!"
+	text "Nej! Synd!"
 	done
 
 _CinnabarLabFossilRoomScientist1GoForAWalkText::
-	text "I take a little"
-	line "time!"
+	text "Jag tar liten"
+	line "tid!"
 
-	para "You go for walk a"
-	line "little while!"
+	para "Du går promenad"
+	line "en liten stund!"
 	done
 
 _CinnabarLabFossilRoomScientist1FossilIsBackToLifeText::
-	text "Where were you?"
+	text "Var var du?"
 
-	para "Your fossil is"
-	line "back to life!"
+	para "Ditt fossil har"
+	line "väckts till liv!"
 
-	para "It was @"
+	para "Det var @"
 	text_ram wStringBuffer
 	text_start
-	line "like I think!"
+	line "som jag trodde!"
 	prompt
 
 _CinnabarLabFossilRoomScientist1SeesFossilText::
-	text "Oh! That is"
+	text "Åh! Det är"
 	line "@"
 	text_ram wNameBuffer
 	text "!"
 
-	para "It is fossil of"
+	para "Det är fossil av"
 	line "@"
 	text_ram wStringBuffer
-	text ", a"
-	cont "#MON that is"
-	cont "already extinct!"
+	text ", en"
+	cont "#MON som redan"
+	cont "är utdöd!"
 
-	para "My Resurrection"
-	line "Machine will make"
-	cont "that #MON live"
-	cont "again!"
+	para "Min Återupplivnings-"
+	line "Maskin får den"
+	cont "#MON att leva"
+	cont "igen!"
 	done
 
 _CinnabarLabFossilRoomScientist1TakesFossilText::
-	text "So! You hurry and"
-	line "give me that!"
+	text "Så! Du skyndar dig"
+	line "och ger mig den!"
 
-	para "<PLAYER> handed"
-	line "over @"
+	para "<PLAYER> lämnade"
+	line "över @"
 	text_ram wNameBuffer
 	text "!"
 	prompt
 
 _CinnabarLabFossilRoomScientist1GoForAWalkText2::
-	text "I take a little"
-	line "time!"
+	text "Jag tar liten"
+	line "tid!"
 
-	para "You go for walk a"
-	line "little while!"
+	para "Du går promenad"
+	line "en liten stund!"
 	done
 
 _CinnabarLabFossilRoomScientist1ComeAgainText::
-	text "Aiyah! You come"
-	line "again!"
+	text "Aiyah! Du kommer"
+	line "igen!"
 	done

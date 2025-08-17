@@ -1,3 +1,22 @@
+# Pokémon Röd och Blå
+This is a translation projekt to let people play pokemon in swedish forked from [pret/pokered]: https://github.com/pret/pokered
+The original readme is left as is down below, but details will obviously not be correct for this fork.
+
+Vill du återuppleva Pokémon blå/röd fast på svenska? Detta repo kompilerar gameboy-spel där den mesta texten är översatt till svenska. 
+
+
+## Hur översättningen är gjord
+Mycket av texten är maskinöversatt med hjälp av gemini 2.5 pro. Det har gått åt ca 172k + 25k + 20k tokens.
+Att översätta dex-texterna tog 45k tokens.
+
+
+Prompterna som använts finns i filen `gemini_prompt_mall`. 
+
+
+## Felaktigheter
+Såklart finns de! Lämna gärna in en buggrapport om du ser något felaktigt, eller ännu hellre! Skicka en pull-request! <3 
+
+
 # Pokémon Red and Blue [![Build Status][ci-badge]][ci]
 
 This is a disassembly of Pokémon Red and Blue.

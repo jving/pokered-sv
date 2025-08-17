@@ -1,37 +1,40 @@
 _RedsHouse1FMomWakeUpText::
-	text "MOM: Right."
-	line "All boys leave"
-	cont "home some day."
-	cont "It said so on TV."
+	text "MAMMA: Just det."
+	line "Alla pojkar"
+	cont "lämnar hemmet"
+	cont "en dag. Det sa"
+	cont "de på TV."
 
-	para "PROF.OAK, next"
-	line "door, is looking"
-	cont "for you."
+	para "PROF.OAK,"
+	line "grannen, letar"
+	cont "efter dig."
 	done
 
 _RedsHouse1FMomYouShouldRestText::
-	text "MOM: <PLAYER>!"
-	line "You should take a"
-	cont "quick rest."
+	text "MAMMA: <PLAYER>!"
+	line "Du borde vila"
+	cont "en kort stund."
 	prompt
 
 _RedsHouse1FMomLookingGreatText::
-	text "MOM: Oh good!"
-	line "You and your"
-	cont "#MON are"
-	cont "looking great!"
-	cont "Take care now!"
+	text "MAMMA: Åh, bra!"
+	line "Du och dina"
+	cont "#MON ser"
+	cont "jättebra ut!"
+	cont "Sköt om dig nu!"
 	done
 
 _RedsHouse1FTVStandByMeMovieText::
-	text "There's a movie"
-	line "on TV. Four boys"
-	cont "are walking on"
-	cont "railroad tracks."
+	text "Det är en film"
+	line "på TV. Fyra"
+	cont "pojkar går på"
+	cont "järnvägsspår."
 
-	para "I better go too."
+	para "Bäst jag går"
+	line "också."
 	done
 
 _RedsHouse1FTVWrongSideText::
-	text "Oops, wrong side."
+	text "Hoppsan, fel"
+	line "sida."
 	done

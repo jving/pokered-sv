@@ -1,17 +1,17 @@
 _SilphCo4FSilphWorkerMImHidingText::
-	text "Sssh! Can't you"
-	line "see I'm hiding?"
+	text "Sssh! Ser du inte"
+	line "att jag gömmer mig?"
 	done
 
 _SilphCo4FSilphWorkerMTeamRocketIsGoneText::
-	text "Huh? TEAM ROCKET"
-	line "is gone?"
+	text "Va? Är TEAM ROCKET"
+	line "borta?"
 	done
 
 _SilphCo4FRocket1BattleText::
-	text "TEAM ROCKET has"
-	line "taken command of"
-	cont "SILPH CO.!"
+	text "TEAM ROCKET har"
+	line "tagit befälet"
+	cont "över SILPH CO.!"
 	done
 
 _SilphCo4FRocket1EndBattleText::
@@ -20,37 +20,38 @@ _SilphCo4FRocket1EndBattleText::
 
 _SilphCo4FRocket1AfterBattleText::
 	text "Fwahahaha!"
-	line "My BOSS has been"
-	cont "after this place!"
+	line "Min BOSS har varit"
+	cont "ute efter det här"
+	cont "stället!"
 	done
 
 _SilphCo4FScientistBattleText::
-	text "My #MON are my"
-	line "loyal soldiers!"
+	text "Mina #MON är mina"
+	line "lojala soldater!"
 	done
 
 _SilphCo4FScientistEndBattleText::
-	text "Darn!"
-	line "You weak #MON!"
+	text "Skit!"
+	line "Era svaga #MON!"
 	prompt
 
 _SilphCo4FScientistAfterBattleText::
-	text "The doors are"
-	line "electronically"
-	cont "locked! A CARD"
-	cont "KEY opens them!"
+	text "Dörrarna är"
+	line "elektroniskt"
+	cont "låsta! En KORT-"
+	cont "NYCKEL öppnar dem!"
 	done
 
 _SilphCo4FRocket2BattleText::
-	text "Intruder spotted!"
+	text "Inkräktare siktad!"
 	done
 
 _SilphCo4FRocket2EndBattleText::
-	text "Who"
-	line "are you?"
+	text "Vem"
+	line "är du?"
 	prompt
 
 _SilphCo4FRocket2AfterBattleText::
-	text "I better tell the"
-	line "BOSS on 11F!"
+	text "Bäst jag berättar"
+	line "för BOSSEN på 11F!"
 	done

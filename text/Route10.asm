@@ -1,18 +1,19 @@
 _Route10SuperNerd1BattleText::
-	text "Wow, are you a"
-	line "#MANIAC too?"
-	cont "Want to see my"
-	cont "collection?"
+	text "Wow, är du också"
+	line "en #MANIAK?"
+	cont "Vill du se min"
+	cont "samling?"
 	done
 
 _Route10SuperNerd1EndBattleText::
 	text "Humph."
-	line "I'm not angry!"
+	line "Jag är inte arg!"
 	prompt
 
 _Route10SuperNerd1AfterBattleText::
-	text "I have more rare"
-	line "#MON at home!"
+	text "Jag har fler"
+	line "sällsynta #MON"
+	cont "hemma!"
 	done
 
 _Route10Hiker1BattleText::
@@ -21,82 +22,84 @@ _Route10Hiker1BattleText::
 
 _Route10Hiker1EndBattleText::
 	text "Ha-haha!"
-	line "Not laughing!"
-	cont "Ha-hay fever!"
-	cont "Haha-ha-choo!"
+	line "Skrattar inte!"
+	cont "Ha-hö feber!"
+	cont "Haha-ha-tjo!"
 	prompt
 
 _Route10Hiker1AfterBattleText::
-	text "Haha-ha-choo!"
-	line "Ha-choo!"
-	cont "Snort! Snivel!"
+	text "Haha-ha-tjo!"
+	line "Ha-tjo!"
+	cont "Snörvel! Snörvel!"
 	done
 
 _Route10SuperNerd2BattleText::
-	text "Hi kid, want to"
-	line "see my #MON?"
+	text "Hej grabben, vill"
+	line "du se mina #MON?"
 	done
 
 _Route10SuperNerd2EndBattleText::
-	text "Oh no!"
-	line "My #MON!"
+	text "Åh nej!"
+	line "Mina #MON!"
 	prompt
 
 _Route10SuperNerd2AfterBattleText::
-	text "I don't like you"
-	line "for beating me!"
+	text "Jag gillar dig inte"
+	line "för att du slog mig!"
 	done
 
 _Route10CooltrainerF1BattleText::
-	text "I've been to a"
-	line "#MON GYM a few"
-	cont "times. But, I"
-	cont "lost each time."
+	text "Jag har varit på"
+	line "ett #MON-GYM"
+	cont "några gånger. Men"
+	cont "jag förlorade"
+	cont "varje gång."
 	done
 
 _Route10CooltrainerF1EndBattleText::
-	text "Ohh!"
-	line "Blew it again!"
+	text "Åhh!"
+	line "Klantade mig igen!"
 	prompt
 
 _Route10CooltrainerF1AfterBattleText::
-	text "I noticed some"
-	line "#MANIACs"
-	cont "prowling around."
+	text "Jag såg några"
+	line "#MANIAKer som"
+	cont "smyger omkring."
 	done
 
 _Route10Hiker2BattleText::
-	text "Ah! This mountain"
-	line "air is delicious!"
+	text "Ah! Den här"
+	line "bergsluften är"
+	cont "utsökt!"
 	done
 
 _Route10Hiker2EndBattleText::
-	text "That"
-	line "cleared my head!"
+	text "Det"
+	line "rensade skallen!"
 	prompt
 
 _Route10Hiker2AfterBattleText::
-	text "I feel bloated on"
-	line "mountain air!"
+	text "Jag känner mig"
+	line "uppsvälld av"
+	cont "bergsluft!"
 	done
 
 _Route10CooltrainerF2BattleText::
-	text "I'm feeling a bit"
-	line "faint from this"
-	cont "tough hike."
+	text "Jag känner mig lite"
+	line "svimfärdig av den"
+	cont "här tuffa vandringen."
 	done
 
 _Route10CooltrainerF2EndBattleText::
-	text "I'm"
-	line "not up to it!"
+	text "Jag"
+	line "orkar inte!"
 	prompt
 
 _Route10CooltrainerF2AfterBattleText::
-	text "The #MON here"
-	line "are so chunky!"
-	cont "There should be a"
-	cont "pink one with a"
-	cont "floral pattern!"
+	text "#MON här är så"
+	line "knubbiga! Det borde"
+	cont "finnas en rosa med"
+	cont "blommönster!"
 	done
 
 _Route10RockTunnelSignText::
@@ -104,5 +107,5 @@ _Route10RockTunnelSignText::
 	done
 
 _Route10PowerPlantSignText::
-	text "POWER PLANT"
+	text "KRAFTVERK"
 	done

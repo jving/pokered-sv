@@ -1,27 +1,29 @@
 _FuchsiaBillsGrandpasHouseMiddleAgedWomanText::
-	text "SAFARI ZONE's"
-	line "WARDEN is old,"
-	cont "but still active!"
+	text "SAFARI ZONEs VAKT"
+	line "är gammal, men"
+	cont "fortfarande aktiv!"
 
-	para "All his teeth are"
-	line "false, though."
+	para "Alla hans tänder"
+	line "är löständer, dock."
 	done
 
 _FuchsiaBillsGrandpasHouseBillsGrandpaText::
-	text "Hmm? You've met"
+	text "Hmm? Du har träffat"
 	line "BILL?"
 
-	para "He's my grandson!"
+	para "Han är mitt"
+	line "barnbarn!"
 
-	para "He always liked"
-	line "collecting things"
-	cont "even as a child!"
+	para "Han har alltid"
+	line "gillat att samla"
+	cont "saker, även som"
+	cont "barn!"
 	done
 
 _FuchsiaBillsGrandpasHouseYoungsterText::
-	text "BILL files his"
-	line "own #MON data"
-	cont "on his PC!"
+	text "BILL arkiverar"
+	line "sin egen #MON-data"
+	cont "på sin PC!"
 
-	para "Did he show you?"
+	para "Visade han dig?"
 	done

@@ -37,15 +37,15 @@ TextBoxTextAndCoordTable:
 	text_box_text JP_POKEDEX_MENU_TEMPLATE,          11,  8, 19, 17, JapanesePokedexMenu,     12, 10
 
 BuySellQuitText:
-	db   "BUY"
-	next "SELL"
-	next "QUIT@"
+	db   "KÖP"
+	next "SÄLJ"
+	next "STÄNG@"
 
 	db "@" ; unused
 
 UseTossText:
-	db   "USE"
-	next "TOSS@"
+	db   "ANVÄND"
+	next "KASTA@"
 
 JapaneseSaveMessageText:
 	db   "きろく"
@@ -56,7 +56,7 @@ JapaneseSpeedOptionsText:
 	next "おそい@"
 
 MoneyText:
-	db "MONEY@"
+	db "PENGAR@"
 
 JapaneseMochimonoText:
 	db "もちもの@"
@@ -66,17 +66,17 @@ JapaneseMainMenuText:
 	next "さいしょから@"
 
 BattleMenuText:
-	db   "FIGHT <PK><MN>"
-	next "ITEM  RUN@"
+	db   "FIGHTA <PK><MN>"
+	next "PRYL   FLY@"
 
 SafariZoneBattleMenuText:
-	db   "BALL×       BAIT"
-	next "THROW ROCK  RUN@"
+	db   "BOLL×       BETE"
+	next "KASTA STEN  FLY@"
 
 SwitchStatsCancelText:
-	db   "SWITCH"
+	db   "BYT"
 	next "STATS"
-	next "CANCEL@"
+	next "AVBRYT@"
 
 JapaneseAhText:
 	db "アッ！@"

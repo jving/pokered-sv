@@ -1,43 +1,43 @@
 _Route12Gate2FBrunetteGirlYouCanHaveThisText::
-	text "My #MON's"
-	line "ashes are stored"
-	cont "in #MON TOWER."
+	text "Min #MONs aska"
+	line "förvaras i #MON"
+	cont "TOWER."
 
-	para "You can have this"
-	line "TM. I don't need"
-	cont "it any more..."
+	para "Du kan få den"
+	line "här TM:en. Jag"
+	cont "behöver den inte"
+	cont "längre..."
 	prompt
 
 _Route12Gate2FBrunetteGirlReceivedTM39Text::
-	text "<PLAYER> received"
+	text "<PLAYER> mottog"
 	line "TM39!@"
 	text_end
 
 _Route12Gate2FBrunetteGirlTM39ExplanationText::
-	text "TM39 is a move"
-	line "called SWIFT."
+	text "TM39 är en attack"
+	line "som heter RAPID."
 
-	para "It's very accurate,"
-	line "so use it during"
-	cont "battles you can't"
-	cont "afford to lose."
+	para "Den är väldigt"
+	line "precis, så använd"
+	cont "den i strider du"
+	cont "inte har råd att"
+	cont "förlora."
 	done
 
 _Route12Gate2FBrunetteGirlTM39NoRoomText::
-	text "You don't have"
-	line "room for this."
+	text "Du har inte plats"
+	line "för den här."
 	done
 
 _Route12Gate2FLeftBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Tittade i kikaren."
 
-	para "A man fishing!"
+	para "En man som fiskar!"
 	done
 
 _Route12Gate2FRightBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Tittade i kikaren."
 
-	para "It's #MON TOWER!"
+	para "Det är #MON TOWER!"
 	done

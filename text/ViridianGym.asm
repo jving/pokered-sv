@@ -1,110 +1,120 @@
 _ViridianGymGiovanniPreBattleText::
-	text "Fwahahaha! This is"
-	line "my hideout!"
+	text "Fwahahaha! Det"
+	line "här är mitt"
+	cont "gömställe!"
 
-	para "I planned to"
-	line "resurrect TEAM"
-	cont "ROCKET here!"
+	para "Jag planerade"
+	line "att återuppliva"
+	cont "TEAM ROCKET"
+	cont "här!"
 
-	para "But, you have"
-	line "caught me again!"
-	cont "So be it! This"
-	cont "time, I'm not"
-	cont "holding back!"
+	para "Men du har"
+	line "fångat mig"
+	cont "igen! Låt gå!"
+	cont "Denna gång"
+	cont "håller jag inte"
+	cont "tillbaka!"
 
-	para "Once more, you"
-	line "shall face"
-	cont "GIOVANNI, the"
-	cont "greatest trainer!"
+	para "Än en gång,"
+	line "ska du möta"
+	cont "GIOVANNI, den"
+	cont "största"
+	cont "tränaren!"
 	done
 
 _ViridianGymGiovanniReceivedEarthBadgeText::
 	text "Ha!"
-	line "That was a truly"
-	cont "intense fight!"
-	cont "You have won!"
-	cont "As proof, here is"
-	cont "the EARTHBADGE!@"
+	line "Vilken intensiv"
+	cont "strid! Du vann!"
+	cont "Som bevis får"
+	cont "du EARTHBADGE!@"
 	text_end
 
 _ViridianGymGiovanniPostBattleAdviceText::
-	text "Having lost, I"
-	line "cannot face my"
-	cont "underlings!"
-	cont "TEAM ROCKET is"
-	cont "finished forever!"
+	text "Efter att ha"
+	line "förlorat kan"
+	cont "jag inte möta"
+	cont "mina under-"
+	cont "huggare! TEAM"
+	cont "ROCKET är slut"
+	cont "för alltid!"
 
-	para "I will dedicate my"
-	line "life to the study"
-	cont "of #MON!"
+	para "Jag ska ägna"
+	line "mitt liv åt att"
+	cont "studera #MON!"
 
-	para "Let us meet again"
-	line "some day!"
-	cont "Farewell!@"
+	para "Låt oss mötas"
+	line "igen en dag!"
+	cont "Farväl!@"
 	text_end
 
 _ViridianGymGiovanniEarthBadgeInfoText::
-	text "The EARTHBADGE"
-	line "makes #MON of"
-	cont "any level obey!"
+	text "EARTHBADGE får"
+	line "#MON av alla"
+	cont "nivåer att"
+	cont "lyda!"
 
-	para "It is evidence of"
-	line "your mastery as a"
-	cont "#MON trainer!"
+	para "Det är ett bevis"
+	line "på din mästar-"
+	cont "skap som en"
+	cont "#MON-tränare!"
 
-	para "With it, you can"
-	line "enter the #MON"
+	para "Med den kan du"
+	line "delta i #MON"
 	cont "LEAGUE!"
 
-	para "It is my gift for"
-	line "your #MON"
-	cont "LEAGUE challenge!"
+	para "Det är min gåva"
+	line "för din #MON"
+	cont "LEAGUE-utma-"
+	cont "ning!"
 	done
 
 _ViridianGymGiovanniReceivedTM27Text::
-	text "<PLAYER> received"
+	text "<PLAYER> mottog"
 	line "TM27!@"
 	text_end
 
 _ViridianGymGiovanniTM27ExplanationText::
 	text_start
 
-	para "TM27 is FISSURE!"
-	line "It will take out"
-	cont "#MON with just"
-	cont "one hit!"
+	para "TM27 är FISSURE!"
+	line "Den slår ut"
+	cont "#MON med ett"
+	cont "enda slag!"
 
-	para "I made it when I"
-	line "ran the GYM here,"
-	cont "too long ago..."
+	para "Jag gjorde den"
+	line "när jag drev"
+	cont "detta GYM, för"
+	cont "länge sen..."
 	done
 
 _ViridianGymGiovanniTM27NoRoomText::
-	text "You do not have"
-	line "space for this!"
+	text "Du har inte"
+	line "plats för den!"
 	done
 
 _ViridianGymCooltrainerM1BattleText::
-	text "Heh! You must be"
-	line "running out of"
-	cont "steam by now!"
+	text "Heh! Du måste"
+	line "börja tappa"
+	cont "orken nu!"
 	done
 
 _ViridianGymCooltrainerM1EndBattleText::
-	text "I"
-	line "ran out of gas!"
+	text "Jag"
+	line "tappade orken!"
 	prompt
 
 _ViridianGymCooltrainerM1AfterBattleText::
-	text "You need power to"
-	line "keep up with our"
-	cont "GYM LEADER!"
+	text "Du behöver"
+	line "kraft för att"
+	cont "hänga med vår"
+	cont "GYM-LEDARE!"
 	done
 
 _ViridianGymHiker1BattleText::
-	text "Rrrroar! I'm"
-	line "working myself"
-	cont "into a rage!"
+	text "Rrrroar! Jag"
+	line "håller på att"
+	cont "bli rasande!"
 	done
 
 _ViridianGymHiker1EndBattleText::
@@ -112,31 +122,33 @@ _ViridianGymHiker1EndBattleText::
 	prompt
 
 _ViridianGymHiker1AfterBattleText::
-	text "I'm still not"
-	line "worthy!"
+	text "Jag är fort-"
+	line "farande inte"
+	cont "värdig!"
 	done
 
 _ViridianGymRocker1BattleText::
-	text "#MON and I, we"
-	line "make wonderful"
-	cont "music together!"
+	text "#MON och jag,"
+	line "vi skapar"
+	cont "underbar musik"
+	cont "tillsammans!"
 	done
 
 _ViridianGymRocker1EndBattleText::
-	text "You are in"
-	line "perfect harmony!"
+	text "Ni är i"
+	line "perfekt harmoni!"
 	prompt
 
 _ViridianGymRocker1AfterBattleText::
-	text "Do you know the"
-	line "identity of our"
-	cont "GYM LEADER?"
+	text "Vet du vem"
+	line "vår GYM-LEDARE"
+	cont "är?"
 	done
 
 _ViridianGymHiker2BattleText::
-	text "Karate is the"
-	line "ultimate form of"
-	cont "martial arts!"
+	text "Karate är den"
+	line "ultimata"
+	cont "kampsporten!"
 	done
 
 _ViridianGymHiker2EndBattleText::
@@ -144,30 +156,34 @@ _ViridianGymHiker2EndBattleText::
 	prompt
 
 _ViridianGymHiker2AfterBattleText::
-	text "If my #MON"
-	line "were as good at"
-	cont "Karate as I..."
+	text "Om min #MON"
+	line "var lika bra"
+	cont "på Karate som"
+	cont "jag..."
 	done
 
 _ViridianGymCooltrainerM2BattleText::
-	text "The truly talented"
-	line "win with style!"
+	text "De verkligt"
+	line "talangfulla"
+	cont "vinner med stil!"
 	done
 
 _ViridianGymCooltrainerM2EndBattleText::
-	text "I"
-	line "lost my grip!"
+	text "Jag"
+	line "tappade greppet!"
 	prompt
 
 _ViridianGymCooltrainerM2AfterBattleText::
-	text "The LEADER will"
-	line "scold me!"
+	text "LEDAREN kommer"
+	line "att skälla ut"
+	cont "mig!"
 	done
 
 _ViridianGymHiker3BattleText::
-	text "I'm the KARATE"
-	line "KING! Your fate"
-	cont "rests with me!"
+	text "Jag är KARATE-"
+	line "KUNGEN! Ditt"
+	cont "öde vilar hos"
+	cont "mig!"
 	done
 
 _ViridianGymHiker3EndBattleText::
@@ -176,65 +192,71 @@ _ViridianGymHiker3EndBattleText::
 
 _ViridianGymHiker3AfterBattleText::
 	text "#MON LEAGUE?"
-	line "You? Don't get"
-	cont "cocky!"
+	line "Du? Bli inte"
+	cont "kaxig!"
 	done
 
 _ViridianGymRocker2BattleText::
-	text "Your #MON will"
-	line "cower at the"
-	cont "crack of my whip!"
+	text "Din #MON kommer"
+	line "att darra vid"
+	cont "ljudet av min"
+	cont "piska!"
 	done
 
 _ViridianGymRocker2EndBattleText::
-	text "Yowch!"
-	line "Whiplash!"
+	text "Aj!"
+	line "Pisksnärt!"
 	prompt
 
 _ViridianGymRocker2AfterBattleText::
-	text "Wait! I was just"
-	line "careless!"
+	text "Vänta! Jag var"
+	line "bara slarvig!"
 	done
 
 _ViridianGymCooltrainerM3BattleText::
-	text "VIRIDIAN GYM was"
-	line "closed for a long"
-	cont "time, but now our"
-	cont "LEADER is back!"
+	text "VIRIDIAN GYM"
+	line "var stängt"
+	cont "länge, men nu"
+	cont "är vår LEDARE"
+	cont "tillbaka!"
 	done
 
 _ViridianGymCooltrainerM3EndBattleText::
-	text "I"
-	line "was beaten?"
+	text "Jag"
+	line "blev besegrad?"
 	prompt
 
 _ViridianGymCooltrainerM3AfterBattleText::
-	text "You can go onto"
-	line "#MON LEAGUE"
-	cont "only by defeating"
-	cont "our GYM LEADER!"
+	text "Du kan gå"
+	line "vidare till"
+	cont "#MON LEAGUE"
+	cont "endast genom"
+	cont "att besegra vår"
+	cont "GYM-LEDARE!"
 	done
 
 _ViridianGymGuidePreBattleText::
-	text "Yo! Champ in"
-	line "making!"
+	text "Yo! Blivande"
+	line "mästare!"
 
-	para "Even I don't know"
-	line "VIRIDIAN LEADER's"
-	cont "identity!"
+	para "Inte ens jag vet"
+	line "vem VIRIDIANS"
+	cont "LEDARE är!"
 
-	para "This will be the"
-	line "toughest of all"
-	cont "the GYM LEADERs!"
+	para "Det här blir"
+	line "den tuffaste av"
+	cont "alla GYM-"
+	cont "LEDARE!"
 
-	para "I heard that the"
-	line "trainers here"
-	cont "like ground-type"
-	cont "#MON!"
+	para "Jag har hört att"
+	line "tränarna här"
+	cont "gillar jord-"
+	cont "typs #MON!"
 	done
 
 _ViridianGymGuidePostBattleText::
-	text "Blow me away!"
-	line "GIOVANNI was the"
-	cont "GYM LEADER here?"
+	text "Otroligt!"
+	line "Var GIOVANNI"
+	cont "GYM-LEDAREN"
+	cont "här?"
 	done

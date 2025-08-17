@@ -1,64 +1,65 @@
 _SSAnneCaptainsRoomRubCaptainsBackText::
-	text "CAPTAIN: Ooargh..."
-	line "I feel hideous..."
-	cont "Urrp! Seasick..."
+	text "KAPTEN: Ooargh..."
+	line "Jag mår hemskt..."
+	cont "Urrp! Sjösjuk..."
 
-	para "<PLAYER> rubbed"
-	line "the CAPTAIN's"
-	cont "back!"
+	para "<PLAYER> gnuggade"
+	line "KAPTENENS rygg!"
 
-	para "Rub-rub..."
-	line "Rub-rub...@"
+	para "Gnugg-gnugg..."
+	line "Gnugg-gnugg...@"
 	text_end
 
 _SSAnneCaptainsRoomCaptainIFeelMuchBetterText::
-	text "CAPTAIN: Whew!"
-	line "Thank you! I"
-	cont "feel much better!"
+	text "KAPTEN: Puh!"
+	line "Tack! Jag mår"
+	cont "mycket bättre!"
 
-	para "You want to see"
-	line "my CUT technique?"
+	para "Vill du se min"
+	line "HUGG-teknik?"
 
-	para "I could show you"
-	line "if I wasn't ill..."
+	para "Jag skulle kunna"
+	line "visa dig om jag"
+	cont "inte var sjuk..."
 
-	para "I know! You can"
-	line "have this!"
+	para "Jag vet! Du kan"
+	line "få den här!"
 
-	para "Teach it to your"
-	line "#MON and you"
-	cont "can see it CUT"
-	cont "any time!"
+	para "Lär den till dina"
+	line "#MON så kan du"
+	cont "se den HUGGA när"
+	cont "som helst!"
 	prompt
 
 _SSAnneCaptainsRoomCaptainReceivedHM01Text::
-	text "<PLAYER> got"
+	text "<PLAYER> fick"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _SSAnneCaptainsRoomCaptainNotSickAnymoreText::
-	text "CAPTAIN: Whew!"
+	text "KAPTEN: Puh!"
 
-	para "Now that I'm not"
-	line "sick any more, I"
-	cont "guess it's time."
+	para "Nu när jag inte är"
+	line "sjuk längre, antar"
+	cont "jag att det är dags."
 	done
 
 _SSAnneCaptainsRoomCaptainHM01NoRoomText::
-	text "Oh no! You have"
-	line "no room for this!"
+	text "Åh nej! Du har"
+	line "ingen plats för"
+	cont "den här!"
 	done
 
 _SSAnneCaptainsRoomTrashText::
-	text "Yuck! Shouldn't"
-	line "have looked!"
+	text "Usch! Skulle inte"
+	line "ha tittat!"
 	done
 
 _SSAnneCaptainsRoomSeasickBookText::
-	text "How to Conquer"
-	line "Seasickness..."
-	cont "The CAPTAIN's"
-	cont "reading this!"
+	text "Hur man övervinner"
+	line "sjösjuka..."
+	cont "KAPTENEN läser"
+	cont "det här!"
 	done

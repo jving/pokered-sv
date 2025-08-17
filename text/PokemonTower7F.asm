@@ -1,78 +1,82 @@
 _PokemonTower7FMrFujiRescueText::
-	text "MR.FUJI: Heh? You"
-	line "came to save me?"
+	text "MR.FUJI: Heh? Kom"
+	line "du för att rädda"
+	cont "mig?"
 
-	para "Thank you. But, I"
-	line "came here of my"
-	cont "own free will."
+	para "Tack. Men, jag kom"
+	line "hit av egen fri"
+	cont "vilja."
 
-	para "I came to calm"
-	line "the soul of"
-	cont "CUBONE's mother."
+	para "Jag kom för att"
+	line "lugna själen av"
+	cont "CUBONEs mamma."
 
-	para "I think MAROWAK's"
-	line "spirit has gone"
-	cont "to the afterlife."
+	para "Jag tror MAROWAKs"
+	line "ande har gått"
+	cont "vidare till nästa"
+	cont "liv."
 
-	para "I must thank you"
-	line "for your kind"
-	cont "concern!"
+	para "Jag måste tacka"
+	line "dig för din vänliga"
+	cont "omtanke!"
 
-	para "Follow me to my"
-	line "home, #MON"
-	cont "HOUSE at the foot"
-	cont "of this tower."
+	para "Följ mig till mitt"
+	line "hem, #MON-HUSET"
+	cont "vid foten av detta"
+	cont "torn."
 	done
 
 _PokemonTower7FRocket1BattleText::
-	text "What do you want?"
-	line "Why are you here?"
+	text "Vad vill du?"
+	line "Varför är du här?"
 	done
 
 _PokemonTower7FRocket1EndBattleText::
-	text "I give up!"
+	text "Jag ger upp!"
 	prompt
 
 _PokemonTower7FRocket1AfterBattleText::
-	text "I'm not going to"
-	line "forget this!"
+	text "Jag kommer inte"
+	line "att glömma det här!"
 	done
 
 _PokemonTower7FRocket2BattleText::
-	text "This old guy came"
-	line "and complained"
-	cont "about us harming"
-	cont "useless #MON!"
+	text "Den här gamla"
+	line "gubben kom och"
+	cont "klagade på att vi"
+	cont "skadar värdelösa"
+	cont "#MON!"
 
-	para "We're talking it"
-	line "over as adults!"
+	para "Vi diskuterar det"
+	line "som vuxna!"
 	done
 
 _PokemonTower7FRocket2EndBattleText::
-	text "Please!"
-	line "No more!"
+	text "Snälla!"
+	line "Inte mer!"
 	prompt
 
 _PokemonTower7FRocket2AfterBattleText::
-	text "#MON are only"
-	line "good for making"
-	cont "money!"
+	text "#MON är bara bra"
+	line "för att tjäna"
+	cont "pengar!"
 
-	para "Stay out of our"
-	line "business!"
+	para "Lägg dig inte i"
+	line "våra affärer!"
 	done
 
 _PokemonTower7FRocket3BattleText::
-	text "You're not saving"
-	line "anyone, kid!"
+	text "Du räddar ingen,"
+	line "unge!"
 	done
 
 _PokemonTower7FRocket3EndBattleText::
-	text "Don't"
-	line "fight us ROCKETs!"
+	text "Slåss"
+	line "inte mot oss"
+	cont "ROCKETS!"
 	prompt
 
 _PokemonTower7FRocket3AfterBattleText::
-	text "You're not getting"
-	line "away with this!"
+	text "Du kommer inte"
+	line "undan med det här!"
 	done

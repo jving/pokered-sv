@@ -1,84 +1,87 @@
 _ChampionsRoomRivalIntroText::
-	text "<RIVAL>: Hey!"
+	text "<RIVAL>: Hallå!"
 
-	para "I was looking"
-	line "forward to seeing"
-	cont "you, <PLAYER>!"
+	para "Jag har sett fram"
+	line "emot att se dig,"
+	cont "<PLAYER>!"
 
-	para "My rival should"
-	line "be strong to keep"
-	cont "me sharp!"
+	para "Min rival bör vara"
+	line "stark för att"
+	cont "hålla mig skärpt!"
 
-	para "While working on"
-	line "#DEX, I looked"
-	cont "all over for"
-	cont "powerful #MON!"
+	para "Medan jag jobbade"
+	line "på #DEX, letade"
+	cont "jag överallt efter"
+	cont "kraftfulla #MON!"
 
-	para "Not only that, I"
-	line "assembled teams"
-	cont "that would beat"
-	cont "any #MON type!"
+	para "Inte bara det, jag"
+	line "satte ihop team"
+	cont "som skulle slå"
+	cont "vilken #MON-typ"
+	cont "som helst!"
 
-	para "And now!"
+	para "Och nu!"
 
-	para "I'm the #MON"
-	line "LEAGUE champion!"
+	para "Jag är #MON"
+	line "LIGAN-mästare!"
 
-	para "<PLAYER>! Do you"
-	line "know what that"
-	cont "means?"
+	para "<PLAYER>! Vet du"
+	line "vad det betyder?"
 
-	para "I'll tell you!"
+	para "Jag ska berätta!"
 
-	para "I am the most"
-	line "powerful trainer"
-	cont "in the world!"
+	para "Jag är den"
+	line "mäktigaste"
+	cont "tränaren i världen!"
 	done
 
 _RivalDefeatedText::
-	text "NO!"
-	line "That can't be!"
-	cont "You beat my best!"
+	text "NEJ!"
+	line "Det kan inte vara!"
+	cont "Du slog mitt bästa!"
 
-	para "After all that"
-	line "work to become"
-	cont "LEAGUE champ?"
+	para "Efter allt det"
+	line "jobbet för att bli"
+	cont "LIGA-mästare?"
 
-	para "My reign is over"
-	line "already?"
-	cont "It's not fair!"
+	para "Är min tid över"
+	line "redan?"
+	cont "Det är inte rättvist!"
 	prompt
 
 _RivalVictoryText::
 	text "Hahaha!"
-	line "I won, I won!"
+	line "Jag vann, jag vann!"
 
-	para "I'm too good for"
-	line "you, <PLAYER>!"
+	para "Jag är för bra för"
+	line "dig, <PLAYER>!"
 
-	para "You did well to"
-	line "even reach me,"
-	cont "<RIVAL>, the"
-	cont "#MON genius!"
+	para "Du gjorde bra ifrån"
+	line "dig som ens nådde"
+	cont "mig, <RIVAL>, #MON-"
+	cont "geniet!"
 
-	para "Nice try, loser!"
-	line "Hahaha!"
+	para "Bra försök, för-"
+	line "lorare! Hahaha!"
 	prompt
 
 _ChampionsRoomRivalAfterBattleText::
-	text "Why?"
-	line "Why did I lose?"
+	text "Varför?"
+	line "Varför förlorade"
+	cont "jag?"
 
-	para "I never made any"
-	line "mistakes raising"
-	cont "my #MON..."
+	para "Jag gjorde aldrig"
+	line "några misstag"
+	cont "när jag uppfost-"
+	cont "rade mina #MON..."
 
-	para "Darn it! You're"
-	line "the new #MON"
-	cont "LEAGUE champion!"
+	para "Skit också! Du är"
+	line "den nya #MON"
+	cont "LIGA-mästaren!"
 
-	para "Although I don't"
-	line "like to admit it."
+	para "Även om jag inte"
+	line "gillar att erkänna"
+	cont "det."
 	done
 
 _ChampionsRoomOakText::
@@ -86,61 +89,60 @@ _ChampionsRoomOakText::
 	done
 
 _ChampionsRoomOakCongratulatesPlayerText::
-	text "OAK: So, you won!"
-	line "Congratulations!"
-	cont "You're the new"
-	cont "#MON LEAGUE"
-	cont "champion!"
+	text "OAK: Så, du vann!"
+	line "Grattis! Du är den"
+	cont "nya #MON LIGA-"
+	cont "mästaren!"
 
-	para "You've grown up so"
-	line "much since you"
-	cont "first left with"
-	cont "@"
+	para "Du har vuxit så"
+	line "mycket sen du"
+	cont "först gav dig av"
+	cont "med @"
 	text_ram wNameBuffer
 	text "!"
 
-	para "<PLAYER>, you have"
-	line "come of age!"
+	para "<PLAYER>, du har"
+	line "blivit vuxen!"
 	done
 
 _ChampionsRoomOakDisappointedWithRivalText::
-	text "OAK: <RIVAL>! I'm"
-	line "disappointed!"
+	text "OAK: <RIVAL>! Jag"
+	line "är besviken!"
 
-	para "I came when I"
-	line "heard you beat"
-	cont "the ELITE FOUR!"
+	para "Jag kom när jag"
+	line "hörde att du slog"
+	cont "ELITE FOUR!"
 
-	para "But, when I got"
-	line "here, you had"
-	cont "already lost!"
+	para "Men, när jag kom"
+	line "hit, hade du"
+	cont "redan förlorat!"
 
-	para "<RIVAL>! Do you"
-	line "understand why"
-	cont "you lost?"
+	para "<RIVAL>! Förstår"
+	line "du varför du"
+	cont "förlorade?"
 
-	para "You have forgotten"
-	line "to treat your"
-	cont "#MON with"
-	cont "trust and love!"
+	para "Du har glömt att"
+	line "behandla dina"
+	cont "#MON med tillit"
+	cont "och kärlek!"
 
-	para "Without them, you"
-	line "will never become"
-	cont "a champ again!"
+	para "Utan dem kommer"
+	line "du aldrig bli en"
+	cont "mästare igen!"
 	done
 
 _ChampionsRoomOakComeWithMeText::
 	text "OAK: <PLAYER>!"
 
-	para "You understand"
-	line "that your victory"
-	cont "was not just your"
-	cont "own doing!"
+	para "Du förstår att din"
+	line "seger inte bara"
+	cont "var din egen"
+	cont "förtjänst!"
 
-	para "The bond you share"
-	line "with your #MON"
-	cont "is marvelous!"
+	para "Bandet du delar"
+	line "med dina #MON"
+	cont "är fantastiskt!"
 
 	para "<PLAYER>!"
-	line "Come with me!"
+	line "Följ med mig!"
 	done

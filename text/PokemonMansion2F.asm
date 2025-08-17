@@ -1,47 +1,48 @@
 _PokemonMansion2FSuperNerdBattleText::
-	text "I can't get out!"
-	line "This old place is"
-	cont "one big puzzle!"
+	text "Jag kommer inte ut!"
+	line "Det här gamla"
+	cont "stället är ett"
+	cont "enda stort pussel!"
 	done
 
 _PokemonMansion2FSuperNerdEndBattleText::
-	text "Oh no!"
-	line "My bag of loot!"
+	text "Åh nej!"
+	line "Min säck med byte!"
 	prompt
 
 _PokemonMansion2FSuperNerdAfterBattleText::
-	text "Switches open and"
-	line "close alternating"
-	cont "sets of doors!"
+	text "Knappar öppnar och"
+	line "stänger varannan"
+	cont "uppsättning dörrar!"
 	done
 
 _PokemonMansion2FDiary1Text::
-	text "Diary: July 5"
+	text "Dagbok: 5 juli"
 	line "Guyana,"
-	cont "South America"
+	cont "Sydamerika"
 
-	para "A new #MON was"
-	line "discovered deep"
-	cont "in the jungle."
+	para "En ny #MON upp-"
+	line "täcktes djupt inne"
+	cont "i djungeln."
 	done
 
 _PokemonMansion2FDiary2Text::
-	text "Diary: July 10"
-	line "We christened the"
-	cont "newly discovered"
-	cont "#MON, MEW."
+	text "Dagbok: 10 juli"
+	line "Vi döpte den"
+	cont "nyupptäckta"
+	cont "#MON till MEW."
 	done
 
 _PokemonMansion2FSwitchText::
-	text "A secret switch!"
+	text "En hemlig knapp!"
 
-	para "Press it?"
+	para "Trycka på den?"
 	done
 
 _PokemonMansion2FSwitchPressedText::
-	text "Who wouldn't?"
+	text "Vem skulle inte?"
 	prompt
 
 _PokemonMansion2FSwitchNotPressedText::
-	text "Not quite yet!"
+	text "Inte än!"
 	done

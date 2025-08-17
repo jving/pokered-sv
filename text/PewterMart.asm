@@ -1,17 +1,17 @@
 _PewterMartYoungsterText::
-	text "A shady, old man"
-	line "got me to buy"
-	cont "this really weird"
-	cont "fish #MON!"
+	text "En skum, gammal"
+	line "man fick mig att"
+	cont "köpa den här"
+	cont "konstiga fisk-#MON!"
 
-	para "It's totally weak"
-	line "and it cost ¥500!"
+	para "Den är helt värde-"
+	line "lös och kostade"
+	cont "¥500!"
 	done
 
 _PewterMartSuperNerdText::
-	text "Good things can"
-	line "happen if you"
-	cont "raise #MON"
-	cont "diligently, even"
-	cont "the weak ones!"
+	text "Bra saker kan"
+	line "hända om du tränar"
+	cont "#MON flitigt, även"
+	cont "de svaga!"
 	done

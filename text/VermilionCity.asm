@@ -1,69 +1,76 @@
-_VermilionCityBeautyText::
-	text "We're careful"
-	line "about pollution!"
 
-	para "We've heard GRIMER"
-	line "multiplies in"
-	cont "toxic sludge!"
+_VermilionCityBeautyText::
+	text "Vi är noga med"
+	line "föroreningar!"
+
+	para "Vi har hört att"
+	line "GRIMER förökar"
+	cont "sig i giftigt"
+	cont "slam!"
 	done
 
 _VermilionCityGambler1DidYouSeeText::
-	text "Did you see S.S."
-	line "ANNE moored in"
-	cont "the harbor?"
+	text "Såg du S.S."
+	line "ANNE förtöjd i"
+	cont "hamnen?"
 	done
 
 _VermilionCityGambler1SSAnneDepartedText::
-	text "So, S.S.ANNE has"
-	line "departed!"
+	text "Så, S.S.ANNE"
+	line "har avrest!"
 
-	para "She'll be back in"
-	line "about a year."
+	para "Hon kommer"
+	line "tillbaka om"
+	cont "ett år."
 	done
 
 _VermilionCitySailor1WelcomeToSSAnneText::
-	text "Welcome to S.S."
-	line "ANNE!"
+	text "Välkommen till"
+	line "S.S. ANNE!"
 	done
 
 _VermilionCitySailor1DoYouHaveATicketText::
-	text "Welcome to S.S."
-	line "ANNE!"
+	text "Välkommen till"
+	line "S.S. ANNE!"
 
-	para "Excuse me, do you"
-	line "have a ticket?"
+	para "Ursäkta, har du"
+	line "en biljett?"
 	prompt
 
 _VermilionCitySailor1FlashedTicketText::
-	text "<PLAYER> flashed"
-	line "the S.S.TICKET!"
+	text "<PLAYER> visade"
+	line "S.S.TICKET!"
 
-	para "Great! Welcome to"
-	line "S.S.ANNE!"
+	para "Toppen! Väl-"
+	line "kommen till"
+	cont "S.S.ANNE!"
 	done
 
 _VermilionCitySailor1YouNeedATicketText::
-	text "<PLAYER> doesn't"
-	line "have the needed"
-	cont "S.S.TICKET."
+	text "<PLAYER> har"
+	line "inte den"
+	cont "S.S.TICKET"
+	cont "som behövs."
 
-	para "Sorry!"
+	para "Ledsen!"
 
-	para "You need a ticket"
-	line "to get aboard."
+	para "Du behöver en"
+	line "biljett för att"
+	cont "komma ombord."
 	done
 
 _VermilionCitySailor1ShipSetSailText::
-	text "The ship set sail."
+	text "Skeppet har"
+	line "lagt ut."
 	done
 
 _VermilionCityGambler2Text::
-	text "I'm putting up a"
-	line "building on this"
-	cont "plot of land."
+	text "Jag bygger ett"
+	line "hus på den här"
+	cont "tomten."
 
-	para "My #MON is"
-	line "tamping the land."
+	para "Mitt #MON"
+	line "packar marken."
 	done
 
 _VermilionCityMachopText::
@@ -73,55 +80,60 @@ _VermilionCityMachopText::
 
 _VermilionCityMachopStompingTheLandFlatText::
 	text_start
-	para "A MACHOP is"
-	line "stomping the land"
-	cont "flat."
+	para "En MACHOP"
+	line "stampar marken"
+	cont "platt."
 	done
 
 _VermilionCitySailor2Text::
-	text "S.S.ANNE is a"
-	line "famous luxury"
-	cont "cruise ship."
+	text "S.S.ANNE är ett"
+	line "känt lyxkryss-"
+	cont "ningsfartyg."
 
-	para "We visit VERMILION"
-	line "once a year."
+	para "Vi besöker VER-"
+	line "MILION en gång"
+	cont "per år."
 	done
 
 _VermilionCitySignText::
 	text "VERMILION CITY"
-	line "The Port of"
-	cont "Exquisite Sunsets"
+	line "Hamnen med de"
+	cont "Utsökta Solne-"
+	cont "dgångarna"
 	done
 
 _VermilionCityNoticeSignText::
-	text "NOTICE!"
+	text "MEDDELANDE!"
 
-	para "ROUTE 12 may be"
-	line "blocked off by a"
-	cont "sleeping #MON."
+	para "Väg 12 kan vara"
+	line "blockerad av en"
+	cont "sovande #MON."
 
-	para "Detour through"
-	line "ROCK TUNNEL to"
+	para "Ta omvägen"
+	line "genom ROCK"
+	cont "TUNNEL till"
 	cont "LAVENDER TOWN."
 
-	para "VERMILION POLICE"
+	para "VERMILIONS"
+	line "POLIS"
 	done
 
 _VermilionCityPokemonFanClubSignText::
 	text "#MON FAN CLUB"
-	line "All #MON fans"
-	cont "welcome!"
+	line "Alla #MON-fans"
+	cont "är välkomna!"
 	done
 
 _VermilionCityGymSignText::
 	text "VERMILION CITY"
-	line "#MON GYM"
-	cont "LEADER: LT.SURGE"
+	line "#MON-GYM"
+	cont "LEDARE:"
+	cont "LT.SURGE"
 
-	para "The Lightning "
-	line "American!"
+	para "Blixt-"
+	line "Amerikanen!"
 	done
 
 _VermilionCityHarborSignText::
-	text "VERMILION HARBOR"
+	text "VERMILIONS HAMN"
 	done

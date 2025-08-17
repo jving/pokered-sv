@@ -1,119 +1,119 @@
 _MtMoon1FHikerBattleText::
-	text "WHOA! You shocked"
-	line "me! Oh, you're"
-	cont "just a kid!"
+	text "WHOA! Du skrämde"
+	line "mig! Åh, du är"
+	cont "bara ett barn!"
 	done
 
 _MtMoon1FHikerEndBattleText::
 	text "Wow!"
-	line "Shocked again!"
+	line "Chockad igen!"
 	prompt
 
 _MtMoon1FHikerAfterBattleText::
-	text "Kids like you"
-	line "shouldn't be"
-	cont "here!"
+	text "Barn som du borde"
+	line "inte vara här!"
 	done
 
 _MtMoon1FYoungster1BattleText::
-	text "Did you come to"
-	line "explore too?"
+	text "Kom du också för"
+	line "att utforska?"
 	done
 
 _MtMoon1FYoungster1EndBattleText::
-	text "Losing"
-	line "stinks!"
+	text "Att"
+	line "förlora suger!"
 	prompt
 
 _MtMoon1FYoungster1AfterBattleText::
-	text "I came down here"
-	line "to show off to"
-	cont "girls."
+	text "Jag kom hit för"
+	line "att visa upp mig"
+	cont "för tjejer."
 	done
 
 _MtMoon1FCooltrainerF1BattleText::
-	text "Wow! It's way"
-	line "bigger in here"
-	cont "than I thought!"
+	text "Wow! Det är"
+	line "mycket större här"
+	cont "inne än jag trodde!"
 	done
 
 _MtMoon1FCooltrainerF1EndBattleText::
-	text "Oh!"
-	line "I lost it!"
+	text "Åh!"
+	line "Jag tappade det!"
 	prompt
 
 _MtMoon1FCooltrainerF1AfterBattleText::
-	text "How do you get"
-	line "out of here?"
+	text "Hur kommer man"
+	line "ut härifrån?"
 	done
 
 _MtMoon1FSuperNerdBattleText::
-	text "What! Don't sneak"
-	line "up on me!"
+	text "Va! Smyg inte"
+	line "upp på mig!"
 	done
 
 _MtMoon1FSuperNerdEndBattleText::
-	text "My"
-	line "#MON won't do!"
+	text "Mina"
+	line "#MON duger inte!"
 	prompt
 
 _MtMoon1FSuperNerdAfterBattleText::
-	text "I have to find"
-	line "stronger #MON."
+	text "Jag måste hitta"
+	line "starkare #MON."
 	done
 
 _MtMoon1FCooltrainerF2BattleText::
-	text "What? I'm waiting"
-	line "for my friends to"
-	cont "find me here."
+	text "Va? Jag väntar"
+	line "på att mina vänner"
+	cont "ska hitta mig här."
 	done
 
 _MtMoon1FCooltrainerF2EndBattleText::
-	text "I lost?"
+	text "Jag förlorade?"
 	prompt
 
 _MtMoon1FCooltrainerF2AfterBattleText::
-	text "I heard there are"
-	line "some very rare"
-	cont "fossils here."
+	text "Jag hörde att det"
+	line "finns några mycket"
+	cont "sällsynta fossil"
+	cont "här."
 	done
 
 _MtMoon1FYoungster2BattleText::
-	text "Suspicious men"
-	line "are in the cave."
-	cont "What about you?"
+	text "Det finns miss-"
+	line "tänkta män i"
+	cont "grottan. Du då?"
 	done
 
 _MtMoon1FYoungster2EndBattleText::
-	text "You"
-	line "got me!"
+	text "Du"
+	line "fick mig!"
 	prompt
 
 _MtMoon1FYoungster2AfterBattleText::
-	text "I saw them! I'm"
-	line "sure they're from"
-	cont "TEAM ROCKET!"
+	text "Jag såg dem! Jag är"
+	line "säker på att de är"
+	cont "från TEAM ROCKET!"
 	done
 
 _MtMoon1FYoungster3BattleText::
-	text "Go through this"
-	line "cave to get to"
+	text "Gå genom denna"
+	line "grotta för att nå"
 	cont "CERULEAN CITY!"
 	done
 
 _MtMoon1FYoungster3EndBattleText::
-	text "I"
-	line "lost."
+	text "Jag"
+	line "förlorade."
 	prompt
 
 _MtMoon1FYoungster3AfterBattleText::
-	text "ZUBAT is tough!"
-	line "But, it can be"
-	cont "useful if you"
-	cont "catch one."
+	text "ZUBAT är tuff!"
+	line "Men, den kan vara"
+	cont "användbar om du"
+	cont "fångar en."
 	done
 
 _MtMoon1FBewareZubatSign::
-	text "Beware! ZUBAT is"
-	line "a blood sucker!"
+	text "Se upp! ZUBAT är"
+	line "en blodsugare!"
 	done

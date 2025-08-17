@@ -1,172 +1,175 @@
 _Route15CooltrainerF1BattleText::
-	text "Let me try out the"
-	line "#MON I just"
-	cont "got in a trade!"
+	text "Låt mig testa den"
+	line "#MON jag just fick"
+	cont "i ett byte!"
 	done
 
 _Route15CooltrainerF1EndBattleText::
-	text "Not"
-	line "good enough!"
+	text "Inte"
+	line "bra nog!"
 	prompt
 
 _Route15CooltrainerF1AfterBattleText::
-	text "You can't change"
-	line "the nickname of"
-	cont "any #MON you"
-	cont "get in a trade."
+	text "Du kan inte ändra"
+	line "smeknamnet på en"
+	cont "#MON du fått i ett"
+	cont "byte."
 
-	para "Only the Original"
-	line "Trainer can."
+	para "Bara den ursprung-"
+	line "liga tränaren kan."
 	done
 
 _Route15CooltrainerF2BattleText::
-	text "You look gentle,"
-	line "so I think I can"
-	cont "beat you!"
+	text "Du ser snäll ut,"
+	line "så jag tror jag"
+	cont "kan slå dig!"
 	done
 
 _Route15CooltrainerF2EndBattleText::
-	text "No,"
-	line "wrong!"
+	text "Nej,"
+	line "fel!"
 	prompt
 
 _Route15CooltrainerF2AfterBattleText::
-	text "I'm afraid of"
-	line "BIKERs, they look"
-	cont "so ugly and mean!"
+	text "Jag är rädd för"
+	line "knuttar, de ser"
+	cont "så fula och elaka"
+	cont "ut!"
 	done
 
 _Route15CooltrainerM1BattleText::
-	text "When I whistle, I"
-	line "can summon bird"
-	cont "#MON!"
+	text "När jag visslar"
+	line "kan jag kalla på"
+	cont "fågel-#MON!"
 	done
 
 _Route15CooltrainerM1EndBattleText::
-	text "Ow!"
-	line "That's tragic!"
+	text "Aj!"
+	line "Det var tragiskt!"
 	prompt
 
 _Route15CooltrainerM1AfterBattleText::
-	text "Maybe I'm not cut"
-	line "out for battles."
+	text "Jag kanske inte är"
+	line "gjord för strider."
 	done
 
 _Route15CooltrainerM2BattleText::
-	text "Hmm? My birds are"
-	line "shivering! You're"
-	cont "good, aren't you?"
+	text "Hmm? Mina fåglar"
+	line "darrar! Du är bra,"
+	cont "eller hur?"
 	done
 
 _Route15CooltrainerM2EndBattleText::
-	text "Just"
-	line "as I thought!"
+	text "Precis"
+	line "som jag trodde!"
 	prompt
 
 _Route15CooltrainerM2AfterBattleText::
-	text "Did you know moves"
-	line "like EARTHQUAKE"
-	cont "don't have any"
-	cont "effect on birds?"
+	text "Visste du att"
+	line "attacker som"
+	cont "JORDBÄVNING inte"
+	cont "har någon effekt"
+	cont "på fåglar?"
 	done
 
 _Route15Beauty1BattleText::
-	text "Oh, you're a"
-	line "little cutie!"
+	text "Åh, du är en"
+	line "liten sötnos!"
 	done
 
 _Route15Beauty1EndBattleText::
-	text "You looked"
-	line "so cute too!"
+	text "Du såg så"
+	line "söt ut också!"
 	prompt
 
 _Route15Beauty1AfterBattleText::
-	text "I forgive you!"
-	line "I can take it!"
+	text "Jag förlåter dig!"
+	line "Jag klarar det!"
 	done
 
 _Route15Beauty2BattleText::
-	text "I raise #MON"
-	line "because I live"
-	cont "alone!"
+	text "Jag tränar #MON"
+	line "för att jag bor"
+	cont "ensam!"
 	done
 
 _Route15Beauty2EndBattleText::
-	text "I didn't"
-	line "ask for this!"
+	text "Jag bad"
+	line "inte om det här!"
 	prompt
 
 _Route15Beauty2AfterBattleText::
-	text "I just like going"
-	line "home to be with"
-	cont "my #MON!"
+	text "Jag gillar att komma"
+	line "hem och vara med"
+	cont "mina #MON!"
 	done
 
 _Route15Biker1BattleText::
-	text "Hey kid! C'mon!"
-	line "I just got these!"
+	text "Hallå grabben!"
+	line "Kom igen! Jag fick"
+	cont "just de här!"
 	done
 
 _Route15Biker1EndBattleText::
-	text "Why"
-	line "not?"
+	text "Varför"
+	line "inte?"
 	prompt
 
 _Route15Biker1AfterBattleText::
-	text "You only live"
-	line "once, so I live"
-	cont "as an outlaw!"
+	text "Man lever bara en"
+	line "gång, så jag lever"
+	cont "som en laglös!"
 	cont "TEAM ROCKET RULES!"
 	done
 
 _Route15Biker2BattleText::
-	text "Fork over all your"
-	line "cash when you"
-	cont "lose to me, kid!"
+	text "Ge mig alla dina"
+	line "pengar när du"
+	cont "förlorar, grabben!"
 	done
 
 _Route15Biker2EndBattleText::
-	text "That"
-	line "can't be true!"
+	text "Det"
+	line "kan inte vara sant!"
 	prompt
 
 _Route15Biker2AfterBattleText::
-	text "I was just joking"
-	line "about the money!"
+	text "Jag skojade bara"
+	line "om pengarna!"
 	done
 
 _Route15CooltrainerF3BattleText::
-	text "What's cool?"
-	line "Trading #MON!"
+	text "Vad är coolt?"
+	line "Att byta #MON!"
 	done
 
 _Route15CooltrainerF3EndBattleText::
-	text "I"
-	line "said trade!"
+	text "Jag"
+	line "sa byta!"
 	prompt
 
 _Route15CooltrainerF3AfterBattleText::
-	text "I trade #MON"
-	line "with my friends!"
+	text "Jag byter #MON"
+	line "med mina vänner!"
 	done
 
 _Route15CooltrainerF4BattleText::
-	text "Want to play with"
-	line "my #MON?"
+	text "Vill du leka med"
+	line "mina #MON?"
 	done
 
 _Route15CooltrainerF4EndBattleText::
-	text "I was"
-	line "too impatient!"
+	text "Jag var"
+	line "för otålig!"
 	prompt
 
 _Route15CooltrainerF4AfterBattleText::
-	text "I'll go train with"
-	line "weaker people.@"
+	text "Jag ska träna med"
+	line "svagare folk.@"
 	text_end
 
 _Route15SignText::
-	text "ROUTE 15"
-	line "West to FUCHSIA"
-	cont "CITY"
+	text "VÄG 15"
+	line "Västerut mot"
+	cont "FUCHSIA CITY"
 	done

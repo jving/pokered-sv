@@ -1,23 +1,23 @@
 _Route12SuperRodHouseFishingGuruDoYouLikeToFishText::
-	text "I'm the FISHING"
-	line "GURU's brother!"
+	text "Jag är FISKE-"
+	line "GURUNS bror!"
 
-	para "I simply Looove"
-	line "fishing!"
+	para "Jag Äääälskar helt"
+	line "enkelt att fiska!"
 
-	para "Do you like to"
-	line "fish?"
+	para "Gillar du att"
+	line "fiska?"
 	done
 
 _Route12SuperRodHouseFishingGuruReceivedSuperRodText::
-	text "Grand! I like"
-	line "your style!"
+	text "Toppen! Jag gillar"
+	line "din stil!"
 
-	para "Take this and"
-	line "fish, young one!"
+	para "Ta det här och"
+	line "fiska, unge man!"
 
-	para "<PLAYER> received"
-	line "a @"
+	para "<PLAYER> mottog"
+	line "ett @"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
@@ -25,38 +25,39 @@ _Route12SuperRodHouseFishingGuruReceivedSuperRodText::
 _Route12SuperRodHouseFishingGuruFishingWayOfLifeText::
 	text_start
 
-	para "Fishing is a way"
-	line "of life!"
+	para "Fiske är en"
+	line "livsstil!"
 
-	para "From the seas to"
-	line "rivers, go out"
-	cont "and land the big"
-	cont "one!"
+	para "Från haven till"
+	line "floderna, gå ut"
+	cont "och dra upp den"
+	cont "stora!"
 	done
 
 _Route12SuperRodHouseFishingGuruThatsDisappointingText::
-	text "Oh... That's so"
-	line "disappointing..."
+	text "Åh... Vilken"
+	line "besvikelse..."
 	done
 
 _Route12SuperRodHouseFishingGuruTryFishingText::
-	text "Hello there,"
+	text "Hallå där,"
 	line "<PLAYER>!"
 
-	para "Use the SUPER ROD"
-	line "in any water!"
-	cont "You can catch"
-	cont "different kinds"
-	cont "of #MON."
+	para "Använd SUPERSPÖT"
+	line "i vilket vatten"
+	cont "som helst! Du kan"
+	cont "fånga olika sorters"
+	cont "#MON."
 
-	para "Try fishing"
-	line "wherever you can!"
+	para "Försök fiska"
+	line "var du än kan!"
 	done
 
 _Route12SuperRodHouseFishingGuruNoRoomText::
-	text "Oh no!"
+	text "Åh nej!"
 
-	para "I had a gift for"
-	line "you, but you have"
-	cont "no room for it!"
+	para "Jag hade en gåva"
+	line "till dig, men du"
+	cont "har ingen plats"
+	cont "för den!"
 	done

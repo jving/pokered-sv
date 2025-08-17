@@ -1,181 +1,194 @@
 _ViridianCityYoungster1Text::
-	text "Those # BALLs"
-	line "at your waist!"
-	cont "You have #MON!"
+	text "Dina # BALLs"
+	line "vid midjan!"
+	cont "Du har #MON!"
 
-	para "It's great that"
-	line "you can carry and"
-	cont "use #MON any"
-	cont "time, anywhere!"
+	para "Det är toppen"
+	line "att du kan ha"
+	cont "med dig och"
+	cont "använda #MON"
+	cont "när och var"
+	cont "som helst!"
 	done
 
 _ViridianCityGambler1GymAlwaysClosedText::
-	text "This #MON GYM"
-	line "is always closed."
+	text "Det här #MON-"
+	line "GYMet är alltid"
+	cont "stängt."
 
-	para "I wonder who the"
-	line "LEADER is?"
+	para "Jag undrar vem"
+	line "som är LEDAREN?"
 	done
 
 _ViridianCityGambler1GymLeaderReturnedText::
-	text "VIRIDIAN GYM's"
-	line "LEADER returned!"
+	text "VIRIDIANS GYM-"
+	line "LEDARE har"
+	cont "återvänt!"
 	done
 
 _ViridianCityYoungster2YouWantToKnowAboutText::
-	text "You want to know"
-	line "about the 2 kinds"
-	cont "of caterpillar"
+	text "Vill du veta"
+	line "mer om de 2"
+	cont "sorters larv-"
 	cont "#MON?"
 	done
 
 ViridianCityYoungster2OkThenText::
-	text "Oh, OK then!"
+	text "Jaha, okej då!"
 	done
 
 ViridianCityYoungster2CaterpieAndWeedleDescriptionText::
-	text "CATERPIE has no"
-	line "poison, but"
-	cont "WEEDLE does."
+	text "CATERPIE har"
+	line "inget gift, men"
+	cont "WEEDLE har."
 
-	para "Watch out for its"
-	line "POISON STING!"
+	para "Se upp för dess"
+	line "GIFTGADD!"
 	done
 
 _ViridianCityGirlHasntHadHisCoffeeYetText::
-	text "Oh Grandpa! Don't"
-	line "be so mean!"
-	cont "He hasn't had his"
-	cont "coffee yet."
+	text "Åh farfar! Var"
+	line "inte så elak!"
+	cont "Han har inte"
+	cont "fått sitt kaffe"
+	cont "än."
 	done
 
 _ViridianCityGirlWhenIGoShopText::
-	text "When I go shop in"
-	line "PEWTER CITY, I"
-	cont "have to take the"
-	cont "winding trail in"
-	cont "VIRIDIAN FOREST."
+	text "När jag handlar"
+	line "i PEWTER CITY,"
+	cont "måste jag ta"
+	cont "den slingrande"
+	cont "stigen i"
+	cont "VIRIDIAN-"
+	cont "SKOGEN."
 	done
 
 _ViridianCityOldManSleepyPrivatePropertyText::
-	text "You can't go"
-	line "through here!"
+	text "Du får inte gå"
+	line "härigenom!"
 
-	para "This is private"
-	line "property!"
+	para "Det här är"
+	line "privat egendom!"
 	done
 
 ViridianCityFisherYouCanHaveThisText::
-	text "Yawn!"
-	line "I must have dozed"
-	cont "off in the sun."
+	text "Gäsp!"
+	line "Jag måste ha"
+	cont "somnat i solen."
 
-	para "I had this dream"
-	line "about a DROWZEE"
-	cont "eating my dream."
-	cont "What's this?"
-	cont "Where did this TM"
-	cont "come from?"
+	para "Jag drömde att"
+	line "en DROWZEE åt"
+	cont "min dröm. Vad"
+	cont "är det här?"
+	cont "Var kom den här"
+	cont "TM:en ifrån?"
 
-	para "This is spooky!"
-	line "Here, you can"
-	cont "have this TM."
+	para "Det här är"
+	line "läskigt! Här,"
+	cont "du kan få den"
+	cont "här TM:en."
 	prompt
 
 _ViridianCityFisherReceivedTM42Text::
-	text "<PLAYER> received"
+	text "<PLAYER> mottog"
 	line "TM42!@"
 	text_end
 
 _ViridianCityFisherTM42ExplanationText::
-	text "TM42 contains"
-	line "DREAM EATER..."
-	cont "...Snore..."
+	text "TM42 innehåller"
+	line "DRÖMÄTARE..."
+	cont "...Zzz..."
 	done
 
 _ViridianCityFisherTM42NoRoomText::
-	text "You have too much"
-	line "stuff already."
+	text "Du har redan"
+	line "för mycket"
+	cont "saker."
 	done
 
 _ViridianCityOldManHadMyCoffeeNowText::
-	text "Ahh, I've had my"
-	line "coffee now and I"
-	cont "feel great!"
+	text "Ahh, nu har jag"
+	line "druckit mitt"
+	cont "kaffe och mår"
+	cont "toppen!"
 
-	para "Sure you can go"
-	line "through!"
+	para "Visst får du gå"
+	line "igenom!"
 
-	para "Are you in a"
-	line "hurry?"
+	para "Har du bråttom?"
 	done
 
 _ViridianCityOldManKnowHowToCatchPokemonText::
-	text "I see you're using"
-	line "a #DEX."
+	text "Jag ser att du"
+	line "använder en"
+	cont "#DEX."
 
-	para "When you catch a"
-	line "#MON, #DEX"
-	cont "is automatically"
-	cont "updated."
+	para "När du fångar"
+	line "en #MON,"
+	cont "uppdateras #DEX"
+	cont "automatiskt."
 
-	para "What? Don't you"
-	line "know how to catch"
+	para "Va? Vet du inte"
+	line "hur man fångar"
 	cont "#MON?"
 
-	para "I'll show you"
-	line "how to then."
+	para "Jag ska visa dig"
+	line "hur man gör då."
 	done
 
 _ViridianCityOldManTimeIsMoneyText::
-	text "Time is money..."
-	line "Go along then."
+	text "Tid är pengar."
+	line "Gå på du då."
 	done
 
 _ViridianCityOldManYouNeedToWeakenTheTargetText::
-	text "First, you need"
-	line "to weaken the"
-	cont "target #MON."
+	text "Först måste du"
+	line "försvaga din"
+	cont "mål-#MON."
 	done
 
 _ViridianCitySignText::
-	text "VIRIDIAN CITY "
-	line "The Eternally"
-	cont "Green Paradise"
+	text "VIRIDIAN CITY"
+	line "Det Evigt Gröna"
+	cont "Paradiset"
 	done
 
 _ViridianCityTrainerTips1Text::
-	text "TRAINER TIPS"
+	text "TRÄNARTIPS"
 
-	para "Catch #MON"
-	line "and expand your"
-	cont "collection!"
+	para "Fånga #MON och"
+	line "utöka din"
+	cont "samling!"
 
-	para "The more you have,"
-	line "the easier it is"
-	cont "to fight!"
+	para "Ju fler du har,"
+	line "desto lättare"
+	cont "är det att"
+	cont "strida!"
 	done
 
 _ViridianCityTrainerTips2Text::
-	text "TRAINER TIPS"
+	text "TRÄNARTIPS"
 
-	para "The battle moves"
-	line "of #MON are"
-	cont "limited by their"
-	cont "POWER POINTs, PP."
+	para "#MONs strids-"
+	line "attacker be-"
+	cont "gränsas av"
+	cont "deras POWER"
+	cont "POINTs, PP."
 
-	para "To replenish PP,"
-	line "rest your tired"
-	cont "#MON at a"
+	para "För att fylla"
+	line "på PP, vila"
+	cont "dina trötta"
+	cont "#MON på ett"
 	cont "#MON CENTER!"
 	done
 
 _ViridianCityGymSignText::
 	text "VIRIDIAN CITY"
-	line "#MON GYM"
+	line "#MON-GYM"
 	done
 
 _ViridianCityGymLockedText::
-	text "The GYM's doors"
-	line "are locked..."
+	text "GYMets dörrar"
+	line "är låsta..."
 	done

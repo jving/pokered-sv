@@ -1,146 +1,144 @@
 _PewterGymBrockPostBattleAdviceText::
-	text "There are all"
-	line "kinds of trainers"
-	cont "in the world!"
+	text "Det finns alla"
+	line "slags tränare i"
+	cont "världen!"
 
-	para "You appear to be"
-	line "very gifted as a"
-	cont "#MON trainer!"
+	para "Du verkar vara"
+	line "mycket begåvad som"
+	cont "#MON-tränare!"
 
-	para "Go to the GYM in"
-	line "CERULEAN and test"
-	cont "your abilities!"
+	para "Gå till GYM:et i"
+	line "CERULEAN och testa"
+	cont "dina förmågor!"
 	done
 
 _PewterGymBrockWaitTakeThisText::
-	text "Wait! Take this"
-	line "with you!"
+	text "Vänta! Ta den här"
+	line "med dig!"
 	done
 
 _PewterGymReceivedTM34Text::
-	text "<PLAYER> received"
+	text "<PLAYER> mottog"
 	line "TM34!@"
 	text_end
 
 _TM34ExplanationText::
 	text_start
 
-	para "A TM contains a"
-	line "technique that"
-	cont "can be taught to"
+	para "En TM innehåller"
+	line "en teknik som kan"
+	cont "läras ut till"
 	cont "#MON!"
 
-	para "A TM is good only"
-	line "once! So when you"
-	cont "use one to teach"
-	cont "a new technique,"
-	cont "pick the #MON"
-	cont "carefully!"
+	para "En TM fungerar"
+	line "bara en gång! Så"
+	cont "när du använder en"
+	cont "för att lära ut en"
+	cont "ny teknik, välj"
+	cont "#MON noggrant!"
 
-	para "TM34 contains"
-	line "BIDE!"
+	para "TM34 innehåller"
+	line "UTHÄRDA!"
 
-	para "Your #MON will"
-	line "absorb damage in"
-	cont "battle then pay"
-	cont "it back double!"
+	para "Din #MON kommer"
+	line "att absorbera"
+	cont "skada i strid och"
+	cont "sedan ge tillbaka"
+	cont "dubbelt!"
 	done
 
 _PewterGymTM34NoRoomText::
-	text "You don't have"
-	line "room for this!"
+	text "Du har inte plats"
+	line "för den här!"
 	done
 
 _PewterGymBrockReceivedBoulderBadgeText::
-	text "I took"
-	line "you for granted."
+	text "Jag tog dig för"
+	line "given."
 
-	para "As proof of your"
-	line "victory, here's"
-	cont "the BOULDERBADGE!"
+	para "Som bevis på din"
+	line "seger, här är"
+	cont "STENORDEN!"
 
-	para "<PLAYER> received"
-	line "the BOULDERBADGE!@"
+	para "<PLAYER> mottog"
+	line "STENORDEN!@"
 	text_end
 
 _PewterGymBrockBoulderBadgeInfoText::
 	text_start
 
-	para "That's an official"
-	line "#MON LEAGUE"
-	cont "BADGE!"
+	para "Det är en officiell"
+	line "#MON LEAGUE-"
+	cont "ORDEN!"
 
-	para "Its bearer's"
-	line "#MON become"
-	cont "more powerful!"
+	para "Dess bärares #MON"
+	line "blir mer"
+	cont "kraftfulla!"
 
-	para "The technique"
-	line "FLASH can now be"
-	cont "used any time!"
+	para "Tekniken BLIXT kan"
+	line "nu användas när"
+	cont "som helst!"
 	prompt
 
 _PewterGymCooltrainerMBattleText::
-	text "Stop right there,"
-	line "kid!"
+	text "Stopp där, grabben!"
 
-	para "You're still light"
-	line "years from facing"
-	cont "BROCK!"
+	para "Du är fortfarande"
+	line "ljusår från att"
+	cont "möta BROCK!"
 	done
 
 _PewterGymCooltrainerMEndBattleText::
-	text "Darn!"
+	text "Skit!"
 
-	para "Light years isn't"
-	line "time! It measures"
-	cont "distance!"
+	para "Ljusår är inte tid!"
+	line "Det mäter avstånd!"
 	prompt
 
 _PewterGymCooltrainerMAfterBattleText::
-	text "You're pretty hot,"
-	line "but not as hot"
-	cont "as BROCK!"
+	text "Du är ganska het,"
+	line "men inte lika"
+	cont "het som BROCK!"
 	done
 
 _PewterGymGuidePreAdviceText::
-	text "Hiya! I can tell"
-	line "you have what it"
-	cont "takes to become a"
-	cont "#MON champ!"
+	text "Hallå! Jag kan se"
+	line "att du har vad som"
+	cont "krävs för att bli"
+	cont "en #MON-mästare!"
 
-	para "I'm no trainer,"
-	line "but I can tell"
-	cont "you how to win!"
+	para "Jag är ingen"
+	line "tränare, men jag"
+	cont "kan berätta hur"
+	cont "du vinner!"
 
-	para "Let me take you"
-	line "to the top!"
+	para "Låt mig ta dig"
+	line "till toppen!"
 	done
 
 _PewterGymGuideBeginAdviceText::
-	text "All right! Let's"
-	line "get happening!"
+	text "Okej! Nu kör vi!"
 	prompt
 
 _PewterGymGuideAdviceText::
-	text "The 1st #MON"
-	line "out in a match is"
-	cont "at the top of the"
-	cont "#MON LIST!"
+	text "Den första #MON"
+	line "ut i en match är"
+	cont "den översta på"
+	cont "#MON-LISTAN!"
 
-	para "By changing the"
-	line "order of #MON,"
-	cont "matches could be"
-	cont "made easier!"
+	para "Genom att ändra"
+	line "ordningen på #MON,"
+	cont "kan matcher bli"
+	cont "lättare!"
 	done
 
 _PewterGymGuideFreeServiceText::
-	text "It's a free"
-	line "service! Let's"
-	cont "get happening!"
+	text "Det är gratis!"
+	line "Nu kör vi!"
 	prompt
 
 _PewterGymGuidePostBattleText::
-	text "Just as I thought!"
-	line "You're #MON"
-	cont "champ material!"
+	text "Precis som jag"
+	line "trodde! Du är"
+	cont "#MON-mästarmaterial!"
 	done

@@ -1,50 +1,49 @@
 _PokemonTower5FChanneler1Text::
-	text "Come, child! I"
-	line "sealed this space"
-	cont "with white magic!"
+	text "Kom, barn! Jag"
+	line "förseglade detta"
+	cont "utrymme med vit"
+	cont "magi!"
 
-	para "You can rest here!"
+	para "Du kan vila här!"
 	done
 
 _PokemonTower5FChanneler2BattleText::
-	text "Give...me..."
-	line "your...soul..."
+	text "Ge...mig..."
+	line "din...själ..."
 	done
 
 _PokemonTower5FChanneler2EndBattleText::
-	text "Gasp!"
+	text "Flämt!"
 	prompt
 
 _PokemonTower5FChanneler2AfterBattleText::
-	text "I was under"
-	line "possession!"
+	text "Jag var besatt!"
 	done
 
 _PokemonTower5FChanneler3BattleText::
-	text "You...shall..."
-	line "join...us..."
+	text "Du...ska..."
+	line "ansluta...dig..."
 	done
 
 _PokemonTower5FChanneler3EndBattleText::
-	text "What"
-	line "a nightmare!"
+	text "Vilken mardröm!"
 	prompt
 
 _PokemonTower5FChanneler3AfterBattleText::
-	text "I was possessed!"
+	text "Jag var besatt!"
 	done
 
 _PokemonTower5FChanneler4BattleText::
-	text "Zombies!"
+	text "Zombier!"
 	done
 
 _PokemonTower5FChanneler4EndBattleText::
-	text "Ha?"
+	text "Va?"
 	prompt
 
 _PokemonTower5FChanneler4AfterBattleText::
-	text "I regained my"
-	line "senses!"
+	text "Jag återfick"
+	line "mina sinnen!"
 	done
 
 _PokemonTower5FChanneler5BattleText::
@@ -57,15 +56,14 @@ _PokemonTower5FChanneler5EndBattleText::
 	prompt
 
 _PokemonTower5FChanneler5AfterBattleText::
-	text "I fell to evil"
-	line "spirits despite"
-	cont "my training!"
+	text "Jag föll för onda"
+	line "andar trots min"
+	cont "träning!"
 	done
 
 _PokemonTower5FPurifiedZoneText::
-	text "Entered purified,"
-	line "protected zone!"
+	text "Gick in i renad,"
+	line "skyddad zon!"
 
-	para "<PLAYER>'s #MON"
-	line "are fully healed!"
-	done
+	para "<PLAYER>s #MON"
+	line

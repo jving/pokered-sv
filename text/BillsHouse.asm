@@ -1,88 +1,107 @@
 _BillsHouseBillImNotAPokemonText::
-	text "Hiya! I'm a"
+	text "Hej! Jag är en"
 	line "#MON..."
-	cont "...No I'm not!"
+	cont "...Nej det är"
+	cont "jag inte!"
 
-	para "Call me BILL!"
-	line "I'm a true blue"
-	cont "#MANIAC! Hey!"
-	cont "What's with that"
-	cont "skeptical look?"
+	para "Kalla mig"
+	line "BILL! Jag är"
+	cont "en sann"
+	cont "#MANIAC! Hallå!"
+	cont "Vad är det där"
+	cont "för skeptisk"
+	cont "blick?"
 
-	para "I'm not joshing"
-	line "you, I screwed up"
-	cont "an experiment and"
-	cont "got combined with"
-	cont "a #MON!"
+	para "Jag skojar"
+	line "inte med dig,"
+	cont "jag klantade"
+	cont "till ett"
+	cont "experiment och"
+	cont "blev"
+	cont "kombinerad med"
+	cont "en #MON!"
 
-	para "So, how about it?"
-	line "Help me out here!"
+	para "Så, hur blir"
+	line "det? Hjälp"
+	cont "mig här!"
 	done
 
 _BillsHouseBillUseSeparationSystemText::
-	text "When I'm in the"
-	line "TELEPORTER, go to"
-	cont "my PC and run the"
-	cont "Cell Separation"
-	cont "System!"
+	text "När jag är i"
+	line "TELEPORTER,"
+	cont "gå till min PC"
+	cont "och kör Cell-"
+	cont "Separations-"
+	cont "system!"
 	done
 
 _BillsHouseBillNoYouGottaHelpText::
-	text "No!? Come on, you"
-	line "gotta help a guy"
-	cont "in deep trouble!"
+	text "Nej!? Kom"
+	line "igen, du måste"
+	cont "hjälpa en"
+	cont "kille i knipa!"
 
-	para "What do you say,"
-	line "chief? Please?"
-	cont "OK? All right!"
+	para "Vad säger du,"
+	line "chefen?"
+	cont "Snälla? OK?"
+	cont "Okej då!"
 	prompt
 
 _BillsHouseBillThankYouText::
 	text "BILL: Yeehah!"
-	line "Thanks, bud! I"
-	cont "owe you one!"
+	line "Tack, kompis!"
+	cont "Jag står i"
+	cont "skuld!"
 
-	para "So, did you come"
-	line "to see my #MON"
-	cont "collection?"
-	cont "You didn't?"
-	cont "That's a bummer."
+	para "Så, kom du för"
+	line "att se min"
+	cont "#MON samling?"
+	cont "Gjorde du"
+	cont "inte? Det var"
+	cont "synd."
 
-	para "I've got to thank"
-	line "you... Oh here,"
-	cont "maybe this'll do."
+	para "Jag måste"
+	line "tacka dig..."
+	cont "Åh här, det"
+	cont "här duger nog."
 	prompt
 
 _SSTicketReceivedText::
-	text "<PLAYER> received"
-	line "an @"
+	text "<PLAYER> fick"
+	line "en @"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _SSTicketNoRoomText::
-	text "You've got too"
-	line "much stuff, bud!"
+	text "Du har för"
+	line "mycket, kompis!"
 	done
 
 _BillsHouseBillWhyDontYouGoInsteadOfMeText::
-	text "That cruise ship,"
-	line "S.S.ANNE, is in"
+	text "Det där kryss-"
+	line "ningsfartyget,"
+	cont "S.S.ANNE, är i"
 	cont "VERMILION CITY."
-	cont "Its passengers"
-	cont "are all trainers!"
+	cont "Dess"
+	cont "passagerare är"
+	cont "alla tränare!"
 
-	para "They invited me"
-	line "to their party,"
-	cont "but I can't stand"
-	cont "fancy do's. Why"
-	cont "don't you go"
-	cont "instead of me?"
+	para "De bjöd in mig"
+	line "till deras"
+	cont "fest, men jag"
+	cont "tål inte fina"
+	cont "fester. Varför"
+	cont "går inte du"
+	cont "istället för"
+	cont "mig?"
 	done
 
 _BillsHouseBillCheckOutMyRarePokemonText::
-	text "BILL: Look, bud,"
-	line "just check out"
-	cont "some of my rare"
-	cont "#MON on my PC!"
+	text "BILL: Lyssna"
+	line "här, kolla"
+	cont "bara in några"
+	cont "av mina"
+	cont "sällsynta"
+	cont "#MON på min PC!"
 	done

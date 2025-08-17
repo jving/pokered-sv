@@ -1,67 +1,68 @@
 _Route24CooltrainerM1YouBeatOurContestText::
-	text "Congratulations!"
-	line "You beat our 5"
-	cont "contest trainers!@"
+	text "Grattis! Du slog"
+	line "våra 5 tävlings-"
+	cont "tränare!@"
 	text_end
 
 _Route24CooltrainerM1YouJustEarnedAPrizeText::
 	text_start
 
-	para "You just earned a"
-	line "fabulous prize!"
+	para "Du har just för-"
+	line "tjänat ett fantas-"
+	cont "tiskt pris!"
 	prompt
 
 _Route24CooltrainerM1ReceivedNuggetText::
-	text "<PLAYER> received"
-	line "a @"
+	text "<PLAYER> mottog"
+	line "en @"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _Route24CooltrainerM1NoRoomText::
-	text "You don't have"
-	line "any room!"
+	text "Du har ingen"
+	line "plats!"
 	done
 
 _Route24CooltrainerM1JoinTeamRocketText::
-	text "By the way, would"
-	line "you like to join"
-	cont "TEAM ROCKET?"
+	text "Förresten, vill du"
+	line "gå med i TEAM"
+	cont "ROCKET?"
 
-	para "We're a group"
-	line "dedicated to evil"
-	cont "using #MON!"
+	para "Vi är en grupp"
+	line "dedikerad till"
+	cont "ondska med #MON!"
 
-	para "Want to join?"
+	para "Vill du gå med?"
 
-	para "Are you sure?"
+	para "Är du säker?"
 
-	para "Come on, join us!"
+	para "Kom igen, gå med!"
 
-	para "I'm telling you"
-	line "to join!"
+	para "Jag säger åt dig"
+	line "att gå med!"
 
-	para "OK, you need"
-	line "convincing!"
+	para "OK, du behöver"
+	line "övertygas!"
 
-	para "I'll make you an"
-	line "offer you can't"
-	cont "refuse!"
+	para "Jag ger dig ett"
+	line "erbjudande du inte"
+	cont "kan tacka nej till!"
 	done
 
 _Route24CooltrainerM1DefeatedText::
 	text "Arrgh!"
-	line "You are good!"
+	line "Du är bra!"
 	prompt
 
 _Route24CooltrainerM1YouCouldBecomeATopLeaderText::
-	text "With your ability,"
-	line "you could become"
-	cont "a top leader in"
+	text "Med din förmåga"
+	line "kan du bli en"
+	cont "toppledare i"
 	cont "TEAM ROCKET!"
 	done
 
 _Route24CooltrainerM2BattleText::
-	text "I saw your feat"
-	line "from the grass!"
+	text "Jag såg din bedrift"
+	line "från gräset!"
 	done

@@ -1,24 +1,24 @@
 _CeruleanPokecenterSuperNerdText::
-	text "That BILL!"
+	text "Den där BILL!"
 
-	para "I heard that"
-	line "he'll do whatever"
-	cont "it takes to get"
-	cont "rare #MON!"
+	para "Jag hörde att han"
+	line "gör vad som helst"
+	cont "för att få säll-"
+	cont "synta #MON!"
 	done
 
 _CeruleanPokecenterGentlemanText::
-	text "Have you heard"
-	line "about BILL?"
+	text "Har du hört talas"
+	line "om BILL?"
 
-	para "Everyone calls"
-	line "him a #MANIAC!"
+	para "Alla kallar honom"
+	line "för en #MANIAK!"
 
-	para "I think people"
-	line "are just jealous"
-	cont "of BILL, though."
+	para "Jag tror dock att"
+	line "folk bara är"
+	cont "avundsjuka på BILL."
 
-	para "Who wouldn't want"
-	line "to boast about"
-	cont "their #MON?"
+	para "Vem skulle inte"
+	line "vilja skryta om"
+	cont "sina #MON?"
 	done

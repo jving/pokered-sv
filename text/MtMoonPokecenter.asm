@@ -1,46 +1,46 @@
 _MtMoonPokecenterYoungsterText::
-	text "I've 6 # BALLs"
-	line "set in my belt."
+	text "Jag har 6 # BALLs"
+	line "i mitt bälte."
 
-	para "At most, you can"
-	line "carry 6 #MON."
+	para "Som mest kan du"
+	line "bära 6 #MON."
 	done
 
 _MtMoonPokecenterGentlemanText::
 	text "TEAM ROCKET"
-	line "attacks CERULEAN"
-	cont "citizens..."
+	line "attackerar invånare"
+	cont "i CERULEAN..."
 
-	para "TEAM ROCKET is"
-	line "always in the"
-	cont "news!"
+	para "TEAM ROCKET är"
+	line "alltid på nyheterna!"
 	done
 
 _MtMoonPokecenterMagikarpSalesmanIGotADealText::
-	text "MAN: Hello, there!"
-	line "Have I got a deal"
-	cont "just for you!"
+	text "MAN: Hallå där!"
+	line "Jag har ett"
+	cont "erbjudande bara"
+	cont "för dig!"
 
-	para "I'll let you have"
-	line "a swell MAGIKARP"
-	cont "for just ¥500!"
-	cont "What do you say?"
+	para "Jag låter dig få"
+	line "en fin MAGIKARP"
+	cont "för bara ¥500!"
+	cont "Vad säger du?"
 	done
 
 _MtMoonPokecenterMagikarpSalesmanNoText::
-	text "No? I'm only"
-	line "doing this as a"
-	cont "favor to you!"
+	text "Nej? Jag gör bara"
+	line "det här som en"
+	cont "tjänst åt dig!"
 	done
 
 _MtMoonPokecenterMagikarpSalesmanNoMoneyText::
-	text "You'll need more"
-	line "money than that!"
+	text "Du behöver mer"
+	line "pengar än så!"
 	done
 
 _MtMoonPokecenterMagikarpSalesmanNoRefundsText::
-	text "MAN: Well, I don't"
-	line "give refunds!"
+	text "MAN: Tja, jag ger"
+	line "inga återköp!"
 	done
 
 _MtMoonPokecenterClipboardText::

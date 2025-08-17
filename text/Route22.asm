@@ -1,104 +1,104 @@
 _Route22RivalBeforeBattleText1::
-	text "<RIVAL>: Hey!"
+	text "<RIVAL>: Hallå!"
 	line "<PLAYER>!"
 
-	para "You're going to"
-	line "#MON LEAGUE?"
+	para "Ska du till #MON"
+	line "LIGAN?"
 
-	para "Forget it! You"
-	line "probably don't"
-	cont "have any BADGEs!"
+	para "Glöm det! Du har"
+	line "säkert inga ORDNAR!"
 
-	para "The guard won't"
-	line "let you through!"
+	para "Vakten släpper"
+	line "inte igenom dig!"
 
-	para "By the way, did"
-	line "your #MON"
-	cont "get any stronger?"
+	para "Förresten, har"
+	line "dina #MON blivit"
+	cont "starkare?"
 	done
 
 _Route22RivalAfterBattleText1::
-	text "I heard #MON"
-	line "LEAGUE has many"
-	cont "tough trainers!"
+	text "Jag har hört att"
+	line "#MON LIGAN har"
+	cont "många tuffa"
+	cont "tränare!"
 
-	para "I have to figure"
-	line "out how to get"
-	cont "past them!"
+	para "Jag måste lista ut"
+	line "hur jag ska ta mig"
+	cont "förbi dem!"
 
-	para "You should quit"
-	line "dawdling and get"
-	cont "a move on!"
+	para "Du borde sluta"
+	line "slöa och sätta"
+	cont "fart!"
 	done
 
 _Route22Rival1DefeatedText::
-	text "Awww!"
-	line "You just lucked"
-	cont "out!"
+	text "Neej!"
+	line "Du hade bara tur!"
 	prompt
 
 _Route22Rival1VictoryText::
-	text "<RIVAL>: What?"
-	line "Why do I have 2"
-	cont "#MON?"
+	text "<RIVAL>: Va?"
+	line "Varför har jag"
+	cont "2 #MON?"
 
-	para "You should catch"
-	cont "some more too!"
+	para "Du borde också"
+	cont "fånga några fler!"
 	prompt
 
 _Route22RivalBeforeBattleText2::
-	text "<RIVAL>: What?"
-	line "<PLAYER>! What a"
-	cont "surprise to see"
-	cont "you here!"
+	text "<RIVAL>: Va?"
+	line "<PLAYER>! Vilken"
+	cont "överraskning att"
+	cont "se dig här!"
 
-	para "So you're going to"
-	line "#MON LEAGUE?"
+	para "Så du ska till"
+	line "#MON LIGAN?"
 
-	para "You collected all"
-	line "the BADGEs too?"
-	cont "That's cool!"
+	para "Har du också samlat"
+	line "alla ORDNAR?"
+	cont "Vad coolt!"
 
-	para "Then I'll whip you"
-	line "<PLAYER> as a"
-	cont "warm up for"
-	cont "#MON LEAGUE!"
+	para "Då spöar jag dig,"
+	line "<PLAYER>, som en"
+	cont "uppvärmning inför"
+	cont "#MON LIGAN!"
 
-	para "Come on!"
+	para "Kom igen!"
 	done
 
 _Route22RivalAfterBattleText2::
-	text "That loosened me"
-	line "up! I'm ready for"
-	cont "#MON LEAGUE!"
+	text "Det där mjukade"
+	line "upp mig! Jag är"
+	cont "redo för #MON"
+	cont "LIGAN!"
 
-	para "<PLAYER>, you need"
-	line "more practice!"
+	para "<PLAYER>, du behöver"
+	line "mer träning!"
 
-	para "But hey, you know"
-	line "that! I'm out of"
-	cont "here. Smell ya!"
+	para "Men, det vet du ju!"
+	line "Jag sticker."
+	cont "Vi hörs!"
 	done
 
 _Route22Rival2DefeatedText::
-	text "What!?"
+	text "Va!?"
 
-	para "I was just"
-	line "careless!"
+	para "Jag var bara"
+	line "slarvig!"
 	prompt
 
 _Route22Rival2VictoryText::
 	text "<RIVAL>: Hahaha!"
-	line "<PLAYER>! That's"
-	cont "your best? You're"
-	cont "nowhere near as"
-	cont "good as me, pal!"
-
-	para "Go train some"
-	line "more! You loser!"
+	line "<PLAYER>! Är det"
+	cont "ditt bästa? Du är"
+	cont "inte i närheten av"
+	cont "så bra som jag,"
+	cont "kompis! Go träna"
+	cont "lite mer! Din"
+	cont "förlorare!"
 	prompt
 
 _Route22PokemonLeagueSignText::
-	text "#MON LEAGUE"
-	line "Front Gate"
+	text "#MON LIGAN"
+	line "Huvudingång"
 	done

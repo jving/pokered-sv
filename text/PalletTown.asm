@@ -1,56 +1,56 @@
 _PalletTownOakHeyWaitDontGoOutText::
-	text "OAK: Hey! Wait!"
-	line "Don't go out!@"
+	text "OAK: Hej! Vänta!"
+	line "Gå inte ut dit!@"
 	text_end
 
 _PalletTownOakItsUnsafeText::
-	text "OAK: It's unsafe!"
-	line "Wild #MON live"
-	cont "in tall grass!"
+	text "OAK: Det är osäkert!"
+	line "Vilda #MON göms"
+	cont "i högt gräs!"
 
-	para "You need your own"
-	line "#MON for your"
-	cont "protection."
-	cont "I know!"
+	para "Du behöver en"
+	line "egen #MON för"
+	cont "att skydda dig."
+	cont "Jag vet!"
 
-	para "Here, come with"
-	line "me!"
+	para "Här, följ med"
+	line "mig!"
 	done
 
 _PalletTownGirlText::
-	text "I'm raising"
-	line "#MON too!"
+	text "Jag tränar"
+	line "också #MON!"
 
-	para "When they get"
-	line "strong, they can"
-	cont "protect me!"
+	para "När de blivit"
+	line "starka, så kan de"
+	cont "skydda mig!"
 	done
 
 _PalletTownFisherText::
-	text "Technology is"
-	line "incredible!"
+	text "Technologi är"
+	line "otroligt!"
 
-	para "You can now store"
-	line "and recall items"
-	cont "and #MON as"
-	cont "data via PC!"
+	para "Det går nu att"
+	line "spara och ladda"
+	cont "ner prylar och "
+	cont "#MON via PC!"
 	done
 
 _PalletTownOaksLabSignText::
 	text "OAK #MON"
-	line "RESEARCH LAB"
+	line "FORSKNINGSLAB"
 	done
 
 _PalletTownSignText::
 	text "PALLET TOWN"
-	line "Shades of your"
-	cont "journey await!"
+	line "Äventyret på din"
+	cont "resa väntar!"
 	done
 
 _PalletTownPlayersHouseSignText::
-	text "<PLAYER>'s house "
+	text "<PLAYER>s hus "
 	done
 
 _PalletTownRivalsHouseSignText::
-	text "<RIVAL>'s house "
+	text "<RIVAL>s hus "
 	done

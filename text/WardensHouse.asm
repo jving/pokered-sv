@@ -1,5 +1,5 @@
 _WardensHouseWardenGibberish1Text::
-	text "WARDEN: Hif fuff"
+	text "VAKTEN: Hif fuff"
 	line "hefifoo!"
 
 	para "Ha lof ha feef ee"
@@ -18,69 +18,70 @@ _WardensHouseWardenGibberish3Text::
 	done
 
 _WardensHouseWardenGaveTheGoldTeethText::
-	text "<PLAYER> gave the"
-	line "GOLD TEETH to the"
-	cont "WARDEN!@"
+	text "<PLAYER> gav"
+	line "GULDTÄNDERNA"
+	cont "till VAKTEN!@"
 	text_end
 
 _WardensHouseWardenTeethPoppedInHisTeethText::
 	text_start
 
-	para "The WARDEN popped"
-	line "in his teeth!"
+	para "VAKTEN satte i"
+	line "sina tänder!"
 	prompt
 
 _WardensHouseWardenThanksText::
-	text "WARDEN: Thanks,"
-	line "kid! No one could"
-	cont "understand a word"
-	cont "that I said."
+	text "VAKTEN: Tack,"
+	line "grabben! Ingen"
+	cont "kunde förstå ett"
+	cont "ord av vad jag sa."
 
-	para "I couldn't work"
-	line "that way."
-	cont "Let me give you"
-	cont "something for"
-	cont "your trouble."
+	para "Jag kunde inte"
+	line "jobba så."
+	cont "Låt mig ge dig"
+	cont "något för ditt"
+	cont "besvär."
 	prompt
 
 _WardensHouseWardenReceivedHM04Text::
-	text "<PLAYER> received"
+	text "<PLAYER> mottog"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _WardensHouseWardenHM04ExplanationText::
-	text "WARDEN: HM04"
-	line "teaches STRENGTH!"
+	text "VAKTEN: HM04"
+	line "lär ut STYRKA!"
 
-	para "It lets #MON"
-	line "move boulders"
-	cont "when you're out-"
-	cont "side of battle."
+	para "Den låter #MON"
+	line "flytta stenblock"
+	cont "när du är utanför"
+	cont "strid."
 
-	para "Oh yes, did you"
-	line "find SECRET HOUSE"
-	cont "in SAFARI ZONE?"
+	para "Åh ja, hittade du"
+	line "DET HEMLIGA HUSET"
+	cont "i SAFARI ZONE?"
 
-	para "If you do, you"
-	line "win an HM!"
+	para "Om du gör det,"
+	line "vinner du en HM!"
 
-	para "I hear it's the"
-	line "rare SURF HM."
+	para "Jag har hört att"
+	line "det är den säll-"
+	cont "synta SURF-HM:en."
 	done
 
 _WardensHouseWardenHM04NoRoomText::
-	text "Your pack is"
-	line "stuffed full!"
+	text "Din packning är"
+	line "proppfull!"
 	done
 
 _WardensHouseDisplayPhotosAndFossilsText::
-	text "#MON photos"
-	line "and fossils."
+	text "#MON-foton"
+	line "och fossil."
 	done
 
 _WardensHouseDisplayMerchandiseText::
-	text "Old #MON"
-	line "merchandise."
+	text "Gamla #MON-"
+	line "prylar."
 	done

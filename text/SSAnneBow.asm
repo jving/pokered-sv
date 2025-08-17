@@ -1,52 +1,52 @@
 _SSAnneBowSuperNerdText::
-	text "The party's over."
-	line "The ship will be"
-	cont "departing soon."
+	text "Festen är över."
+	line "Skeppet avgår snart."
 	done
 
 _SSAnneBowSailor1Text::
-	text "Scrubbing decks"
-	line "is hard work!"
+	text "Att skrubba däck"
+	line "är hårt arbete!"
 	done
 
 _SSAnneBowCooltrainerMText::
-	text "Urf. I feel ill."
+	text "Urf. Jag mår illa."
 
-	para "I stepped out to"
-	line "get some air."
+	para "Jag gick ut för"
+	line "att få lite luft."
 	done
 
 _SSAnneBowSailor2BattleText::
-	text "Hey matey!"
+	text "Hallå där kompis!"
 
-	para "Let's do a little"
-	line "jig!"
+	para "Låt oss ta en"
+	line "liten svängom!"
 	done
 
 _SSAnneBowSailor2EndBattleText::
-	text "You're"
-	line "impressive!"
+	text "Du är"
+	line "imponerande!"
 	prompt
 
 _SSAnneBowSailor2AfterBattleText::
-	text "How many kinds of"
-	line "#MON do you"
-	cont "think there are?"
+	text "Hur många sorters"
+	line "#MON tror du"
+	cont "det finns?"
 	done
 
 _SSAnneBowSailor3BattleText::
-	text "Ahoy there!"
-	line "Are you seasick?"
+	text "Ohoj där!"
+	line "Är du sjösjuk?"
 	done
 
 _SSAnneBowSailor3EndBattleText::
-	text "I was"
-	line "just careless!"
+	text "Jag var"
+	line "bara slarvig!"
 	prompt
 
 _SSAnneBowSailor3AfterBattleText::
-	text "My Pa said there"
-	line "are 100 kinds of"
-	cont "#MON. I think"
-	cont "there are more."
+	text "Min pappa sa att"
+	line "det finns 100"
+	cont "sorters #MON."
+	cont "Jag tror det"
+	cont "finns fler."
 	done

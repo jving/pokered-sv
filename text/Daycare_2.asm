@@ -1,34 +1,35 @@
 _DaycareGentlemanAllRightThenText::
-	text "All right then,"
+	text "Okej då,"
 	line "@"
 	text_end
 
 _DaycareGentlemanComeAgainText::
-	text "come again."
+	text "välkommen åter."
 	done
 
 _DaycareGentlemanNoRoomForMonText::
-	text "You have no room"
-	line "for this #MON!"
+	text "Du har ingen plats"
+	line "för denna #MON!"
 	done
 
 _DaycareGentlemanOnlyHaveOneMonText::
-	text "You only have one"
-	line "#MON with you."
+	text "Du har bara en"
+	line "#MON med dig."
 	done
 
 _DaycareGentlemanCantAcceptMonWithHMText::
-	text "I can't accept a"
-	line "#MON that"
-	cont "knows an HM move."
+	text "Jag kan inte ta"
+	line "emot en #MON som"
+	cont "kan en HM-attack."
 	done
 
 _DaycareGentlemanHeresYourMonText::
-	text "Thank you! Here's"
-	line "your #MON!"
+	text "Tack! Här är din"
+	line "#MON!"
 	prompt
 
 _DaycareGentlemanNotEnoughMoneyText::
-	text "Hey, you don't"
-	line "have enough ¥!"
+	text "Hallå, du har"
+	line "inte tillräckligt"
+	cont "med ¥!"
 	done

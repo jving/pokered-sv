@@ -1,56 +1,57 @@
 __SilphCo8FSilphWorkerMThanksForSavingUsText::
-	text "I wonder if SILPH"
-	line "is finished..."
+	text "Jag undrar om"
+	line "SILPH är slut..."
 	done
 
 _SilphCo8FSilphWorkerMThanksForSavingUsText::
-	text "Thanks for saving"
-	line "us!"
+	text "Tack för att du"
+	line "räddade oss!"
 	done
 
 _SilphCo8FRocket1BattleText::
-	text "That's as far as"
-	line "you'll go!"
+	text "Så långt kommer"
+	line "du!"
 	done
 
 _SilphCo8FRocket1EndBattleText::
-	text "Not"
-	line "enough grit!"
+	text "Inte"
+	line "tillräckligt med"
+	cont "jävlar anamma!"
 	prompt
 
 _SilphCo8FRocket1AfterBattleText::
-	text "If you don't turn"
-	line "back, I'll call"
-	cont "for backup!"
+	text "Om du inte vänder"
+	line "om, kallar jag på"
+	cont "förstärkning!"
 	done
 
 _SilphCo8FScientistBattleText::
-	text "You're causing us"
-	line "problems!"
+	text "Du orsakar"
+	line "problem för oss!"
 	done
 
 _SilphCo8FScientistEndBattleText::
-	text "Huh?"
-	line "I lost?"
+	text "Va?"
+	line "Jag förlorade?"
 	prompt
 
 _SilphCo8FScientistAfterBattleText::
-	text "So, what do you"
-	line "think of SILPH"
-	cont "BUILDING's maze?"
+	text "Så, vad tycker du"
+	line "om SILPH-BYGGNADENS"
+	cont "labyrint?"
 	done
 
 _SilphCo8FRocket2BattleText::
-	text "I am one of the 4"
-	line "ROCKET BROTHERS!"
+	text "Jag är en av de 4"
+	line "ROCKET-BRÖDERNA!"
 	done
 
 _SilphCo8FRocket2EndBattleText::
 	text "Whoo!"
-	line "Oh brothers!"
+	line "Åh bröder!"
 	prompt
 
 _SilphCo8FRocket2AfterBattleText::
-	text "I'll leave you up"
-	line "to my brothers!"
+	text "Jag lämnar dig"
+	line "till mina bröder!"
 	done

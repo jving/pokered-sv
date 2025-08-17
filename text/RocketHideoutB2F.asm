@@ -1,17 +1,16 @@
 _RocketHideoutB2FRocketBattleText::
-	text "BOSS said you can"
-	line "see GHOSTs with"
-	cont "the SILPH SCOPE!"
+	text "BOSSEN sa att man"
+	line "kan se SPÖKEN med"
+	cont "SILPH SCOPE!"
 	done
 
 _RocketHideoutB2FRocketEndBattleText::
-	text "I"
-	line "surrender!"
+	text "Jag"
+	line "ger upp!"
 	prompt
 
 _RocketHideoutB2FRocketAfterBattleText::
-	text "The TEAM ROCKET"
-	line "HQ has 4 basement"
-	cont "floors. Can you"
-	cont "reach the BOSS?"
+	text "TEAM ROCKET HQ har"
+	line "4 källarvåningar."
+	cont "Kan du nå BOSSEN?"
 	done

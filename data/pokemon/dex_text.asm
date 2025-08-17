@@ -1,1509 +1,1510 @@
-_RhydonDexEntry::
-	text "Protected by an"
-	next "armor-like hide,"
-	next "it is capable of"
 
-	page "living in molten"
-	next "lava of 3,600"
-	next "degrees"
+_RhydonDexEntry::
+	text "Dess hud är som en"
+	next "rustning. Den kan"
+	next "leva i smält lava"
+
+	page "som är 3600"
+	next "grader varm."
+	next ""
 	dex
 
 _KangaskhanDexEntry::
-	text "The infant rarely"
-	next "ventures out of"
-	next "its mother's"
+	text "Ungen vågar sig"
+	next "sällan ut från"
+	next "moderns pung,"
 
-	page "protective pouch"
-	next "until it is 3"
-	next "years old"
+	page "som skyddar den,"
+	next "förrän den är 3"
+	next "år gammal."
 	dex
 
 _NidoranMDexEntry::
-	text "Stiffens its ears"
-	next "to sense danger."
-	next "The larger its"
+	text "Styvar upp öronen"
+	next "för att känna av"
+	next "fara. Ju större"
 
-	page "horns, the more"
-	next "powerful its"
-	next "secreted venom"
+	page "dess horn är,"
+	next "desto starkare är"
+	next "dess gift."
 	dex
 
 _ClefairyDexEntry::
-	text "Its magical and"
-	next "cute appeal has"
-	next "many admirers."
+	text "Dess magiska och"
+	next "söta uppsyn har"
+	next "många beundrare."
 
-	page "It is rare and"
-	next "found only in"
-	next "certain areas"
+	page "Den är sällsynt"
+	next "och finns bara i"
+	next "vissa områden."
 	dex
 
 _SpearowDexEntry::
-	text "Eats bugs in"
-	next "grassy areas. It"
-	next "has to flap its"
+	text "Äter kryp i"
+	next "gräsmarker. Den"
+	next "måste flaxa med"
 
-	page "short wings at"
-	next "high speed to"
-	next "stay airborne"
+	page "sina korta vingar"
+	next "i hög fart för"
+	next "att kunna flyga."
 	dex
 
 _VoltorbDexEntry::
-	text "Usually found in"
-	next "power plants."
-	next "Easily mistaken"
+	text "Finns oftast i"
+	next "kraftverk. De"
+	next "förväxlas lätt"
 
-	page "for a # BALL,"
-	next "they have zapped"
-	next "many people"
+	page "med en # BALL."
+	next "De har gett många"
+	next "människor stötar."
 	dex
 
 _NidokingDexEntry::
-	text "It uses its"
-	next "powerful tail in"
-	next "battle to smash,"
+	text "Använder sin"
+	next "kraftfulla svans"
+	next "för att krossa,"
 
-	page "constrict, then"
-	next "break the prey's"
-	next "bones"
+	page "krama, och sen"
+	next "bryta bytets"
+	next "ben."
 	dex
 
 _SlowbroDexEntry::
-	text "The SHELLDER that"
-	next "is latched onto"
-	next "SLOWPOKE's tail"
+	text "Den SHELLDER som"
+	next "är fast på"
+	next "SLOWPOKEs svans"
 
-	page "is said to feed"
-	next "on the host's left"
-	next "over scraps"
+	page "sägs äta upp"
+	next "värdens"
+	next "matrester."
 	dex
 
 _IvysaurDexEntry::
-	text "When the bulb on"
-	next "its back grows"
-	next "large, it appears"
+	text "När knoppen på"
+	next "ryggen blir stor,"
+	next "verkar den tappa"
 
-	page "to lose the"
-	next "ability to stand"
-	next "on its hind legs"
+	page "förmågan att stå"
+	next "på sina"
+	next "bakben."
 	dex
 
 _ExeggutorDexEntry::
-	text "Legend has it that"
-	next "on rare occasions,"
-	next "one of its heads"
+	text "Enligt legenden"
+	next "händer det att"
+	next "ett av huvudena"
 
-	page "will drop off and"
-	next "continue on as an"
-	next "EXEGGCUTE"
+	page "faller av och"
+	next "fortsätter leva"
+	next "som en EXEGGCUTE."
 	dex
 
 _LickitungDexEntry::
-	text "Its tongue can be"
-	next "extended like a"
-	next "chameleon's. It"
+	text "Tungan kan"
+	next "sträckas ut som"
+	next "en kameleonts."
 
-	page "leaves a tingling"
-	next "sensation when it"
-	next "licks enemies"
+	page "Den lämnar en"
+	next "pirrande känsla"
+	next "efter en slick."
 	dex
 
 _ExeggcuteDexEntry::
-	text "Often mistaken"
-	next "for eggs."
-	next "When disturbed,"
+	text "Förväxlas ofta"
+	next "med ägg."
+	next "När de störs,"
 
-	page "they quickly"
-	next "gather and attack"
-	next "in swarms"
+	page "samlas de snabbt"
+	next "och attackerar"
+	next "i svärmar."
 	dex
 
 _GrimerDexEntry::
-	text "Appears in filthy"
-	next "areas. Thrives by"
-	next "sucking up"
+	text "Dyker upp i"
+	next "smutsiga områden."
+	next "Frodas genom att"
 
-	page "polluted sludge"
-	next "that is pumped"
-	next "out of factories"
+	page "suga i sig"
+	next "förorenat slam"
+	next "från fabriker."
 	dex
 
 _GengarDexEntry::
-	text "Under a full moon,"
-	next "this #MON"
-	next "likes to mimic"
+	text "Under fullmåne"
+	next "gillar denna #MON"
+	next "att härma"
 
-	page "the shadows of"
-	next "people and laugh"
-	next "at their fright"
+	page "människors"
+	next "skuggor och skrat-"
+	next "ta åt deras rädsla."
 	dex
 
 _NidoranFDexEntry::
-	text "Although small,"
-	next "its venomous"
-	next "barbs render this"
+	text "Trots sin liten-"
+	next "het gör dess gif-"
+	next "tiga taggar den"
 
-	page "#MON dangerous."
-	next "The female has"
-	next "smaller horns"
+	page "farlig. Honan"
+	next "har mindre horn."
+	next ""
 	dex
 
 _NidoqueenDexEntry::
-	text "Its hard scales"
-	next "provide strong"
-	next "protection. It"
+	text "Dess hårda fjäll"
+	next "ger ett starkt"
+	next "skydd. Den"
 
-	page "uses its hefty"
-	next "bulk to execute"
-	next "powerful moves"
+	page "använder sin"
+	next "stora kropp för"
+	next "kraftfulla drag."
 	dex
 
 _CuboneDexEntry::
-	text "Because it never"
-	next "removes its skull"
-	next "helmet, no one"
+	text "Eftersom den"
+	next "aldrig tar av sig"
+	next "sin skallehjälm,"
 
-	page "has ever seen"
-	next "this #MON's"
-	next "real face"
+	page "har ingen sett"
+	next "denna #MONs"
+	next "riktiga ansikte."
 	dex
 
 _RhyhornDexEntry::
-	text "Its massive bones"
-	next "are 1000 times"
-	next "harder than human"
+	text "Dess massiva ben"
+	next "är 1000 gånger"
+	next "hårdare än en"
 
-	page "bones. It can"
-	next "easily knock a"
-	next "trailer flying"
+	page "människas. Den kan"
+	next "lätt välta en"
+	next "lastbil."
 	dex
 
 _LaprasDexEntry::
-	text "A #MON that"
-	next "has been over-"
-	next "hunted almost to"
+	text "En #MON som har"
+	next "jagats så mycket"
+	next "att den nästan"
 
-	page "extinction. It"
-	next "can ferry people"
-	next "across the water"
+	page "utrotats. Den kan"
+	next "färja folk över"
+	next "vatten."
 	dex
 
 _ArcanineDexEntry::
-	text "A #MON that"
-	next "has been admired"
-	next "since the past"
+	text "En #MON som har"
+	next "beundrats sedan"
+	next "länge för sin"
 
-	page "for its beauty."
-	next "It runs agilely"
-	next "as if on wings"
+	page "skönhet. Den"
+	next "springer smidigt"
+	next "som på vingar."
 	dex
 
 _MewDexEntry::
-	text "So rare that it"
-	next "is still said to"
-	next "be a mirage by"
+	text "Så sällsynt att"
+	next "många experter"
+	next "tror den är en"
 
-	page "many experts. Only"
-	next "a few people have"
-	next "seen it worldwide"
+	page "hägring. Bara ett"
+	next "fåtal har sett"
+	next "den i världen."
 	dex
 
 _GyaradosDexEntry::
-	text "Rarely seen in"
-	next "the wild. Huge"
-	next "and vicious, it"
+	text "Sällan sedd i det"
+	next "vilda. Enorm och"
+	next "ondskefull, kan"
 
-	page "is capable of"
-	next "destroying entire"
-	next "cities in a rage"
+	page "den förstöra hela"
+	next "städer i raseri."
+	next ""
 	dex
 
 _ShellderDexEntry::
-	text "Its hard shell"
-	next "repels any kind"
-	next "of attack."
+	text "Dess hårda skal"
+	next "står emot alla"
+	next "typer av attacker."
 
-	page "It is vulnerable"
-	next "only when its"
-	next "shell is open"
+	page "Den är sårbar"
+	next "endast när dess"
+	next "skal är öppet."
 	dex
 
 _TentacoolDexEntry::
-	text "Drifts in shallow"
-	next "seas. Anglers who"
-	next "hook them by"
+	text "Driver i grunda"
+	next "hav. Fiskare som"
+	next "får dem på kroken"
 
-	page "accident are"
-	next "often punished by"
-	next "its stinging acid"
+	page "straffas ofta av"
+	next "dess stickande"
+	next "syra."
 	dex
 
 _GastlyDexEntry::
-	text "Almost invisible,"
-	next "this gaseous"
-	next "#MON cloaks"
+	text "Nästan osynlig,"
+	next "denna gasformiga"
+	next "#MON omsluter"
 
-	page "the target and"
-	next "puts it to sleep"
-	next "without notice"
+	page "sitt mål och"
+	next "söver det utan"
+	next "förvarning."
 	dex
 
 _ScytherDexEntry::
-	text "With ninja-like"
-	next "agility and speed,"
-	next "it can create the"
+	text "Med ninjalik"
+	next "smidighet och fart"
+	next "kan den skapa"
 
-	page "illusion that"
-	next "there is more"
-	next "than one"
+	page "illusionen att"
+	next "det finns fler"
+	next "än en."
 	dex
 
 _StaryuDexEntry::
-	text "An enigmatic"
-	next "#MON that can"
-	next "effortlessly"
+	text "En gåtfull #MON"
+	next "som utan problem"
+	next "kan återskapa"
 
-	page "regenerate any"
-	next "appendage it"
-	next "loses in battle"
+	page "vilken kroppsdel"
+	next "den än förlorar"
+	next "i strid."
 	dex
 
 _BlastoiseDexEntry::
-	text "A brutal #MON"
-	next "with pressurized"
-	next "water jets on its"
+	text "En brutal #MON med"
+	next "trycksatta vatten-"
+	next "strålar på sitt"
 
-	page "shell. They are"
-	next "used for high"
-	next "speed tackles"
+	page "skal. De används"
+	next "för attacker i"
+	next "hög hastighet."
 	dex
 
 _PinsirDexEntry::
-	text "If it fails to"
-	next "crush the victim"
-	next "in its pincers,"
+	text "Om den misslyckas"
+	next "med att krossa"
+	next "offret i sina"
 
-	page "it will swing it"
-	next "around and toss"
-	next "it hard"
+	page "klor, svingar den"
+	next "runt och kastar"
+	next "iväg det hårt."
 	dex
 
 _TangelaDexEntry::
-	text "The whole body is"
-	next "swathed with wide"
-	next "vines that are"
+	text "Hela kroppen är"
+	next "täckt av breda"
+	next "rankor som liknar"
 
-	page "similar to sea-"
-	next "weed. Its vines"
-	next "shake as it walks"
+	page "sjögräs. Rankorna"
+	next "skakar när den"
+	next "går."
 	dex
 
 _GrowlitheDexEntry::
-	text "Very protective"
-	next "of its territory."
-	next "It will bark and"
+	text "Mycket beskyddande"
+	next "av sitt terri-"
+	next "torium. Den skäl-"
 
-	page "bite to repel"
-	next "intruders from"
-	next "its space"
+	page "ler och biter för"
+	next "att stöta bort"
+	next "inkräktare."
 	dex
 
 _OnixDexEntry::
-	text "As it grows, the"
-	next "stone portions of"
-	next "its body harden"
+	text "När den växer,"
+	next "hårdnar sten-"
+	next "delarna på dess"
 
-	page "to become similar"
-	next "to a diamond, but"
-	next "colored black"
+	page "kropp och blir"
+	next "som en diamant,"
+	next "men svart."
 	dex
 
 _FearowDexEntry::
-	text "With its huge and"
-	next "magnificent wings,"
-	next "it can keep aloft"
+	text "Med sina enorma"
+	next "och magnifika"
+	next "vingar kan den"
 
-	page "without ever"
-	next "having to land"
-	next "for rest"
+	page "hålla sig i luften"
+	next "utan att någonsin"
+	next "behöva vila."
 	dex
 
 _PidgeyDexEntry::
-	text "A common sight in"
-	next "forests and woods."
-	next "It flaps its"
+	text "En vanlig syn i"
+	next "skogar och dalar."
+	next "Den flaxar med"
 
-	page "wings at ground"
-	next "level to kick up"
-	next "blinding sand"
+	page "vingarna vid"
+	next "marken för att"
+	next "sparka upp sand."
 	dex
 
 _SlowpokeDexEntry::
-	text "Incredibly slow"
-	next "and dopey. It"
-	next "takes 5 seconds"
+	text "Otroligt långsam"
+	next "och korkad. Det"
+	next "tar 5 sekunder"
 
-	page "for it to feel"
-	next "pain when under"
-	next "attack"
+	page "för den att känna"
+	next "smärta när den"
+	next "attackeras."
 	dex
 
 _KadabraDexEntry::
-	text "It emits special"
-	next "alpha waves from"
-	next "its body that"
+	text "Den avger speci-"
+	next "ella alfavågor"
+	next "från sin kropp"
 
-	page "induce headaches"
-	next "just by being"
-	next "close by"
+	page "som orsakar huvud-"
+	next "värk bara genom"
+	next "att vara nära."
 	dex
 
 _GravelerDexEntry::
-	text "Rolls down slopes"
-	next "to move. It rolls"
-	next "over any obstacle"
+	text "Rullar nerför"
+	next "sluttningar för"
+	next "att röra sig. Den"
 
-	page "without slowing"
-	next "or changing its"
-	next "direction"
+	page "rullar över alla"
+	next "hinder utan att"
+	next "sakta ner."
 	dex
 
 _ChanseyDexEntry::
-	text "A rare and elusive"
-	next "#MON that is"
-	next "said to bring"
+	text "En sällsynt och"
+	next "svårfångad #MON"
+	next "som sägs ge"
 
-	page "happiness to those"
-	next "who manage to get"
-	next "it"
+	page "lycka till den"
+	next "som lyckas fånga"
+	next "den."
 	dex
 
 _MachokeDexEntry::
-	text "Its muscular body"
-	next "is so powerful, it"
-	next "must wear a power"
+	text "Dess muskulösa"
+	next "kropp är så kraf-"
+	next "tig att den måste"
 
-	page "save belt to be"
-	next "able to regulate"
-	next "its motions"
+	page "bära ett bälte"
+	next "för att kunna"
+	next "reglera sin kraft."
 	dex
 
 _MrMimeDexEntry::
-	text "If interrupted"
-	next "while it is"
-	next "miming, it will"
+	text "Om den störs när"
+	next "den mimar, kommer"
+	next "den att slå till"
 
-	page "slap around the"
-	next "offender with its"
-	next "broad hands"
+	page "den skyldige med"
+	next "sina breda händer."
+	next ""
 	dex
 
 _HitmonleeDexEntry::
-	text "When in a hurry,"
-	next "its legs lengthen"
-	next "progressively."
+	text "När den har brått-"
+	next "om blir dess ben"
+	next "längre och längre."
 
-	page "It runs smoothly"
-	next "with extra long,"
-	next "loping strides"
+	page "Den springer mjukt"
+	next "med extra långa,"
+	next "svepande steg."
 	dex
 
 _HitmonchanDexEntry::
-	text "While apparently"
-	next "doing nothing, it"
-	next "fires punches in"
+	text "Medan den verkar"
+	next "göra ingenting,"
+	next "slår den blixt-"
 
-	page "lightning fast"
-	next "volleys that are"
-	next "impossible to see"
+	page "snabba slag som"
+	next "är omöjliga att"
+	next "se."
 	dex
 
 _ArbokDexEntry::
-	text "It is rumored that"
-	next "the ferocious"
-	next "warning markings"
+	text "Det ryktas att de"
+	next "skräckinjagande"
+	next "varningsmärkning-"
 
-	page "on its belly"
-	next "differ from area"
-	next "to area"
+	page "arna på dess buk"
+	next "skiljer sig från"
+	next "område till område."
 	dex
 
 _ParasectDexEntry::
-	text "A host-parasite"
-	next "pair in which the"
-	next "parasite mushroom"
+	text "Ett värd-parasit-"
+	next "par där parasit-"
+	next "svampen har tagit"
 
-	page "has taken over the"
-	next "host bug. Prefers"
-	next "damp places"
+	page "över värddjuret."
+	next "Föredrar fuktiga"
+	next "platser."
 	dex
 
 _PsyduckDexEntry::
-	text "While lulling its"
-	next "enemies with its"
-	next "vacant look, this"
+	text "Medan den invaggar"
+	next "fiender med sin"
+	next "tomma blick, an-"
 
-	page "wily #MON will"
-	next "use psychokinetic"
-	next "powers"
+	page "vänder denna listi-"
+	next "ga #MON psyko-"
+	next "kinetiska krafter."
 	dex
 
 _DrowzeeDexEntry::
-	text "Puts enemies to"
-	next "sleep then eats"
-	next "their dreams."
+	text "Söver fiender och"
+	next "äter sedan deras"
+	next "drömmar."
 
-	page "Occasionally gets"
-	next "sick from eating"
-	next "bad dreams"
+	page "Blir ibland sjuk"
+	next "av att äta dåliga"
+	next "drömmar."
 	dex
 
 _GolemDexEntry::
-	text "Its boulder-like"
-	next "body is extremely"
-	next "hard. It can"
+	text "Dess stenliknande"
+	next "kropp är extremt"
+	next "hård. Den kan"
 
-	page "easily withstand"
-	next "dynamite blasts"
-	next "without damage"
+	page "enkelt motstå"
+	next "dynamitsprängning-"
+	next "ar utan skada."
 	dex
 
 _MagmarDexEntry::
-	text "Its body always"
-	next "burns with an"
-	next "orange glow that"
+	text "Dess kropp brinner"
+	next "alltid med ett"
+	next "orange sken som"
 
-	page "enables it to"
-	next "hide perfectly"
-	next "among flames"
+	page "gör att den kan"
+	next "gömma sig perfekt"
+	next "bland lågor."
 	dex
 
 _ElectabuzzDexEntry::
-	text "Normally found"
-	next "near power plants,"
-	next "they can wander"
+	text "Finns vanligtvis"
+	next "nära kraftverk,"
+	next "men kan vandra"
 
-	page "away and cause"
-	next "major blackouts"
-	next "in cities"
+	page "iväg och orsaka"
+	next "stora strömavbrott"
+	next "i städer."
 	dex
 
 _MagnetonDexEntry::
-	text "Formed by several"
-	next "MAGNEMITEs linked"
-	next "together. They"
+	text "Bildas av flera"
+	next "MAGNEMITEs som"
+	next "kopplats samman."
 
-	page "frequently appear"
-	next "when sunspots"
-	next "flare up"
+	page "De dyker ofta upp"
+	next "när solfläckar"
+	next "blossar upp."
 	dex
 
 _KoffingDexEntry::
-	text "Because it stores"
-	next "several kinds of"
-	next "toxic gases in"
+	text "Eftersom den lag-"
+	next "rar flera sorters"
+	next "giftiga gaser i"
 
-	page "its body, it is"
-	next "prone to exploding"
-	next "without warning"
+	page "sin kropp, kan den"
+	next "lätt explodera"
+	next "utan varning."
 	dex
 
 _MankeyDexEntry::
-	text "Extremely quick to"
-	next "anger. It could"
-	next "be docile one"
+	text "Blir extremt"
+	next "snabbt arg. Den"
+	next "kan vara lugn ena"
 
-	page "moment then"
-	next "thrashing away"
-	next "the next instant"
+	page "stunden för att"
+	next "sedan rasa vilt"
+	next "i nästa."
 	dex
 
 _SeelDexEntry::
-	text "The protruding"
-	next "horn on its head"
-	next "is very hard."
+	text "Det utstickande"
+	next "hornet på dess"
+	next "huvud är väldigt"
 
-	page "It is used for"
-	next "bashing through"
-	next "thick ice"
+	page "hårt. Det används"
+	next "för att slå igenom"
+	next "tjock is."
 	dex
 
 _DiglettDexEntry::
-	text "Lives about one"
-	next "yard underground"
-	next "where it feeds on"
+	text "Lever ungefär en"
+	next "meter under jord"
+	next "där den äter"
 
-	page "plant roots. It"
-	next "sometimes appears"
-	next "above ground"
+	page "växtrötter. Den"
+	next "dyker ibland upp"
+	next "ovan jord."
 	dex
 
 _TaurosDexEntry::
-	text "When it targets"
-	next "an enemy, it"
-	next "charges furiously"
+	text "När den siktar in"
+	next "sig på en fiende,"
+	next "stormar den fram"
 
-	page "while whipping its"
-	next "body with its"
-	next "long tails"
+	page "rasande medan den"
+	next "piskar sin kropp"
+	next "med sina svansar."
 	dex
 
 _FarfetchdDexEntry::
-	text "The sprig of"
-	next "green onions it"
-	next "holds is its"
+	text "Kvisten av purjo-"
+	next "lök den håller i"
+	next "är dess vapen."
 
-	page "weapon. It is"
-	next "used much like a"
-	next "metal sword"
+	page "Den används som"
+	next "ett svärd av"
+	next "metall."
 	dex
 
 _VenonatDexEntry::
-	text "Lives in the"
-	next "shadows of tall"
-	next "trees where it"
+	text "Lever i skuggan"
+	next "av höga träd där"
+	next "den äter insekter."
 
-	page "eats insects. It"
-	next "is attracted by"
-	next "light at night"
+	page "Den dras till"
+	next "ljus på natten."
+	next ""
 	dex
 
 _DragoniteDexEntry::
-	text "An extremely"
-	next "rarely seen"
-	next "marine #MON."
+	text "En extremt säll-"
+	next "synt marin #MON."
+	next ""
 
-	page "Its intelligence"
-	next "is said to match"
-	next "that of humans"
+	page "Dess intelligens"
+	next "sägs matcha en"
+	next "människas."
 	dex
 
 _DoduoDexEntry::
-	text "A bird that makes"
-	next "up for its poor"
-	next "flying with its"
+	text "En fågel som kom-"
+	next "penserar sin dåli-"
+	next "ga flygning med"
 
-	page "fast foot speed."
-	next "Leaves giant"
-	next "footprints"
+	page "snabbhet till fots."
+	next "Lämnar gigantiska"
+	next "fotavtryck."
 	dex
 
 _PoliwagDexEntry::
-	text "Its newly grown"
-	next "legs prevent it"
-	next "from running. It"
+	text "Dess nyvuxna ben"
+	next "hindrar den från"
+	next "att springa. Den"
 
-	page "appears to prefer"
-	next "swimming than"
-	next "trying to stand"
+	page "verkar föredra att"
+	next "simma än att"
+	next "försöka stå."
 	dex
 
 _JynxDexEntry::
-	text "It seductively"
-	next "wiggles its hips"
-	next "as it walks. It"
+	text "Den vickar för-"
+	next "föriskt på höfter-"
+	next "na när den går."
 
-	page "can cause people"
-	next "to dance in"
-	next "unison with it"
+	page "Den kan få folk"
+	next "att dansa i"
+	next "takt med den."
 	dex
 
 _MoltresDexEntry::
-	text "Known as the"
-	next "legendary bird of"
-	next "fire. Every flap"
+	text "Känd som den"
+	next "legendariska"
+	next "eldfågeln. Varje"
 
-	page "of its wings"
-	next "creates a dazzling"
-	next "flash of flames"
+	page "vingslag skapar"
+	next "en bländande"
+	next "blixt av lågor."
 	dex
 
 _ArticunoDexEntry::
-	text "A legendary bird"
-	next "#MON that is"
-	next "said to appear to"
+	text "En legendarisk"
+	next "fågel-#MON som"
+	next "sägs visa sig"
 
-	page "doomed people who"
-	next "are lost in icy"
-	next "mountains"
+	page "för dömda som är"
+	next "vilse i isiga"
+	next "berg."
 	dex
 
 _ZapdosDexEntry::
-	text "A legendary bird"
-	next "#MON that is"
-	next "said to appear"
+	text "En legendarisk"
+	next "fågel-#MON som"
+	next "sägs dyka upp"
 
-	page "from clouds while"
-	next "dropping enormous"
-	next "lightning bolts"
+	page "från moln medan"
+	next "den släpper ner"
+	next "enorma blixtar."
 	dex
 
 _DittoDexEntry::
-	text "Capable of copying"
-	next "an enemy's genetic"
-	next "code to instantly"
+	text "Kan kopiera en"
+	next "fiendes genetiska"
+	next "kod för att direkt"
 
-	page "transform itself"
-	next "into a duplicate"
-	next "of the enemy"
+	page "förvandla sig"
+	next "till en kopia av"
+	next "fienden."
 	dex
 
 _MeowthDexEntry::
-	text "Adores circular"
-	next "objects. Wanders"
-	next "the streets on a"
+	text "Älskar runda"
+	next "föremål. Vandrar"
+	next "på gatorna"
 
-	page "nightly basis to"
-	next "look for dropped"
-	next "loose change"
+	page "nattetid för att"
+	next "leta efter tappade"
+	next "mynt."
 	dex
 
 _KrabbyDexEntry::
-	text "Its pincers are"
-	next "not only powerful"
-	next "weapons, they are"
+	text "Dess klor är inte"
+	next "bara kraftfulla"
+	next "vapen, de"
 
-	page "used for balance"
-	next "when walking"
-	next "sideways"
+	page "används för balans"
+	next "när den går i"
+	next "sidled."
 	dex
 
 _VulpixDexEntry::
-	text "At the time of"
-	next "birth, it has"
-	next "just one tail."
+	text "Vid födseln har"
+	next "den bara en svans."
+	next ""
 
-	page "The tail splits"
-	next "from its tip as"
-	next "it grows older"
+	page "Svansen delar sig"
+	next "från spetsen när"
+	next "den blir äldre."
 	dex
 
 _NinetalesDexEntry::
-	text "Very smart and"
-	next "very vengeful."
-	next "Grabbing one of"
+	text "Mycket smart och"
+	next "mycket hämndlysten."
+	next "Att ta en av"
 
-	page "its many tails"
-	next "could result in a"
-	next "1000-year curse"
+	page "dess svansar kan"
+	next "leda till en 1000-"
+	next "årig förbannelse."
 	dex
 
 _PikachuDexEntry::
-	text "When several of"
-	next "these #MON"
-	next "gather, their"
+	text "När flera av"
+	next "dessa #MON samlas,"
+	next "kan deras"
 
-	page "electricity could"
-	next "build and cause"
-	next "lightning storms"
+	page "elektricitet bygg-"
+	next "as upp och orsaka"
+	next "åskväder."
 	dex
 
 _RaichuDexEntry::
-	text "Its long tail"
-	next "serves as a"
-	next "ground to protect"
+	text "Dess långa svans"
+	next "fungerar som"
+	next "jordning för att"
 
-	page "itself from its"
-	next "own high voltage"
-	next "power"
+	page "skydda sig från"
+	next "sin egen högspän-"
+	next "ningsström."
 	dex
 
 _DratiniDexEntry::
-	text "Long considered a"
-	next "mythical #MON"
-	next "until recently"
+	text "Länge ansedd som"
+	next "en mytisk #MON"
+	next "tills nyligen"
 
-	page "when a small"
-	next "colony was found"
-	next "living underwater"
+	page "då en liten koloni"
+	next "hittades levande"
+	next "under vatten."
 	dex
 
 _DragonairDexEntry::
-	text "A mystical #MON"
-	next "that exudes a"
-	next "gentle aura."
+	text "En mystisk #MON"
+	next "som utstrålar en"
+	next "mild aura."
 
-	page "Has the ability"
-	next "to change climate"
-	next "conditions"
+	page "Har förmågan att"
+	next "ändra klimatför-"
+	next "hållanden."
 	dex
 
 _KabutoDexEntry::
-	text "A #MON that"
-	next "was resurrected"
-	next "from a fossil"
+	text "En #MON som"
+	next "återupplivades"
+	next "från ett fossil"
 
-	page "found in what was"
-	next "once the ocean"
-	next "floor eons ago"
+	page "som hittades på"
+	next "den forna havs-"
+	next "bottnen."
 	dex
 
 _KabutopsDexEntry::
-	text "Its sleek shape is"
-	next "perfect for swim-"
-	next "ming. It slashes"
+	text "Dess slanka form"
+	next "är perfekt för"
+	next "simning. Den"
 
-	page "prey with its"
-	next "claws and drains"
-	next "the body fluids"
+	page "skär byten med"
+	next "sina klor och"
+	next "dricker blodet."
 	dex
 
 _HorseaDexEntry::
-	text "Known to shoot"
-	next "down flying bugs"
-	next "with precision"
+	text "Känd för att skjuta"
+	next "ner flygande kryp"
+	next "med precisa"
 
-	page "blasts of ink"
-	next "from the surface"
-	next "of the water"
+	page "bläckskott från"
+	next "vattenytan."
+	next ""
 	dex
 
 _SeadraDexEntry::
-	text "Capable of swim-"
-	next "ming backwards by"
-	next "rapidly flapping"
+	text "Kan simma bakåt"
+	next "genom att snabbt"
+	next "flaxa med sina"
 
-	page "its wing-like"
-	next "pectoral fins and"
-	next "stout tail"
+	page "vingliknande"
+	next "bröstfenor och"
+	next "kraftiga svans."
 	dex
 
 _SandshrewDexEntry::
-	text "Burrows deep"
-	next "underground in"
-	next "arid locations"
+	text "Gräver djupt"
+	next "under jorden på"
+	next "torra platser"
 
-	page "far from water."
-	next "It only emerges"
-	next "to hunt for food"
+	page "långt från vatten."
+	next "Kommer bara fram"
+	next "för att jaga mat."
 	dex
 
 _SandslashDexEntry::
-	text "Curls up into a"
-	next "spiny ball when"
-	next "threatened. It"
+	text "Rullar ihop sig"
+	next "till en taggig"
+	next "boll när den är"
 
-	page "can roll while"
-	next "curled up to"
-	next "attack or escape"
+	page "hotad. Den kan"
+	next "rulla ihop sig"
+	next "för att fly."
 	dex
 
 _OmanyteDexEntry::
-	text "Although long"
-	next "extinct, in rare"
-	next "cases, it can be"
+	text "Även om den länge"
+	next "varit utdöd, kan"
+	next "den i sällsynta"
 
-	page "genetically"
-	next "resurrected from"
-	next "fossils"
+	page "fall återupplivas"
+	next "genetiskt från"
+	next "fossil."
 	dex
 
 _OmastarDexEntry::
-	text "A prehistoric"
-	next "#MON that died"
-	next "out when its"
+	text "En förhistorisk"
+	next "#MON som dog ut"
+	next "när dess tunga"
 
-	page "heavy shell made"
-	next "it impossible to"
-	next "catch prey"
+	page "skal gjorde det"
+	next "omöjligt att"
+	next "fånga byten."
 	dex
 
 _JigglypuffDexEntry::
-	text "When its huge eyes"
-	next "light up, it sings"
-	next "a mysteriously"
+	text "När dess stora"
+	next "ögon lyser upp,"
+	next "sjunger den en"
 
-	page "soothing melody"
-	next "that lulls its"
-	next "enemies to sleep"
+	page "mystiskt lugnande"
+	next "melodi som söver"
+	next "dess fiender."
 	dex
 
 _WigglytuffDexEntry::
-	text "The body is soft"
-	next "and rubbery. When"
-	next "angered, it will"
+	text "Kroppen är mjuk"
+	next "och gummiaktig."
+	next "När den blir arg,"
 
-	page "suck in air and"
-	next "inflate itself to"
-	next "an enormous size"
+	page "suger den in luft"
+	next "och blåser upp sig"
+	next "till enorm storlek."
 	dex
 
 _EeveeDexEntry::
-	text "Its genetic code"
-	next "is irregular."
-	next "It may mutate if"
+	text "Dess genetiska kod"
+	next "är oregelbunden."
+	next "Den kan mutera om"
 
-	page "it is exposed to"
-	next "radiation from"
-	next "element STONEs"
+	page "den utsätts för"
+	next "strålning från"
+	next "element-STENAR."
 	dex
 
 _FlareonDexEntry::
-	text "When storing"
-	next "thermal energy in"
-	next "its body, its"
+	text "När den lagrar"
+	next "värmeenergi i"
+	next "sin kropp, kan"
 
-	page "temperature could"
-	next "soar to over 1600"
-	next "degrees"
+	page "dess temperatur"
+	next "stiga till över"
+	next "900 grader."
 	dex
 
 _JolteonDexEntry::
-	text "It accumulates"
-	next "negative ions in"
-	next "the atmosphere to"
+	text "Den samlar"
+	next "negativa joner i"
+	next "atmosfären för att"
 
-	page "blast out 10000-"
-	next "volt lightning"
-	next "bolts"
+	page "skjuta ut 10000-"
+	next "volts blixtar."
+	next ""
 	dex
 
 _VaporeonDexEntry::
-	text "Lives close to"
-	next "water. Its long"
-	next "tail is ridged"
+	text "Lever nära vatten."
+	next "Dess långa svans"
+	next "är kantad med en"
 
-	page "with a fin which"
-	next "is often mistaken"
-	next "for a mermaid's"
+	page "fena som ofta"
+	next "förväxlas med en"
+	next "sjöjungfrus."
 	dex
 
 _MachopDexEntry::
-	text "Loves to build"
-	next "its muscles."
-	next "It trains in all"
+	text "Älskar att bygga"
+	next "sina muskler. Den"
+	next "tränar alla"
 
-	page "styles of martial"
-	next "arts to become"
-	next "even stronger"
+	page "typer av kamp-"
+	next "sport för att bli"
+	next "ännu starkare."
 	dex
 
 _ZubatDexEntry::
-	text "Forms colonies in"
-	next "perpetually dark"
-	next "places. Uses"
+	text "Bildar kolonier i"
+	next "ständigt mörka"
+	next "platser. Använder"
 
-	page "ultrasonic waves"
-	next "to identify and"
-	next "approach targets"
+	page "ultraljudsvågor"
+	next "för att identi-"
+	next "fiera och närma sig."
 	dex
 
 _EkansDexEntry::
-	text "Moves silently"
-	next "and stealthily."
-	next "Eats the eggs of"
+	text "Rör sig tyst och"
+	next "smygande. Äter"
+	next "ägg från fåglar,"
 
-	page "birds, such as"
-	next "PIDGEY and"
-	next "SPEAROW, whole"
+	page "som PIDGEY och"
+	next "SPEAROW, hela."
+	next ""
 	dex
 
 _ParasDexEntry::
-	text "Burrows to suck"
-	next "tree roots. The"
-	next "mushrooms on its"
+	text "Gräver för att"
+	next "suga trädrötter."
+	next "Svamparna på dess"
 
-	page "back grow by draw-"
-	next "ing nutrients from"
-	next "the bug host"
+	page "rygg växer genom"
+	next "att dra näring"
+	next "från värden."
 	dex
 
 _PoliwhirlDexEntry::
-	text "Capable of living"
-	next "in or out of"
-	next "water. When out"
+	text "Kan leva i eller"
+	next "utanför vatten."
+	next "När den är ovan"
 
-	page "of water, it"
-	next "sweats to keep"
-	next "its body slimy"
+	page "vatten, svettas"
+	next "den för att hålla"
+	next "kroppen slemmig."
 	dex
 
 _PoliwrathDexEntry::
-	text "An adept swimmer"
-	next "at both the front"
-	next "crawl and breast"
+	text "En duktig simmare"
+	next "i både crawl och"
+	next "bröstsim. Simmar"
 
-	page "stroke. Easily"
-	next "overtakes the best"
-	next "human swimmers"
+	page "lätt om de bästa"
+	next "mänskliga"
+	next "simmarna."
 	dex
 
 _WeedleDexEntry::
-	text "Often found in"
-	next "forests, eating"
-	next "leaves."
+	text "Finns ofta i"
+	next "skogar, där den"
+	next "äter löv."
 
-	page "It has a sharp"
-	next "venomous stinger"
-	next "on its head"
+	page "Den har en vass,"
+	next "giftig gadd på"
+	next "huvudet."
 	dex
 
 _KakunaDexEntry::
-	text "Almost incapable"
-	next "of moving, this"
-	next "#MON can only"
+	text "Nästan oförmögen"
+	next "att röra sig, kan"
+	next "denna #MON bara"
 
-	page "harden its shell"
-	next "to protect itself"
-	next "from predators"
+	page "härda sitt skal"
+	next "för att skydda sig"
+	next "från rovdjur."
 	dex
 
 _BeedrillDexEntry::
-	text "Flies at high"
-	next "speed and attacks"
-	next "using its large"
+	text "Flyger i hög fart"
+	next "och attackerar med"
+	next "sina stora"
 
-	page "venomous stingers"
-	next "on its forelegs"
-	next "and tail"
+	page "giftiga gaddar på"
+	next "framben och svans."
+	next ""
 	dex
 
 _DodrioDexEntry::
-	text "Uses its three"
-	next "brains to execute"
-	next "complex plans."
+	text "Använder sina tre"
+	next "hjärnor för att"
+	next "utföra komplexa"
 
-	page "While two heads"
-	next "sleep, one head"
-	next "stays awake"
+	page "planer. Medan två"
+	next "huvuden sover, är"
+	next "ett vaket."
 	dex
 
 _PrimeapeDexEntry::
-	text "Always furious"
-	next "and tenacious to"
-	next "boot. It will not"
+	text "Alltid rasande och"
+	next "envis. Den ger"
+	next "inte upp jakten"
 
-	page "abandon chasing"
-	next "its quarry until"
-	next "it is caught"
+	page "på sitt byte"
+	next "förrän det är"
+	next "fångat."
 	dex
 
 _DugtrioDexEntry::
-	text "A team of DIGLETT"
-	next "triplets."
-	next "It triggers huge"
+	text "Ett team av"
+	next "DIGLETT-trilling-"
+	next "ar. Den utlöser"
 
-	page "earthquakes by"
-	next "burrowing 60 miles"
-	next "underground"
+	page "stora jordbäv-"
+	next "ningar genom att"
+	next "gräva 10 mil ner."
 	dex
 
 _VenomothDexEntry::
-	text "The dust-like"
-	next "scales covering"
-	next "its wings are"
+	text "De dammliknande"
+	next "fjällen som täcker"
+	next "dess vingar är"
 
-	page "color coded to"
-	next "indicate the kinds"
-	next "of poison it has"
+	page "färgkodade för att"
+	next "visa vilka sorters"
+	next "gift den har."
 	dex
 
 _DewgongDexEntry::
-	text "Stores thermal"
-	next "energy in its"
-	next "body. Swims at a"
+	text "Lagrar värmeenergi"
+	next "i sin kropp."
+	next "Simmar i en stadig"
 
-	page "steady 8 knots"
-	next "even in intensely"
-	next "cold waters"
+	page "takt på 8 knop"
+	next "även i intensivt"
+	next "kallt vatten."
 	dex
 
 _CaterpieDexEntry::
-	text "Its short feet"
-	next "are tipped with"
-	next "suction pads that"
+	text "Dess korta fötter"
+	next "har sugkoppar som"
+	next "gör att den out-"
 
-	page "enable it to"
-	next "tirelessly climb"
-	next "slopes and walls"
+	page "tröttligt kan"
+	next "klättra på slän-"
+	next "ter och väggar."
 	dex
 
 _MetapodDexEntry::
-	text "This #MON is"
-	next "vulnerable to"
-	next "attack while its"
+	text "Denna #MON är"
+	next "sårbar för attack-"
+	next "er medan dess skal"
 
-	page "shell is soft,"
-	next "exposing its weak"
-	next "and tender body"
+	page "är mjukt, vilket"
+	next "blottar dess svaga"
+	next "och ömma kropp."
 	dex
 
 _ButterfreeDexEntry::
-	text "In battle, it"
-	next "flaps its wings"
-	next "at high speed to"
+	text "I strid flaxar den"
+	next "med vingarna i"
+	next "hög fart för att"
 
-	page "release highly"
-	next "toxic dust into"
-	next "the air"
+	page "släppa ut mycket"
+	next "giftigt damm i"
+	next "luften."
 	dex
 
 _MachampDexEntry::
-	text "Using its heavy"
-	next "muscles, it throws"
-	next "powerful punches"
+	text "Med sina tunga"
+	next "muskler slår den"
+	next "kraftfulla slag"
 
-	page "that can send the"
-	next "victim clear over"
-	next "the horizon"
+	page "som kan skicka"
+	next "offret över"
+	next "horisonten."
 	dex
 
 _GolduckDexEntry::
-	text "Often seen swim-"
-	next "ming elegantly by"
-	next "lake shores. It"
+	text "Ses ofta simma"
+	next "elegant vid sjö-"
+	next "stränder. Den"
 
-	page "is often mistaken"
-	next "for the Japanese"
-	next "monster, Kappa"
+	page "förväxlas ofta"
+	next "med det japanska"
+	next "monstret Kappa."
 	dex
 
 _HypnoDexEntry::
-	text "When it locks eyes"
-	next "with an enemy, it"
-	next "will use a mix of"
+	text "När den får ögon-"
+	next "kontakt med en"
+	next "fiende, använder"
 
-	page "PSI moves such as"
-	next "HYPNOSIS and"
-	next "CONFUSION"
+	page "den en mix av PSI-"
+	next "drag som HYPNOSIS"
+	next "och CONFUSION."
 	dex
 
 _GolbatDexEntry::
-	text "Once it strikes,"
-	next "it will not stop"
-	next "draining energy"
+	text "När den attackerar"
+	next "slutar den inte"
+	next "att dränera energi"
 
-	page "from the victim"
-	next "even if it gets"
-	next "too heavy to fly"
+	page "från offret, även"
+	next "om den blir för"
+	next "tung för att flyga."
 	dex
 
 _MewtwoDexEntry::
-	text "It was created by"
-	next "a scientist after"
-	next "years of horrific"
+	text "Den skapades av en"
+	next "forskare efter år"
+	next "av hemsk"
 
-	page "gene splicing and"
-	next "DNA engineering"
-	next "experiments"
+	page "gen-skarvning och"
+	next "DNA-tekniska"
+	next "experiment."
 	dex
 
 _SnorlaxDexEntry::
-	text "Very lazy. Just"
-	next "eats and sleeps."
-	next "As its rotund"
+	text "Mycket lat. Bara"
+	next "äter och sover."
+	next "När dess runda"
 
-	page "bulk builds, it"
-	next "becomes steadily"
-	next "more slothful"
+	page "kropp växer, blir"
+	next "den stadigt mer"
+	next "slö."
 	dex
 
 _MagikarpDexEntry::
-	text "In the distant"
-	next "past, it was"
-	next "somewhat stronger"
+	text "För länge sedan"
+	next "var den något"
+	next "starkare än de"
 
-	page "than the horribly"
-	next "weak descendants"
-	next "that exist today"
+	page "hemskt svaga"
+	next "ättlingar som"
+	next "finns idag."
 	dex
 
 _MukDexEntry::
-	text "Thickly covered"
-	next "with a filthy,"
-	next "vile sludge. It"
+	text "Tjockt täckt med"
+	next "ett smutsigt,"
+	next "äckligt slam. Det"
 
-	page "is so toxic, even"
-	next "its footprints"
-	next "contain poison"
+	page "är så giftigt att"
+	next "även dess fotspår"
+	next "innehåller gift."
 	dex
 
 _KinglerDexEntry::
-	text "The large pincer"
-	next "has 10000 hp of"
-	next "crushing power."
+	text "Den stora klon har"
+	next "en krosskraft på"
+	next "10000 hk."
 
-	page "However, its huge"
-	next "size makes it"
-	next "unwieldy to use"
+	page "Men dess stora"
+	next "storlek gör den"
+	next "svår att använda."
 	dex
 
 _CloysterDexEntry::
-	text "When attacked, it"
-	next "launches its"
-	next "horns in quick"
+	text "När den attackeras"
+	next "skjuter den sina"
+	next "horn i snabba"
 
-	page "volleys. Its"
-	next "innards have"
-	next "never been seen"
+	page "salvor. Dess"
+	next "inre har aldrig"
+	next "skådats."
 	dex
 
 _ElectrodeDexEntry::
-	text "It stores electric"
-	next "energy under very"
-	next "high pressure."
+	text "Den lagrar elek-"
+	next "trisk energi under"
+	next "mycket högt tryck."
 
-	page "It often explodes"
-	next "with little or no"
-	next "provocation"
+	page "Den exploderar"
+	next "ofta med liten"
+	next "eller ingen provok."
 	dex
 
 _ClefableDexEntry::
-	text "A timid fairy"
-	next "#MON that is"
-	next "rarely seen. It"
+	text "En skygg fe-#MON"
+	next "som sällan ses."
+	next "Den springer och"
 
-	page "will run and hide"
-	next "the moment it"
-	next "senses people"
+	page "gömmer sig så"
+	next "snart den känner"
+	next "av människor."
 	dex
 
 _WeezingDexEntry::
-	text "Where two kinds"
-	next "of poison gases"
-	next "meet, 2 KOFFINGs"
+	text "Där två sorters"
+	next "giftiga gaser"
+	next "möts kan två"
 
-	page "can fuse into a"
-	next "WEEZING over many"
-	next "years"
+	page "KOFFINGs smälta"
+	next "samman till en"
+	next "WEEZING."
 	dex
 
 _PersianDexEntry::
-	text "Although its fur"
-	next "has many admirers,"
-	next "it is tough to"
+	text "Trots att dess"
+	next "päls har många"
+	next "beundrare, är den"
 
-	page "raise as a pet"
-	next "because of its"
-	next "fickle meanness"
+	page "svår att ha som"
+	next "husdjur på grund"
+	next "av sin elakhet."
 	dex
 
 _MarowakDexEntry::
-	text "The bone it holds"
-	next "is its key weapon."
-	next "It throws the"
+	text "Benet den håller i"
+	next "är dess främsta"
+	next "vapen. Den kastar"
 
-	page "bone skillfully"
-	next "like a boomerang"
-	next "to KO targets"
+	page "benet skickligt"
+	next "som en bumerang"
+	next "för att slå ut mål."
 	dex
 
 _HaunterDexEntry::
-	text "Because of its"
-	next "ability to slip"
-	next "through block"
+	text "På grund av sin"
+	next "förmåga att glida"
+	next "genom väggar,"
 
-	page "walls, it is said"
-	next "to be from an-"
-	next "other dimension"
+	page "sägs den vara"
+	next "från en annan"
+	next "dimension."
 	dex
 
 _AbraDexEntry::
-	text "Using its ability"
-	next "to read minds, it"
-	next "will identify"
+	text "Med sin förmåga"
+	next "att läsa tankar,"
+	next "upptäcker den"
 
-	page "impending danger"
-	next "and TELEPORT to"
-	next "safety"
+	page "hotande fara och"
+	next "använder TELEPORT"
+	next "för att fly."
 	dex
 
 _AlakazamDexEntry::
-	text "Its brain can out-"
-	next "perform a super-"
-	next "computer."
+	text "Dess hjärna kan"
+	next "överträffa en"
+	next "superdator."
 
-	page "Its intelligence"
-	next "quotient is said"
-	next "to be 5,000"
+	page "Dess intelligens-"
+	next "kvot sägs vara"
+	next "5000."
 	dex
 
 _PidgeottoDexEntry::
-	text "Very protective"
-	next "of its sprawling"
-	next "territorial area,"
+	text "Mycket beskyddande"
+	next "av sitt stora"
+	next "territorium, denna"
 
-	page "this #MON will"
-	next "fiercely peck at"
-	next "any intruder"
+	page "#MON hackar"
+	next "våldsamt på alla"
+	next "inkräktare."
 	dex
 
 _PidgeotDexEntry::
-	text "When hunting, it"
-	next "skims the surface"
-	next "of water at high"
+	text "När den jagar,"
+	next "sveper den över"
+	next "vattenytan i hög"
 
-	page "speed to pick off"
-	next "unwary prey such"
-	next "as MAGIKARP"
+	page "fart för att plocka"
+	next "oförsiktiga byten"
+	next "som MAGIKARP."
 	dex
 
 _StarmieDexEntry::
-	text "Its central core"
-	next "glows with the"
-	next "seven colors of"
+	text "Dess centrala"
+	next "kärna lyser med"
+	next "regnbågens sju"
 
-	page "the rainbow. Some"
-	next "people value the"
-	next "core as a gem"
+	page "färger. Vissa"
+	next "värderar kärnan"
+	next "som en ädelsten."
 	dex
 
 _BulbasaurDexEntry::
-	text "A strange seed was"
-	next "planted on its"
-	next "back at birth."
+	text "Ett konstigt frö"
+	next "planterades på"
+	next "dess rygg vid"
 
-	page "The plant sprouts"
-	next "and grows with"
-	next "this #MON"
+	page "födseln. Växten"
+	next "gror och växer med"
+	next "denna #MON."
 	dex
 
 _VenusaurDexEntry::
-	text "The plant blooms"
-	next "when it is"
-	next "absorbing solar"
+	text "Växten blommar"
+	next "när den absorberar"
+	next "solenergi. Den"
 
-	page "energy. It stays"
-	next "on the move to"
-	next "seek sunlight"
+	page "håller sig i"
+	next "rörelse för att"
+	next "söka solljus."
 	dex
 
 _TentacruelDexEntry::
-	text "The tentacles are"
-	next "normally kept"
-	next "short. On hunts,"
+	text "Tentaklerna hålls"
+	next "normalt korta."
+	next "På jakt sträcks"
 
-	page "they are extended"
-	next "to ensnare and"
-	next "immobilize prey"
+	page "de ut för att"
+	next "fånga och oskad-"
+	next "liggöra byten."
 	dex
 
 _GoldeenDexEntry::
-	text "Its tail fin"
-	next "billows like an"
-	next "elegant ballroom"
+	text "Dess stjärtfena"
+	next "böljar som en"
+	next "elegant balklän-"
 
-	page "dress, giving it"
-	next "the nickname of"
-	next "the Water Queen"
+	page "ning, vilket ger"
+	next "den smeknamnet"
+	next "Vattendrottningen."
 	dex
 
 _SeakingDexEntry::
-	text "In the autumn"
-	next "spawning season,"
-	next "they can be seen"
+	text "Under leksäsongen"
+	next "på hösten kan man"
+	next "se dem simma"
 
-	page "swimming power-"
-	next "fully up rivers"
-	next "and creeks"
+	page "kraftfullt uppför"
+	next "floder och bäckar."
+	next ""
 	dex
 
 _PonytaDexEntry::
-	text "Its hooves are 10"
-	next "times harder than"
-	next "diamonds. It can"
+	text "Dess hovar är 10"
+	next "gånger hårdare"
+	next "än diamanter."
 
-	page "trample anything"
-	next "completely flat"
-	next "in little time"
+	page "Den kan trampa ner"
+	next "vad som helst på"
+	next "kort tid."
 	dex
 
 _RapidashDexEntry::
-	text "Very competitive,"
-	next "this #MON will"
-	next "chase anything"
+	text "Mycket tävlings-"
+	next "inriktad, denna"
+	next "#MON jagar allt"
 
-	page "that moves fast"
-	next "in the hopes of"
-	next "racing it"
+	page "som rör sig snabbt"
+	next "i hopp om att få"
+	next "tävla."
 	dex
 
 _RattataDexEntry::
-	text "Bites anything"
-	next "when it attacks."
-	next "Small and very"
+	text "Biter allt när den"
+	next "attackerar. Liten"
+	next "och mycket snabb,"
 
-	page "quick, it is a"
-	next "common sight in"
-	next "many places"
+	page "den är en vanlig"
+	next "syn på många"
+	next "platser."
 	dex
 
 _RaticateDexEntry::
-	text "It uses its whis-"
-	next "kers to maintain"
-	next "its balance."
+	text "Den använder sina"
+	next "morrhår för att"
+	next "hålla balansen."
 
-	page "It apparently"
-	next "slows down if"
-	next "they are cut off"
+	page "Den saktar tyd-"
+	next "ligen ner om de"
+	next "klipps av."
 	dex
 
 _NidorinoDexEntry::
-	text "An aggressive"
-	next "#MON that is"
-	next "quick to attack."
+	text "En aggressiv #MON"
+	next "som är snabb att"
+	next "attackera."
 
-	page "The horn on its"
-	next "head secretes a"
-	next "powerful venom"
+	page "Hornet på dess"
+	next "huvud utsöndrar"
+	next "ett starkt gift."
 	dex
 
 _NidorinaDexEntry::
-	text "The female's horn"
-	next "develops slowly."
-	next "Prefers physical"
+	text "Honans horn"
+	next "utvecklas långsamt."
+	next "Föredrar fysiska"
 
-	page "attacks such as"
-	next "clawing and"
-	next "biting"
+	page "attacker som att"
+	next "klösa och bita."
+	next ""
 	dex
 
 _GeodudeDexEntry::
-	text "Found in fields"
-	next "and mountains."
-	next "Mistaking them"
+	text "Finns på fält och"
+	next "i berg. Folk"
+	next "förväxlar dem med"
 
-	page "for boulders,"
-	next "people often step"
-	next "or trip on them"
+	page "stenar och trampar"
+	next "eller snubblar"
+	next "ofta på dem."
 	dex
 
 _PorygonDexEntry::
-	text "A #MON that"
-	next "consists entirely"
-	next "of programming"
+	text "En #MON som helt"
+	next "består av"
+	next "programmeringskod."
 
-	page "code. Capable of"
-	next "moving freely in"
-	next "cyberspace"
+	page "Kan röra sig"
+	next "fritt i cyber-"
+	next "rymden."
 	dex
 
 _AerodactylDexEntry::
-	text "A ferocious, pre-"
-	next "historic #MON"
-	next "that goes for the"
+	text "En vildsint, för-"
+	next "historisk #MON som"
+	next "går efter fiendens"
 
-	page "enemy's throat"
-	next "with its serrated"
-	next "saw-like fangs"
+	page "strupe med sina"
+	next "tandade, såg-"
+	next "liknande huggtänder."
 	dex
 
 _MagnemiteDexEntry::
-	text "Uses anti-gravity"
-	next "to stay suspended."
-	next "Appears without"
+	text "Använder anti-"
+	next "gravitation för"
+	next "att sväva. Dyker"
 
-	page "warning and uses"
-	next "THUNDER WAVE and"
-	next "similar moves"
+	page "upp utan varning"
+	next "och använder"
+	next "THUNDER WAVE."
 	dex
 
 _CharmanderDexEntry::
-	text "Obviously prefers"
-	next "hot places. When"
-	next "it rains, steam"
+	text "Föredrar uppen-"
+	next "barligen varma"
+	next "platser. När det"
 
-	page "is said to spout"
-	next "from the tip of"
-	next "its tail"
+	page "regnar, sägs ånga"
+	next "stiga från spetsen"
+	next "på dess svans."
 	dex
 
 _SquirtleDexEntry::
-	text "After birth, its"
-	next "back swells and"
-	next "hardens into a"
+	text "Efter födseln"
+	next "sväller och hård-"
+	next "nar dess rygg till"
 
-	page "shell. Powerfully"
-	next "sprays foam from"
-	next "its mouth"
+	page "ett skal. Sprutar"
+	next "kraftfullt skum"
+	next "från sin mun."
 	dex
 
 _CharmeleonDexEntry::
-	text "When it swings"
-	next "its burning tail,"
-	next "it elevates the"
+	text "När den svingar"
+	next "sin brinnande"
+	next "svans höjer den"
 
-	page "temperature to"
-	next "unbearably high"
-	next "levels"
+	page "temperaturen till"
+	next "outhärdligt höga"
+	next "nivåer."
 	dex
 
 _WartortleDexEntry::
-	text "Often hides in"
-	next "water to stalk"
-	next "unwary prey. For"
+	text "Gömmer sig ofta i"
+	next "vatten för att"
+	next "förfölja oförsik-"
 
-	page "swimming fast, it"
-	next "moves its ears to"
-	next "maintain balance"
+	page "tiga byten. För"
+	next "att simma snabbt"
+	next "rör den öronen."
 	dex
 
 _CharizardDexEntry::
-	text "Spits fire that"
-	next "is hot enough to"
-	next "melt boulders."
+	text "Sprutar eld som"
+	next "är het nog att"
+	next "smälta stenblock."
 
-	page "Known to cause"
-	next "forest fires"
-	next "unintentionally"
+	page "Känd för att"
+	next "orsaka skogsbränder"
+	next "oavsiktligt."
 	dex
 
 _OddishDexEntry::
-	text "During the day,"
-	next "it keeps its face"
-	next "buried in the"
+	text "Under dagen håller"
+	next "den sitt ansikte"
+	next "begravt i marken."
 
-	page "ground. At night,"
-	next "it wanders around"
-	next "sowing its seeds"
+	page "På natten vandrar"
+	next "den runt och sår"
+	next "sina frön."
 	dex
 
 _GloomDexEntry::
-	text "The fluid that"
-	next "oozes from its"
-	next "mouth isn't drool."
+	text "Vätskan som sipp-"
+	next "rar från dess mun"
+	next "är inte dregel."
 
-	page "It is a nectar"
-	next "that is used to"
-	next "attract prey"
+	page "Det är en nektar"
+	next "som används för"
+	next "att locka byten."
 	dex
 
 _VileplumeDexEntry::
-	text "The larger its"
-	next "petals, the more"
-	next "toxic pollen it"
+	text "Ju större dess"
+	next "kronblad är, desto"
+	next "mer giftigt pollen"
 
-	page "contains. Its big"
-	next "head is heavy and"
-	next "hard to hold up"
+	page "innehåller den."
+	next "Dess stora huvud"
+	next "är tungt."
 	dex
 
 _BellsproutDexEntry::
-	text "A carnivorous"
-	next "#MON that traps"
-	next "and eats bugs."
+	text "En köttätande"
+	next "#MON som fångar"
+	next "och äter kryp."
 
-	page "It uses its root"
-	next "feet to soak up"
-	next "needed moisture"
+	page "Den använder sina"
+	next "rotfötter för att"
+	next "suga upp fukt."
 	dex
 
 _WeepinbellDexEntry::
-	text "It spits out"
-	next "POISONPOWDER to"
-	next "immobilize the"
+	text "Den spottar ut"
+	next "POISONPOWDER för"
+	next "att lamslå"
 
-	page "enemy and then"
-	next "finishes it with"
-	next "a spray of ACID"
+	page "fienden och avslu-"
+	next "tar sedan med en"
+	next "dusch av ACID."
 	dex
 
 _VictreebelDexEntry::
-	text "Said to live in"
-	next "huge colonies"
-	next "deep in jungles,"
+	text "Sägs leva i stora"
+	next "kolonier djupt"
+	next "inne i djungeln,"
 
-	page "although no one"
-	next "has ever returned"
-	next "from there"
+	page "men ingen har"
+	next "någonsin återvänt"
+	next "därifrån."
 	dex

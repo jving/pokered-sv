@@ -1,3 +1,4 @@
+
 _ViridianSchoolHouseBrunetteGirlText::
 	text "Whew! I'm trying"
 	line "to memorize all"

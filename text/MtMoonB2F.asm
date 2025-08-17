@@ -1,125 +1,124 @@
 _MtMoonB2FDomeFossilYouWantText::
-	text "You want the"
-	line "DOME FOSSIL?"
+	text "Vill du ha"
+	line "KUPLFOSSILET?"
 	done
 
 _MtMoonB2FHelixFossilYouWantText::
-	text "You want the"
-	line "HELIX FOSSIL?"
+	text "Vill du ha"
+	line "HELIXFOSSILET?"
 	done
 
 _MtMoonB2FReceivedFossilText::
-	text "<PLAYER> got the"
+	text "<PLAYER> fick"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _MtMoonB2FYouHaveNoRoomText::
-	text "Look, you've got"
-	line "no room for this.@"
+	text "Hörru, du har"
+	line "ingen plats för"
+	cont "det här.@"
 	text_end
 
 _MtMoonB2FSuperNerdTheyreBothMineText::
-	text "Hey, stop!"
+	text "Hallå, stopp!"
 
-	para "I found these"
-	line "fossils! They're"
-	cont "both mine!"
+	para "Jag hittade de"
+	line "här fossilen!"
+	cont "De är båda mina!"
 	done
 
 _MtMoonB2FSuperNerdOkIllShareText::
 	text "OK!"
-	line "I'll share!"
+	line "Jag delar med mig!"
 	prompt
 
 _MtMoonB2fSuperNerdEachTakeOneText::
-	text "We'll each take"
-	line "one!"
-	cont "No being greedy!"
+	text "Vi tar varsitt!"
+	line "Ingen girighet!"
 	done
 
 _MtMoonB2FSuperNerdTheresAPokemonLabText::
-	text "Far away, on"
+	text "Långt borta, på"
 	line "CINNABAR ISLAND,"
-	cont "there's a #MON"
-	cont "LAB."
+	cont "finns ett #MON-"
+	cont "LABB."
 
-	para "They do research"
-	line "on regenerating"
-	cont "fossils."
+	para "De forskar på att"
+	line "återskapa fossil."
 	done
 
 _MtMoonB2FSuperNerdThenThisIsMineText::
-	text "All right. Then"
-	line "this is mine!@"
+	text "Okej. Då är det"
+	line "här mitt!@"
 	text_end
 
 _MtMoonB2FRocket1BattleText::
-	text "TEAM ROCKET will"
-	line "find the fossils,"
-	cont "revive and sell"
-	cont "them for cash!"
+	text "TEAM ROCKET ska"
+	line "hitta fossilen,"
+	cont "återuppliva och"
+	cont "sälja dem!"
 	done
 
 _MtMoonB2FRocket1EndBattleText::
 	text "Urgh!"
-	line "Now I'm mad!"
+	line "Nu blir jag arg!"
 	prompt
 
 _MtMoonB2FRocket1AfterBattleText::
-	text "You made me mad!"
-	line "TEAM ROCKET will"
-	cont "blacklist you!"
+	text "Du gjorde mig arg!"
+	line "TEAM ROCKET kommer"
+	cont "svartlista dig!"
 	done
 
 _MtMoonB2FRocket2BattleText::
-	text "We, TEAM ROCKET,"
-	line "are #MON"
+	text "Vi, TEAM ROCKET,"
+	line "är #MON-"
 	cont "gangsters!"
 	done
 
 _MtMoonB2FRocket2EndBattleText::
-	text "I blew"
-	line "it!"
+	text "Jag klantade"
+	line "mig!"
 	prompt
 
 _MtMoonB2FRocket2AfterBattleText::
-	text "Darn it all! My"
-	line "associates won't"
-	cont "stand for this!"
+	text "Skit också! Mina"
+	line "kollegor kommer"
+	cont "inte tolerera det!"
 	done
 
 _MtMoonB2FRocket3BattleText::
-	text "We're pulling a"
-	line "big job here!"
-	cont "Get lost, kid!"
+	text "Vi gör ett stort"
+	line "jobb här! Stick,"
+	cont "unge!"
 	done
 
 _MtMoonB2FRocket3EndBattleText::
-	text "So, you"
-	line "are good."
+	text "Så, du"
+	line "är bra."
 	prompt
 
 _MtMoonB2FRocket3AfterBattleText::
-	text "If you find a"
-	line "fossil, give it"
-	cont "to me and scram!"
+	text "Om du hittar ett"
+	line "fossil, ge det"
+	cont "till mig och stick!"
 	done
 
 _MtMoonB2FRocket4BattleText::
-	text "Little kids"
-	line "should leave"
-	cont "grown-ups alone!"
+	text "Små barn borde"
+	line "lämna vuxna"
+	cont "ifred!"
 	done
 
 _MtMoonB2FRocket4EndBattleText::
-	text "I'm"
-	line "steamed!"
+	text "Jag är"
+	line "förbannad!"
 	prompt
 
 _MtMoonB2FRocket4AfterBattleText::
-	text "#MON lived"
-	line "here long before"
-	cont "people came."
+	text "#MON levde här"
+	line "länge innan"
+	cont "människor kom."
 	done

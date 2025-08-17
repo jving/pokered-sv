@@ -1,37 +1,42 @@
 _BrunoBeforeBattleText::
-	text "I am BRUNO of"
-	line "the ELITE FOUR!"
+	text "Jag är BRUNO"
+	line "från ELITE"
+	cont "FOUR!"
 
-	para "Through rigorous"
-	line "training, people"
-	cont "and #MON can"
-	cont "become stronger!"
+	para "Genom rigorös"
+	line "träning, kan"
+	cont "människor och"
+	cont "#MON bli"
+	cont "starkare!"
 
-	para "I've weight"
-	line "trained with"
-	cont "my #MON!"
+	para "Jag har styrke-"
+	line "tränat med"
+	cont "mina #MON!"
 
 	para "<PLAYER>!"
 
-	para "We will grind you"
-	line "down with our"
-	cont "superior power!"
+	para "Vi ska krossa"
+	line "dig med vår"
+	cont "överlägsna"
+	cont "kraft!"
 
 	para "Hoo hah!"
 	done
 
 _BrunoEndBattleText::
-	text "Why?"
-	line "How could I lose?"
+	text "Varför?"
+	line "Hur kunde jag"
+	cont "förlora?"
 	prompt
 
 _BrunoAfterBattleText::
-	text "My job is done!"
-	line "Go face your next"
-	cont "challenge!"
+	text "Mitt jobb är"
+	line "klart! Möt nu"
+	cont "din nästa"
+	cont "utmaning!"
 	done
 
 _BrunosRoomBrunoDontRunAwayText::
-	text "Someone's voice:"
-	line "Don't run away!"
+	text "Någons röst:"
+	line "Fly inte!"
 	done

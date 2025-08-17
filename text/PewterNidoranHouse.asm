@@ -3,23 +3,24 @@ _PewterNidoranHouseNidoranText::
 	text_end
 
 _PewterNidoranHouseLittleBoyText::
-	text "NIDORAN sit!"
+	text "NIDORAN, sitt!"
 	done
 
 _PewterNidoranHouseMiddleAgedManText::
-	text "Our #MON's an"
-	line "outsider, so it's"
-	cont "hard to handle."
+	text "Vår #MON är en"
+	line "utomstående, så"
+	cont "den är svår att"
+	cont "hantera."
 
-	para "An outsider is a"
-	line "#MON that you"
-	cont "get in a trade."
+	para "En utomstående är"
+	line "en #MON du får i"
+	cont "ett byte."
 
-	para "It grows fast, but"
-	line "it may ignore an"
-	cont "unskilled trainer"
-	cont "in battle!"
+	para "Den växer snabbt,"
+	line "men kan ignorera"
+	cont "en oskicklig"
+	cont "tränare i strid!"
 
-	para "If only we had"
-	line "some BADGEs..."
+	para "Om vi bara hade"
+	line "några ORDNAR..."
 	done

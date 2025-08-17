@@ -1,156 +1,157 @@
 _Route25Youngster1BattleText::
-	text "Local trainers"
-	line "come here to"
-	cont "practice!"
+	text "Lokala tränare"
+	line "kommer hit för"
+	cont "att träna!"
 	done
 
 _Route25Youngster1EndBattleText::
-	text "You're"
-	line "decent."
+	text "Du är"
+	line "hyfsad."
 	prompt
 
 _Route25Youngster1AfterBattleText::
-	text "All #MON have"
-	line "weaknesses. It's"
-	cont "best to raise"
-	cont "different kinds."
+	text "Alla #MON har"
+	line "svagheter. Det är"
+	cont "bäst att träna"
+	cont "olika sorter."
 	done
 
 _Route25Youngster2BattleText::
-	text "Dad took me to a"
-	line "great party on"
-	cont "S.S.ANNE at"
+	text "Pappa tog med mig"
+	line "på en stor fest på"
+	cont "S.S.ANNE i"
 	cont "VERMILION CITY!"
 	done
 
 _Route25Youngster2EndBattleText::
-	text "I'm"
-	line "not mad!"
+	text "Jag är"
+	line "inte arg!"
 	prompt
 
 _Route25Youngster2AfterBattleText::
-	text "On S.S.ANNE, I"
-	line "saw trainers from"
-	cont "around the world."
+	text "På S.S.ANNE såg"
+	line "jag tränare från"
+	cont "hela världen."
 	done
 
 _Route25CooltrainerMBattleText::
-	text "I'm a cool guy."
-	line "I've got a girl"
-	cont "friend!"
+	text "Jag är en cool kille."
+	line "Jag har en"
+	cont "flickvän!"
 	done
 
 _Route25CooltrainerMEndBattleText::
-	text "Aww,"
-	line "darn..."
+	text "Åh,"
+	line "skit..."
 	prompt
 
 _Route25CooltrainerMAfterBattleText::
-	text "Oh well. My girl"
-	line "will cheer me up."
+	text "Äsch. Min tjej"
+	line "muntrar upp mig."
 	done
 
 _Route25CooltrainerF1BattleText::
-	text "Hi! My boy"
-	line "friend is cool!"
+	text "Hej! Min pojkvän"
+	line "är cool!"
 	done
 
 _Route25CooltrainerF1EndBattleText::
-	text "I was in"
-	line "bad condition!"
+	text "Jag var i"
+	line "dålig form!"
 	prompt
 
 _Route25CooltrainerF1AfterBattleText::
-	text "I wish my guy was"
-	line "as good as you!"
+	text "Jag önskar min kille"
+	line "var lika bra som du!"
 	done
 
 _Route25Youngster3BattleText::
-	text "I knew I had to"
-	line "fight you!"
+	text "Jag visste att jag"
+	line "var tvungen att"
+	cont "slåss mot dig!"
 	done
 
 _Route25Youngster3EndBattleText::
-	text "I knew"
-	line "I'd lose too!"
+	text "Jag visste"
+	line "att jag skulle"
+	cont "förlora också!"
 	prompt
 
 _Route25Youngster3AfterBattleText::
-	text "If your #MON"
-	line "gets confused or"
-	cont "falls asleep,"
-	cont "switch it!"
+	text "Om din #MON blir"
+	line "förvirrad eller"
+	cont "somnar, byt ut den!"
 	done
 
 _Route25CooltrainerF2BattleText::
-	text "My friend has a"
-	line "cute #MON."
-	cont "I'm so jealous!"
+	text "Min vän har en söt"
+	line "#MON. Jag är så"
+	cont "avundsjuk!"
 	done
 
 _Route25CooltrainerF2EndBattleText::
-	text "I'm"
-	line "not so jealous!"
+	text "Jag är"
+	line "inte så avundsjuk!"
 	prompt
 
 _Route25CooltrainerF2AfterBattleText::
-	text "You came from MT."
-	line "MOON? May I have"
-	cont "a CLEFAIRY?"
+	text "Du kom från MT."
+	line "MOON? Får jag en"
+	cont "CLEFAIRY?"
 	done
 
 _Route25Hiker1BattleText::
-	text "I just got down"
-	line "from MT.MOON,"
-	cont "but I'm ready!"
+	text "Jag kom just ner"
+	line "från MT.MOON,"
+	cont "men jag är redo!"
 	done
 
 _Route25Hiker1EndBattleText::
-	text "You"
-	line "worked hard!"
+	text "Du"
+	line "jobbade hårt!"
 	prompt
 
 _Route25Hiker1AfterBattleText::
-	text "Drat!"
-	line "A ZUBAT bit me"
-	cont "back in there."
+	text "Skit!"
+	line "En ZUBAT bet mig"
+	cont "där inne."
 	done
 
 _Route25Hiker2BattleText::
-	text "I'm off to see a"
-	line "#MON collector"
-	cont "at the cape!"
+	text "Jag ska träffa en"
+	line "#MON-samlare"
+	cont "vid udden!"
 	done
 
 _Route25Hiker2EndBattleText::
-	text "You"
-	line "got me."
+	text "Du"
+	line "fick mig."
 	prompt
 
 _Route25Hiker2AfterBattleText::
-	text "The collector has"
-	line "many rare kinds"
-	cont "of #MON."
+	text "Samlaren har många"
+	line "sällsynta sorters"
+	cont "#MON."
 	done
 
 _Route25Hiker3BattleText::
-	text "You're going to"
-	line "see BILL? First,"
-	cont "let's fight!"
+	text "Ska du träffa BILL?"
+	line "Först, låt oss"
+	cont "slåss!"
 	done
 
 _Route25Hiker3EndBattleText::
-	text "You're"
-	line "something."
+	text "Du är"
+	line "något."
 	prompt
 
 _Route25Hiker3AfterBattleText::
-	text "The trail below"
-	line "is a shortcut to"
+	text "Stigen nedanför"
+	line "är en genväg till"
 	cont "CERULEAN CITY."
 	done
 
 _Route25BillSignText::
-	text "SEA COTTAGE"
-	line "BILL lives here!"
+	text "HAVSSTUGAN"
+	line "BILL bor här!"
 	done

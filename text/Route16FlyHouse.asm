@@ -1,30 +1,32 @@
 _Route16FlyHouseBrunetteGirlText::
-	text "Oh, you found my"
-	line "secret retreat!"
+	text "Åh, du hittade min"
+	line "hemliga tillflykt!"
 
-	para "Please don't tell"
-	line "anyone I'm here."
-	cont "I'll make it up"
-	cont "to you with this!"
+	para "Snälla, berätta"
+	line "inte för någon att"
+	cont "jag är här. Jag"
+	cont "gottgör dig med"
+	cont "det här!"
 	prompt
 
 _Route16FlyHouseBrunetteGirlReceivedHM02Text::
-	text "<PLAYER> received"
+	text "<PLAYER> tog emot"
 	line "HM02!@"
 	text_end
 
 _Route16FlyHouseBrunetteGirlHM02ExplanationText::
-	text "HM02 is FLY."
-	line "It will take you"
-	cont "back to any town."
+	text "HM02 är FLYG."
+	line "Den tar dig"
+	cont "tillbaka till"
+	cont "vilken stad som"
+	cont "helst."
 
-	para "Put it to good"
-	line "use!"
+	para "Använd den väl!"
 	done
 
 _Route16FlyHouseBrunetteGirlHM02NoRoomText::
-	text "You don't have any"
-	line "room for this."
+	text "Du har ingen plats"
+	line "för den här."
 	done
 
 _Route16FlyHouseFearowText::

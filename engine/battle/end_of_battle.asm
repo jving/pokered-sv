@@ -75,13 +75,13 @@ EndOfBattle:
 	ret
 
 YouWinText:
-	db "YOU WIN@"
+	db "DU VANN@"
 
 YouLoseText:
-	db "YOU LOSE@"
+	db "DU FÖRLORADE@"
 
 DrawText:
-	db "  DRAW@"
+	db " OAVGJORT@"
 
 PickUpPayDayMoneyText:
 	text_far _PickUpPayDayMoneyText

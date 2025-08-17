@@ -1,55 +1,54 @@
 _SilphCo5FRockerEndBattleText::
-	text "Oh"
-	line "goodness!"
+	text "Herre-"
+	line "gud!"
 	prompt
 
 _SilphCo5FRockerAfterBattleText::
-	text "You're only on 5F."
-	line "It's a long way"
-	cont "to my BOSS!"
+	text "Du är bara på 5F."
+	line "Det är lång väg"
+	cont "till min BOSS!"
 	done
 
 _SilphCo5FRocket2BattleText::
-	text "Show TEAM ROCKET"
-	line "a little respect!"
+	text "Visa TEAM ROCKET"
+	line "lite respekt!"
 	done
 
 _SilphCo5FRocket2EndBattleText::
-	text "Cough..."
-	line "Cough..."
+	text "Harkel..."
+	line "Harkel..."
 	prompt
 
 _SilphCo5FRocket2AfterBattleText::
-	text "Which reminds me."
+	text "Det påminner mig."
 
-	para "KOFFING evolves"
-	line "into WEEZING!"
+	para "KOFFING utvecklas"
+	line "till WEEZING!"
 	done
 
 _SilphCo5FPokemonReport1Text::
-	text "It's a #MON"
-	line "REPORT!"
+	text "Det är en #MON-"
+	line "RAPPORT!"
 
-	para "#MON LAB"
-	line "created PORYGON,"
-	cont "the first virtual"
-	cont "reality #MON."
+	para "#MON-LABBET skapade"
+	line "PORYGON, den första"
+	cont "virtuella #MON."
 	done
 
 _SilphCo5FPokemonReport2Text::
-	text "It's a #MON"
-	line "REPORT!"
+	text "Det är en #MON-"
+	line "RAPPORT!"
 
-	para "Over 160 #MON"
-	line "techniques have"
-	cont "been confirmed."
+	para "Över 160 #MON-"
+	line "tekniker har"
+	cont "bekräftats."
 	done
 
 _SilphCo5FPokemonReport3Text::
-	text "It's a #MON"
-	line "REPORT!"
+	text "Det är en #MON-"
+	line "RAPPORT!"
 
-	para "4 #MON evolve"
-	line "only when traded"
-	cont "by link-cable."
+	para "4 #MON utvecklas"
+	line "bara när de byts"
+	cont "via link-kabel."
 	done

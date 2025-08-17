@@ -1,102 +1,111 @@
 _PokemartGreetingText::
-	text "Hi there!"
-	next "May I help you?"
+	text "Hallå där!"
+	next "Kan jag hjälpa"
+	cont "till?"
 	done
 
 _PokemonFaintedText::
 	text_ram wNameBuffer
 	text_start
-	line "fainted!"
+	line "svimmade!"
 	done
 
 _PlayerBlackedOutText::
-	text "<PLAYER> is out of"
-	line "useable #MON!"
+	text "<PLAYER> har"
+	line "inga #MON kvar"
+	cont "att strida med!"
 
-	para "<PLAYER> blacked"
-	line "out!"
+	para "<PLAYER>"
+	line "svimmade!"
 	prompt
 
 _RepelWoreOffText::
-	text "REPEL's effect"
-	line "wore off."
+	text "REPELs effekt"
+	line "har avtagit."
 	done
 
 _PokemartBuyingGreetingText::
-	text "Take your time."
+	text "Ta den tid du"
+	line "behöver."
 	done
 
 _PokemartTellBuyPriceText::
 	text_ram wStringBuffer
 	text "?"
-	line "That will be"
+	line "Den kostar"
 	cont "¥@"
 	text_bcd hMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
 	text ". OK?"
 	done
 
 _PokemartBoughtItemText::
-	text "Here you are!"
-	line "Thank you!"
+	text "Varsågod!"
+	line "Tack så mycket!"
 	prompt
 
 _PokemartNotEnoughMoneyText::
-	text "You don't have"
-	line "enough money."
+	text "Du har inte"
+	line "tillräckligt"
+	cont "med pengar."
 	prompt
 
 _PokemartItemBagFullText::
-	text "You can't carry"
-	line "any more items."
+	text "Du kan inte"
+	line "bära fler"
+	cont "föremål."
 	prompt
 
 _PokemonSellingGreetingText::
-	text "What would you"
-	line "like to sell?"
+	text "Vad vill du"
+	line "sälja?"
 	done
 
 _PokemartTellSellPriceText::
-	text "I can pay you"
+	text "Jag kan ge dig"
 	line "¥@"
 	text_bcd hMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
-	text " for that."
+	text " för den."
 	done
 
 _PokemartItemBagEmptyText::
-	text "You don't have"
-	line "anything to sell."
+	text "Du har inget"
+	line "att sälja."
 	prompt
 
 _PokemartUnsellableItemText::
-	text "I can't put a"
-	line "price on that."
+	text "Jag kan inte"
+	line "sätta ett pris"
+	cont "på det."
 	prompt
 
 _PokemartThankYouText::
-	text "Thank you!"
+	text "Tack så mycket!"
 	done
 
 _PokemartAnythingElseText::
-	text "Is there anything"
-	line "else I can do?"
+	text "Är det något"
+	line "annat jag kan"
+	cont "hjälpa till"
+	cont "med?"
 	done
 
 _LearnedMove1Text::
 	text_ram wLearnMoveMonName
-	text " learned"
+	text " lärde sig"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _WhichMoveToForgetText::
-	text "Which move should"
-	next "be forgotten?"
+	text "Vilken attack"
+	next "ska glömmas?"
 	done
 
 _AbandonLearningText::
-	text "Abandon learning"
-	line "@"
+	text "Avbryta"
+	line "inlärning av"
+	cont "@"
 	text_ram wStringBuffer
 	text "?"
 	done
@@ -104,7 +113,7 @@ _AbandonLearningText::
 _DidNotLearnText::
 	text_ram wLearnMoveMonName
 	text_start
-	line "did not learn"
+	line "lärde sig inte"
 	cont "@"
 	text_ram wStringBuffer
 	text "!"
@@ -112,27 +121,29 @@ _DidNotLearnText::
 
 _TryingToLearnText::
 	text_ram wLearnMoveMonName
-	text " is"
-	line "trying to learn"
+	text " försöker"
+	line "lära sig"
 	cont "@"
 	text_ram wStringBuffer
 	text "!"
 
-	para "But, @"
+	para "Men, @"
 	text_ram wLearnMoveMonName
 	text_start
-	line "can't learn more"
-	cont "than 4 moves!"
+	line "kan inte lära"
+	cont "sig fler än 4"
+	cont "attacker!"
 
-	para "Delete an older"
-	line "move to make room"
-	cont "for @"
+	para "Ta bort en"
+	line "äldre attack"
+	cont "för att göra"
+	cont "plats för @"
 	text_ram wStringBuffer
 	text "?"
 	done
 
 _OneTwoAndText::
-	text "1, 2 and...@"
+	text "1, 2 och...@"
 	text_end
 
 _PoofText::
@@ -143,89 +154,95 @@ _ForgotAndText::
 	text_start
 	para "@"
 	text_ram wLearnMoveMonName
-	text " forgot"
+	text " glömde"
 	line "@"
 	text_ram wNameBuffer
 	text "!"
 
-	para "And..."
+	para "Och..."
 	prompt
 
 _HMCantDeleteText::
-	text "HM techniques"
-	line "can't be deleted!"
+	text "HM-attacker"
+	line "kan inte tas"
+	cont "bort!"
 	prompt
 
 _PokemonCenterWelcomeText::
-	text "Welcome to our"
-	line "#MON CENTER!"
+	text "Välkommen till"
+	line "vårt #MON"
+	cont "CENTER!"
 
-	para "We heal your"
-	line "#MON back to"
-	cont "perfect health!"
+	para "Vi helar dina"
+	line "#MON till"
+	cont "perfekt hälsa!"
 	prompt
 
 _ShallWeHealYourPokemonText::
-	text "Shall we heal your"
-	line "#MON?"
+	text "Ska vi hela"
+	line "dina #MON?"
 	done
 
 _NeedYourPokemonText::
-	text "OK. We'll need"
-	line "your #MON."
+	text "OK. Vi behöver"
+	line "dina #MON."
 	done
 
 _PokemonFightingFitText::
-	text "Thank you!"
-	line "Your #MON are"
-	cont "fighting fit!"
+	text "Tack!"
+	line "Dina #MON är"
+	cont "i toppform!"
 	prompt
 
 _PokemonCenterFarewellText::
-	text "We hope to see"
-	line "you again!"
+	text "Vi hoppas se"
+	line "dig igen!"
 	done
 
 _CableClubNPCAreaReservedFor2FriendsLinkedByCableText::
-	text "This area is"
-	line "reserved for 2"
-	cont "friends who are"
-	cont "linked by cable."
+	text "Detta område"
+	line "är reserverat"
+	cont "för 2 vänner"
+	cont "som är länkade"
+	cont "med kabel."
 	done
 
 _CableClubNPCWelcomeText::
-	text "Welcome to the"
-	line "Cable Club!"
+	text "Välkommen till"
+	line "Kabelklubben!"
 	done
 
 _CableClubNPCPleaseApplyHereHaveToSaveText::
-	text "Please apply here."
+	text "Vänligen ansök"
+	line "här."
 
-	para "Before opening"
-	line "the link, we have"
-	cont "to save the game."
+	para "Innan länken"
+	line "öppnas, måste"
+	cont "vi spara"
+	cont "spelet."
 	done
 
 _CableClubNPCPleaseWaitText::
-	text "Please wait.@"
+	text "Ett ögonblick.@"
 	text_end
 
 _CableClubNPCLinkClosedBecauseOfInactivityText::
 	vc_patch Change_link_closed_inactivity_message
 IF DEF(_RED_VC) || DEF(_BLUE_VC)
-	text "Please come again!"
+	text "Välkommen åter!"
 	done
 	text_start
-	db   "osed because of"
-	cont "inactivity."
+	db   "ängts p.g.a."
+	cont "inaktivitet."
 ELSE
-	text "The link has been"
-	line "closed because of"
-	cont "inactivity."
+	text "Länken har"
+	line "stängts p.g.a."
+	cont "inaktivitet."
 ENDC
 	vc_patch_end
 
-	para "Please contact"
-	line "your friend and"
-	cont "come again!"
+	para "Vänligen"
+	line "kontakta din"
+	cont "vän och kom"
+	cont "igen!"
 	done

@@ -1,117 +1,116 @@
 _PewterCityCooltrainerFText::
-	text "It's rumored that"
-	line "CLEFAIRYs came"
-	cont "from the moon!"
+	text "Det ryktas att"
+	line "CLEFAIRYs kom"
+	cont "från månen!"
 
-	para "They appeared "
-	line "after MOON STONE"
-	cont "fell on MT.MOON."
+	para "De dök upp efter"
+	line "att MÅNSTEN föll"
+	cont "på MT.MOON."
 	done
 
 _PewterCityCooltrainerMText::
-	text "There aren't many"
-	line "serious #MON"
-	cont "trainers here!"
+	text "Det finns inte"
+	line "många seriösa"
+	cont "#MON-tränare här!"
 
-	para "They're all like"
-	line "BUG CATCHERs,"
-	cont "but PEWTER GYM's"
-	cont "BROCK is totally"
-	cont "into it!"
+	para "De är alla som"
+	line "INSEKTSSAMLARE,"
+	cont "men PEWTER GYMs"
+	cont "BROCK är helt"
+	cont "inne på det!"
 	done
 
 _PewterCitySuperNerd1DidYouCheckOutMuseumText::
-	text "Did you check out"
-	line "the MUSEUM?"
+	text "Har du kollat in"
+	line "MUSEET?"
 	done
 
 _PewterCitySuperNerd1WerentThoseFossilsAmazingText::
-	text "Weren't those"
-	line "fossils from MT."
-	cont "MOON amazing?"
+	text "Var inte fossilen"
+	line "från MT.MOON"
+	cont "fantastiska?"
 	done
 
 _PewterCitySuperNerd1YouHaveToGoText::
-	text "Really?"
-	line "You absolutely"
-	cont "have to go!"
+	text "Verkligen?"
+	line "Du måste"
+	cont "absolut gå dit!"
 	done
 
 _PewterCitySuperNerd1ItsRightHereText::
-	text "It's right here!"
-	line "You have to pay"
-	cont "to get in, but"
-	cont "it's worth it!"
-	cont "See you around!"
+	text "Det ligger precis"
+	line "här! Du måste"
+	cont "betala för att gå"
+	cont "in, men det är"
+	cont "värt det! Vi ses!"
 	done
 
 _PewterCitySuperNerd2DoYouKnowWhatImDoingText::
 	text "Psssst!"
-	line "Do you know what"
-	cont "I'm doing?"
+	line "Vet du vad"
+	cont "jag gör?"
 	done
 
 _PewterCitySuperNerd2ThatsRightText::
-	text "That's right!"
-	line "It's hard work!"
+	text "Just det!"
+	line "Det är hårt jobb!"
 	done
 
 _PewterCitySuperNerd2ImSprayingRepelText::
-	text "I'm spraying REPEL"
-	line "to keep #MON"
-	cont "out of my garden!"
+	text "Jag sprayar REPEL"
+	line "för att hålla #MON"
+	cont "borta från min"
+	cont "trädgård!"
 	done
 
 _PewterCityYoungsterYoureATrainerFollowMeText::
-	text "You're a trainer"
-	line "right? BROCK's"
-	cont "looking for new"
-	cont "challengers!"
-	cont "Follow me!"
+	text "Du är väl en"
+	line "tränare? BROCK"
+	cont "letar efter nya"
+	cont "utmanare!"
+	cont "Följ mig!"
 	done
 
 _PewterCityYoungsterGoTakeOnBrockText::
-	text "If you have the"
-	line "right stuff, go"
-	cont "take on BROCK!"
+	text "Om du har vad som"
+	line "krävs, utmana"
+	cont "BROCK!"
 	done
 
 _PewterCityTrainerTipsText::
-	text "TRAINER TIPS"
+	text "TRÄNARTIPS"
 
-	para "Any #MON that"
-	line "takes part in"
-	cont "battle, however"
-	cont "short, earns EXP!"
+	para "Alla #MON som"
+	line "deltar i strid,"
+	cont "hur kort som"
+	cont "helst, får EXP!"
 	done
 
 _PewterCityPoliceNoticeSignText::
-	text "NOTICE!"
+	text "MEDDELANDE!"
 
-	para "Thieves have been"
-	line "stealing #MON"
-	cont "fossils at MT."
-	cont "MOON! Please call"
-	cont "PEWTER POLICE"
-	cont "with any info!"
+	para "Tjuvar har stulit"
+	line "#MON-fossil vid"
+	cont "MT.MOON! Ring"
+	cont "PEWTERS POLIS"
+	cont "med all info!"
 	done
 
 _PewterCityMuseumSignText::
-	text "PEWTER MUSEUM"
-	line "OF SCIENCE"
+	text "PEWTERS VETEN-"
+	line "SKAPSMUSEUM"
 	done
 
 _PewterCityGymSignText::
 	text "PEWTER CITY"
-	line "#MON GYM"
-	cont "LEADER: BROCK"
+	line "#MON-GYM"
+	cont "LEDARE: BROCK"
 
-	para "The Rock Solid"
-	line "#MON Trainer!"
+	para "Den Stenhårda"
+	line "#MON-Tränaren!"
 	done
 
 _PewterCitySignText::
 	text "PEWTER CITY"
-	line "A Stone Gray"
-	cont "City"
+	line "En Stengrå Stad"
 	done

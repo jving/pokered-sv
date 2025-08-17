@@ -1,27 +1,28 @@
 _SafariZoneNorthRestHouseScientistText::
-	text "You can keep any"
-	line "item you find on"
-	cont "the ground here."
+	text "Du får behålla"
+	line "alla föremål du"
+	cont "hittar på marken"
+	cont "här."
 
-	para "But, you'll run"
-	line "out of time if"
-	cont "you try for all"
-	cont "of them at once!"
+	para "Men, din tid tar"
+	line "slut om du försöker"
+	cont "ta alla på en gång!"
 	done
 
 _SafariZoneNorthRestHouseSafariZoneWorkerText::
-	text "Go to the deepest"
-	line "part of the"
-	cont "SAFARI ZONE. You"
-	cont "will win a prize!"
+	text "Gå till den"
+	line "djupaste delen av"
+	cont "SAFARI ZONE. Du"
+	cont "kommer att vinna"
+	cont "ett pris!"
 	done
 
 _SafariZoneNorthRestHouseGentlemanText::
-	text "My EEVEE evolved"
-	line "into FLAREON!"
+	text "Min EEVEE utveck-"
+	line "lades till FLAREON!"
 
-	para "But, a friend's"
-	line "EEVEE turned into"
-	cont "a VAPOREON!"
-	cont "I wonder why?"
+	para "Men en väns EEVEE"
+	line "förvandlades till"
+	cont "en VAPOREON! Jag"
+	cont "undrar varför?"
 	done

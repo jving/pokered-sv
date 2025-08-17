@@ -1,145 +1,145 @@
 _Route3Text1::
-	text "Whew... I better"
-	line "take a rest..."
-	cont "Groan..."
+	text "Puh... Bäst jag"
+	line "vilar lite..."
+	cont "Stön..."
 
-	para "That tunnel from"
-	line "CERULEAN takes a"
-	cont "lot out of you!"
+	para "Den där tunneln"
+	line "från CERULEAN tar"
+	cont "verkligen på"
+	cont "krafterna!"
 	done
 
 _Route3Youngster1BattleText::
-	text "Hey! I met you in"
-	line "VIRIDIAN FOREST!"
+	text "Hallå! Jag träffade"
+	line "dig i VIRIDIANSKOGEN!"
 	done
 
 _Route3Youngster1EndBattleText::
-	text "You"
-	line "beat me again!"
+	text "Du"
+	line "slog mig igen!"
 	prompt
 
 _Route3Youngster1AfterBattleText::
-	text "There are other"
-	line "kinds of #MON"
-	cont "than those found"
-	cont "in the forest!"
+	text "Det finns andra"
+	line "sorters #MON"
+	cont "än de som finns"
+	cont "i skogen!"
 	done
 
 _Route3Youngster2BattleText::
-	text "Hi! I like shorts!"
-	line "They're comfy and"
-	cont "easy to wear!"
+	text "Hej! Jag gillar"
+	line "shorts! De är"
+	cont "bekväma och lätta"
+	cont "att ha på sig!"
 	done
 
 _Route3Youngster2EndBattleText::
-	text "I don't"
-	line "believe it!"
+	text "Jag tror"
+	line "inte det är sant!"
 	prompt
 
 _Route3Youngster2AfterBattleText::
-	text "Are you storing"
-	line "your #MON on"
-	cont "PC? Each BOX can"
-	cont "hold 20 #MON!"
+	text "Lagrar du dina"
+	line "#MON på PC? Varje"
+	cont "BOX kan rymma"
+	cont "20 #MON!"
 	done
 
 _Route3CooltrainerF1BattleText::
-	text "You looked at me,"
-	line "didn't you?"
+	text "Du tittade på mig,"
+	line "eller hur?"
 	done
 
 _Route3CooltrainerF1EndBattleText::
-	text "You're"
-	line "mean!"
+	text "Du är"
+	line "elak!"
 	prompt
 
 _Route3CooltrainerF1AfterBattleText::
-	text "Quit staring if"
-	line "you don't want to"
-	cont "fight!"
+	text "Sluta glo om du"
+	line "inte vill slåss!"
 	done
 
 _Route3Youngster3BattleText::
-	text "Are you a trainer?"
-	line "Let's fight!"
+	text "Är du en tränare?"
+	line "Låt oss slåss!"
 	done
 
 _Route3Youngster3EndBattleText::
-	text "If I"
-	line "had new #MON I"
-	cont "would've won!"
+	text "Om jag"
+	line "hade nya #MON"
+	cont "hade jag vunnit!"
 	prompt
 
 _Route3Youngster3AfterBattleText::
-	text "If a #MON BOX"
-	line "on the PC gets"
-	cont "full, just switch"
-	cont "to another BOX!"
+	text "Om en #MON-BOX"
+	line "på PC:n blir full,"
+	cont "byt bara till"
+	cont "en annan BOX!"
 	done
 
 _Route3CooltrainerF2BattleText::
-	text "That look you"
-	line "gave me, it's so"
-	cont "intriguing!"
+	text "Den blicken du"
+	line "gav mig, den är"
+	cont "så spännande!"
 	done
 
 _Route3CooltrainerF2EndBattleText::
-	text "Be nice!"
+	text "Var snäll!"
 	prompt
 
 _Route3CooltrainerF2AfterBattleText::
-	text "Avoid fights by"
-	line "not letting"
-	cont "people see you!"
+	text "Undvik strider"
+	line "genom att inte"
+	cont "låta folk se dig!"
 	done
 
 _Route3Youngster4BattleText::
-	text "Hey! You're not"
-	line "wearing shorts!"
+	text "Hallå! Du har"
+	line "inte shorts!"
 	done
 
 _Route3Youngster4EndBattleText::
-	text "Lost!"
-	line "Lost! Lost!"
+	text "Förlust!"
+	line "Förlust! Förlust!"
 	prompt
 
 _Route3Youngster4AfterBattleText::
-	text "I always wear"
-	line "shorts, even in"
-	cont "winter!"
+	text "Jag har alltid"
+	line "shorts, även på"
+	cont "vintern!"
 	done
 
 _Route3Youngster5BattleText::
-	text "You can fight my"
-	line "new #MON!"
+	text "Du kan slåss mot"
+	line "min nya #MON!"
 	done
 
 _Route3Youngster5EndBattleText::
-	text "Done"
-	line "like dinner!"
+	text "Jag är"
+	line "körd!"
 	prompt
 
 _Route3Youngster5AfterBattleText::
-	text "Trained #MON"
-	line "are stronger than"
-	cont "the wild ones!"
+	text "Tränade #MON"
+	line "är starkare än"
+	cont "de vilda!"
 	done
 
 _Route3CooltrainerF3BattleText::
-	text "Eek! Did you"
-	line "touch me?"
+	text "Iih! Rörde du mig?"
 	done
 
 _Route3CooltrainerF3EndBattleText::
-	text "That's it?"
+	text "Var det allt?"
 	prompt
 
 _Route3CooltrainerF3AfterBattleText::
-	text "ROUTE 4 is at the"
-	line "foot of MT.MOON."
+	text "VÄG 4 ligger vid"
+	line "foten av MT.MOON."
 	done
 
 _Route3SignText::
-	text "ROUTE 3"
-	line "MT.MOON AHEAD"
+	text "VÄG 3"
+	line "MT.MOON FRAMÖVER"
 	done

@@ -1,157 +1,161 @@
 _Route19CooltrainerM1BattleText::
-	text "Have to warm up"
-	line "before my swim!"
+	text "Måste värma upp"
+	line "innan jag simmar!"
 	done
 
 _Route19CooltrainerM1EndBattleText::
-	text "All"
-	line "warmed up!"
+	text "Helt"
+	line "uppvärmd!"
 	prompt
 
 _Route19CooltrainerM1AfterBattleText::
-	text "Thanks, kid! I'm"
-	line "ready for a swim!"
+	text "Tack, grabben! Jag"
+	line "är redo för ett dopp!"
 	done
 
 _Route19CooltrainerM2BattleText::
-	text "Wait! You'll have"
-	line "a heart attack!"
+	text "Vänta! Du får en"
+	line "hjärtattack!"
 	done
 
 _Route19CooltrainerM2EndBattleText::
 	text "Ooh!"
-	line "That's chilly!"
+	line "Vad kallt!"
 	prompt
 
 _Route19CooltrainerM2AfterBattleText::
-	text "Watch out for"
+	text "Se upp för"
 	line "TENTACOOL!"
 	done
 
 _Route19Swimmer1BattleText::
-	text "I love swimming!"
-	line "What about you?"
+	text "Jag älskar att"
+	line "simma! Du då?"
 	done
 
 _Route19Swimmer1EndBattleText::
-	text "Belly"
-	line "flop!"
+	text "Mag-"
+	line "plask!"
 	prompt
 
 _Route19Swimmer1AfterBattleText::
-	text "I can beat #MON"
-	line "at swimming!"
+	text "Jag kan slå #MON"
+	line "i simning!"
 	done
 
 _Route19Swimmer2BattleText::
-	text "What's beyond the"
-	line "horizon?"
+	text "Vad finns bortom"
+	line "horisonten?"
 	done
 
 _Route19Swimmer2EndBattleText::
-	text "Glub!"
+	text "Glubb!"
 	prompt
 
 _Route19Swimmer2AfterBattleText::
-	text "I see a couple of"
-	line "islands!"
+	text "Jag ser ett par"
+	line "öar!"
 	done
 
 _Route19Swimmer3BattleText::
-	text "I tried diving"
-	line "for #MON, but"
-	cont "it was a no go!"
+	text "Jag försökte dyka"
+	line "efter #MON, men"
+	cont "det gick inte!"
 	done
 
 _Route19Swimmer3EndBattleText::
-	text "Help!"
+	text "Hjälp!"
 	prompt
 
 _Route19Swimmer3AfterBattleText::
-	text "You have to fish"
-	line "for sea #MON!"
+	text "Du måste fiska"
+	line "efter havs-#MON!"
 	done
 
 _Route19Swimmer4BattleText::
-	text "I look at the"
-	line "sea to forget!"
+	text "Jag tittar på"
+	line "havet för att"
+	cont "glömma!"
 	done
 
 _Route19Swimmer4EndBattleText::
 	text "Ooh!"
-	line "Traumatic!"
+	line "Traumatiskt!"
 	prompt
 
 _Route19Swimmer4AfterBattleText::
-	text "I'm looking at the"
-	line "sea to forget!"
+	text "Jag tittar på"
+	line "havet för att"
+	cont "glömma!"
 	done
 
 _Route19Swimmer5BattleText::
-	text "Oh, I just love"
-	line "your ride! Can I"
-	cont "have it if I win?"
+	text "Åh, jag älskar din"
+	line "åktur! Får jag"
+	cont "den om jag vinner?"
 	done
 
 _Route19Swimmer5EndBattleText::
-	text "Oh!"
-	line "I lost!"
+	text "Åh!"
+	line "Jag förlorade!"
 	prompt
 
 _Route19Swimmer5AfterBattleText::
-	text "It's still a long"
-	line "way to go to"
+	text "Det är fortfarande"
+	line "långt kvar till"
 	cont "SEAFOAM ISLANDS."
 	done
 
 _Route19Swimmer6BattleText::
-	text "Swimming's great!"
-	line "Sunburns aren't!"
+	text "Simning är toppen!"
+	line "Solbränna är det"
+	cont "inte!"
 	done
 
 _Route19Swimmer6EndBattleText::
-	text "Shocker!"
+	text "Chockerande!"
 	prompt
 
 _Route19Swimmer6AfterBattleText::
-	text "My boy friend"
-	line "wanted to swim to"
+	text "Min pojkvän ville"
+	line "simma till"
 	cont "SEAFOAM ISLANDS."
 	done
 
 _Route19Swimmer7BattleText::
-	text "These waters are"
-	line "treacherous!"
+	text "Dessa vatten är"
+	line "förrädiska!"
 	done
 
 _Route19Swimmer7EndBattleText::
 	text "Ooh!"
-	line "Dangerous!"
+	line "Farligt!"
 	prompt
 
 _Route19Swimmer7AfterBattleText::
-	text "I got a cramp!"
-	line "Glub, glub..."
+	text "Jag fick kramp!"
+	line "Glubb, glubb..."
 	done
 
 _Route19Swimmer8BattleText::
-	text "I swam here, but"
-	line "I'm tired."
+	text "Jag simmade hit,"
+	line "men jag är trött."
 	done
 
 _Route19Swimmer8EndBattleText::
-	text "I'm"
-	line "exhausted..."
+	text "Jag är"
+	line "utmattad..."
 	prompt
 
 _Route19Swimmer8AfterBattleText::
-	text "LAPRAS is so big,"
-	line "it must keep you"
-	cont "dry on water."
+	text "LAPRAS är så stor,"
+	line "den måste hålla"
+	cont "dig torr på"
+	cont "vattnet."
 	done
 
 _Route19SignText::
-	text "SEA ROUTE 19"
+	text "HAVSVÄG 19"
 	line "FUCHSIA CITY -"
 	cont "SEAFOAM ISLANDS"
 	done

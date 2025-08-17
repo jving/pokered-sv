@@ -1,52 +1,52 @@
 _RocketHideoutB4FGiovanniImpressedYouGotHereText::
-	text "So! I must say, I"
-	line "am impressed you"
-	cont "got here!"
+	text "Så! Jag måste säga,"
+	line "jag är imponerad"
+	cont "att du kom hit!"
 	done
 
 _RocketHideoutB4FGiovanniWhatCannotBeText::
-	text "WHAT!"
-	line "This cannot be!"
+	text "VAD!"
+	line "Det kan inte vara!"
 	prompt
 
 _RocketHideoutB4FGiovanniHopeWeMeetAgainText::
-	text "I see that you"
-	line "raise #MON"
-	cont "with utmost care."
+	text "Jag ser att du"
+	line "tränar #MON med"
+	cont "största omsorg."
 
-	para "A child like you"
-	line "would never"
-	cont "understand what I"
-	cont "hope to achieve."
+	para "Ett barn som du"
+	line "skulle aldrig"
+	cont "förstå vad jag"
+	cont "hoppas uppnå."
 
-	para "I shall step"
-	line "aside this time!"
+	para "Jag kliver åt sidan"
+	line "den här gången!"
 
-	para "I hope we meet"
-	line "again..."
+	para "Jag hoppas vi ses"
+	line "igen..."
 	done
 
 _RocketHideoutB4FRocket1BattleText::
-	text "I know you! You"
-	line "ruined our plans"
-	cont "at MT.MOON!"
+	text "Jag känner igen"
+	line "dig! Du förstörde"
+	cont "våra planer vid"
+	cont "MT.MOON!"
 	done
 
 _RocketHideoutB4FRocket1EndBattleText::
-	text "Burned"
-	line "again!"
+	text "Bränd"
+	line "igen!"
 	prompt
 
 _RocketHideoutB4FRocket1AfterBattleText::
-	text "Do you have"
-	line "something against"
-	cont "TEAM ROCKET?"
+	text "Har du något emot"
+	line "TEAM ROCKET?"
 	done
 
 _RocketHideoutB4FRocket2BattleText::
-	text "How can you not"
-	line "see the beauty of"
-	cont "our evil?"
+	text "Hur kan du inte"
+	line "se skönheten i"
+	cont "vår ondska?"
 	done
 
 _RocketHideoutB4FRocket2EndBattleText::
@@ -54,21 +54,21 @@ _RocketHideoutB4FRocket2EndBattleText::
 	prompt
 
 _RocketHideoutB4FRocket2AfterBattleText::
-	text "BOSS! I'm sorry I"
-	line "failed you!"
+	text "BOSS! Jag är ledsen"
+	line "att jag svek dig!"
 	done
 
 _RocketHideoutB4FRocket3BattleText::
-	text "The elevator"
-	line "doesn't work? Who"
-	cont "has the LIFT KEY?"
+	text "Funkar inte hissen?"
+	line "Vem har HISS-"
+	cont "NYCKELN?"
 	done
 
 _RocketHideoutB4FRocket3EndBattleText::
-	text "No!"
+	text "Nej!"
 	prompt
 
 _RocketHideoutB4FRocket3AfterBattleText::
-	text "Oh no! I dropped"
-	line "the LIFT KEY!"
+	text "Åh nej! Jag tappade"
+	line "HISSNYCKELN!"
 	done

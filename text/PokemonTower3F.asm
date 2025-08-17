@@ -5,12 +5,12 @@ _PokemonTower3FChanneler1BattleText::
 
 _PokemonTower3FChanneler1EndBattleText::
 	text "Hwa!"
-	line "I'm saved!"
+	line "Jag är räddad!"
 	prompt
 
 _PokemonTower3FChanneler1AfterBattleText::
-	text "The GHOSTs can be"
-	line "identified by the"
+	text "SPÖKENA kan"
+	line "identifieras med"
 	cont "SILPH SCOPE."
 	done
 
@@ -21,25 +21,25 @@ _PokemonTower3FChanneler2BattleText::
 
 _PokemonTower3FChanneler2EndBattleText::
 	text "Hmm?"
-	line "What am I doing?"
+	line "Vad gör jag?"
 	prompt
 
 _PokemonTower3FChanneler2AfterBattleText::
-	text "Sorry! I was"
-	line "possessed!"
+	text "Förlåt! Jag var"
+	line "besatt!"
 	done
 
 _PokemonTower3FChanneler3BattleText::
-	text "Be gone!"
-	line "Evil spirit!"
+	text "Försvinn!"
+	line "Onda ande!"
 	done
 
 _PokemonTower3FChanneler3EndBattleText::
-	text "Whew!"
-	line "The spirit left!"
+	text "Puh!"
+	line "Anden försvann!"
 	prompt
 
 _PokemonTower3FChanneler3AfterBattleText::
-	text "My friends were"
-	line "possessed too!"
+	text "Mina vänner var"
+	line "också besatta!"
 	done

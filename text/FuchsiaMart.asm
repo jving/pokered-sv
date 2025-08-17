@@ -1,14 +1,15 @@
 _FuchsiaMartMiddleAgedManText::
-	text "Do you have a"
-	line "SAFARI ZONE flag?"
+	text "Har du en SAFARI"
+	line "ZONE-flagga?"
 
-	para "What about cards"
-	line "or calendars?"
+	para "Hur är det med"
+	line "kort eller"
+	cont "kalendrar?"
 	done
 
 _FuchsiaMartCooltrainerFText::
-	text "Did you try X"
-	line "SPEED? It speeds"
-	cont "up a #MON in"
-	cont "battle!"
+	text "Har du provat X"
+	line "FART? Det gör en"
+	cont "#MON snabbare i"
+	cont "strid!"
 	done

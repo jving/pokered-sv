@@ -1,13 +1,15 @@
 _CeladonMansion1FMeowthText::
-	text "MEOWTH: Meow!@"
+	text "MEOWTH: Mjau!@"
 	text_end
 
 _CeladonMansion1FGrannyText::
-	text "My dear #MON"
-	line "keep me company."
+	text "Mina kära #MON"
+	line "håller mig"
+	cont "sällskap."
 
-	para "MEOWTH even brings"
-	line "money home!"
+	para "MEOWTH tar till"
+	line "och med hem"
+	cont "pengar!"
 	done
 
 _CeladonMansion1FClefairyText::
@@ -22,5 +24,5 @@ _CeladonMansion1FNidoranFText::
 
 _CeladonMansion1FManagersSuiteSignText::
 	text "CELADON MANSION"
-	line "Manager's Suite"
+	line "Chefens Svit"
 	done

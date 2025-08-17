@@ -1,30 +1,33 @@
 _LavenderMartBaldingGuyText::
-	text "I'm searching for"
-	line "items that raise"
-	cont "the abilities of"
-	cont "#MON during a"
-	cont "single battle."
+	text "Jag letar efter"
+	line "föremål som höjer"
+	cont "en #MONs förmågor"
+	cont "under en enskild"
+	cont "strid."
 
 	para "X ATTACK, X"
 	line "DEFEND, X SPEED"
-	cont "and X SPECIAL are"
-	cont "what I'm after."
+	cont "och X SPECIAL är"
+	cont "vad jag är ute"
+	cont "efter."
 
-	para "Do you know where"
-	line "I can get them?"
+	para "Vet du var jag"
+	line "kan få tag på dem?"
 	done
 
 _LavenderMartCooltrainerMReviveText::
-	text "You know REVIVE?"
-	line "It revives any"
-	cont "fainted #MON!"
+	text "Känner du till"
+	line "REVIVE? Den åter-"
+	cont "upplivar svimmade"
+	cont "#MON!"
 	done
 
 _LavenderMartCooltrainerMNuggetText::
-	text "I found a NUGGET"
-	line "in the mountains."
+	text "Jag hittade en"
+	line "GULDKLIMP i"
+	cont "bergen."
 
-	para "I thought it was"
-	line "useless, but it"
-	cont "sold for ¥5000!"
+	para "Jag trodde den var"
+	line "värdelös, men den"
+	cont "såldes för ¥5000!"
 	done

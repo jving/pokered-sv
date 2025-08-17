@@ -1,31 +1,31 @@
 _PokemonTower1FReceptionistText::
-	text "#MON TOWER was"
-	line "erected in the"
-	cont "memory of #MON"
-	cont "that had died."
+	text "#MON TOWER restes"
+	line "till minne av #MON"
+	cont "som hade dött."
 	done
 
 _PokemonTower1FMiddleAgedWomanText::
-	text "Did you come to"
-	line "pay respects?"
-	cont "Bless you!"
+	text "Kom du för att"
+	line "visa din respekt?"
+	cont "Gud välsigne dig!"
 	done
 
 _PokemonTower1FBaldingGuyText::
-	text "I came to pray"
-	line "for my CLEFAIRY."
+	text "Jag kom för att be"
+	line "för min CLEFAIRY."
 
-	para "Sniff! I can't"
-	line "stop crying..."
+	para "Snyft! Jag kan inte"
+	line "sluta gråta..."
 	done
 
 _PokemonTower1FGirlText::
-	text "My GROWLITHE..."
-	line "Why did you die?"
+	text "Min GROWLITHE..."
+	line "Varför dog du?"
 	done
 
 _PokemonTower1FChannelerText::
-	text "I am a CHANNELER!"
-	line "There are spirits"
-	cont "up to mischief!"
+	text "Jag är SPIRITIST!"
+	line "Det finns andar"
+	cont "som ställer till"
+	cont "med ofog!"
 	done

@@ -1,12 +1,13 @@
 _CeladonPokecenterGentlemanText::
-	text "# FLUTE awakens"
-	line "#MON with a"
-	cont "sound that only"
-	cont "they can hear!"
+	text "# FLÖJT väcker"
+	line "#MON med ett"
+	cont "ljud som bara"
+	cont "de kan höra!"
 	done
 
 _CeladonPokecenterBeautyText::
-	text "I rode uphill on"
-	line "CYCLING ROAD from"
+	text "Jag cyklade"
+	line "uppför på"
+	cont "CYKELVÄGEN från"
 	cont "FUCHSIA!"
 	done

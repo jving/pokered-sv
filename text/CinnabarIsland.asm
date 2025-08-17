@@ -1,37 +1,39 @@
 _CinnabarIslandDoorIsLockedText::
-	text "The door is"
-	line "locked..."
+	text "Dörren är"
+	line "låst..."
 	done
 
 _CinnabarIslandGirlText::
-	text "CINNABAR GYM's"
-	line "BLAINE is an odd"
-	cont "man who has lived"
-	cont "here for decades."
+	text "CINNABAR GYMs"
+	line "BLAINE är en"
+	cont "konstig man som"
+	cont "har bott här i"
+	cont "årtionden."
 	done
 
 _CinnabarIslandGamblerText::
-	text "Scientists conduct"
-	line "experiments in"
-	cont "the burned out"
-	cont "building."
+	text "Forskare utför"
+	line "experiment i den"
+	cont "nerbrunna"
+	cont "byggnaden."
 	done
 
 _CinnabarIslandSignText::
 	text "CINNABAR ISLAND"
-	line "The Fiery Town of"
-	cont "Burning Desire"
+	line "Den Eldiga Staden"
+	cont "med Brinnande"
+	cont "Längtan"
 	done
 
 _CinnabarIslandPokemonLabSignText::
-	text "#MON LAB"
+	text "#MON-LABB"
 	done
 
 _CinnabarIslandGymSignText::
 	text "CINNABAR ISLAND"
-	line "#MON GYM"
-	cont "LEADER: BLAINE"
+	line "#MON-GYM"
+	cont "LEDARE: BLAINE"
 
-	para "The Hot-Headed"
-	line "Quiz Master!"
+	para "Den Hetlevrade"
+	line "Quizmästaren!"
 	done

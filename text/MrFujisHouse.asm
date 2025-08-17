@@ -1,30 +1,31 @@
 _MrFujisHouseSuperNerdMrFujiIsntHereText::
-	text "That's odd, MR.FUJI"
-	line "isn't here."
-	cont "Where'd he go?"
+	text "Konstigt, MR.FUJI"
+	line "är inte här."
+	cont "Vart tog han vägen?"
 	done
 
 _MrFujisHouseSuperNerdMrFujiHadBeenPrayingText::
-	text "MR.FUJI had been"
-	line "praying alone for"
-	cont "CUBONE's mother."
+	text "MR.FUJI har bett"
+	line "ensam för"
+	cont "CUBONEs mamma."
 	done
 
 _MrFujisHouseLittleGirlThisIsMrFujisHouseText::
-	text "This is really"
-	line "MR.FUJI's house."
+	text "Det här är"
+	line "verkligen"
+	cont "MR.FUJIs hus."
 
-	para "He's really kind!"
+	para "Han är jättesnäll!"
 
-	para "He looks after"
-	line "abandoned and"
-	cont "orphaned #MON!"
+	para "Han tar hand om"
+	line "övergivna och"
+	cont "föräldralösa #MON!"
 	done
 
 _MrFujisHouseLittleGirlPokemonAreNiceToHugText::
-	text "It's so warm!"
-	line "#MON are so"
-	cont "nice to hug!"
+	text "Så varmt! #MON"
+	line "är så mysiga att"
+	cont "krama!"
 	done
 
 _MrFujisHousePsyduckText::
@@ -38,18 +39,19 @@ _MrFujisHouseNidorinoText::
 _MrFujisHouseMrFujiIThinkThisMayHelpYourQuestText::
 	text "MR.FUJI: <PLAYER>."
 
-	para "Your #DEX quest"
-	line "may fail without"
-	cont "love for your"
-	cont "#MON."
+	para "Ditt #DEX-uppdrag"
+	line "kan misslyckas"
+	cont "utan kärlek till"
+	cont "dina #MON."
 
-	para "I think this may"
-	line "help your quest."
+	para "Jag tror att det"
+	line "här kan hjälpa"
+	cont "ditt uppdrag."
 	prompt
 
 _MrFujisHouseMrFujiReceivedPokeFluteText::
-	text "<PLAYER> received"
-	line "a @"
+	text "<PLAYER> mottog"
+	line "en @"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
@@ -57,33 +59,34 @@ _MrFujisHouseMrFujiReceivedPokeFluteText::
 _MrFujisHouseMrFujiPokeFluteExplanationText::
 	text_start
 
-	para "Upon hearing #"
-	line "FLUTE, sleeping"
-	cont "#MON will"
-	cont "spring awake."
+	para "När de hör #"
+	line "FLÖJTEN, vaknar"
+	cont "sovande #MON"
+	cont "till liv."
 
-	para "It works on all"
-	line "sleeping #MON."
+	para "Den fungerar på"
+	line "alla sovande"
+	cont "#MON."
 	done
 
 _MrFujisHouseMrFujiPokeFluteNoRoomText::
-	text "You must make"
-	line "room for this!"
+	text "Du måste göra"
+	line "plats för den här!"
 	done
 
 _MrFujisHouseMrFujiHasMyFluteHelpedYouText::
-	text "MR.FUJI: Has my"
-	line "FLUTE helped you?"
+	text "MR.FUJI: Har min"
+	line "FLÖJT hjälpt dig?"
 	done
 
 _MrFujisHouseMrFujiPokedexText::
 	text "#MON Monthly"
-	line "Grand Prize"
-	cont "Drawing!"
+	line "Stora Prisdrag-"
+	cont "ningen!"
 
-	para "The application"
-	line "form is..."
+	para "Ansökningsformu-"
+	line "läret är..."
 
-	para "Gone! It's been"
-	line "clipped out!"
+	para "Borta! Det är"
+	line "utklippt!"
 	done

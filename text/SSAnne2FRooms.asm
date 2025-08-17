@@ -1,113 +1,118 @@
 _SSAnne2FRoomsGentleman3Text::
-	text "In all my travels"
-	line "I've never seen"
-	cont "any #MON sleep"
-	cont "like this one!"
+	text "Under alla mina"
+	line "resor har jag"
+	cont "aldrig sett en"
+	cont "#MON sova som"
+	cont "den här!"
 
-	para "It was something"
-	line "like this!"
+	para "Det var något"
+	line "sånt här!"
 	prompt
 
 _SSAnne2FRoomsGentleman4Text::
-	text "Ah yes, I have"
-	line "seen some #MON"
-	cont "ferry people"
-	cont "across the water!"
+	text "Ah ja, jag har"
+	line "sett några #MON"
+	cont "färja folk över"
+	cont "vattnet!"
 	done
 
 _SSAnne2FRoomsGrampsText::
-	text "#MON can CUT"
-	line "down small bushes."
+	text "#MON kan HUGGA ner"
+	line "små buskar."
 	done
 
 _SSAnne2FRoomsGentleman5Text::
-	text "Have you gone to"
-	line "the SAFARI ZONE"
-	cont "in FUCHSIA CITY?"
+	text "Har du varit i"
+	line "SAFARI ZONE i"
+	cont "FUCHSIA CITY?"
 
-	para "It had many rare"
-	line "kinds of #MON!!"
+	para "Den hade många"
+	line "sällsynta sorters"
+	cont "#MON!!"
 	done
 
 _SSAnne2FRoomsLittleBoyText::
-	text "Me and my Daddy"
-	line "think the SAFARI"
-	cont "ZONE is awesome!"
+	text "Jag och min pappa"
+	line "tycker SAFARI"
+	cont "ZONE är grym!"
 	done
 
 _SSAnne2FRoomsBrunetteGirlText::
-	text "The CAPTAIN looked"
-	line "really sick and"
-	cont "pale!"
+	text "KAPTENEN såg"
+	line "riktigt sjuk och"
+	cont "blek ut!"
 	done
 
 _SSAnne2FRoomsBeautyText::
-	text "I hear many people"
-	line "get seasick!"
+	text "Jag har hört att"
+	line "många blir"
+	cont "sjösjuka!"
 	done
 
 _SSAnne2FRoomsGentleman1BattleText::
-	text "Competing against"
-	line "the young keeps"
-	cont "me youthful."
+	text "Att tävla mot de"
+	line "unga håller mig"
+	cont "ungdomlig."
 	done
 
 _SSAnne2FRoomsGentleman1EndBattleText::
-	text "Good"
-	line "fight! Ah, I feel"
-	cont "young again!"
+	text "Bra"
+	line "match! Ah, jag"
+	cont "känner mig ung"
+	cont "igen!"
 	prompt
 
 _SSAnne2FRoomsGentleman1AfterBattleText::
-	text "15 years ago, I"
-	line "would have won!"
+	text "För 15 år sedan"
+	line "hade jag vunnit!"
 	done
 
 _SSAnne2FRoomsFisherBattleText::
-	text "Check out what I"
-	line "fished up!"
+	text "Kolla vad jag"
+	line "fiskade upp!"
 	done
 
 _SSAnne2FRoomsFisherEndBattleText::
-	text "I'm"
-	line "all out!"
+	text "Jag har"
+	line "slut!"
 	prompt
 
 _SSAnne2FRoomsFisherAfterBattleText::
-	text "Party?"
+	text "Fest?"
 
-	para "The cruise ship's"
-	line "party should be"
-	cont "over by now."
+	para "Kryssningsfartygets"
+	line "fest borde vara"
+	cont "slut nu."
 	done
 
 _SSAnne2FRoomsGentleman2BattleText::
-	text "Which do you like,"
-	line "a strong or a"
-	cont "rare #MON?"
+	text "Vilken gillar du,"
+	line "en stark eller en"
+	cont "sällsynt #MON?"
 	done
 
 _SSAnne2FRoomsGentleman2EndBattleText::
-	text "I must"
-	line "salute you!"
+	text "Jag måste"
+	line "buga för dig!"
 	prompt
 
 _SSAnne2FRoomsGentleman2AfterBattleText::
-	text "I prefer strong"
-	line "and rare #MON."
+	text "Jag föredrar"
+	line "starka och säll-"
+	cont "synta #MON."
 	done
 
 _SSAnne2FRoomsCooltrainerFBattleText::
-	text "I never saw you"
-	line "at the party."
+	text "Jag såg dig aldrig"
+	line "på festen."
 	done
 
 _SSAnne2FRoomsCooltrainerFEndBattleText::
-	text "Take"
-	line "it easy!"
+	text "Ta det"
+	line "lugnt!"
 	prompt
 
 _SSAnne2FRoomsCooltrainerFAfterBattleText::
-	text "Oh, I adore your"
-	line "strong #MON!"
+	text "Åh, jag avgudar"
+	line "dina starka #MON!"
 	done

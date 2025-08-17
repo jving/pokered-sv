@@ -1,46 +1,48 @@
 _SilphCo3FSilphWorkerMWhatShouldIDoText::
-	text "I work for SILPH."
-	line "What should I do?"
+	text "Jag jobbar för"
+	line "SILPH. Vad ska"
+	cont "jag göra?"
 	done
 
 _SilphCo3FSilphWorkerMYouSavedUsText::
-	text "<PLAYER>! You and"
-	line "your #MON"
-	cont "saved us!"
+	text "<PLAYER>! Du och"
+	line "dina #MON"
+	cont "räddade oss!"
 	done
 
 _SilphCo3FRocketBattleText::
-	text "Quit messing with"
-	line "us, kid!"
+	text "Sluta bråka med"
+	line "oss, grabben!"
 	done
 
 _SilphCo3FRocketEndBattleText::
-	text "I give"
-	line "up!"
+	text "Jag ger"
+	line "upp!"
 	prompt
 
 _SilphCo3FRocketAfterBattleText::
-	text "A hint? You can"
-	line "open doors with a"
-	cont "CARD KEY!"
+	text "Ett tips? Du kan"
+	line "öppna dörrar med"
+	cont "en KORTNYCKEL!"
 	done
 
 _SilphCo3FScientistBattleText::
-	text "I support TEAM"
-	line "ROCKET more than"
-	cont "I support SILPH!"
+	text "Jag stöttar TEAM"
+	line "ROCKET mer än jag"
+	cont "stöttar SILPH!"
 	done
 
 _SilphCo3FScientistEndBattleText::
-	text "You"
-	line "really got me!"
+	text "Du"
+	line "fick mig verkligen!"
 	prompt
 
 _SilphCo3FScientistAfterBattleText::
 	text "Humph..."
 
-	para "TEAM ROCKET said"
-	line "that if I helped"
-	cont "them, they'd let"
-	cont "me study #MON!"
+	para "TEAM ROCKET sa"
+	line "att om jag hjälpte"
+	cont "dem, skulle de"
+	cont "låta mig studera"
+	cont "#MON!"
 	done

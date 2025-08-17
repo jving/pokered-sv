@@ -1,20 +1,20 @@
 _FuchsiaPokecenterRockerText::
-	text "You can't win"
-	line "with just one"
-	cont "strong #MON."
+	text "Du kan inte vinna"
+	line "med bara en stark"
+	cont "#MON."
 
-	para "It's tough, but"
-	line "you have to raise"
-	cont "them evenly."
+	para "Det är tufft, men"
+	line "du måste träna"
+	cont "dem jämnt."
 	done
 
 _FuchsiaPokecenterCooltrainerFText::
-	text "There's a narrow"
-	line "trail west of"
+	text "Det finns en smal"
+	line "stig väster om"
 	cont "VIRIDIAN CITY."
 
-	para "It goes to #MON"
-	line "LEAGUE HQ."
-	cont "The HQ governs"
-	cont "all trainers."
+	para "Den går till #MON"
+	line "LIGAN HQ."
+	cont "HQ styr över"
+	cont "alla tränare."
 	done

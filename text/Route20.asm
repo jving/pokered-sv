@@ -1,153 +1,158 @@
 _Route20Swimmer1BattleText::
-	text "The water is"
-	line "shallow here."
+	text "Vattnet är grunt"
+	line "här."
 	done
 
 _Route20Swimmer1EndBattleText::
-	text "Splash!"
+	text "Plask!"
 	prompt
 
 _Route20Swimmer1AfterBattleText::
-	text "I wish I could"
-	line "ride my #MON."
+	text "Jag önskar jag"
+	line "kunde rida på"
+	cont "min #MON."
 	done
 
 _Route20Swimmer2BattleText::
-	text "SEAFOAM is a"
-	line "quiet getaway!"
+	text "SEAFOAM är en"
+	line "lugn tillflyktsort!"
 	done
 
 _Route20Swimmer2EndBattleText::
-	text "Quit it!"
+	text "Sluta!"
 	prompt
 
 _Route20Swimmer2AfterBattleText::
-	text "There's a huge"
-	line "cavern underneath"
-	cont "this island."
+	text "Det finns en enorm"
+	line "grotta under den"
+	cont "här ön."
 	done
 
 _Route20Swimmer3BattleText::
-	text "I love floating"
-	line "with the fishes!"
+	text "Jag älskar att"
+	line "flyta med fiskarna!"
 	done
 
 _Route20Swimmer3EndBattleText::
-	text "Yowch!"
+	text "Aj!"
 	prompt
 
 _Route20Swimmer3AfterBattleText::
-	text "Want to float"
-	line "with me?"
+	text "Vill du flyta"
+	line "med mig?"
 	done
 
 _Route20Swimmer4BattleText::
-	text "Are you on"
-	line "vacation too?"
+	text "Är du också på"
+	line "semester?"
 	done
 
 _Route20Swimmer4EndBattleText::
-	text "No"
-	line "mercy at all!"
+	text "Ingen"
+	line "nåd alls!"
 	prompt
 
 _Route20Swimmer4AfterBattleText::
-	text "SEAFOAM used to"
-	line "be one island!"
+	text "SEAFOAM brukade"
+	line "vara en enda ö!"
 	done
 
 _Route20Swimmer5BattleText::
-	text "Check out my buff"
-	line "physique!"
+	text "Kolla in min"
+	line "vältränade fysik!"
 	done
 
 _Route20Swimmer5EndBattleText::
-	text "Wimpy!"
+	text "Mesigt!"
 	prompt
 
 _Route20Swimmer5AfterBattleText::
-	text "I should've been"
-	line "buffing up my"
-	cont "#MON, not me!"
+	text "Jag borde ha"
+	line "tränat mina #MON,"
+	cont "inte mig själv!"
 	done
 
 _Route20Swimmer6BattleText::
-	text "Why are you"
-	line "riding a #MON?"
-	cont "Can't you swim?"
+	text "Varför rider du"
+	line "på en #MON? Kan"
+	cont "du inte simma?"
 	done
 
 _Route20Swimmer6EndBattleText::
-	text "Ouch!"
-	line "Torpedoed!"
+	text "Aj!"
+	line "Torpederad!"
 	prompt
 
 _Route20Swimmer6AfterBattleText::
-	text "Riding a #MON"
-	line "sure looks fun!"
+	text "Att rida på en"
+	line "#MON ser verkligen"
+	cont "kul ut!"
 	done
 
 _Route20CooltrainerMBattleText::
-	text "I rode my bird"
-	line "#MON here!"
+	text "Jag red min"
+	line "fågel-#MON hit!"
 	done
 
 _Route20CooltrainerMEndBattleText::
-	text "Oh"
-	line "no!"
+	text "Åh"
+	line "nej!"
 	prompt
 
 _Route20CooltrainerMAfterBattleText::
-	text "My birds can't"
-	line "FLY me back!"
+	text "Mina fåglar kan"
+	line "inte FLYGA mig"
+	cont "tillbaka!"
 	done
 
 _Route20Swimmer7BattleText::
-	text "My boy friend gave"
-	line "me big pearls!"
+	text "Min pojkvän gav"
+	line "mig stora pärlor!"
 	done
 
 _Route20Swimmer7EndBattleText::
-	text "Don't"
-	line "touch my pearls!"
+	text "Rör"
+	line "inte mina pärlor!"
 	prompt
 
 _Route20Swimmer7AfterBattleText::
-	text "Will my pearls"
-	line "grow bigger"
-	cont "inside CLOYSTER?"
+	text "Kommer mina pärlor"
+	line "att växa sig"
+	cont "större inuti"
+	cont "CLOYSTER?"
 	done
 
 _Route20Swimmer8BattleText::
-	text "I swam here from"
-	line "CINNABAR ISLAND!"
+	text "Jag simmade hit"
+	line "från CINNABAR"
+	cont "ISLAND!"
 	done
 
 _Route20Swimmer8EndBattleText::
-	text "I'm"
-	line "so disappointed!"
+	text "Jag är"
+	line "så besviken!"
 	prompt
 
 _Route20Swimmer8AfterBattleText::
-	text "#MON have"
-	line "taken over an"
-	cont "abandoned mansion"
-	cont "on CINNABAR!"
+	text "#MON har tagit"
+	line "över en övergiven"
+	cont "herrgård på"
+	cont "CINNABAR!"
 	done
 
 _Route20Swimmer9BattleText::
-	text "CINNABAR, in the"
-	line "west, has a LAB"
-	cont "for #MON."
+	text "CINNABAR, i väster,"
+	line "har ett LABB"
+	cont "för #MON."
 	done
 
 _Route20Swimmer9EndBattleText::
-	text "Wait!"
+	text "Vänta!"
 	prompt
 
 _Route20Swimmer9AfterBattleText::
-	text "CINNABAR is a "
-	line "volcanic island!"
+	text "CINNABAR är en "
+	line "vulkanisk ö!"
 	done
 
 _Route20SeafoamIslandsSignText::

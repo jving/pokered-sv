@@ -1,7 +1,7 @@
 _Route18CooltrainerM1BattleText::
-	text "I always check"
-	line "every grassy area"
-	cont "for new #MON."
+	text "Jag kollar alltid"
+	line "varje gräsområde"
+	cont "efter nya #MON."
 	done
 
 _Route18CooltrainerM1EndBattleText::
@@ -9,50 +9,52 @@ _Route18CooltrainerM1EndBattleText::
 	prompt
 
 _Route18CooltrainerM1AfterBattleText::
-	text "I wish I had a"
-	line "BIKE!"
+	text "Jag önskar jag"
+	line "hade en CYKEL!"
 	done
 
 _Route18CooltrainerM2BattleText::
 	text "Kurukkoo!"
-	line "How do you like"
-	cont "my bird call?"
+	line "Vad tycker du om"
+	cont "mitt fågelläte?"
 	done
 
 _Route18CooltrainerM2EndBattleText::
-	text "I"
-	line "had to bug you!"
+	text "Jag var"
+	line "tvungen att"
+	cont "störa dig!"
 	prompt
 
 _Route18CooltrainerM2AfterBattleText::
-	text "I also collect sea"
-	line "#MON on"
-	cont "weekends!"
+	text "Jag samlar också"
+	line "på havs-#MON på"
+	cont "helgerna!"
 	done
 
 _Route18CooltrainerM3BattleText::
-	text "This is my turf!"
-	line "Get out of here!"
+	text "Det här är mitt"
+	line "revir! Stick"
+	cont "härifrån!"
 	done
 
 _Route18CooltrainerM3EndBattleText::
-	text "Darn!"
+	text "Skit!"
 	prompt
 
 _Route18CooltrainerM3AfterBattleText::
-	text "This is my fave"
-	line "#MON hunting"
-	cont "area!"
+	text "Det här är mitt"
+	line "favoritområde för"
+	cont "#MON-jakt!"
 	done
 
 _Route18SignText::
-	text "ROUTE 18"
+	text "VÄG 18"
 	line "CELADON CITY -"
 	cont "FUCHSIA CITY"
 	done
 
 _Route18CyclingRoadSignText::
-	text "CYCLING ROAD"
-	line "No pedestrians"
-	cont "permitted!"
+	text "CYKELVÄGEN"
+	line "Inga fotgängare"
+	cont "tillåtna!"
 	done

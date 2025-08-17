@@ -1,139 +1,142 @@
 _Route12SnorlaxText::
-	text "A sleeping #MON"
-	line "blocks the way!"
+	text "En sovande #MON"
+	line "blockerar vägen!"
 	done
 
 _Route12SnorlaxWokeUpText::
-	text "SNORLAX woke up!"
+	text "SNORLAX vaknade!"
 
-	para "It attacked in a"
-	line "grumpy rage!"
+	para "Den attackerade i"
+	line "ett surmulet raseri!"
 	done
 
 _Route12SnorlaxCalmedDownText::
-	text "SNORLAX calmed"
-	line "down! With a big"
-	cont "yawn, it returned"
-	cont "to the mountains!"
+	text "SNORLAX lugnade"
+	line "ner sig! Med en"
+	cont "stor gäspning,"
+	cont "återvände den"
+	cont "till bergen!"
 	done
 
 _Route12Fisher1BattleText::
-	text "Yeah! I got a"
-	line "bite, here!"
+	text "Yeah! Jag har"
+	line "napp, här!"
 	done
 
 _Route12Fisher1EndBattleText::
 	text "Tch!"
-	line "Just a small fry!"
+	line "Bara en liten fisk!"
 	prompt
 
 _Route12Fisher1AfterBattleText::
-	text "Hang on! My line's"
-	line "snagged!"
+	text "Vänta! Min lina"
+	line "har fastnat!"
 	done
 
 _Route12Fisher2BattleText::
-	text "Be patient!"
-	line "Fishing is a"
-	cont "waiting game!"
+	text "Ha tålamod!"
+	line "Fiske är ett"
+	cont "väntspel!"
 	done
 
 _Route12Fisher2EndBattleText::
-	text "That"
-	line "one got away!"
+	text "Den"
+	line "kom undan!"
 	prompt
 
 _Route12Fisher2AfterBattleText::
-	text "With a better ROD,"
-	line "I could catch"
-	cont "better #MON!"
+	text "Med ett bättre SPÖ,"
+	line "kunde jag fånga"
+	cont "bättre #MON!"
 	done
 
 _Route12CooltrainerMBattleText::
-	text "Have you found a"
-	line "MOON STONE?"
+	text "Har du hittat en"
+	line "MÅNSTEN?"
 	done
 
 _Route12CooltrainerMEndBattleText::
-	text "Oww!"
+	text "Aj!"
 	prompt
 
 _Route12CooltrainerMAfterBattleText::
-	text "I could have made"
-	line "my #MON evolve"
-	cont "with MOON STONE!"
+	text "Jag kunde ha fått"
+	line "min #MON att"
+	cont "utvecklas med"
+	cont "MÅNSTEN!"
 	done
 
 _Route12SuperNerdBattleText::
-	text "Electricity is my"
-	line "specialty!"
+	text "Elektricitet är"
+	line "min specialitet!"
 	done
 
 _Route12SuperNerdEndBattleText::
-	text "Unplugged!"
+	text "Urkopplad!"
 	prompt
 
 _Route12SuperNerdAfterBattleText::
-	text "Water conducts"
-	line "electricity, so"
-	cont "you should zap"
-	cont "sea #MON!"
+	text "Vatten leder"
+	line "elektricitet, så"
+	cont "du borde chocka"
+	cont "havs-#MON!"
 	done
 
 _Route12Fisher3BattleText::
-	text "The FISHING FOOL"
-	line "vs. #MON KID!"
+	text "FISKEDÅREN mot"
+	line "#MON-UNGEN!"
 	done
 
 _Route12Fisher3EndBattleText::
-	text "Too"
-	line "much!"
+	text "För"
+	line "mycket!"
 	prompt
 
 _Route12Fisher3AfterBattleText::
-	text "You beat me at"
-	line "#MON, but I'm"
-	cont "good at fishing!"
+	text "Du slog mig i"
+	line "#MON, men jag"
+	cont "är bra på fiske!"
 	done
 
 _Route12Fisher4BattleText::
-	text "I'd rather be"
-	line "working!"
+	text "Jag skulle hellre"
+	line "jobba!"
 	done
 
 _Route12Fisher4EndBattleText::
-	text "It's"
-	line "not easy..."
+	text "Det är"
+	line "inte lätt..."
 	prompt
 
 _Route12Fisher4AfterBattleText::
-	text "It's all right."
-	line "Losing doesn't"
-	cont "bug me any more."
+	text "Det är lugnt."
+	line "Förluster stör"
+	cont "mig inte längre."
 	done
 
 _Route12Fisher5BattleText::
-	text "You never know"
-	line "what you could"
-	cont "catch!"
+	text "Man vet aldrig"
+	line "vad man kan"
+	cont "fånga!"
 	done
 
 _Route12Fisher5EndBattleText::
-	text "Lost"
-	line "it!"
+	text "Tappade"
+	line "den!"
 	prompt
 
 _Route12Fisher5AfterBattleText::
-	text "I catch MAGIKARP"
-	line "all the time, but"
-	cont "they're so weak!"
+	text "Jag fångar"
+	line "MAGIKARP hela"
+	cont "tiden, men de är"
+	cont "så svaga!"
 	done
 
 _Route12SignText::
-	text "ROUTE 12 "
-	line "North to LAVENDER"
+	text "VÄG 12"
+	line "Norrut mot LAVENDER"
 	done
 
 _Route12SportFishingSignText::
-	text "SPORT FISHING AREA"
+	text "SPORTFISKEOMRÅDE"
 	done

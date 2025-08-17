@@ -1,35 +1,36 @@
 _UndergroundPathRoute7CopyUnusedGirlText::
-	text "I want to shop at"
-	line "the dept. store"
-	cont "in CELADON but..."
+	text "Jag vill handla på"
+	line "varuhuset i"
+	cont "CELADON men..."
 
-	para "There are so many"
-	line "rough looking"
-	cont "people there."
+	para "Det finns så många"
+	line "ruffiga personer"
+	cont "där."
 	done
 
 _UndergroundPathRoute7CopyUnusedTeamRocketHadAHideoutText::
-	text "TEAM ROCKET had a"
-	line "secret hideout in"
+	text "Hade TEAM ROCKET"
+	line "ett hemligt"
+	cont "gömställe i"
 	cont "CELADON CITY?"
 	done
 
 _UndergroundPathRoute7CopyUnusedMiddleAgedManText::
-	text "You're here to"
-	line "shop in CELADON?"
+	text "Är du här för att"
+	line "handla i CELADON?"
 
-	para "Just step outside"
-	line "and head west!"
+	para "Gå bara ut och"
+	line "bege dig västerut!"
 	done
 
 _UndergroundPathRoute7CopyUnusedGoesUnderSaffronText::
-	text "The UNDERGROUND"
-	line "PATH goes beneath"
-	cont "SAFFRON and leads"
-	cont "to LAVENDER."
+	text "Den UNDERJORDISKA"
+	line "GÅNGEN går under"
+	cont "SAFFRON och leder"
+	cont "till LAVENDER."
 
-	para "If you're heading"
-	line "to CERULEAN, go"
-	cont "to the building"
-	cont "across the road."
+	para "Om du är på väg"
+	line "till CERULEAN, gå"
+	cont "till byggnaden"
+	cont "över vägen."
 	done

@@ -1,18 +1,18 @@
 _CopycatsHouse1FMiddleAgedWomanText::
-	text "My daughter is so"
-	line "self-centered."
-	cont "She only has a"
-	cont "few friends."
+	text "Min dotter är så"
+	line "självcentrerad."
+	cont "Hon har bara"
+	cont "några få vänner."
 	done
 
 _CopycatsHouse1FMiddleAgedManText::
-	text "My daughter likes"
-	line "to mimic people."
+	text "Min dotter gillar"
+	line "att härma folk."
 
-	para "Her mimicry has"
-	line "earned her the"
-	cont "nickname COPYCAT"
-	cont "around here!"
+	para "Hennes härmande"
+	line "har gett henne"
+	cont "smeknamnet COPYCAT"
+	cont "här omkring!"
 	done
 
 _CopycatsHouse1FChanseyText::

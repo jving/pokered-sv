@@ -1,130 +1,130 @@
 _FightingDojoKarateMasterText::
-	text "Grunt!"
+	text "Stön!"
 
-	para "I am the KARATE"
-	line "MASTER! I am the"
-	cont "LEADER here!"
+	para "Jag är KARATE-"
+	line "MÄSTAREN! Jag är"
+	cont "LEDAREN här!"
 
-	para "You wish to"
-	line "challenge us?"
-	cont "Expect no mercy!"
+	para "Du vill utmana"
+	line "oss? Förvänta dig"
+	cont "ingen nåd!"
 
 	para "Fwaaa!"
 	done
 
 _FightingDojoKarateMasterDefeatedText::
 	text "Hwa!"
-	line "Arrgh! Beaten!"
+	line "Arrgh! Besegrad!"
 	prompt
 
 _FightingDojoKarateMasterIWillGiveYouAPokemonText::
-	text "Indeed, I have"
-	line "lost!"
+	text "Sannerligen, jag"
+	line "har förlorat!"
 
-	para "But, I beseech"
-	line "you, do not take"
-	cont "our emblem as"
-	cont "your trophy!"
+	para "Men, jag ber dig,"
+	line "ta inte vårt"
+	cont "emblem som din"
+	cont "trofé!"
 
-	para "In return, I will"
-	line "give you a prized"
-	cont "fighting #MON!"
+	para "I gengäld ger jag"
+	line "dig en prisad"
+	cont "kamp-#MON!"
 
-	para "Choose whichever"
-	line "one you like!"
+	para "Välj den du vill ha!"
 	done
 
 _FightingDojoKarateMasterStayAndTrainWithUsText::
 	text "Ho!"
 
-	para "Stay and train at"
-	line "Karate with us!"
+	para "Stanna och träna"
+	line "Karate med oss!"
 	done
 
 _FightingDojoBlackbelt1BattleText::
-	text "Hoargh! Take your"
-	line "shoes off!"
+	text "Hoargh! Ta av dig"
+	line "skorna!"
 	done
 
 _FightingDojoBlackbelt1EndBattleText::
-	text "I give"
-	line "up!"
+	text "Jag ger"
+	line "upp!"
 	prompt
 
 _FightingDojoBlackbelt1AfterBattleText::
-	text "You wait 'til you"
-	line "see our Master!"
+	text "Vänta tills du ser"
+	line "vår Mästare!"
 
-	para "I'm a small fry"
-	line "compared to him!"
+	para "Jag är en liten"
+	line "fisk jämfört med"
+	cont "honom!"
 	done
 
 _FightingDojoBlackbelt2BattleText::
-	text "I hear you're"
-	line "good! Show me!"
+	text "Jag hör att du är"
+	line "bra! Visa mig!"
 	done
 
 _FightingDojoBlackbelt2EndBattleText::
-	text "Judge!"
-	line "1 point!"
+	text "Domare!"
+	line "1 poäng!"
 	prompt
 
 _FightingDojoBlackbelt2AfterBattleText::
-	text "Our Master is a"
-	line "pro fighter!"
+	text "Vår Mästare är"
+	line "ett proffs!"
 	done
 
 _FightingDojoBlackbelt3BattleText::
-	text "Nothing tough"
-	line "frightens me!"
+	text "Jag räds inget"
+	line "tufft!"
 
-	para "I break boulders"
-	line "for training!"
+	para "Jag slår sönder"
+	line "stenar för att"
+	cont "träna!"
 	done
 
 _FightingDojoBlackbelt3EndBattleText::
-	text "Yow!"
-	line "Stubbed fingers!"
+	text "Aj!"
+	line "Stukade fingrar!"
 	prompt
 
 _FightingDojoBlackbelt3AfterBattleText::
-	text "The only thing"
-	line "that frightens us"
-	cont "is psychic power!"
+	text "Det enda som"
+	line "skrämmer oss är"
+	cont "psykisk kraft!"
 	done
 
 _FightingDojoBlackbelt4BattleText::
 	text "Hoohah!"
 
-	para "You're trespassing"
-	line "in our FIGHTING"
-	cont "DOJO!"
+	para "Du gör intrång i"
+	line "vår FIGHTING DOJO!"
 	done
 
 _FightingDojoBlackbelt4EndBattleText::
 	text "Oof!"
-	line "I give up!"
+	line "Jag ger upp!"
 	prompt
 
 _FightingDojoBlackbelt4AfterBattleText::
-	text "The prime fighters"
-	line "across the land"
-	cont "train here."
+	text "Elitkämpar från"
+	line "hela landet"
+	cont "tränar här."
 	done
 
 _FightingDojoHitmonleePokeBallText::
-	text "You want the"
-	line "hard kicking"
+	text "Vill du ha den"
+	line "hårt sparkande"
 	cont "HITMONLEE?"
 	done
 
 _FightingDojoHitmonchanPokeBallText::
-	text "You want the"
-	line "piston punching"
+	text "Vill du ha den"
+	line "kolvslagande"
 	cont "HITMONCHAN?"
 	done
 
 _FightingDojoBetterNotGetGreedyText::
-	text "Better not get"
-	line "greedy..."
+	text "Bäst att inte"
+	line "bli girig..."
 	done

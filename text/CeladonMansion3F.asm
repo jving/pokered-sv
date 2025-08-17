@@ -1,67 +1,66 @@
 _CeladonMansion3FProgrammerText::
-	text "Me? I'm the"
-	line "programmer!"
+	text "Jag? Jag är"
+	line "programmeraren!"
 	done
 
 _CeladonMansion3FGraphicArtistText::
-	text "I'm the graphic"
-	line "artist!"
-	cont "I drew you!"
+	text "Jag är grafikern!"
+	line "Jag ritade dig!"
 	done
 
 _CeladonMansion3FWriterText::
-	text "I wrote the story!"
-	line "Isn't ERIKA cute?"
+	text "Jag skrev storyn!"
+	line "Är inte ERIKA söt?"
 
-	para "I like MISTY a"
-	line "lot too!"
+	para "Jag gillar MISTY"
+	line "jättemycket också!"
 
-	para "Oh, and SABRINA,"
-	line "I like her!"
+	para "Åh, och SABRINA,"
+	line "jag gillar henne!"
 	done
 
 _CeladonMansion3FGameDesignerText::
-	text "Is that right?"
+	text "Jaså?"
 
-	para "I'm the game"
-	line "designer!"
+	para "Jag är spel-"
+	line "designern!"
 
-	para "Filling up your"
-	line "#DEX is tough,"
-	cont "but don't quit!"
+	para "Det är svårt att"
+	line "fylla din #DEX,"
+	cont "men ge inte upp!"
 
-	para "When you finish,"
-	line "come tell me!"
+	para "När du är klar,"
+	line "kom och berätta!"
 	done
 
 _CeladonMansion3FGameDesignerCompletedDexText::
-	text "Wow! Excellent!"
-	line "You completed"
-	cont "your #DEX!"
-	cont "Congratulations!"
+	text "Wow! Utmärkt!"
+	line "Du har fyllt"
+	cont "din #DEX!"
+	cont "Grattis!"
 	cont "...@"
 	text_end
 
 _CeladonMansion3FGameProgramPCText::
-	text "It's the game"
-	line "program! Messing"
-	cont "with it could bug"
-	cont "out the game!"
+	text "Det är spel-"
+	line "koden! Att pilla"
+	cont "på den kan bugga"
+	cont "spelet!"
 	done
 
 _CeladonMansion3FPlayingGamePCText::
-	text "Someone's playing"
-	line "a game instead of"
-	cont "working!"
+	text "Någon spelar ett"
+	line "spel istället för"
+	cont "att jobba!"
 	done
 
 _CeladonMansion3FGameScriptPCText::
-	text "It's the script!"
-	line "Better not look"
-	cont "at the ending!"
+	text "Det är manuset!"
+	line "Bäst att inte"
+	cont "titta på slutet!"
 	done
 
 _CeladonMansion3FDevRoomSignText::
 	text "GAME FREAK"
-	line "Development Room"
+	line "Utvecklingsrum"
 	done

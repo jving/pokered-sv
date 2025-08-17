@@ -1,231 +1,236 @@
 _ItemUseBallText00::
-	text "It dodged the"
-	line "thrown BALL!"
+	text "Den undvek den"
+	line "kastade BOLLEN!"
 
-	para "This #MON"
-	line "can't be caught!"
+	para "Denna #MON kan"
+	line "inte fångas!"
 	prompt
 
 _ItemUseBallText01::
-	text "You missed the"
+	text "Du missade"
 	line "#MON!"
 	prompt
 
 _ItemUseBallText02::
-	text "Darn! The #MON"
-	line "broke free!"
+	text "Skit! #MON slet"
+	line "sig fri!"
 	prompt
 
 _ItemUseBallText03::
-	text "Aww! It appeared"
-	line "to be caught! "
+	text "Neej! Det"
+	line "verkade som den"
+	cont "fångades!"
 	prompt
 
 _ItemUseBallText04::
-	text "Shoot! It was so"
-	line "close too!"
+	text "Skit! Det var så"
+	line "nära också!"
 	prompt
 
 _ItemUseBallText05::
-	text "All right!"
+	text "Okej!"
 	line "@"
 	text_ram wEnemyMonNick
-	text " was"
-	cont "caught!@"
+	text " blev"
+	cont "fångad!@"
 	text_end
 
 _ItemUseBallText07::
 	text_ram wBoxMonNicks
-	text " was"
-	line "transferred to"
-	cont "BILL's PC!"
+	text " över-"
+	line "fördes till"
+	cont "BILLs PC!"
 	prompt
 
 _ItemUseBallText08::
 	text_ram wBoxMonNicks
-	text " was"
-	line "transferred to"
-	cont "someone's PC!"
+	text " över-"
+	line "fördes till"
+	cont "någons PC!"
 	prompt
 
 _ItemUseBallText06::
-	text "New #DEX data"
-	line "will be added for"
+	text "Ny #DEX-data"
+	line "läggs till för"
 	cont "@"
 	text_ram wEnemyMonNick
 	text "!@"
 	text_end
 
 _SurfingGotOnText::
-	text "<PLAYER> got on"
+	text "<PLAYER> klev på"
 	line "@"
 	text_ram wNameBuffer
 	text "!"
 	prompt
 
 _SurfingNoPlaceToGetOffText::
-	text "There's no place"
-	line "to get off!"
+	text "Ingen plats att"
+	line "kliva av!"
 	prompt
 
 _VitaminStatRoseText::
 	text_ram wNameBuffer
-	text "'s"
+	text "s"
 	line "@"
 	text_ram wStringBuffer
-	text " rose."
+	text " steg."
 	prompt
 
 _VitaminNoEffectText::
-	text "It won't have any"
-	line "effect."
+	text "Det har ingen"
+	line "effekt."
 	prompt
 
 _ThrewBaitText::
-	text "<PLAYER> threw"
-	line "some BAIT."
+	text "<PLAYER> kastade"
+	line "lite BETE."
 	done
 
 _ThrewRockText::
-	text "<PLAYER> threw a"
-	line "ROCK."
+	text "<PLAYER> kastade"
+	line "en STEN."
 	done
 
 _PlayedFluteNoEffectText::
-	text "Played the #"
-	line "FLUTE."
+	text "Spelade"
+	line "#FLÖJTEN."
 
-	para "Now, that's a"
-	line "catchy tune!"
+	para "Vilken medryck-"
+	line "ande melodi!"
 	prompt
 
 _FluteWokeUpText::
-	text "All sleeping"
-	line "#MON woke up."
+	text "Alla sovande"
+	line "#MON vaknade."
 	prompt
 
 _PlayedFluteHadEffectText::
-	text "<PLAYER> played the"
-	line "# FLUTE.@"
+	text "<PLAYER> spelade"
+	line "#FLÖJTEN.@"
 	text_end
 
 _CoinCaseNumCoinsText::
-	text "Coins"
+	text "Mynt"
 	line "@"
 	text_bcd wPlayerCoins, 2 | LEADING_ZEROES | LEFT_ALIGN
 	text " "
 	prompt
 
 _ItemfinderFoundItemText::
-	text "Yes! ITEMFINDER"
-	line "indicates there's"
-	cont "an item nearby."
+	text "Ja! ITEMFINDER"
+	line "indikerar ett"
+	cont "föremål i"
+	cont "närheten."
 	prompt
 
 _ItemfinderFoundNothingText::
-	text "Nope! ITEMFINDER"
-	line "isn't responding."
+	text "Nej! ITEMFINDER"
+	line "ger inget"
+	cont "utslag."
 	prompt
 
 _RaisePPWhichTechniqueText::
-	text "Raise PP of which"
-	line "technique?"
+	text "Höja PP för"
+	line "vilken attack?"
 	done
 
 _RestorePPWhichTechniqueText::
-	text "Restore PP of"
-	line "which technique?"
+	text "Återställa PP"
+	line "för vilken"
+	cont "attack?"
 	done
 
 _PPMaxedOutText::
 	text_ram wStringBuffer
-	text "'s PP"
-	line "is maxed out."
+	text "s PP"
+	line "är maxad."
 	prompt
 
 _PPIncreasedText::
 	text_ram wStringBuffer
-	text "'s PP"
-	line "increased."
+	text "s PP"
+	line "höjdes."
 	prompt
 
 _PPRestoredText::
-	text "PP was restored."
+	text "PP återställdes."
 	prompt
 
 _BootedUpTMText::
-	text "Booted up a TM!"
+	text "Startade en TM!"
 	prompt
 
 _BootedUpHMText::
-	text "Booted up an HM!"
+	text "Startade en HM!"
 	prompt
 
 _TeachMachineMoveText::
-	text "It contained"
+	text "Den innehöll"
 	line "@"
 	text_ram wStringBuffer
 	text "!"
 
-	para "Teach @"
+	para "Lära ut @"
 	text_ram wStringBuffer
 	text_start
-	line "to a #MON?"
+	line "till en #MON?"
 	done
 
 _MonCannotLearnMachineMoveText::
 	text_ram wNameBuffer
-	text " is not"
-	line "compatible with"
+	text " är inte"
+	line "kompatibel med"
 	cont "@"
 	text_ram wStringBuffer
 	text "."
 
-	para "It can't learn"
-	line "@"
+	para "Den kan inte"
+	line "lära sig @"
 	text_ram wStringBuffer
 	text "."
 	prompt
 
 _ItemUseNotTimeText::
 	text "OAK: <PLAYER>!"
-	line "This isn't the"
-	cont "time to use that! "
+	line "Inte läge att"
+	cont "använda den!"
 	prompt
 
 _ItemUseNotYoursToUseText::
-	text "This isn't yours"
-	line "to use!"
+	text "Den här är inte"
+	line "din att använda!"
 	prompt
 
 _ItemUseNoEffectText::
-	text "It won't have any"
-	line "effect."
+	text "Det har ingen"
+	line "effekt."
 	prompt
 
 _ThrowBallAtTrainerMonText1::
-	text "The trainer"
-	line "blocked the BALL!"
+	text "Tränaren"
+	line "blockerade"
+	cont "BOLLEN!"
 	prompt
 
 _ThrowBallAtTrainerMonText2::
-	text "Don't be a thief!"
+	text "Var ingen tjuv!"
 	prompt
 
 _NoCyclingAllowedHereText::
-	text "No cycling"
-	next "allowed here."
+	text "Ingen cykling"
+	next "tillåten här."
 	prompt
 
 _NoSurfingHereText::
-	text "No SURFing on"
-	line "@"
+	text "Ingen SURFing"
+	line "på @"
 	text_ram wNameBuffer
-	text " here!"
+	text " här!"
 	prompt
 
 _BoxFullCannotThrowBallText::
-	text "The #MON BOX"
-	line "is full! Can't"
-	cont "use that item!"
+	text "#MON-BOXEN är"
+	line "full! Kan inte"
+	cont "använda den!"
 	prompt

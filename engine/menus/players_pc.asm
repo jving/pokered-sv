@@ -241,9 +241,9 @@ PlayerPCToss:
 	jp .loop
 
 PlayersPCMenuEntries:
-	db   "WITHDRAW ITEM"
-	next "DEPOSIT ITEM"
-	next "TOSS ITEM"
+	db   "HÄMTA PRYL"
+	next "LAGRA PRYL"
+	next "KASTA PRYL"
 	next "LOG OFF@"
 
 TurnedOnPC2Text:

@@ -1,13 +1,14 @@
 _CinnabarLabMetronomeRoomScientist1Text::
 	text "Tch-tch-tch!"
-	line "I made a cool TM!"
+	line "Jag gjorde en"
+	cont "cool TM!"
 
-	para "It can cause all"
-	line "kinds of fun!"
+	para "Den kan orsaka"
+	line "alla sorters skoj!"
 	prompt
 
 _CinnabarLabMetronomeRoomScientist1ReceivedTM35Text::
-	text "<PLAYER> received "
+	text "<PLAYER> mottog "
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
@@ -15,50 +16,51 @@ _CinnabarLabMetronomeRoomScientist1ReceivedTM35Text::
 
 _CinnabarLabMetronomeRoomScientist1TM35ExplanationText::
 	text "Tch-tch-tch!"
-	line "That's the sound"
-	cont "of a METRONOME!"
+	line "Det är ljudet"
+	cont "av en METRONOM!"
 
-	para "It tweaks your"
-	line "#MON's brain"
-	cont "into using moves"
-	cont "it doesn't know!"
+	para "Den lurar din"
+	line "#MONs hjärna"
+	cont "att använda"
+	cont "attacker den inte"
+	cont "kan!"
 	done
 
 _CinnabarLabMetronomeRoomScientist1TM35NoRoomText::
-	text "Your pack is"
-	line "crammed full!"
+	text "Din väska är"
+	line "proppfull!"
 	done
 
 _CinnabarLabMetronomeRoomScientist2Text::
-	text "EEVEE can evolve"
-	line "into 1 of 3 kinds"
-	cont "of #MON."
+	text "EEVEE kan utvecklas"
+	line "till 1 av 3 sorters"
+	cont "#MON."
 	done
 
 _CinnabarLabMetronomeRoomPCText::
-	text "There's an e-mail"
-	line "message!"
+	text "Det finns ett"
+	line "e-postmeddelande!"
 
 	para "..."
 
-	para "The 3 legendary"
-	line "bird #MON are"
+	para "De 3 legendariska"
+	line "fågel-#MON är"
 	cont "ARTICUNO, ZAPDOS"
-	cont "and MOLTRES."
+	cont "och MOLTRES."
 
-	para "Their whereabouts"
-	line "are unknown."
+	para "Deras vistelseort"
+	line "är okänd."
 
-	para "We plan to explore"
-	line "the cavern close"
-	cont "to CERULEAN."
+	para "Vi planerar att"
+	line "utforska grottan"
+	cont "nära CERULEAN."
 
-	para "From: #MON"
-	line "RESEARCH TEAM"
+	para "Från: #MON"
+	line "FORSKNINGSTEAM"
 
 	para "..."
 	done
 
 _CinnabarLabMetronomeRoomAmberPipeText::
-	text "An amber pipe!"
+	text "En bärnstenspipa!"
 	done

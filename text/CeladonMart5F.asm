@@ -1,28 +1,28 @@
 _CeladonMart5FGentlemanText::
-	text "#MON ability"
-	line "enhancers can be"
-	cont "bought only here."
+	text "#MON-förmåge-"
+	line "förstärkare kan"
+	cont "bara köpas här."
 
-	para "Use CALCIUM to"
-	line "increase SPECIAL"
-	cont "abilities."
+	para "Använd KALCIUM för"
+	line "att öka SPECIAL-"
+	cont "förmågor."
 
-	para "Use CARBOS to"
-	line "increase SPEED."
+	para "Använd CARBOS för"
+	line "att öka FART."
 	done
 
 _CeladonMart5FSailorText::
-	text "I'm here for"
-	line "#MON ability"
-	cont "enhancers."
+	text "Jag är här för"
+	line "#MON-förmåge-"
+	cont "förstärkare."
 
-	para "PROTEIN increases"
-	line "ATTACK power."
+	para "PROTEIN ökar"
+	line "ATTACK-kraft."
 
-	para "IRON increases"
-	line "DEFENSE!"
+	para "JÄRN ökar"
+	line "FÖRSVAR!"
 	done
 
 _CeladonMart5FCurrentFloorSignText::
-	text "5F: DRUG STORE"
+	text "5F: APOTEKET"
 	done

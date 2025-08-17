@@ -1,26 +1,26 @@
 _FuchsiaGymKogaBeforeBattleText::
 	text "KOGA: Fwahahaha!"
 
-	para "A mere child like"
-	line "you dares to"
-	cont "challenge me?"
+	para "Ett simpelt barn"
+	line "som du vågar"
+	cont "utmana mig?"
 
-	para "Very well, I"
-	line "shall show you"
-	cont "true terror as a"
-	cont "ninja master!"
+	para "Nåväl, jag ska"
+	line "visa dig sann"
+	cont "skräck som en"
+	cont "ninjamästare!"
 
-	para "You shall feel"
-	line "the despair of"
-	cont "poison and sleep"
-	cont "techniques!"
+	para "Du ska känna"
+	line "förtvivlan av"
+	cont "gift- och sömn-"
+	cont "tekniker!"
 	done
 
 _FuchsiaGymKogaReceivedSoulBadgeText::
 	text "Humph!"
-	line "You have proven"
-	cont "your worth!"
+	line "Du har bevisat"
+	cont "ditt värde!"
 
-	para "Here! Take the"
-	line "SOULBADGE!"
+	para "Här! Ta"
+	line "SJÄLSORDEN!"
 	prompt

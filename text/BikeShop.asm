@@ -1,71 +1,78 @@
 _BikeShopClerkWelcomeText::
-	text "Hi! Welcome to"
-	line "our BIKE SHOP."
+	text "Hej! Välkommen"
+	line "till vår"
+	cont "CYKELBUTIK."
 
-	para "Have we got just"
-	line "the BIKE for you!"
+	para "Vi har precis"
+	line "rätt CYKEL för"
+	cont "dig!"
 	prompt
 
 _BikeShopClerkDoYouLikeItText::
-	text "It's a cool BIKE!"
-	line "Do you want it?"
+	text "Det är en cool"
+	line "CYKEL! Vill du"
+	cont "ha den?"
 	done
 
 _BikeShopCantAffordText::
-	text "Sorry! You can't"
-	line "afford it!"
+	text "Ledsen! Du har"
+	line "inte råd!"
 	prompt
 
 _BikeShopClerkOhThatsAVoucherText::
-	text "Oh, that's..."
+	text "Åh, det där är..."
 
-	para "A BIKE VOUCHER!"
+	para "En CYKELKUPONG!"
 
-	para "OK! Here you go!"
+	para "OK! Varsågod!"
 	prompt
 
 _BikeShopExchangedVoucherText::
-	text "<PLAYER> exchanged"
-	line "the BIKE VOUCHER"
-	cont "for a BICYCLE.@"
+	text "<PLAYER> bytte"
+	line "CYKELKUPONGEN"
+	cont "mot en CYKEL.@"
 	text_end
 
 _BikeShopComeAgainText::
-	text "Come back again"
-	line "some time!"
+	text "Välkommen åter"
+	line "någon gång!"
 	done
 
 _BikeShopClerkHowDoYouLikeYourBicycleText::
-	text "How do you like"
-	line "your new BICYCLE?"
+	text "Hur gillar du"
+	line "din nya CYKEL?"
 
-	para "You can take it"
-	line "on CYCLING ROAD"
-	cont "and in caves!"
+	para "Du kan ta den"
+	line "på CYKELVÄGEN"
+	cont "och i grottor!"
 	done
 
 _BikeShopBagFullText::
-	text "You better make"
-	line "room for this!"
+	text "Bäst du gör"
+	line "plats för den"
+	cont "här!"
 	done
 
 _BikeShopMiddleAgedWomanText::
-	text "A plain city BIKE"
-	line "is good enough"
-	cont "for me!"
+	text "En vanlig"
+	line "stadscykel"
+	cont "duger gott för"
+	cont "mig!"
 
-	para "You can't put a"
-	line "shopping basket"
-	cont "on an MTB!"
+	para "Man kan inte ha"
+	line "en shoppingkorg"
+	cont "på en MTB!"
 	done
 
 _BikeShopYoungsterTheseBikesAreExpensiveText::
-	text "These BIKEs are"
-	line "cool, but they're"
-	cont "way expensive!"
+	text "De här CYKLARNA"
+	line "är coola, men"
+	cont "de är alldeles"
+	cont "för dyra!"
 	done
 
 _BikeShopYoungsterCoolBikeText::
-	text "Wow. Your BIKE is"
-	line "really cool!"
+	text "Wow. Din CYKEL"
+	line "är riktigt"
+	cont "cool!"
 	done

@@ -1,21 +1,21 @@
 _CeladonHotelGrannyText::
-	text "#MON? No, this"
-	line "is a hotel for"
-	cont "people."
+	text "#MON? Nej, det här"
+	line "är ett hotell för"
+	cont "människor."
 
-	para "We're full up."
+	para "Vi har fullbokat."
 	done
 
 _CeladonHotelBeautyText::
-	text "I'm on vacation"
-	line "with my brother"
-	cont "and boy friend."
+	text "Jag är på semester"
+	line "med min bror och"
+	cont "pojkvän."
 
-	para "CELADON is such a"
-	line "pretty city!"
+	para "CELADON är en så"
+	line "vacker stad!"
 	done
 
 _CeladonHotelSuperNerdText::
-	text "Why did she bring"
-	line "her brother?"
+	text "Varför tog hon med"
+	line "sin bror?"
 	done

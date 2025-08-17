@@ -151,9 +151,9 @@
 	charmap "z",         $b9
 
 	charmap "é",         $ba
-	charmap "'d",        $bb
-	charmap "'l",        $bc
-	charmap "'s",        $bd
+	charmap "å",        $bb
+	charmap "ä",        $bc
+	charmap "ö",        $bd
 	charmap "'t",        $be
 	charmap "'v",        $bf
 
@@ -169,9 +169,9 @@
 	charmap "!",         $e7
 	charmap ".",         $e8
 
-	charmap "ァ",         $e9 ; katakana small a, unused
-	charmap "ゥ",         $ea ; katakana small u, unused
-	charmap "ェ",         $eb ; katakana small e, unused
+	charmap "Å",         $e9 ; katakana small a, unused
+	charmap "Ä",         $ea ; katakana small u, unused
+	charmap "Ö",         $eb ; katakana small e, unused
 
 	charmap "▷",         $ec
 	charmap "▶",         $ed

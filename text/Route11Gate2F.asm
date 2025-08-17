@@ -1,40 +1,37 @@
 _Route11Gate2FOaksAideItemfinderDescriptionText::
-	text "There are items on"
-	line "the ground that"
-	cont "can't be seen."
+	text "Det finns föremål"
+	line "på marken som inte"
+	cont "kan ses."
 
-	para "ITEMFINDER will"
-	line "detect an item"
-	cont "close to you."
+	para "SAKLETARE känner av"
+	line "ett föremål nära"
+	cont "dig."
 
-	para "It can't pinpoint"
-	line "it, so you have"
-	cont "to look yourself!"
+	para "Den kan inte peka"
+	line "ut det, så du"
+	cont "måste leta själv!"
 	done
 
 _Route11Gate2FLeftBinocularsSnorlaxText::
-	text "Looked into the"
-	line "binoculars."
+	text "Tittade i kikaren."
 
-	para "A big #MON is"
-	line "asleep on a road!"
+	para "En stor #MON"
+	line "sover på en väg!"
 	done
 
 _Route11Gate2FLeftBinocularsNoSnorlaxText::
-	text "Looked into the"
-	line "binoculars."
+	text "Tittade i kikaren."
 
-	para "It's a beautiful"
-	line "view!"
+	para "Vilken vacker"
+	line "utsikt!"
 	done
 
 _Route11Gate2FRightBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Tittade i kikaren."
 
-	para "The only way to"
-	line "get from CERULEAN"
-	cont "CITY to LAVENDER"
-	cont "is by way of the"
-	cont "ROCK TUNNEL."
+	para "Det enda sättet"
+	line "att ta sig från"
+	cont "CERULEAN CITY"
+	cont "till LAVENDER är"
+	cont "via ROCK TUNNEL."
 	done

@@ -1,19 +1,19 @@
 _PewterSpeechHouseGamblerText::
-	text "#MON learn new"
-	line "techniques as"
-	cont "they grow!"
+	text "#MON lär sig nya"
+	line "tekniker när de"
+	cont "växer!"
 
-	para "But, some moves"
-	line "must be taught by"
-	cont "the trainer!"
+	para "Men, vissa drag"
+	line "måste läras ut av"
+	cont "tränaren!"
 	done
 
 _PewterSpeechHouseYoungsterText::
-	text "#MON become"
-	line "easier to catch"
-	cont "when they are"
-	cont "hurt or asleep!"
+	text "#MON blir lättare"
+	line "att fånga när de"
+	cont "är skadade eller"
+	cont "sover!"
 
-	para "But, it's not a"
-	line "sure thing!"
+	para "Men, det är ingen"
+	line "garanti!"
 	done

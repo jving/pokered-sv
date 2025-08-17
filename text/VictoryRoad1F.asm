@@ -1,31 +1,30 @@
 _VictoryRoad1FCooltrainerFBattleText::
-	text "I wonder if you"
-	line "are good enough"
-	cont "for me!"
+	text "Jag undrar om du"
+	line "är bra nog för mig!"
 	done
 
 _VictoryRoad1FCooltrainerFEndBattleText::
-	text "I"
-	line "lost out!"
+	text "Jag"
+	line "förlorade!"
 	prompt
 
 _VictoryRoad1FCooltrainerFAfterBattleText::
-	text "I never wanted to"
-	line "lose to anybody!"
+	text "Jag ville aldrig"
+	line "förlora mot någon!"
 	done
 
 _VictoryRoad1FCooltrainerMBattleText::
-	text "I can see you're"
-	line "good! Let me see"
-	cont "exactly how good!"
+	text "Jag kan se att du"
+	line "är bra! Låt mig se"
+	cont "exakt hur bra!"
 	done
 
 _VictoryRoad1FCooltrainerMEndBattleText::
-	text "I"
-	line "had a chance..."
+	text "Jag"
+	line "hade en chans..."
 	prompt
 
 _VictoryRoad1FCooltrainerMAfterBattleText::
-	text "I concede, you're"
-	line "better than me!"
+	text "Jag erkänner, du"
+	line "är bättre än jag!"
 	done

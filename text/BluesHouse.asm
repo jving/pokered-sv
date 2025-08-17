@@ -1,42 +1,44 @@
 _BluesHouseDaisyRivalAtLabText::
-	text "Hi <PLAYER>!"
-	line "<RIVAL> is out at"
-	cont "Grandpa's lab."
+	text "Hej <PLAYER>!"
+	line "<RIVAL> är hos"
+	cont "morfars labb."
 	done
 
 _BluesHouseDaisyOfferMapText::
-	text "Grandpa asked you"
-	line "to run an errand?"
-	cont "Here, this will"
-	cont "help you!"
+	text "Bad morfar dig"
+	line "uträtta ett"
+	cont "ärende? Här,"
+	cont "den här hjälper"
+	cont "dig!"
 	prompt
 
 _GotMapText::
-	text "<PLAYER> got a"
+	text "<PLAYER> fick en"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _BluesHouseDaisyBagFullText::
-	text "You have too much"
-	line "stuff with you."
+	text "Du har för"
+	line "mycket saker"
+	cont "med dig."
 	done
 
 _BluesHouseDaisyUseMapText::
-	text "Use the TOWN MAP"
-	line "to find out where"
-	cont "you are."
+	text "Använd KARTAN"
+	line "för att se var"
+	cont "du är."
 	done
 
 _BluesHouseDaisyWalkingText::
-	text "#MON are living"
-	line "things! If they"
-	cont "get tired, give"
-	cont "them a rest!"
+	text "#MON är levande"
+	line "varelser! Om"
+	cont "de blir trötta,"
+	cont "låt dem vila!"
 	done
 
 _BluesHouseTownMapText::
-	text "It's a big map!"
-	line "This is useful!"
+	text "Det är en stor"
+	line "karta! Nyttig!"
 	done

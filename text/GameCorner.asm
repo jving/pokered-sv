@@ -1,190 +1,191 @@
 _GameCornerBeauty1Text::
-	text "Welcome!"
+	text "Välkommen!"
 
-	para "You can exchange"
-	line "your coins for"
-	cont "fabulous prizes"
-	cont "next door."
+	para "Du kan växla in"
+	line "dina mynt mot"
+	cont "fantastiska priser"
+	cont "vägg i vägg."
 	done
 
 _GameCornerClerk1DoYouNeedSomeGameCoinsText::
-	text "Welcome to ROCKET"
-	line "GAME CORNER!"
+	text "Välkommen till"
+	line "ROCKET GAME CORNER!"
 
-	para "Do you need some"
-	line "game coins?"
+	para "Behöver du några"
+	line "spelmynt?"
 
-	para "It's ¥1000 for 50"
-	line "coins. Would you"
-	cont "like some?"
+	para "Det kostar ¥1000"
+	line "för 50 mynt. Vill"
+	cont "du ha några?"
 	done
 
 _GameCornerClerk1ThanksHereAre50CoinsText::
-	text "Thanks! Here are"
-	line "your 50 coins!"
+	text "Tack! Här är dina"
+	line "50 mynt!"
 	done
 
 _GameCornerClerk1PleaseComePlaySometimeText::
-	text "No? Please come"
-	line "play sometime!"
+	text "Nej? Välkommen att"
+	line "spela någon gång!"
 	done
 
 _GameCornerClerk1CantAffordTheCoinsText::
-	text "You can't afford"
-	line "the coins!"
+	text "Du har inte råd"
+	line "med mynten!"
 	done
 
 _GameCornerClerk1CoinCaseIsFullText::
-	text "Oops! Your COIN"
-	line "CASE is full."
+	text "Hoppsan! Din"
+	line "MYNTVÄSKA är full."
 	done
 
 _GameCornerClerk1DontHaveCoinCaseText::
-	text "You don't have a"
-	line "COIN CASE!"
+	text "Du har ingen"
+	line "MYNTVÄSKA!"
 	done
 
 _GameCornerMiddleAgedMan1Text::
-	text "Keep this quiet."
+	text "Håll det här tyst."
 
-	para "It's rumored that"
-	line "this place is run"
-	cont "by TEAM ROCKET."
+	para "Det ryktas att det"
+	line "här stället drivs"
+	cont "av TEAM ROCKET."
 	done
 
 _GameCornerBeauty2Text::
-	text "I think these"
-	line "machines have"
-	cont "different odds."
+	text "Jag tror att de"
+	line "här maskinerna"
+	cont "har olika odds."
 	done
 
 _GameCornerFishingGuruWantToPlayText::
-	text "Kid, do you want"
-	line "to play?"
+	text "Grabben, vill du"
+	line "spela?"
 	prompt
 
 _GameCornerFishingGuruReceived10CoinsText::
-	text "<PLAYER> received"
-	line "10 coins!@"
+	text "<PLAYER> mottog"
+	line "10 mynt!@"
 	text_end
 
 _GameCornerFishingGuruDontNeedMyCoinsText::
-	text "You don't need my"
-	line "coins!"
+	text "Du behöver inte"
+	line "mina mynt!"
 	done
 
 _GameCornerFishingGuruWinsComeAndGoText::
-	text "Wins seem to come"
-	line "and go."
+	text "Vinster verkar"
+	line "komma och gå."
 	done
 
 _GameCornerMiddleAgedWomanText::
-	text "I'm having a"
-	line "wonderful time!"
+	text "Jag har det"
+	line "underbart!"
 	done
 
 _GameCornerGymGuideChampInMakingText::
-	text "Hey!"
+	text "Hallå!"
 
-	para "You have better"
-	line "things to do,"
-	cont "champ in making!"
+	para "Du har bättre"
+	line "saker för dig,"
+	cont "blivande mästare!"
 
-	para "CELADON GYM's"
-	line "LEADER is ERIKA!"
-	cont "She uses grass-"
-	cont "type #MON!"
+	para "CELADON GYMs"
+	line "LEDARE är ERIKA!"
+	cont "Hon använder"
+	cont "grästyp-#MON!"
 
-	para "She might appear"
-	line "docile, but don't"
-	cont "be fooled!"
+	para "Hon kan verka"
+	line "spak, men låt dig"
+	cont "inte luras!"
 	done
 
 _GameCornerGymGuideTheyOfferRarePokemonText::
-	text "They offer rare"
-	line "#MON that can"
-	cont "be exchanged for"
-	cont "your coins."
+	text "De erbjuder säll-"
+	line "synta #MON som"
+	cont "kan bytas mot dina"
+	cont "mynt."
 
-	para "But, I just can't"
-	line "seem to win!"
+	para "Men jag verkar"
+	line "bara inte kunna"
+	cont "vinna!"
 	done
 
 _GameCornerGamblerText::
-	text "Games are scary!"
-	line "It's so easy to"
-	cont "get hooked!"
+	text "Spel är läskigt!"
+	line "Det är så lätt"
+	cont "att fastna!"
 	done
 
 _GameCornerClerk2WantSomeCoinsText::
-	text "What's up? Want"
-	line "some coins?"
+	text "Läget? Vill du ha"
+	line "några mynt?"
 	prompt
 
 _GameCornerClerk2Received20CoinsText::
-	text "<PLAYER> received"
-	line "20 coins!@"
+	text "<PLAYER> mottog"
+	line "20 mynt!@"
 	text_end
 
 _GameCornerClerk2YouHaveLotsOfCoinsText::
-	text "You have lots of"
-	line "coins!"
+	text "Du har massor"
+	line "av mynt!"
 	done
 
 _GameCornerClerk2INeedMoreCoinsText::
-	text "Darn! I need more"
-	line "coins for the"
-	cont "#MON I want!"
+	text "Skit! Jag behöver"
+	line "mer mynt för den"
+	cont "#MON jag vill ha!"
 	done
 
 _GameCornerGentlemanThrowingMeOffText::
-	text "Hey, what? You're"
-	line "throwing me off!"
-	cont "Here are some"
-	cont "coins, shoo!"
+	text "Hallå, va? Du"
+	line "stör mig! Här är"
+	cont "några mynt, schas!"
 	prompt
 
 _GameCornerGentlemanReceived20CoinsText::
-	text "<PLAYER> received"
-	line "20 coins!@"
+	text "<PLAYER> mottog"
+	line "20 mynt!@"
 	text_end
 
 _GameCornerGentlemanYouGotYourOwnCoinsText::
-	text "You've got your"
-	line "own coins!"
+	text "Du har dina egna"
+	line "mynt!"
 	done
 
 _GameCornerGentlemanCloselyWatchTheReelsText::
-	text "The trick is to"
-	line "watch the reels"
-	cont "closely!"
+	text "Tricket är att"
+	line "titta noga på"
+	cont "hjulen!"
 	done
 
 _GameCornerRocketImGuardingThisPosterText::
-	text "I'm guarding this"
-	line "poster!"
-	cont "Go away, or else!"
+	text "Jag vaktar den"
+	line "här affischen!"
+	cont "Försvinn, annars!"
 	done
 
 _GameCornerRocketBattleEndText::
-	text "Dang!"
+	text "Skit!"
 	prompt
 
 _GameCornerRocketAfterBattleText::
-	text "Our hideout might"
-	line "be discovered! I"
-	cont "better tell BOSS!"
+	text "Vårt gömställe kan"
+	line "bli upptäckt! Bäst"
+	cont "jag säger till"
+	cont "BOSSEN!"
 	done
 
 _GameCornerPosterSwitchBehindPosterText::
-	text "Hey!"
+	text "Hallå!"
 
-	para "A switch behind"
-	line "the poster!?"
-	cont "Let's push it!@"
+	para "En knapp bakom"
+	line "affischen!?"
+	cont "Låt oss trycka!@"
 	text_end
 
 _GameCornerOopsForgotCoinCaseText::
-	text "Oops! Forgot the"
-	line "COIN CASE!"
+	text "Hoppsan! Glömde"
+	line "MYNTVÄSKAN!"
 	done

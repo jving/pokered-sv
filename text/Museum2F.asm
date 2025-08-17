@@ -1,45 +1,46 @@
 _Museum2FYoungsterText::
-	text "MOON STONE?"
+	text "MÅNSTEN?"
 
-	para "What's so special"
-	line "about it?"
+	para "Vad är så speciellt"
+	line "med den?"
 	done
 
 _Museum2FGrampsText::
-	text "July 20, 1969!"
+	text "20 juli, 1969!"
 
-	para "The 1st lunar"
-	line "landing!"
+	para "Den första"
+	line "månlandningen!"
 
-	para "I bought a color"
-	line "TV to watch it!"
+	para "Jag köpte en färg-"
+	line "TV för att se den!"
 	done
 
 _Museum2FScientistText::
-	text "We have a space"
-	line "exhibit now."
+	text "Vi har en rymd-"
+	line "utställning nu."
 	done
 
 _Museum2FBrunetteGirlText::
-	text "I want a PIKACHU!"
-	line "It's so cute!"
+	text "Jag vill ha en"
+	line "PIKACHU! Den är"
+	cont "så söt!"
 
-	para "I asked my Daddy"
-	line "to catch me one!"
+	para "Jag bad pappa"
+	line "fånga en åt mig!"
 	done
 
 _Museum2FHikerText::
-	text "Yeah, a PIKACHU"
-	line "soon, I promise!"
+	text "Ja, en PIKACHU"
+	line "snart, jag lovar!"
 	done
 
 _Museum2FSpaceShuttleSignText::
-	text "SPACE SHUTTLE"
+	text "RYMDFÄRJA"
 	line "COLUMBIA"
 	done
 
 _Museum2FMoonStoneSignText::
-	text "Meteorite that"
-	line "fell on MT.MOON."
-	cont "(MOON STONE?)"
+	text "Meteorit som"
+	line "föll på MT.MOON."
+	cont "(MÅNSTEN?)"
 	done

@@ -1,26 +1,23 @@
 _Route16Gate2FLittleBoyText::
-	text "I'm going for a"
-	line "ride with my girl"
-	cont "friend!"
+	text "Jag ska ta en tur"
+	line "med min flickvän!"
 	done
 
 _Route16Gate2FLittleGirlText::
-	text "We're going"
-	line "riding together!"
+	text "Vi ska åka"
+	line "tillsammans!"
 	done
 
 _Route16Gate2FLeftBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Tittade i kikaren."
 
-	para "It's CELADON DEPT."
-	line "STORE!"
+	para "Det är CELADONS"
+	line "VARUHUS!"
 	done
 
 _Route16Gate2FRightBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Tittade i kikaren."
 
-	para "There's a long"
-	line "path over water!"
+	para "Det finns en lång"
+	line "stig över vattnet!"
 	done

@@ -3,9 +3,9 @@ _VictoryRoad2FMoltresBattleText::
 	text_end
 
 _VictoryRoad2FHikerBattleText::
-	text "VICTORY ROAD is"
-	line "the final test"
-	cont "for trainers!"
+	text "VICTORY ROAD är"
+	line "det sista testet"
+	cont "för tränare!"
 	done
 
 _VictoryRoad2FHikerEndBattleText::
@@ -13,74 +13,71 @@ _VictoryRoad2FHikerEndBattleText::
 	prompt
 
 _VictoryRoad2FHikerAfterBattleText::
-	text "If you get stuck,"
-	line "try moving some"
-	cont "boulders around!"
+	text "Om du kör fast,"
+	line "försök att flytta"
+	cont "några stenblock!"
 	done
 
 _VictoryRoad2FSuperNerd1BattleText::
-	text "Ah, so you wish"
-	line "to challenge the"
-	cont "ELITE FOUR?"
+	text "Ah, så du vill"
+	line "utmana ELITE FOUR?"
 	done
 
 _VictoryRoad2FSuperNerd1EndBattleText::
-	text "You"
-	line "got me!"
+	text "Du"
+	line "fick mig!"
 	prompt
 
 _VictoryRoad2FSuperNerd1AfterBattleText::
-	text "<RIVAL> also came"
-	line "through here!"
+	text "<RIVAL> kom också"
+	line "igenom här!"
 	done
 
 _VictoryRoad2FCooltrainerMBattleText::
-	text "Come on!"
-	line "I'll whip you!"
+	text "Kom igen!"
+	line "Jag ska spöa dig!"
 	done
 
 _VictoryRoad2FCooltrainerMEndBattleText::
-	text "I got"
-	line "whipped!"
+	text "Jag blev"
+	line "spöad!"
 	prompt
 
 _VictoryRoad2FCooltrainerMAfterBattleText::
-	text "You earned the"
-	line "right to be on"
+	text "Du har förtjänat"
+	line "rätten att vara på"
 	cont "VICTORY ROAD!"
 	done
 
 _VictoryRoad2FSuperNerd2BattleText::
-	text "If you can get"
-	line "through here, you"
-	cont "can go meet the"
-	cont "ELITE FOUR!"
+	text "Om du kan ta dig"
+	line "igenom här, kan"
+	cont "du möta ELITE"
+	cont "FOUR!"
 	done
 
 _VictoryRoad2FSuperNerd2EndBattleText::
-	text "No!"
-	line "Unbelievable!"
+	text "Nej!"
+	line "Otroligt!"
 	prompt
 
 _VictoryRoad2FSuperNerd2AfterBattleText::
-	text "I can beat you"
-	line "when it comes to"
-	cont "knowledge about"
-	cont "#MON!"
+	text "Jag kan slå dig"
+	line "när det gäller"
+	cont "kunskap om #MON!"
 	done
 
 _VictoryRoad2FSuperNerd3BattleText::
-	text "Is VICTORY ROAD"
-	line "too tough?"
+	text "Är VICTORY ROAD"
+	line "för svår?"
 	done
 
 _VictoryRoad2FSuperNerd3EndBattleText::
-	text "Well"
-	line "done!"
+	text "Bra"
+	line "jobbat!"
 	prompt
 
 _VictoryRoad2FSuperNerd3AfterBattleText::
-	text "Many trainers give"
-	line "up the challenge"
-	cont "here."
+	text "Många tränare ger"
+	line "upp utmaningen här."
 	done
